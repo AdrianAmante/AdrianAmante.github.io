@@ -54,10 +54,13 @@
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.wufoo  input.choice, .wufoo  input.radio {
-	width: 18px;
+.wufoo  input.checkbox, .wufoo  input.radio {
+    display: block;
+    margin: 4px 0 0 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
 }
-
 
 .wufoo  textarea.textarea {
 	min-width: 82%;
