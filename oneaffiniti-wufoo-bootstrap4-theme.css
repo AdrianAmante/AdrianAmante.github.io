@@ -54,6 +54,11 @@
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.wufoo  input.choice, .wufoo  input.radio {
+	width: 18px;
+}
+
+
 .wufoo  textarea.textarea {
 	min-width: 82%;
 	max-width: 95.5%;
