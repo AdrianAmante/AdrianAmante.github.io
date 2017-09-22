@@ -33,7 +33,9 @@
 }
 
 .wufoo .section section div,
-.wufoo .likert table div {}
+.wufoo .likert table div {
+    padding: 0 1% 0 3%;
+}
 
 .wufoo li {
     padding: 6px 1% 9px 3%;
