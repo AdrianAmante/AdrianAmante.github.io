@@ -11,7 +11,7 @@
 
 .wufoo .info {
     display: none;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #f5f5f5;
 }
 
 .wufoo .info h2 {}
@@ -28,7 +28,7 @@
 }
 
 .wufoo .section section h3 {
-    border-top: 1px solid #dcdcdc;
+    border-top: 1px solid #f5f5f5;
     margin-top: 8px;
 }
 
