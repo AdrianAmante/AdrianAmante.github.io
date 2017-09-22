@@ -35,6 +35,14 @@
 .wufoo .section section div,
 .wufoo .likert table div {}
 
+.wufoo li {
+    padding: 6px 1% 9px 3%;
+}
+
+.wufoo .leftLabel li, .wufoo .rightLabel li {
+    width: 70% !important;
+}
+
 .wufoo li.focused {
     background-color: #f5f5f5;
 }
