@@ -1,5 +1,8 @@
 .wufoo {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    background: #f5f5f5;
+    margin-bottom: 1rem;
+    border: 1px solid #f5f5f5; 
 }
 
 .wufoo .info {
@@ -10,10 +13,6 @@
 .wufoo .info h2 {}
 
 .wufoo .info div {}
-
-.wufoo {
-    margin-bottom: 1rem;
-}
 
 .wufoo .section section {}
 
