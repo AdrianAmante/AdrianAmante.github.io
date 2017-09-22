@@ -39,7 +39,7 @@
     padding: 6px 1% 9px 3%;
 }
 
-.wufoo .leftLabel li, .wufoo .rightLabel li {
+.leftLabel li, .rightLabel li {
     width: 70% !important;
 }
 
