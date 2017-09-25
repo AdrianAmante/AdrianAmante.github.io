@@ -10,39 +10,24 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         background: #fafafa;
-      }
-
+    }
     ol {
         counter-reset: decimal;
         margin-left: 80px;
         margin-right: 30px;
         padding: 0;
     }
-
-    ol li ol {
-        margin-left: 30px;
-        padding: 0;
-    }
-
-    ol li {
-        display: block;
-        position: relative;
-    }
-
     ul {
         counter-reset: latin;
         margin-left: 30px;
         padding: 0;
     }
-
-    ol li ul li:before {
-        content: counter(latin, lower-latin)".";
-        counter-increment: latin;
-        position: absolute;
-        margin-right: 100%;
-        right: 10px;
+    ol li {
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+        position: relative;
     }
-
     ol li:before {
         content: counters(decimal, ".");
         counter-increment: decimal;
@@ -50,47 +35,43 @@
         margin-right: 100%;
         right: 10px;
     }
-
-		/* text styles & spacings */
-    ol li {
-    	font-weight: bold;
-    	font-size: 16px;
-    }
-
     ol li p {
-    	font-weight: normal;
-    	margin-top: 5px;
-    	font-size: 14px;
+        font-weight: normal;
+        margin-top: 5px;
+        font-size: 14px;
     }
-
     ol li ol {
-    	margin: 10px 5px 30px 30px; 
+        margin: 10px 5px 30px 30px;
     }
-
     ol li ol li {
-    	font-weight: normal;
-    	margin-bottom: 10px;
-    	/* line-height: 16px; */
-    	font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        /* line-height: 16px; */
+        font-size: 14px;
     }
-
+    ol li ul li:before {
+        content: counter(latin, lower-latin)".";
+        counter-increment: latin;
+        position: absolute;
+        margin-right: 100%;
+        right: 10px;
+    }
     ol li ol li ul li {
-    	font-weight: normal;
-    	font-size: 13px;
-    	margin-bottom: 5px;
+        font-weight: normal;
+        font-size: 13px;
+        margin-bottom: 5px;
     }
-
     ol li ol li ul {
-    	margin: 15px 5px 0 30px; 
+        margin: 15px 5px 0 30px;
+    }
+    .page {
+        margin: 50px auto;
+        padding: 50px 15px;
+        background: #ffffff;
     }
 
-    .page {
-    	margin: 50px auto;
-    	padding: 50px 15px;
-    	background: #ffffff;
-    }
     .head {
-    	margin-bottom: 50px;
+        margin-bottom: 50px;
     }
     </style>
 </head>
@@ -157,7 +138,7 @@
                             <li>We use "cookies" on our Site and Linked Pages. A "cookie" is a small amount of information which is transferred to the hard drive of your computer and which can identify your web browser but not you. A cookie can collect and store information, but cannot interfere with your computer. Most cookies that we use are "session cookies" that delete themselves at the end of your session.</li>
                             <li>If you want, you can disable your web browser from accepting cookies. If you do so, you can still access our Site and Linked Pages, but not all services may be available.</li>
                             <li>We also use third parties, such as Google Analytics, to provide web analytics services to us. Such providers collect information on how people use our Site and Linked Pages. Our providers of web analytics services use cookies and other web tracking technologies to collect such information. For more information on Google Analytics, please see the <a href="http://www.google.com.au/analytics/premium/" target="_blank">Google Analytics website</a>.</li>
-                            <li>We use Google Display Advertising for re-marketing purposes. You can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Ads Preferences Manager.</li>
+                            <li>We use Google Display Advertising for re-marketing purposes. You can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the <a href="https://www.google.com/settings/ads/onweb/?hl=en&sig=ACi0TCg4VHd0m21adYaAg9yNDxJFQTiTSdorWliAwloVbVUTgmchctwp2GJgAjNVdX5eTnvU_liK7Nw1FGvAO2MinLUps2ts4sc__SSyVF7FCU6gglVus727677iacDuZaJDGl9s2vkWKy9gmbFnJTyVHgeNeMVjqG3WCh_5C10Gqr73KbdwD0__6mf5ax3UV_6tHffg9HzX" target="_blank">Ads Preferences Manager</a>.</li>
                         </ol>
                     </li>
                     <!-- 4 -->
