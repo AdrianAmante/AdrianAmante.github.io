@@ -6,9 +6,9 @@
     background: #fafafa;
 }
 
-/* form.wufoo {
-
-} */
+.embed #container {
+    background: #fafafa;
+}
 
 .wufoo .info {
     display: none;
