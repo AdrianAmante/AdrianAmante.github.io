@@ -81,6 +81,13 @@
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
+.wufoo input.field:focus,
+.wufoo textarea.textarea:focus,
+.wufoo select.select:focus {
+	color: #ffffff;
+	background: #0099D8;
+}
+
 .wufoo input.checkbox,
 .wufoo input.radio {
     display: block;
