@@ -73,10 +73,10 @@
     font-size: 1rem;
     line-height: 1.25;
     color: #ffffff;
-    background-color: #0099D8;
+    background-color: #64b8db;
     background-image: none;
     background-clip: padding-box;
-    border: 1px solid #0099D8;
+    border: 1px solid #64b8db;
     border-radius: 0;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
