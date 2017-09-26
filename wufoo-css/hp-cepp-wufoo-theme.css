@@ -209,17 +209,17 @@
 }
 
 input::-webkit-input-placeholder {
-color: red !important;
+color: #ffffff !important;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-color: red !important;  
+color: #ffffff !important;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
-color: red !important;  
+color: #ffffff !important;  
 }
  
 input:-ms-input-placeholder {  
-color: red !important;  
+color: #ffffff !important;  
 }
