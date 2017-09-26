@@ -2,12 +2,12 @@
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
     margin-bottom: 1rem;
     padding: 10px;
-    border:  1px solid #dcdcdc;
-    background: #ffffff;
+    border:  1px solid #0099D8;
+    background: #0099D8;
 }
 
 .embed #container {
-    background: #ffffff;
+    background: #0099D8;
 }
 
 .wufoo .info {
