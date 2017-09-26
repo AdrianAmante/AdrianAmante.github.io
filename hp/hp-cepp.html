@@ -13,9 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
     <style>
     body {
-        min-height: 75rem;
+        min-height: 60rem;
         padding-top: 5rem;
         color: rgba(0,0,0,.9);
+        font-size: 0.9rem;
         font-family: 'Open Sans', sans-serif;
         /* font-family: 'Open Sans Condensed', sans-serif; */
     }
@@ -33,6 +34,18 @@
         position: relative;
         top: 2px;
         left: 15px;
+    }
+    .float-right {
+    	position: relative;
+    	right: 0;
+    }
+    .float-left {
+    	position: relative;
+    left: 0;
+    }
+    .footer {
+    	background: #5A5A5A;
+    	color: #ffffff;
     }
 
     </style>
@@ -52,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="http://pr-cdn.oneaffiniti.com/upload/general/20170927/banner.png" alt="HP CEPP" class="img-responsive">
+                    <img src="http://pr-cdn.oneaffiniti.com/upload/general/20170927/banner.png" alt="HP CEPP" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -60,24 +73,59 @@
     <!-- content / two columns-->
     <section class="maincontent">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 float-right">
+            <div class="row d-flex flex-row flex-row-reverse">
+                <div class="col-lg-6 col-md-12">
                     <section class="wufooform">
                     	<h3>wufoo</h3>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nobis libero beatae sapiente, possimus accusamus sed, fuga cupiditate excepturi corporis iure. Recusandae sed inventore animi, iure tempora magni debitis alias!
                     </section>
                 </div>
-                <!-- col-md-6 -->
-                <div class="col-md-6 float-left">
+                <div class="col-lg-6 col-md-12">
                     <section class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eum, deleniti quidem accusantium. Amet harum, quos aliquid laborum a nihil rem ipsa voluptatum temporibus, perferendis expedita, voluptatem architecto mollitia culpa.
+                        <div class="row">
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        </div>
+                        <div class="row">
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        </div>
+                        <div class="row">
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        	<div class="col-md-6">
+                        		<h3>title</h3>
+                        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quis laborum, tempore nam! Cum aliquam sit libero pariatur ratione velit omnis, quos dolorum eaque aspernatur, rem! Ut corporis, aliquam molestiae!
+                        	</div>
+                        </div>
                     </section>
                 </div>
-                <!-- col-md-6 -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					footer content (remove if no content)
+				</div>
+			</div>
+		</div>
     </section>
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
