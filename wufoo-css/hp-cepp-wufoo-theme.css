@@ -50,6 +50,10 @@
     background-color: #06a0df;
 }
 
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
+	color: #ffffff;
+}
+
 .wufoo span.req {
     color: #FF6124 !important;
 }
