@@ -24,9 +24,10 @@
 .wufoo .section section h3,
 .wufoo .likert table caption {
     font-weight: 600;
-    font-size: 130%;
+    font-size: 150%;
     padding: 10px 1% 15px 3%;
     color: #ffffff;
+    text-align: center;
 }
 
 .wufoo .section section h3 {
