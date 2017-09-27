@@ -13,7 +13,7 @@
     <style>
     body {
         min-height: 100vh;
-        padding-top: 5rem;
+        padding-top: 4rem;
         color: rgba(0, 0, 0, .9);
         font-size: 0.9rem;
         line-height: 1rem;
@@ -49,13 +49,12 @@
     }
 
     .pagecontent {
-        min-height: 50vh;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: 60px;
     }
 
     .feature {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     .footer {
@@ -65,19 +64,31 @@
         min-height: 50px;
     }
 
-    .content,
-    .wufooform {
+    .content {
         margin-bottom: 30px;
     }
 
-    .bgimg {
-        /* background-image: url(http://pr-cdn.oneaffiniti.com/upload/general/20170927/hp_epp_lp_banner.jpg); */
-        background-image: url(hp_epp_lp_banner.jpg); 
-        max-width: 1140px;
-        max-height: 500px;
+    .banner {
+        margin-top: 2rem;
     }
-    
-    
+
+    .jumbotron {
+        background: url(http://pr-cdn.oneaffiniti.com/upload/general/20170928/hp_epp_lp_banner.jpg) no-repeat center center;
+        padding: 30px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    p.lead {
+        color: #666666;
+    }
+
+    img.paper {
+        position: relative;
+        bottom: -38px;
+    }
     </style>
 </head>
 
@@ -92,47 +103,55 @@
     </nav>
     <!-- banner -->
     <section class="banner">
-        <div class="container bgimg">
-            <div class="row">
-                <div class="col-md-8" style="padding: 50px;">
-                    <h2 style="text-align:center">Sign up your employees <br />to the HP CEPP Program Today</h2>
-                    <p style="color:#666666;font-size:18px;text-align:center;padding-top:20px;">The HP CEPP Program is designed to reward and engage your workforce.</p>
-                </div>
-                <div class="col-md-4" style="padding-top: 20px;">
-                    <section class="wufooform">
-                        <div id="wufoo-rn0hj2808rrc0g">
-                            Fill out my <a href="https://powerbuy.wufoo.eu/forms/rn0hj2808rrc0g">online form</a>.
-                        </div>
-                        <script type="text/javascript">
-                        var rn0hj2808rrc0g;
-                        (function(d, t) {
-                            var s = d.createElement(t),
-                                options = {
-                                    'userName': 'powerbuy',
-                                    'formHash': 'rn0hj2808rrc0g',
-                                    'autoResize': true,
-                                    'height': '505',
-                                    'async': true,
-                                    'host': 'wufoo.eu',
-                                    'header': 'show',
-                                    'ssl': true
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 text-center">
+                        <br>
+                        <h2>Sign up your employees <br />to the HP CEPP Program Today</h2>
+                        <br>
+                        <p class="lead"><strong>The HP CEPP Program is designed to reward and engage your workforce.</strong></p>
+                        <br>
+                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/save.png" alt="Save 40%" class="paper img-fluid">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <section class="wufooform">
+                            <div id="wufoo-rn0hj2808rrc0g">
+                                Fill out my <a href="https://powerbuy.wufoo.eu/forms/rn0hj2808rrc0g">online form</a>.
+                            </div>
+                            <script type="text/javascript">
+                            var rn0hj2808rrc0g;
+                            (function(d, t) {
+                                var s = d.createElement(t),
+                                    options = {
+                                        'userName': 'powerbuy',
+                                        'formHash': 'rn0hj2808rrc0g',
+                                        'autoResize': true,
+                                        'height': '505',
+                                        'async': true,
+                                        'host': 'wufoo.eu',
+                                        'header': 'show',
+                                        'ssl': true
+                                    };
+                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.eu/scripts/embed/form.js';
+                                s.onload = s.onreadystatechange = function() {
+                                    var rs = this.readyState;
+                                    if (rs)
+                                        if (rs != 'complete')
+                                            if (rs != 'loaded') return;
+                                    try {
+                                        rn0hj2808rrc0g = new WufooForm();
+                                        rn0hj2808rrc0g.initialize(options);
+                                        rn0hj2808rrc0g.display();
+                                    } catch (e) {}
                                 };
-                            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.eu/scripts/embed/form.js';
-                            s.onload = s.onreadystatechange = function() {
-                                var rs = this.readyState;
-                                if (rs)
-                                    if (rs != 'complete')
-                                        if (rs != 'loaded') return;
-                                try { rn0hj2808rrc0g = new WufooForm();
-                                    rn0hj2808rrc0g.initialize(options);
-                                    rn0hj2808rrc0g.display(); } catch (e) {}
-                            };
-                            var scr = d.getElementsByTagName(t)[0],
-                                par = scr.parentNode;
-                            par.insertBefore(s, scr);
-                        })(document, 'script');
-                        </script>
-                    </section>
+                                var scr = d.getElementsByTagName(t)[0],
+                                    par = scr.parentNode;
+                                par.insertBefore(s, scr);
+                            })(document, 'script');
+                            </script>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,36 +159,62 @@
     <!-- pagecontent / two columns-->
     <section class="pagecontent">
         <div class="container">
-            <div class="row d-flex flex-row flex-row-reverse">
-                <div class="col-lg-5 col-md-12">
-                </div>
-                <div class="col-lg-7 col-md-12">
+            <div class="row">
+                <div class="col-md-12">
                     <section class="content">
                         <div class="row">
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-key"></i> Access to HP’s products</h5>
-                                <p>Your employees will gain access to HP’s full range of PCs, Laptops/Tablets, Printers, Accessories and more</p>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_key.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Access to HP’s products</h5> 
+                                        Your employees will gain access to HP’s full range of PCs, Laptops/Tablets, Printers, Accessories and more.
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-tags"></i> Access to market’s best prices</h5>
-                                <p>Your employees will enjoy every day low prices – up to 40% off HP Online Store Prices</p>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_tag.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Access to market’s best prices</h5> 
+                                        Your employees will enjoy every day low prices – up to 40% off HP Online Store Prices.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_delivery.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Free Delivery</h5> 
+                                        Enjoy FREE delivery anywhere in Australia (Min. $50 purchase)
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-truck"></i> Free Delivery</h5>
-                                <p>Enjoy FREE delivery anywhere in Australia (Min. $50 purchase)</p>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_back.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">14 Days Return</h5>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-reply"></i> 14 Days Return</h5>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_percent.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">24 months Interest FREE finance</h5>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-credit-card"></i> 24 months Interest FREE finance</h5>
-                            </div>
-                            <div class="col-md-6 feature">
-                                <h5><i class="fa fa-shopping-bag"></i> Exclusive monthly specials</h5>
+                            <div class="col-lg-4 col-md-12 col-sm-12 feature">
+                                <div class="media">
+                                    <img class="d-flex mr-3" src="http://pr-cdn.oneaffiniti.com/upload/general/20170928/icon_bag.png" width="42px" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Exclusive monthly specials</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
