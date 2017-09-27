@@ -1,5 +1,18 @@
+@font-face {
+        font-family: "HP Simplified";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format('eot')
+    }
+
+    @font-face {
+        font-family: "HP Simplified Rg";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format('eot')
+    }
+
 .wufoo {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important; */
+    font-family: 'HP Simplified', sarial, sans-serif;
     margin-bottom: 1rem;
     padding: 10px;
     border:  1px solid #0099D8;
