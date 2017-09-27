@@ -223,27 +223,22 @@
 	color: #ffffff;
 }
 
-.wufoo .smalltext {
-		font-size: 10px;
+.wufoo .section.smalltext {
+	font-size: 10px;
     font-weight: normal;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-.wufoo .smalltext .section section h3,
-.wufoo .smalltext .likert table caption {
-    padding:  0;
-    margin: 0;
-}
-
-.wufoo .smalltext .section section h3 {
-    font-size: 10px;
+.wufoo .section.smalltext  section h3 {
+   font-size: 10px;
     font-weight: 400;
     padding: 0;
     margin: 0;
     text-align: center;
 }
+
 
 .wufoo .smalltext .section section h3 span {
 	color: #ffffff;
