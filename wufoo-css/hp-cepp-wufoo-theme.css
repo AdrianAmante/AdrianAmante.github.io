@@ -265,3 +265,11 @@ color: #ffffff !important;
 input:-ms-input-placeholder {  
 color: #ffffff !important;  
 }
+
+/* hidden labels */
+.wufoo label.desc, .wufoo legend.desc {
+	font-size: 1px !important;
+	opacity:  0 !important;
+	margin-bottom: 0 !important;
+	display: none !important;
+}
