@@ -273,3 +273,15 @@ color: #ffffff !important;
 	margin-bottom: 0 !important;
 	display: none !important;
 }
+
+/* 100% button */
+form li.buttons {
+    padding: 0 1% 2px 3%;
+}
+.wufoo input.btTxt {
+    width: 100%;
+}
+
+.wufoo .section section h3, .wufoo .likert table caption {
+	padding:  5px 1% 15px 3%;
+}

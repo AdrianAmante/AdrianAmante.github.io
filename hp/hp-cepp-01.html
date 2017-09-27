@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
     <style>
     body {
         min-height: 100vh;
@@ -18,9 +17,21 @@
         color: rgba(0, 0, 0, .9);
         font-size: 0.9rem;
         line-height: 1rem;
-        /* font-family: 'Open Sans', sans-serif; */
-        /* font-family: 'Open Sans Condensed', sans-serif; */
+        font-family: 'HP Simplified', sarial, sans-serif;
     }
+
+    @font-face {
+        font-family: "HP Simplified";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format('eot')
+    }
+
+    @font-face {
+        font-family: "HP Simplified Rg";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format('eot')
+    }
+
 
     .navbar {
         background: #ffffff;
@@ -60,27 +71,13 @@
     }
 
     .bgimg {
-        background-image: url(http://pr-cdn.oneaffiniti.com/upload/general/20170927/hp_epp_lp_banner.jpg);
+        /* background-image: url(http://pr-cdn.oneaffiniti.com/upload/general/20170927/hp_epp_lp_banner.jpg); */
+        background-image: url(hp_epp_lp_banner.jpg); 
         max-width: 1140px;
         max-height: 500px;
     }
     
-    @font-face {
-        font-family: "HP Simplified";
-        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
-        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format('eot')
-    }
-
-    @font-face {
-        font-family: "HP Simplified Rg";
-        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
-        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format('eot')
-    }
-
-    html,
-    body {
-        font-family: 'HP Simplified';
-    }
+    
     </style>
 </head>
 
