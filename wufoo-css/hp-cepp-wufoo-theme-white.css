@@ -298,3 +298,7 @@ form li.buttons {
 .wufoo .section section h3, .wufoo .likert table caption {
 	padding:  15px 1% 15px 3%;
 }
+
+.wufoo .section h3, .wufoo .captcha, #payment .paging-context {
+    border-color: #ffffff;
+}
