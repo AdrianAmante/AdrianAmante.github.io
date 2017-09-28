@@ -91,8 +91,8 @@
     padding: .5rem .75rem;
     font-size: 1rem;
     line-height: 1.25;
-    color: #ffffff;
-    background-color: #64b8db;
+    color: #000000;
+    background-color: #ffffff;
     background-image: none;
     background-clip: padding-box;
     border: 1px solid #64b8db;
@@ -103,9 +103,9 @@
 .wufoo input.field:focus,
 .wufoo textarea.textarea:focus,
 .wufoo select.select:focus {
-	color: #ffffff;
-	background: #0099D8;
-	border: 1px solid #ffffff;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #64b8db;
 }
 
 .wufoo input.checkbox,
@@ -147,8 +147,8 @@
     padding: .5rem .75rem;
     font-size: 1rem;
     line-height: 1.25;
-    color: #ffffff;
-    background-color: #61b5da;
+    color: #000000;
+    background-color: #ffffff;
     background-image: none;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
