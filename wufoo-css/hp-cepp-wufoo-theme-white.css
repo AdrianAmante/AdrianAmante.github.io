@@ -107,8 +107,8 @@
 .wufoo select.select:focus {
 	color: #000000;
 	background: #ffffff;
+    box-shadow: 0;
 	border: 2px solid #000000
-    box-shadow: none;
 }
 
 .wufoo input.checkbox,
@@ -166,8 +166,8 @@
 .wufoo .complex select.select:focus {
     color: #000000;
     background: #ffffff;
+    box-shadow: 0;
     border: 2px solid #000000
-    box-shadow: none;
 }
 
 .wufoo .complex textarea.textarea {
