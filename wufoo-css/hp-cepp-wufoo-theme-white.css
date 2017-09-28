@@ -25,7 +25,7 @@
 
 .wufoo .info {
     display: none;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #ffffff;
 }
 
 .wufoo .info h2 {}
@@ -97,7 +97,9 @@
     background-clip: padding-box;
     border: 2px solid #cccccc;
     border-radius: 0;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
 }
 
 .wufoo input.field:focus,
