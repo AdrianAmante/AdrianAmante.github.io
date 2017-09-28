@@ -254,24 +254,24 @@
 
 
 .wufoo .smalltext .section section h3 span {
-	color: #ffffff;
+	color: #000000;
 	font-size: 10px;
 }
 
 input::-webkit-input-placeholder {
-color: #ffffff !important;
+color: #000000 !important;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-color: #ffffff !important;  
+color: #000000 !important;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
-color: #ffffff !important;  
+color: #000000 !important;  
 }
  
 input:-ms-input-placeholder {  
-color: #ffffff !important;  
+color: #000000 !important;  
 }
 
 /* hidden labels */
