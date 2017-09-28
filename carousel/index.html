@@ -34,6 +34,23 @@ ul.carousel-menu li:hover {
     color: #FF6129;
 }
 
+ul.carousel-menu li.navi {
+    text-align: center;
+}
+
+ul.carousel-menu li.navi:hover {
+    color:  #333333;
+}
+
+ul.carousel-menu li.navi a {
+    color: #333333;
+    text-decoration: none;
+}
+
+ul.carousel-menu li a:hover i {
+    color: #FF6129;
+} 
+
 .grey-title {
     text-transform: uppercase;
     color: #939598;
@@ -74,7 +91,6 @@ img.icon {
 p.lead,
 ul.lead {
     font-size: 28px;
-    ;
 }
 
 ul.lead,
@@ -91,6 +107,11 @@ ul.lead li:hover {
     /* font-family: 'Avenir LT W01_95 Black1475556'; */
     font-weight: bold;
     font-size: 48px;
+}
+
+ul.lead li a {
+    color: #333333;
+    text-decoration: none;
 }
 
 </style>
@@ -111,6 +132,14 @@ ul.lead li:hover {
                     <li data-target="#introDeck" data-slide-to="8">Approve the Email</li>
                     <li data-target="#introDeck" data-slide-to="9">Real-time Results</li>
                     <li data-target="#introDeck" data-slide-to="10">Next Steps</li>
+                    <!-- <li class="navi">
+                        <a href="#introDeck" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i> PREV
+                        </a> <span>|</span>
+                        <a href="#introDeck" role="button" data-slide="next">
+                            NEXT <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </li> -->
                 </ul>
             </div>
             <div class="col-md-10">
@@ -511,13 +540,13 @@ ul.lead li:hover {
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#introDeck" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
                     <a class="carousel-control-next" href="#introDeck" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
