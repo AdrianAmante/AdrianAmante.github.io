@@ -1,0 +1,297 @@
+@font-face {
+        font-family: "HP Simplified";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format('eot')
+    }
+
+    @font-face {
+        font-family: "HP Simplified Rg";
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
+        src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format('eot')
+    }
+
+.wufoo {
+    /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important; */
+    font-family: 'HP Simplified', arial, sans-serif;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border:  1px solid #ffffff;
+    background: #ffffff;
+}
+
+.embed #container {
+    background: #0099ffffffD8;
+}
+
+.wufoo .info {
+    display: none;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.wufoo .info h2 {}
+
+.wufoo .info div {}
+
+.wufoo .section section {}
+
+.wufoo .section section h3,
+.wufoo .likert table caption {
+    font-weight: 600;
+    font-size: 145%;
+    padding: 10px 3% 15px 3%;
+    color: #000000;
+    text-align: center;
+}
+
+.wufoo .section section h3 {
+    border-top: 1px solid #ffffff
+    margin-top: 8px;
+}
+
+.wufoo .section section div,
+.wufoo .likert table div {
+    padding: 0 3% 0 3%;
+}
+
+.wufoo li {
+    padding: 6px 1% 9px 3%;
+}
+
+.leftLabel li, .rightLabel li {
+    width: 70% !important;
+}
+
+.wufoo li.focused {
+    background-color: #fafafa;
+}
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
+	color: #000000;
+}
+
+.wufoo span.req {
+    color: #FF6124 !important;
+}
+
+.wufoo label.desc,
+.wufoo legend.desc {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: .5rem;
+}
+
+.wufoo input.field,
+.wufoo input.field,
+.wufoo textarea.textarea,
+.wufoo select.select {
+    display: block;
+    width: calc(100% - 2.1rem);
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 2px solid #cccccc;
+    border-radius: 0;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wufoo input.field:focus,
+.wufoo textarea.textarea:focus,
+.wufoo select.select:focus {
+	color: #000000;
+	background: #ffffff;
+	border: 2px solid #000000
+}
+
+.wufoo input.checkbox,
+.wufoo input.radio {
+    display: block;
+    margin: 4px 0 0 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+}
+
+.wufoo textarea.textarea {
+    min-width: 82%;
+    max-width: 95.5%;
+}
+
+.wufoo select.select {
+    width: 100%;
+}
+
+.wufoo input.file {
+    max-width: 250px;
+}
+
+.wufoo input.currency {
+    max-width: 100px;
+}
+
+/*.wufoo  span {
+    float: left;
+}*/
+
+.wufoo .complex input.field,
+.wufoo .complex input.field,
+.wufoo .complex textarea.textarea,
+.wufoo .complex select.select {
+    display: block;
+    width: calc(100% - 1.6rem);
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 2px solid #cccccc;
+    border-radius: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wufoo .complex textarea.textarea {
+    min-width: 82%;
+    max-width: 95.5%;
+}
+
+.wufoo .complex select.select {
+    width: 100%;
+}
+
+.wufoo .time span.ampm select.select {
+    width: 5em !important;
+}
+
+/* .wufoo .instruct {
+    background: #000000;
+    border-color: #08A5DC;
+} */
+
+.wufoo .instruct small {
+    color: #0000000;
+}
+
+.wufoo span.symbol {
+    margin-top: 5px;
+}
+
+.wufoo .likert table,
+.wufoo .likert th,
+.wufoo .likert td {
+    border-color: #e9ecef;
+}
+
+.wufoo .likert table thead tr td,
+.wufoo .likert table thead tr th {
+    background-color: #e9ecef;
+}
+
+.wufoo .likert tbody tr:hover td,
+.wufoo .likert tbody tr:hover th,
+.wufoo .likert tbody tr:hover label {
+    background-color: #daf2fa;
+    border-color: #e9ecef;
+}
+
+.wufoo input.btTxt {
+    font-family: 'HP Simplified', arial, sans-serif;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0095D5;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0;
+    transition: all .15s ease-in-out;
+    background-color: #0095D5;
+    color: #ffffff;
+    border-radius: 0 4px 0 4px; 
+}
+
+.wufoo input.btTxt:hover {
+    background-color: #0380b6;
+}
+
+.leftLabel .buttons, .rightLabel .buttons {
+    padding-left: 24%;
+}
+
+.noI .leftLabel .buttons div, .noI .rightLabel .buttons div {
+	margin: 0 0 0 23px;
+}
+
+.confirm h2 {
+	color: #ffffff;
+}
+
+.wufoo .section.smalltext {
+	font-size: 10px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.wufoo .section.smalltext  section h3 {
+   font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.wufoo .smalltext .section section h3 span {
+	color: #000000;
+	font-size: 10px;
+}
+
+input::-webkit-input-placeholder {
+color: #000000 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #000000 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #000000 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #000000 !important;  
+}
+
+/* hidden labels */
+.wufoo label.desc, .wufoo legend.desc {
+	font-size: 1px !important;
+	opacity:  0 !important;
+	margin-bottom: 0 !important;
+	display: none !important;
+}
+
+/* 100% button */
+form li.buttons {
+    padding: 10px 3% 0 3%;
+}
+.wufoo input.btTxt {
+    width: 100%;
+}
+
+.wufoo .section section h3, .wufoo .likert table caption {
+	padding:  5px 1% 15px 3%;
+}
