@@ -223,7 +223,7 @@
     transition: all .15s ease-in-out;
     background-color: #0095D5;
     color: #ffffff;
-    border-radius: 0 4px 0 4px; 
+    border-radius: 0 8px 0 8px; 
 }
 
 .wufoo input.btTxt:hover {
