@@ -200,3 +200,14 @@
 .leftLabel .buttons, .rightLabel .buttons {
     padding-left: 24%;
 }
+
+.wufoo span input.field,
+.wufoo span input.field,
+.wufoo span textarea.textarea,
+.wufoo span select.select,
+.wufoo .complex span input.field,
+.wufoo .complex span input.field,
+.wufoo .complex span textarea.textarea,
+.wufoo .complex span select.select {
+    width: calc(100% - 4rem);
+}
