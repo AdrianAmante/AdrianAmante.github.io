@@ -107,6 +107,10 @@
     max-width: 100px;
 }
 
+.wufoo label.choice {
+    width: 38%;
+}
+
 /*.wufoo  span {
     float: left;
 }*/
