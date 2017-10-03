@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Click Approval</title>
+    <!-- client specific styles -->
+    <style type="text/css">
+    #outlook a {
+        padding: 0;
+    }
+    /* Force Outlook to provide a "view in browser" message */
+
+    .ReadMsgBody {
+        width: 100%;
+    }
+
+    .ExternalClass {
+        width: 100%;
+    }
+    /* Force Hotmail to display emails at full width */
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+    /* Force Hotmail to display normal line spacing */
+
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    /* Prevent WebKit and Windows mobile changing default text sizes */
+
+    table,
+    td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+    /* Remove spacing between tables in Outlook 2007 and up */
+
+    img {
+        -ms-interpolation-mode: bicubic;
+    }
+    /* Allow smoother rendering of resized image in Internet Explorer */
+    </style>
+    <!-- reset styles -->
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    td img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+    }
+
+    body,
+    #bodyTable,
+    #bodyCell {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    strong {
+        font-weight: 600 !important;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+    /*td { padding: 0 !important; }*/
+
+    img {
+        display: block;
+    }
+
+    span.preheader {
+        display: none !important;
+    }
+    </style>
+    <!-- fixes -->
+    <style type="text/css">
+    .a6S {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        left: -99999px !important;
+        top: -99999px !important;
+    }
+
+    .a5q {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        left: -99999px !important;
+        top: -99999px !important;
+    }
+    /* Gmail Disable Image Download */
+
+    * [dir~="ltr"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        left: -99999px !important;
+        top: -99999px !important;
+    }
+
+    body {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+    /* Prevent iOS Mail from adding padding to the body */
+
+    .preheader,
+    span[summary="preheader"] {
+        display: none !important;
+        margin-left: -9999 !important;
+        width: 0 !important;
+        height: 0 !important;
+        visibility: hidden !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+    }
+    </style>
+    <!-- template styles -->
+    <style type="text/css">
+    @media screen and (max-width: 480px) {
+        /* This resizes tables and images to be 100% wide with a proportionate width */
+        *[class=mobileresponsive] {
+            width: 100% !important;
+            height: auto !important;
+        }
+        *[class=mobileresponsive] {
+            width: 100% !important;
+            height: auto !important;
+        }
+        /* Hide stuff on mobiles */
+        *[class=nomobile] {
+            display: none !important;
+        }
+        .mobileresponsive img[class=mobileimage] {
+            width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        *[class=colsplit] {
+            width: 100%!important;
+            float: left!important;
+        }
+        *[class=centeronmobile] {
+            text-align: center !important;
+        }
+    }
+    </style>
+</head>
+
+<body style="padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%; background-color:#f9fafa;" bgcolor="#f9fafa">
+    <!-- preheader text -->
+    <span class="preheader" summary="preheader" style="display:none !important; Margin-left:-9999 !important; width:0 !important; height:0 !important; visibility:hidden !important; min-width:0 !important; min-height:0 !important; font-size:0 !important; line-height:0 !important" width="0 !important" height="0 !important">
+    Preheader text goes here.
+    </span>
+    <!-- end preheader text -->
+    <!-- body table -->
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%" bgcolor="#f9fafa">
+        <tr>
+            <td height="30" style="font-size: 1px; line-height: 1px;" class="spacer">&nbsp;</td>
+        </tr>
+        <!-- start logo header-->
+        <tr>
+            <td valign="top" align="center">
+                <!-- container table -->
+                <table border="0" cellspacing="0" cellpadding="0" width="602" bgcolor="#ffffff" style="font-family: Helvetica, Arial, sans-serif; font-size:12px; line-height:20px; color:#999999; border-width: 1px; border-style: solid; border-color: #dddddd;" class="mobileresponsive">
+                    <tr>
+                        <td valign="top" align="center">
+                            <!-- 1A logo -->
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                <tr>
+                                    <td valign="top" align="center" style="padding: 15px;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20170606/d0285a7234e57103b695691d6926b94e.jpg" alt="OneAffiniti" width="173" height="61" border="0" style="display:block; margin: auto; background: #f5f5f5; color: #f5f5f5; font-size: 16px; text-align: center; vertical-align: middle; width:173px; height: 61px;" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- end logo header-->
+        <tr>
+            <td height="30" style="font-size: 1px; line-height: 1px;" class="spacer">&nbsp;</td>
+        </tr>
+    </table>
+    <!-- end body table -->
+</body>
