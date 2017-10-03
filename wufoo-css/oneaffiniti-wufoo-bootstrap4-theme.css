@@ -215,3 +215,9 @@
 .wufoo .complex span select.select {
     width: calc(100% - 4rem);
 }
+
+
+/* remove border-focus */
+*:focus {
+    outline: none;
+}
