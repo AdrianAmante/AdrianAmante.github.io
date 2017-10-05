@@ -145,6 +145,16 @@
         font-size: 0 !important;
         line-height: 0 !important;
     }
+    table.data-table tr td {
+        padding-top: 3px;
+        padding-right: 2px;
+        padding-bottom: 3px;
+        padding-left: 2px;
+    }
+
+    table.data-table tr td.data-table-title {
+        font-size: 14px;
+    }
     </style>
     <!-- template styles -->
     <style type="text/css">
@@ -163,10 +173,26 @@
             width: 100% !important;
             height: auto !important;
             display: block;
+            text-align: center;
+        }
+        td[class=tableresponsive] img {
+            margin: 0 auto;
+        }
+        td.tableresponsive {
+             width: 100% !important;
+            height: auto !important;
+            display: block;
+            text-align: center;
+        }
+        td.tableresponsive img {
+            margin: 0 auto;
         }
         /* Hide stuff on mobiles */
         *[class=nomobile] {
             display: none !important;
+        }
+        .nomobile {
+            display: none !important; 
         }
         .mobileresponsive img[class=mobileimage] {
             width: 100% !important;
@@ -201,7 +227,7 @@
                 <table border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#ffffff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:20px; color:#999999;" class="mobileresponsive">
                     <!-- header -->
                     <tr>
-                        <td valign="top" align="center">
+                        <td valign="top" align="center" class="mobileresponsive">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
                                 <tr>
                                     <td valign="middle" align="left" width="300" class="mobile-responsive">
@@ -217,15 +243,15 @@
                     <!-- end header -->
                     <!-- headline -->
                     <tr>
-                        <td valign="top" align="center">
+                        <td valign="top" align="center" class="mobileresponsive">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#edf8ff">
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 20px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 25px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
                                         <strong>HIGH VALUE SUSCRIBER SUMMARY</strong>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 20px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 23px; padding-left: 5px;">
                                         Based on your campaign here is a list of valued subscribers contact.
                                     </td>
                                 </tr>
@@ -239,14 +265,14 @@
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
                                 <tr>
                                     <td valign="top" align="center" width="100%" style="padding: 15px;">
-                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px;" class="data-table">
                                             <tbody>
                                                 <tr>
-                                                    <td class="nomobile"><strong>Subscriber:</strong></td>
-                                                    <td class="nomobile"><strong>Phone:</strong></td>
-                                                    <td class="nomobile"><strong>Lead Type:</strong></td>
-                                                    <td class="nomobile"><strong>Lead Quality:</strong></td>
-                                                    <td class="nomobile"><strong>Action:</strong></td>
+                                                    <td class="data-table-title nomobile"><strong>Subscriber:</strong></td>
+                                                    <td class="data-table-title nomobile"><strong>Phone:</strong></td>
+                                                    <td class="data-table-title nomobile"><strong>Lead Type:</strong></td>
+                                                    <td class="data-table-title nomobile"><strong>Lead Quality:</strong></td>
+                                                    <td class="data-table-title nomobile"><strong>Action:</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <td class="tableresponsive">tim.smith@school.com</td>
@@ -274,7 +300,14 @@
                                                     <td class="tableresponsive">0478500612</td>
                                                     <td class="tableresponsive">Survey</td>
                                                     <td class="tableresponsive"><img src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png" alt="" /></td>
-                                                    <td class="tableresponsive">Call</td>
+                                                    <td class="tableresponsive">Follow up</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tableresponsive">tim.smith@school.com</td>
+                                                    <td class="tableresponsive">0478500612</td>
+                                                    <td class="tableresponsive">Survey</td>
+                                                    <td class="tableresponsive"><img src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png" alt="" /></td>
+                                                    <td class="tableresponsive">Follow up</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -286,15 +319,15 @@
                     <!-- end table data -->
                     <!-- headline -->
                     <tr>
-                        <td valign="top" align="center">
+                        <td valign="top" align="center" class="mobileresponsive">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#edf8ff">
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 20px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 25px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
                                         <strong>PERFORMANCE</strong>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 20px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 23px; padding-left: 5px;">
                                         Here is the summary of your last campaign.
                                     </td>
                                 </tr>
@@ -310,14 +343,17 @@
                                     <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td valign="middle" align="center" bgcolor="#edf8ff">
+                                                <td valign="middle" align="center" bgcolor="#edf8ff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:24px; line-height:28px; font-weight: bold; color:#4a90e2; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-radius: 5px;">
                                                     21%
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td valign="middle" align="center">
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 15px; padding-right: 5px; padding-bottom: 0; padding-left: 5px;">
                                                     OPEN RATE
-                                                    <br />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:11px; line-height:13px;">
                                                     <small>Industry Avg = 20%</small>
                                                 </td>
                                             </tr>
@@ -326,14 +362,17 @@
                                     <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td valign="middle" align="center" bgcolor="#edf8ff">
+                                                <td valign="middle" align="center" bgcolor="#edf8ff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:24px; line-height:28px; font-weight: bold; color:#4a90e2; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-radius: 5px;">
                                                     2%
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td valign="middle" align="center">
-                                                    OPEN RATE
-                                                    <br />
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 15px; padding-right: 5px; padding-bottom: 0; padding-left: 5px;">
+                                                    CLICK RATE
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:11px; line-height:13px;">
                                                     <small>Industry Avg = 20%</small>
                                                 </td>
                                             </tr>
@@ -342,14 +381,17 @@
                                     <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td valign="middle" align="center" bgcolor="#edf8ff">
+                                                <td valign="middle" align="center" bgcolor="#edf8ff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:24px; line-height:28px; font-weight: bold; color:#4a90e2; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-radius: 5px;">
                                                     1%
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td valign="middle" align="center">
-                                                    OPEN RATE
-                                                    <br />
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 15px; padding-right: 5px; padding-bottom: 0; padding-left: 5px;">
+                                                    BOUNCE
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:11px; line-height:13px;">
                                                     <small>Industry Avg = 20%</small>
                                                 </td>
                                             </tr>
@@ -358,14 +400,17 @@
                                     <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td valign="middle" align="center" bgcolor="#edf8ff">
+                                                <td valign="middle" align="center" bgcolor="#edf8ff" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:24px; line-height:28px; font-weight: bold; color:#4a90e2; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-radius: 5px;">
                                                     11%
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td valign="middle" align="center">
-                                                    OPEN RATE
-                                                    <br />
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 15px; padding-right: 5px; padding-bottom: 0; padding-left: 5px;">
+                                                    UNSUBSCRIBES
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" align="center" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:11px; line-height:13px;">
                                                     <small>Industry Avg = 20%</small>
                                                 </td>
                                             </tr>
@@ -378,37 +423,37 @@
                     <!-- end 4 columns -->
                     <!-- two colums -->
                     <tr>
-                        <td valign="top" align="center" style="padding-top: 30px; padding-right: 15px; padding-bottom: 30px; padding-left: 15px;">
+                        <td valign="top" align="center" style="padding-top: 30px; padding-right: 15px; padding-bottom: 5px; padding-left: 15px;">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
                                 <tr>
-                                    <td>
-                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                    <td valign="middle" align="center" class="mobileresponsive">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                             <tr>
-                                                <td valign="middle" align="left">
-                                                    Top 5 Opens
+                                                <td class="tableresponsive data-table-title" valign="middle" align="left" style="color: #77be4e;">
+                                                    <strong>Top 5 Opens</strong>
                                                 </td>
-                                                <td>
+                                                <td class="tableresponsive" valign="middle" align="center">
                                                     <a href="#">More Info</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td valign="middle" align="left">
-                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                                         <tbody>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -416,34 +461,34 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td>
-                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                    <td valign="middle" align="center" class="mobileresponsive">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                             <tr>
-                                                <td valign="middle" align="left">
-                                                    Top 5 Clicks
+                                                <td class="tableresponsive data-table-title"  valign="middle" align="left" style="color: #77be4e;">
+                                                    <strong>Top 5 Clicks</strong>
                                                 </td>
-                                                <td>
+                                                <td class="tableresponsive" valign="middle" align="center">
                                                     <a href="#">More Info</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td valign="middle" align="left">
-                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                                         <tbody>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -458,37 +503,37 @@
                     <!-- end two colums -->
                     <!-- two colums -->
                     <tr>
-                        <td valign="top" align="center" style="padding-top: 30px; padding-right: 15px; padding-bottom: 30px; padding-left: 15px;">
+                        <td valign="top" align="center" style="padding-top: 30px; padding-right: 15px; padding-bottom: 5px; padding-left: 15px;">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
                                 <tr>
-                                    <td>
-                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                    <td valign="middle" align="center" class="mobileresponsive">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                             <tr>
-                                                <td valign="middle" align="left">
-                                                    Unsubsribes
+                                                <td class="tableresponsive data-table-title"  valign="middle" align="left" style="color: #e72419;">
+                                                    <strong>Unsubsribes</strong>
                                                 </td>
-                                                <td>
+                                                <td class="tableresponsive" valign="middle" align="center">
                                                     <a href="#">More Info</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td valign="middle" align="left">
-                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                                         <tbody>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -496,34 +541,34 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td>
-                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                    <td valign="middle" align="center" class="mobileresponsive">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                             <tr>
-                                                <td valign="middle" align="left">
-                                                    Bounces
+                                                <td class="tableresponsive data-table-title"  valign="middle" align="left" style="color: #e72419;">
+                                                    <strong>Bounces</strong>
                                                 </td>
-                                                <td>
+                                                <td class="tableresponsive" valign="middle" align="center">
                                                     <a href="#">More Info</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td valign="middle" align="left">
-                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="data-table">
                                                         <tbody>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>tim.smith@school.com</td>
+                                                                <td class="tableresponsive">tim.smith@school.com</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -585,15 +630,15 @@
                     <!-- end button -->
                     <!-- headline -->
                     <tr>
-                        <td valign="top" align="center">
+                        <td valign="top" align="center" class="mobileresponsive">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#edf8ff">
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 20px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:20px; line-height:24px; color:#4a90e2; padding-top: 25px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px;">
                                         <strong>TIPS AND TRICKS</strong>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 20px; padding-left: 5px;">
+                                    <td valign="middle" align="center" width="100%" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#4a90e2; padding-top: 2px; padding-right: 5px; padding-bottom: 23px; padding-left: 5px;">
                                         Best practice to getting the most out of your campaigns.
                                     </td>
                                 </tr>
@@ -606,7 +651,7 @@
                         <td valign="top" align="center" style="padding: 30px;">
                             <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                 <tr>
-                                    <td valign="middle" align="center">
+                                    <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc; max-width: 150px;">
                                             <tr>
                                                 <td valign="top" align="center">
@@ -622,7 +667,7 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td valign="middle" align="center">
+                                    <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc; max-width: 150px;">
                                             <tr>
                                                 <td valign="top" align="center">
@@ -638,7 +683,7 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td valign="middle" align="center">
+                                    <td valign="middle" align="center" class="mobileresponsive">
                                         <table border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc; max-width: 150px;">
                                             <tr>
                                                 <td valign="top" align="center">
