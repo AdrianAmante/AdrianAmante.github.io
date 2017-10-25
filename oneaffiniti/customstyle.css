@@ -7,3 +7,8 @@ body {
 .scrollNav {
 	position: fixed;
 }
+
+a.position {
+	position: fixed;
+	bottom:  100px;
+}
