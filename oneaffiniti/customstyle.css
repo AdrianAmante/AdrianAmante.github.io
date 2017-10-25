@@ -12,11 +12,9 @@ body {
 .scrollMenu li a {
 	font-size: 1.1rem;
 	line-height: 1.2rem;
-	color: #10A3DB;
 }
 
 .scrollMenu li a:hover {
-	color: ##FF6129 !important;
 	text-decoration: none;
 }
 
@@ -25,8 +23,4 @@ a.toptop {
 	bottom:  20px;
 	color:  #10A3DB;
 	z-index: 999999;
-}
-
-a:toptop:hover {
-	color: #FF6129 !important;
 }
