@@ -6,7 +6,7 @@
 // );
 
 // Select all links with hashes
-jQuery('a[href*="#"]')
+jQuery('#scrollMenu li a.[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
