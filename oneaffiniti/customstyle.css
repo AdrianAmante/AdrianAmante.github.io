@@ -12,5 +12,9 @@ a.toptop {
 	position: fixed;
 	bottom:  20px;
 	color:  #E0E0E0;
-	z-index: 9;
+	z-index: 999999;
+}
+
+a:toptop:hover {
+	color: #FF6129;
 }
