@@ -16,7 +16,7 @@ body {
 }
 
 .scrollMenu li a:hover {
-	color: ##FF6129;
+	color: ##FF6129 !important;
 	text-decoration: none;
 }
 
@@ -28,5 +28,5 @@ a.toptop {
 }
 
 a:toptop:hover {
-	color: #FF6129;
+	color: #FF6129 !important;
 }
