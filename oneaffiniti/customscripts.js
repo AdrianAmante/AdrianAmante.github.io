@@ -1,3 +1,3 @@
 //temporary scripts for oneaffiniti website
 
-$('.scrl').scrollspy({ target: '#nvgtn' })
+$('body').scrollspy({ target: '#nvgtn' })
