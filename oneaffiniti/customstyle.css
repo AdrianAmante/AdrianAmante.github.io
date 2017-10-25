@@ -32,3 +32,38 @@ a.toptop {
 	color:  #FF6129;
 	z-index: 999999;
 }
+
+
+
+/* slide type */
+
+.grey-title {
+    text-transform: uppercase;
+    color: #939598;
+    font-size: 22px;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.blue-title {
+    /* font-family: 'Avenir LT W01_95 Black1475556'; */
+    font-weight: bold;
+    color: #08A5DC;
+    font-size: 32px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+hr.doc {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+.black-title {
+    /* font-family: 'Avenir LT W01_95 Black1475556'; */
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+}
