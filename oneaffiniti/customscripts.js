@@ -1,6 +1,5 @@
 //temporary scripts for oneaffiniti website
 
-
 // jQuery('#scrollMenu li a').click(
 //   function(){ alert("It Works"); }
 // );
@@ -43,8 +42,7 @@ jQuery('.scrollMenu a[href*="#"]')
     }
   });
 
-  
-
+//scroll to top button
 jQuery(".toptop").hide();
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
@@ -55,6 +53,7 @@ jQuery(window).scroll(function() {
   }
 });
 
+//move navigation when scrolled down
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
   jQuery(".scrollNav").addClass('scrollNavtotop').animate('slow');
