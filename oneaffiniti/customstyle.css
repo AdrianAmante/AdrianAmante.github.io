@@ -6,6 +6,7 @@ body {
 
 .scrollNav {
 	position: fixed;
+	max-width:  350px;
 }
 
 a.toptop {
