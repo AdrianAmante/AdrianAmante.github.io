@@ -18,7 +18,7 @@ jQuery('a[href*="#"]')
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
-      var target = $(this.hash);
+      var target = jQuery(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       // Does a scroll target exist?
       if (target.length) {
