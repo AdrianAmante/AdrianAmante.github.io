@@ -25,7 +25,7 @@ jQuery('a[href*="#"]')
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         jQuery('html, body').animate({
-          scrollTop: target.offset().top-300
+          scrollTop: target.offset().top-100
         }, 1000, function() {
         	window.location.hash = target;
           // Callback after animation
