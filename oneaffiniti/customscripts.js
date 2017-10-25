@@ -66,9 +66,9 @@ jQuery(window).scroll(function() {
 
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
-  jQuery(".scrollNav").animate({top:'120px'});
+  jQuery(".scrollNav").animate({'top':'-120px'},1000);
   }
   else {
-  jQuery(".scrollNav").animate({top:'none'});
+  jQuery(".scrollNav").animate({'top':'  '},1000);
   }
 });
