@@ -1,5 +1,14 @@
+.container {
+	background: #ebebeb;
+}
+
+a {
+	color: #57606F !important;
+	text-decoration: none !important;
+}
+
 a[x-apple-data-detectors] {
-  color: inherit !important;
+  color: #57606F !important;
   text-decoration: none !important;
   font-size: inherit !important;
   font-family: inherit !important;
@@ -8,13 +17,13 @@ a[x-apple-data-detectors] {
 }
 
 
+
 @media screen and(max-width: 480px) {
   *[class=m-responsive] {
   width: 100% !important;
   height: auto !important;
   display: block !important;
   }
-
   td[class=m-responsive] {
   width: 100%!important;
   height: auto!important;
@@ -24,8 +33,21 @@ a[x-apple-data-detectors] {
   *[class=m-hidden] {
   display: none !important;
   }
-
   .m-hidden{
   display:none !important;
   }
+
+  *[class=m-center] {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+		text-align: center;
+  }
+	*.m-center {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+		text-align: center;
+  }
+
 }
