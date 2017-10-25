@@ -45,7 +45,7 @@ jQuery('.scrollMenu a[href*="#"]')
 //scroll to top button
 jQuery(".toptop").hide();
 jQuery(window).scroll(function() {
-  if (jQuery(window).scrollTop() > 300) {
+  if (jQuery(window).scrollTop() > 200) {
   jQuery(".toptop").fadeIn("slow");
   }
   else {
@@ -55,7 +55,7 @@ jQuery(window).scroll(function() {
 
 //move navigation when scrolled down
 jQuery(window).scroll(function() {
-  if (jQuery(window).scrollTop() > 300) {
+  if (jQuery(window).scrollTop() > 200) {
   jQuery(".scrollNav").addClass('scrollNavtotop').animate('slow');
   }
   else {
