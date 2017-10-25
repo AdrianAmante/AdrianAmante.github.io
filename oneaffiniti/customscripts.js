@@ -60,6 +60,6 @@ jQuery(window).scroll(function() {
   jQuery(".scrollNavscrollNav").addClass('scrollNavtotop');
   }
   else {
-  jQuery(".scrollNav").addClass('scrollNavtotop');
+  jQuery(".scrollNav").removeClass('scrollNavtotop');
   }
 });
