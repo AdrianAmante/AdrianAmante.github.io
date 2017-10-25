@@ -7,10 +7,12 @@ body {
 .scrollNav {
 	position: fixed;
 	max-width:  350px;
+	transition: all 0.5s ease;
 }
 
 .scrollNavtotop {
 	top: 120px;
+	transition: all 0.5s ease;
 }
 
 .scrollMenu li a {
