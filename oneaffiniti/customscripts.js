@@ -57,9 +57,9 @@ jQuery(window).scroll(function() {
 
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
-  jQuery(".scrollNav").addClass('scrollNavtotop');
+  jQuery(".scrollNav").addClass('scrollNavtotop').animate('slow');
   }
   else {
-  jQuery(".scrollNav").removeClass('scrollNavtotop');
+  jQuery(".scrollNav").removeClass('scrollNavtotop').animate('fast');
   }
 });
