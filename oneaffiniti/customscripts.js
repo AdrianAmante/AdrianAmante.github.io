@@ -57,9 +57,9 @@ jQuery(window).scroll(function() {
 
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
-  jQuery(".scrollNavscrollNav").addClass('scrollNavtotop').fadeIn("slow");
+  jQuery(".scrollNavscrollNav").addClass('scrollNavtotop');
   }
   else {
-  jQuery(".scrollNav").addClass('scrollNavtotop').fadeOut("fast");
+  jQuery(".scrollNav").addClass('scrollNavtotop');
   }
 });
