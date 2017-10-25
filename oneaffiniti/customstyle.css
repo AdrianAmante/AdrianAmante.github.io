@@ -9,10 +9,22 @@ body {
 	max-width:  350px;
 }
 
+.scrollMenu li a {
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+	color: #10A3DB;
+	font-weight: 600;
+}
+
+.scrollMenu li a:hover {
+	color: ##FF6129;
+	text-decoration: none;
+}
+
 a.toptop {
 	position: fixed;
 	bottom:  20px;
-	color:  #E0E0E0;
+	color:  #10A3DB;
 	z-index: 999999;
 }
 
