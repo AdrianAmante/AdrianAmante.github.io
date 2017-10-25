@@ -54,3 +54,12 @@ jQuery(window).scroll(function() {
   jQuery(".toptop").fadeOut("fast");
   }
 });
+
+jQuery(window).scroll(function() {
+  if (jQuery(window).scrollTop() > 300) {
+  jQuery(".scrollNavscrollNav").addClass('scrollNavtotop').fadeIn("slow");
+  }
+  else {
+  jQuery(".scrollNav").addClass('scrollNavtotop').fadeOut("fast");
+  }
+});

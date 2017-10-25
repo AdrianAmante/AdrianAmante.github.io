@@ -9,6 +9,10 @@ body {
 	max-width:  350px;
 }
 
+.scrollNavtotop {
+	top: 120px;
+}
+
 .scrollMenu li a {
 	font-size: 1.1rem;
 	line-height: 1.2rem;
