@@ -42,3 +42,15 @@ jQuery('.scrollMenu a[href*="#"]')
       }
     }
   });
+
+  
+
+jQuery(".toptop").hide();
+jQuery(window).scroll(function() {
+  if (jQuery(window).scrollTop() > 300) {
+  jQuery(".toptop").fadeIn("slow");
+  }
+  else {
+  jQuery(".toptop").fadeOut("fast");
+  }
+});
