@@ -55,20 +55,11 @@ jQuery(window).scroll(function() {
   }
 });
 
-// jQuery(window).scroll(function() {
-//   if (jQuery(window).scrollTop() > 300) {
-//   jQuery(".scrollNav").addClass('scrollNavtotop').animate('slow');
-//   }
-//   else {
-//   jQuery(".scrollNav").removeClass('scrollNavtotop').animate('fast');
-//   }
-// });
-
 jQuery(window).scroll(function() {
   if (jQuery(window).scrollTop() > 300) {
-  jQuery(".scrollNav").animate({'top':'-120px'},1000);
+  jQuery(".scrollNav").addClass('scrollNavtotop').animate('slow');
   }
   else {
-  jQuery(".scrollNav").animate({'top':'  '},1000);
+  jQuery(".scrollNav").removeClass('scrollNavtotop').animate('fast');
   }
 });
