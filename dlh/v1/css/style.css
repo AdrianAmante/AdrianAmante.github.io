@@ -1,19 +1,48 @@
-.navbar-dark {
-  background-color: #233969;
-  color: #ffffff;
+body {
+  color: #90A4AE;
+  position: relative;
+  margin-top: 56px;
+  margin-bottom: 100px;
 }
 
-.navbar-bottom {
-  background-color: #223765;
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #233969;
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand small {
+  color: #233969;
 }
 
 ul.mainnav li {
   display: inline-block;
 }
 
-body {
-  position: relative;
-  margin-top: 56px;
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.table {
+  font-size: 0.8rem;
+}
+
+.table thead {
+  background-color: #FAFAFA !important;
+}
+
+.table tr th {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #233969;
 }
 
 .table tr td {
@@ -25,9 +54,34 @@ body {
   padding-bottom: 1.5rem;
 }
 
-.daterangepicker {
-  position: relative;
-  top: 240px !important;
+.pageheader h4 {
+  color: #233969;
+}
+
+.pageheader p {
+  font-size: 0.9rem;
+}
+
+.pageheader .text-muted {
+  color: #B0BEC5 !important;
+}
+
+.searchfilter .card .card-body {
+  padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.searchfilter .card .card-body .fltr {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fafafa;
 }
 
 .form-signin {
@@ -55,6 +109,78 @@ body {
 .login-title small {
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.form-group label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  font-weight: 600;
+  color: #90A4AE;
+  color: #233969;
+}
+
+.daterangepicker {
+  position: relative;
+  top: 240px !important;
+}
+
+.view-edit {
+  margin-bottom: 1.75rem;
+}
+
+.view-edit .card .card-body {
+  padding-top: 1.75rem;
+  padding-bottom: .75rem;
+}
+
+.body-login {
+  background-color: #fafafa;
+}
+
+.linkedin-signin {
+  max-width: 750px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-signin .bgimage {
+  background: url(http://pr-cdn.oneaffiniti.com/upload/general/20171028/siginbg.png) no-repeat top center;
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.linkedin-signin .bgimage img {
+  margin-bottom: 0.75rem;
+}
+
+.linkedin-signin .bgimage h1 {
+  color: #233969;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.linkedin-signin .button {
+  padding: 1.5rem;
+}
+
+.linkedin-signin .button h1 {
+  color: #233969;
+  font-weight: 200;
+}
+
+.linkedin-signin .button p {
+  font-size: 0.75rem;
+}
+
+.linkedin-signin .button a {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 215px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

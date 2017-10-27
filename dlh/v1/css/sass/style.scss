@@ -1,66 +1,190 @@
 // boostrap overides
 $primary: #233969;
 $primarydk: darken($primary, 1%);
-.navbar-dark {
-    background-color: $primary;
-    color: #ffffff;
+body {
+    // background-color: #f8f9fa;
+    color: #90A4AE;
+    position: relative; // color: #333333;
+    margin-top: 56px;
+    margin-bottom: 100px;
 }
 
-.navbar-bottom {
-	background-color: $primarydk;
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
+
+.navbar-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand {
+    color: $primary;
+    background-color: #ffffff !important;
+    small {
+        color: $primary;
+    }
+}
+
 
 ul.mainnav li {
-	display: inline-block;;
+    display: inline-block;
+    ;
 }
 
-body {
-    position: relative;
-    // color: #333333;
-    margin-top: 56px;
+.navbar-light .navbar-nav .nav-link {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
+
+
 
 .table {
-	tr {
-		td {
-			vertical-align: middle;
-		}
-	}
+    font-size: 0.8rem;
+    thead {
+        background-color: #FAFAFA !important;
+    }
+    tr {
+
+        th {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: $primary;
+        }
+        td {
+            vertical-align: middle;
+        }
+    }
 }
 
 .pageheader {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    h4 {
+        color: $primary;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .text-muted {
+        color: #B0BEC5 !important;
+    }
 }
 
-.daterangepicker {
-	position: relative;
-	top: 240px !important;
+.searchfilter {
+    .card {
+        .card-body {
+            padding: .5rem 1.5rem 0 1.5rem;
+            .fltr {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fafafa;
 }
 
 
 .form-signin {
-  max-width: 400px;
-  padding: 15px;
-  margin: 0 auto;
-  .btn-dark {
-  	background-color: $primary;
-  	&:hover {
-  		background-color: $primarydk;
-  	}
-  }
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    .btn-dark {
+        background-color: $primary;
+        &:hover {
+            background-color: $primarydk;
+        }
+    }
 }
 
 
 .login-title {
-	text-align: center;
-	font-size: 1.5rem;
-	padding: 1.25rem;
-	font-weight: 600;
-	color: $primary;
-	small {
-		text-transform: uppercase;
-		font-size: 1rem;
-	}
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.25rem;
+    font-weight: 600;
+    color: $primary;
+    small {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
 }
 
+.form-group {
+    label {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        font-weight: 600;
+        color: #90A4AE;
+        color: $primary;
+    }
+}
+
+.daterangepicker {
+    position: relative;
+    top: 240px !important;
+}
+
+.view-edit {
+    margin-bottom: 1.75rem;
+    .card {
+        .card-body {
+            padding-top: 1.75rem;
+            padding-bottom: .75rem;
+        }
+    }
+}
+
+
+.body-login {
+    background-color: #fafafa;
+}
+
+.linkedin-signin {
+    max-width: 750px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    .bgimage {
+        background: url(http://pr-cdn.oneaffiniti.com/upload/general/20171028/siginbg.png) no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 1.5rem;
+        img {
+          margin-bottom: 0.75rem;
+        }
+        h1 {
+          color: $primary;
+          font-weight: 200;
+          color: #ffffff;
+          font-size: 1.8rem;
+        }
+    }
+    .button {
+        padding: 1.5rem;
+        h1 {
+            color: $primary;
+            font-weight: 200;
+        }
+        p {
+            font-size: 0.75rem;
+        }
+        a {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 215px;
+        }
+    }
+}
