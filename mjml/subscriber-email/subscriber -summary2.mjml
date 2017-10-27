@@ -3,14 +3,6 @@
     <mj-style>
       <mj-include path="./template-parts/head-custom.mjml" />
     </mj-style>
-    <mj-style inline="inline">
-      .percentage-block {
-        background: #ffffff !important;
-      }
-      .rating {
-        max-width:170px;
-      }
-      </mj-style>
   </mj-head>
   <mj-body>
     <mj-container background-color="#ebebeb" css-class="container">
@@ -329,12 +321,12 @@
                 <a href="http://www.oneaffiniti.com/make-channel-marketing-direct-possible/">
                   <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                      <td valign="middle" align="center" >
-                        <img src="http://1idste3lse6t3yf0fz3ns68b.wpengine.netdna-cdn.com/wp-content/uploads/2017/10/tools-not-orders.jpg" alt="Tips & Tricks" width="175" height="auto" style="display:block;" />
+                      <td valign="middle" align="center" style="padding-bottom:5px;">
+                         <img src="http://1idste3lse6t3yf0fz3ns68b.wpengine.netdna-cdn.com/wp-content/uploads/2017/10/tools-not-orders.jpg" alt="Tips & Tricks" width="175" height="auto" style="display:block;" />
                       </td>
                     </tr>
                   </table>
-                </a>             
+                </a>
               </td>
             </tr>
             <tr>
