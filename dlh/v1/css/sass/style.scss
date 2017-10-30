@@ -188,3 +188,57 @@ ul.mainnav li {
         }
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .table {
+        tr {
+            th {
+                display: block;
+                display: none;
+            }
+        }
+        tr {
+            td {
+                display: block;
+                border-color: #ffffff;
+                span {
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+            }
+            td:first-child {
+                border-top-color: #e8ebef;
+            }
+            td:last-child {
+                border-bottom-color: #e8ebef;
+            }
+        }
+    }
+    .table{
+        &.table-hover {
+            tr:hover {
+                td {
+                    border-color: #ececec;
+                }
+            }
+            tr {
+                td:hover {
+                    // border-color: #ececec;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .table {
+        tr {
+            td {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}

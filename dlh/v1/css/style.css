@@ -183,4 +183,34 @@ ul.mainnav li {
   max-width: 215px;
 }
 
+@media screen and (max-width: 767px) {
+  .table tr th {
+    display: block;
+    display: none;
+  }
+  .table tr td {
+    display: block;
+    border-color: #ffffff;
+  }
+  .table tr td span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .table tr td:first-child {
+    border-top-color: #e8ebef;
+  }
+  .table tr td:last-child {
+    border-bottom-color: #e8ebef;
+  }
+  .table.table-hover tr:hover td {
+    border-color: #ececec;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .table tr td span {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=maps/style.css.map */
