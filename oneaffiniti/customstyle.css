@@ -1,69 +1,65 @@
-/* temporary styles for oneaffiniti website */
-
 body {
   position: relative;
+  font-family: "Avenir LT W01_55 Roman1475520" !important;
 }
 
 .scrollNav {
-	position: fixed;
-	max-width:  350px;
-	transform: translateZ(0);
+  position: fixed;
+  max-width: 350px;
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-transform: translateZ(0);
 }
 
+.scrollNav h5.card-title {
+  margin: 0;
+  padding: 0;
+}
+
 .scrollNavtotop {
-	top: 120px;
-	transform: translateZ(0);
+  top: 120px;
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-transform: translateZ(0);
 }
 
 .scrollMenu li a {
-	font-size: 1.1rem;
-	line-height: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
 }
 
 .scrollMenu li a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a.toptop {
-	position: fixed;
-	bottom:  20px;
-	color:  #FF6129;
-	z-index: 999999;
+  position: fixed;
+  bottom: 20px;
+  color: #FF6129;
+  z-index: 999999;
 }
 
-
-
-/* slide type */
-
-.grey-title {
- /*    text-transform: uppercase;
-    color: #939598;
-    font-size: 22px;
-    margin-bottom: 5px;
-    line-height: 1; */
+.col-cat-title {
+  font-family: "Avenir LT W01_55 Roman1475520" !important;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #bdbdbd;
+  margin: 0;
+  padding: 0;
 }
 
-.blue-title {
-    /* font-family: 'Avenir LT W01_95 Black1475556'; */
-  /*   font-weight: bold;
-    color: #08A5DC;
-    font-size: 32px;
-    margin-bottom: 10px;
-    line-height: 1; */
+.col-title {
+  font-family: 'Avenir LT W01_95 Black1475556';
+  color: #10A3DB;
+  font-size: 1.8rem;
 }
 
-hr.doc {
-    /* margin-top: 0;
-    margin-bottom: 0;
-    border: 0;
-    border-top: 1px solid #cccccc; */
+.col-hr {
+  border-color: #ededed !important;
 }
 
-.black-title {
-    /* font-family: 'Avenir LT W01_95 Black1475556'; */
-   /*  font-weight: bold;
-    line-height: 1;
-    margin-bottom: 5px; */
+.col-cont-title {
+  font-family: 'Avenir LT W01_95 Black1475556';
+  color: #484848;
+  font-size: 1rem;
 }

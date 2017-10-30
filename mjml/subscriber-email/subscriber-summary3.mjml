@@ -43,172 +43,55 @@
       </mj-section>
       
       
-      <!-- table -->
-      <!-- spacer -->
-      <mj-section background-color="#ffffff" padding="0">
-        <mj-column>
-          <mj-spacer height="25px" /></mj-column>
+			<!-- summary -->
+      <mj-section padding="20px" background-color="#ffffff">
+      	<mj-table font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="10px">
+        	<tr>
+          	<th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Subscriber:</th>
+            <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Phone:</th>
+            <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Lead Type:</th>
+            <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Quality:</th>
+            <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Action:</th>
+          </tr>
+          <tr>
+          	<td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{rating}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{action}</td>
+          </tr>
+          <tr>
+          	<td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{rating}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{action}</td>
+          </tr>
+          <tr>
+          	<td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{rating}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{action}</td>
+          </tr>
+          <tr>
+          	<td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{rating}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{action}</td>
+          </tr>
+          <tr>
+          	<td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{rating}</td>
+            <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{action}</td>
+          </tr>
+          
+            
+        </mj-table>
       </mj-section>
-      <!-- end spacer -->
-      <mj-section css-class="m-hidden" padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text css-class="m-hidden" padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            <strong>Subscriber:</strong>
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text css-class="m-hidden" padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            <strong>Phone:</strong>
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text css-class="m-hidden" padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            <strong>Lead Type:</strong>
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text css-class="m-hidden" padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            <strong>Lead Quality:</strong>
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text css-class="m-hidden" padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            <strong>Action:</strong>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            tim.smith@school.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            0478500612
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Survey
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-image padding="0" align="left" width="74" src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png">
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Call
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            tim.smith@school.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            0478500612
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Survey
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-image padding="0" align="left" width="74" src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png">
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Follow up
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            tim.smith@school.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            0478500612
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Survey
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-image padding="0" align="left" width="74" src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png">
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Call
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            tim.smith@school.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            0478500612
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Survey
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-image padding="0" align="left" width="74" src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png">
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Follow up
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="2px 25px" text-align="left" background-color="#ffffff">
-        <mj-column vertical-align="middle" width="30%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            tim.smith@school.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            0478500612
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Survey
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="20%">
-          <mj-image padding="0" align="left" width="74" src="http://pr-cdn.oneaffiniti.com/upload/general/20171005/rate.png">
-        </mj-column>
-        <mj-column vertical-align="middle" width="15%">
-          <mj-text padding="0" align="left" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" color="#616161">
-            Follow up
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- spacer -->
-      <mj-section background-color="#ffffff" padding="0">
-        <mj-column>
-          <mj-spacer height="25px" /></mj-column>
-      </mj-section>
-      <!-- end spacer -->
-      
 
 
       <!-- heading -->
@@ -448,8 +331,8 @@
 
       <!-- tips and tricks -->
       <mj-section padding="20px" background-color="#ffffff" border-radius="0 0 6px 6px">
-        <mj-column css-class="m-responsive" class="m-responsive">
-          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center" width="175" css-class="m-responsive" class="m-responsive">
+        <mj-column css-class="m-responsive">
+          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center" width="175" css-class="m-responsive">
             <tr>
               <td valign="middle" align="center">
                 <a href="http://www.oneaffiniti.com/channel-effective-marketing-machine/" style="display: block;">
@@ -472,8 +355,8 @@
             </tr>
           </mj-table>
         </mj-column>
-        <mj-column css-class="m-responsive" class="m-responsive">
-          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center"  width="175" css-class="m-responsive" class="m-responsive">
+        <mj-column css-class="m-responsive">
+          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center"  width="175" css-class="m-responsive">
             <tr>
               <td valign="top" align="center">
                 <a href="http://www.oneaffiniti.com/make-channel-marketing-direct-possible/">
@@ -496,8 +379,8 @@
             </tr>
           </mj-table>
         </mj-column>
-        <mj-column css-class="m-responsive" class="m-responsive">
-          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center" width="175" css-class="m-responsive" class="m-responsive">
+        <mj-column css-class="m-responsive">
+          <mj-table padding="5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" line-height="22px" padding="0" align="center" width="175" css-class="m-responsive">
             <tr>
               <td valign="top" align="center">
                 <a href="http://www.oneaffiniti.com/make-channel-marketing-direct-possible/">
