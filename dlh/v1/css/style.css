@@ -9,6 +9,19 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.navbar .navbar-nav .nav-item {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.navbar .navbar-nav .nav-item .btn {
+  margin-top: 3px;
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
 .navbar-light {
   background-color: #ffffff !important;
 }
@@ -139,17 +152,34 @@ ul.mainnav li {
 }
 
 .linkedin-signin {
-  max-width: 750px;
+  max-width: 360px;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-signin .head {
+  color: #233969;
+  text-align: center;
+}
+
+.linkedin-signin .head h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.linkedin-signin .head p {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 700;
 }
 
 .linkedin-signin .bgimage {
-  background: url(http://pr-cdn.oneaffiniti.com/upload/general/20171028/siginbg.png) no-repeat top center;
-  background-size: cover;
-  padding: 1.5rem;
+  background-color: #ffffff;
+  padding: 0;
+  display: block;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .linkedin-signin .bgimage img {
@@ -164,7 +194,9 @@ ul.mainnav li {
 }
 
 .linkedin-signin .button {
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
+  background-color: #ffffff;
 }
 
 .linkedin-signin .button h1 {
@@ -191,16 +223,20 @@ ul.mainnav li {
   .table tr td {
     display: block;
     border-color: #ffffff;
+    padding: 0.2rem 15px;
   }
   .table tr td span {
     font-weight: bold;
     margin-right: 10px;
+    display: inline-block;
   }
   .table tr td:first-child {
     border-top-color: #e8ebef;
+    padding-top: 1rem;
   }
   .table tr td:last-child {
     border-bottom-color: #e8ebef;
+    padding-bottom: 1rem;
   }
   .table.table-hover tr:hover td {
     border-color: #ececec;
