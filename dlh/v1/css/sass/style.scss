@@ -48,12 +48,33 @@ ul.mainnav li {
     font-weight: 600;
 }
 
+.pageheader {
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    p {
+        margin-bottom: 0;
+    }
+    .btn {
+        margin-top: 1.3rem;
+    }
+}
+
 
 
 .table {
     font-size: 0.8rem;
     thead {
         background-color: #FAFAFA !important;
+    }
+    tfoot {
+        tr {
+            td {
+                .pagination {
+                    margin-top: 0.8rem;
+                }
+            }
+        }
     }
     tr {
 
