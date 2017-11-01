@@ -67,7 +67,7 @@ ul.mainnav li {
 }
 
 .table tfoot tr td .pagination {
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .table tr th {
@@ -78,6 +78,10 @@ ul.mainnav li {
 
 .table tr td {
   vertical-align: middle;
+}
+
+.table tr td .btn-sm {
+  padding: 0 .5rem;
 }
 
 .pageheader {
@@ -233,7 +237,7 @@ ul.mainnav li {
   max-width: 215px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .table tr th {
     display: block;
     display: none;
@@ -247,6 +251,9 @@ ul.mainnav li {
     font-weight: bold;
     margin-right: 10px;
     display: inline-block;
+  }
+  .table tr td .btn-sm {
+    padding: .25rem .5rem;
   }
   .table tr td:first-child {
     border-top-color: #e8ebef;
