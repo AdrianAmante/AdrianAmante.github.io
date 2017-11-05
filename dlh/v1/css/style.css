@@ -78,6 +78,14 @@ ul.mainnav li {
   margin-top: 0.5rem;
 }
 
+.table tfoot tr td .pagination .page-count {
+  color: #90A4AE;
+}
+
+.table tfoot tr td .pagination .page-count:hover {
+  background: #ffffff;
+}
+
 .table tr th {
   font-size: 0.9rem;
   font-weight: 600;

@@ -34,7 +34,7 @@ body {
 
 a.toptop {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   color: #FF6129;
   z-index: 999999;
 }

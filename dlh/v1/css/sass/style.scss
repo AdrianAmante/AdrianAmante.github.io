@@ -78,6 +78,12 @@ ul.mainnav li {
             td {
                 .pagination {
                     margin-top: 0.5rem;
+                    .page-count {
+                        color: #90A4AE;
+                        &:hover {
+                            background: #ffffff;
+                        }
+                    }
                 }
             }
         }
