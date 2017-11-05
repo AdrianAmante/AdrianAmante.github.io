@@ -316,4 +316,12 @@ ul.mainnav li {
   }
 }
 
+.form-control:disabled, .form-control[readonly] {
+  background: #ffffff;
+  border-radius: 0;
+  color: #000000;
+  border-color: #ffffff;
+  padding-left: 0;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

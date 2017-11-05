@@ -175,6 +175,10 @@ ul.mainnav li {
         color: #90A4AE;
         color: $primary;
     }
+    small {
+        font-size: 75%;
+        color: #90A4AE;
+    }
 }
 
 .daterangepicker {
@@ -336,4 +340,13 @@ ul.mainnav li {
             }
         }
     }
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background: #ffffff;
+    border-radius: 0;
+    color: #000000;
+    border-color: #ffffff;
+    padding-left: 0;
+
 }
