@@ -172,6 +172,11 @@ ul.mainnav li {
   color: #233969;
 }
 
+.form-group small {
+  font-size: 75% !important;
+  color: #90A4AE;
+}
+
 .daterangepicker {
   position: relative;
   top: 240px !important;
