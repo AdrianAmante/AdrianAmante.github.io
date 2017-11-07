@@ -68,3 +68,12 @@ a.toptop {
   margin-top: 1rem !important;
   margin-bottom: 0.8rem !important;
 }
+
+
+.esg-grid .mainul li.eg-coolidge-wrapper {
+  border-color: #fdfdfd;
+}
+
+.eg-coolidge-content {
+  background: #fdfdfd;
+}
