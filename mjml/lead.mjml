@@ -6,6 +6,32 @@
       <mj-text align="left" color="#90A4AE" />
       <mj-container background-color="#f5f5f5" />
     </mj-attributes>
+    <mj-style>
+        *[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+        }
+        .a6S {
+	        display: none !important;
+	        opacity: 0.01 !important;
+        }
+      	.a5q {
+      		display: none !important;
+      		cursor: default !important;
+      	}
+        img.g-img + div {
+	        display:none !important;
+	   		}
+        .button-link {
+            text-decoration: none !important;
+        }
+    </mj-style>
 
   </mj-head>
 
@@ -30,7 +56,7 @@
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171110/lead_email.png" padding="0" alt="You have a new sales opportunity"></mj-image>
+          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171110/1510286948lead_email.png" width="600" padding="0" alt="You have a new sales opportunity"></mj-image>
         </mj-column>
       </mj-section>
 
