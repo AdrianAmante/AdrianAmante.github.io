@@ -765,5 +765,8 @@ a:focus {
     margin-top: 0;
   }
 }
+.modal-dialog-center {
+  margin-top: 15%;
+}
 
 /*# sourceMappingURL=main.css.map */
