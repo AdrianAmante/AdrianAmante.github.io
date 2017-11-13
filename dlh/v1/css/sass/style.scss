@@ -350,3 +350,18 @@ ul.mainnav li {
     padding-left: 0;
 
 }
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.show {
+    // display: inline;
+    visibility: visible;
+    opacity: 1;
+}

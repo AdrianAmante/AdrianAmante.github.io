@@ -329,4 +329,19 @@ ul.mainnav li {
   padding-left: 0;
 }
 
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

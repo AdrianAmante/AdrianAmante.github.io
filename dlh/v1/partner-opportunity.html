@@ -78,7 +78,8 @@
     <section class="view-edit">
         <div class="card">
             <div class="card-header">
-                View/Edit Opportunity
+                Opportunity
+                <a href="partner-opportunity-edit.html" class="btn btn-primary btn-sm float-right">Edit</a>
             </div>
             <div class="card-body"> 
                 <div class="row"> 
@@ -86,7 +87,6 @@
                       <div class="form-group">
                           <label>End User Email</label>
                           <input type="email" class="form-control form-control-sm" placeholder="email" value="adrian_amante@oneaffiniti.com" disabled>
-                          <small>This is a disabled field</small>
                       </div>
                     </div>
                     <div class="col-sm-6">
@@ -100,13 +100,13 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>End User Phone</label>
-                          <input type="number" class="form-control form-control-sm is-invalid" placeholder="xxx-xxxxxx">
+                          <input type="text" class="form-control form-control-sm" placeholder="xx xxx xxxx" value="+61 123 456 789" disabled>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>End User Company</label>
-                          <input type="text" class="form-control form-control-sm is-valid" placeholder="Acme Inc.">
+                          <input type="text" class="form-control form-control-sm" placeholder="Acme Inc." value="OneAffiniti" disabled>
                       </div>
                     </div>
                 </div>
@@ -115,13 +115,13 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Project</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="Your Project">
+                          <input type="text" class="form-control form-control-sm" placeholder="Your Project" value="Digital Lead Hub" disabled>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Budget</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="Your Budget">
+                          <input type="text" class="form-control form-control-sm" placeholder="Your Budget" value="$9,000,000.00" disabled>
                       </div>
                     </div>
                 </div>
@@ -129,13 +129,13 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Due date</label>
-                          <input type="date" class="form-control form-control-sm" placeholder="">
+                          <input type="date" class="form-control form-control-sm" placeholder="" value="2017-11-16" disabled>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Decision Makers</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
+                          <input type="text" class="form-control form-control-sm" placeholder="" value="James Wafer" disabled>
                       </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Status</label>
-                          <select class="form-control form-control-sm">
+                          <select class="form-control form-control-sm" disabled>
                                 <option>Status A</option>
                                 <option>Status B</option>
                             </select>
@@ -152,7 +152,7 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                           <label>Notes</label>
-                          <textarea class="form-control form-control-sm rows="3"></textarea>
+                          <textarea class="form-control form-control-sm rows="3" disabled>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sint architecto similique, aliquam pariatur libero animi voluptas ipsam quaerat. Illum est atque eos fuga sed amet quaerat iste, cupiditate nostrum?</textarea>
                       </div>
                     </div>
                 </div>
@@ -162,10 +162,11 @@
                   </div>
                 </div>
             </div>
-            <div class="card-footer text-right">
+            <!-- <div class="card-footer text-right">
+              &nbsp;
               <a href="#" class="btn btn-outline-primary btn-sm">Cancel</a>
-                    <a href="index.html" class="btn btn-primary btn-sm">Submit</a>
-            </div>
+              <a href="index.html" class="btn btn-primary btn-sm">Submit</a>
+            </div> -->
         </div>
     </section>
 
