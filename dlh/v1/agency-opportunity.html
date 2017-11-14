@@ -170,9 +170,127 @@
                 </div>
             </div>
             <div class="card-footer text-right ">
+                <a href="#" class="btn btn-outline-primary btn-sm ">Cancel</a>
+                <a href="#" class="btn btn-primary btn-sm ">Submit</a>
+            </div>
+        </div>
+
+       <div class="card">
+            <div class="card-header">
+                Opportunity Notes
+            </div>
+            <div class="card-body ">
+                <div class="row">
+            <div class="col">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Type</th>
+                            <th scope="col" width="60%">Notes</th>
+                            <th scope="col" width="7%">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span>Date:</span>2017-11-03</td>
+                            <td><span>Type:</span>Action Type</td>
+                            <td><span>Notes:</span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic nostrum rem voluptas nulla sedibus perspiciatis dignissimos mollitia magnam at, debitis fugit praesentium enim.
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalAddNotes">Add Notes</a>
+                                        <a class="dropdown-item" href="#">Another Action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>Date:</span>2017-11-03</td>
+                            <td><span>Type:</span>Action Type</td>
+                            <td><span>Notes:</span>
+                                Lorem ipsum dolor sit amet, conseciquid soluta optio sequi nam explicabo, illo quaerat qui ut quis atque dignissimos?
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalAddNotes">Add Notes</a>
+                                        <a class="dropdown-item" href="#">Another Action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>Date:</span>2017-11-03</td>
+                            <td><span>Type:</span>Action Type</td>
+                            <td><span>Notes:</span>
+                                Lorem ab debitis fuga. Animi error quisquam consectetur fuga.
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalAddNotes">Add Notes</a>
+                                        <a class="dropdown-item" href="#">Another Action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>Date:</span>2017-11-03</td>
+                            <td><span>Type:</span>Action Type</td>
+                            <td><span>Notes:</span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elittemporibus praesentium dicta, veniam aperiam dolore libero.
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalAddNotes">Add Notes</a>
+                                        <a class="dropdown-item" href="#">Another Action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>Date:</span>2017-11-03</td>
+                            <td><span>Type:</span>Action Type</td>
+                            <td><span>Notes:</span>
+                                Lorem ipsum dolor sit amet, consectetur 
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalAddNotes">Add Notes</a>
+                                        <a class="dropdown-item" href="#">Another Action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="card-footer text-right ">
                 <a href="# " class="btn btn-outline-primary btn-sm ">Cancel</a>
                 <a href="index.html " class="btn btn-primary btn-sm ">Submit</a>
-            </div>
+            </div> -->
         </div>
 
 
@@ -299,6 +417,32 @@
         </div>
     </footer>
 
+
+    <div id="modalAddNotes" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                Add Notes
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <!-- <label class="col-form-label" for="formGroupExampleInput2">&nbsp;</label> -->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer text-right">
+                <a href="#" class="btn btn-outline-primary btn-sm">Cancel</a>
+                <a href="#" id="submitAddNote" class="btn btn-primary btn-sm">Submit</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <body>
         <script src="js/vendor/jquery-3.2.1.slim.min.js "></script>
         <script src="js/vendor/popper.min.js "></script>
@@ -312,6 +456,11 @@
             $('input[name="daterange "]').daterangepicker();
         });
         </script>
+        <script type="text/javascript">
+        jQuery('a#submitAddNote').click(
+          function(){ jQuery('#modalAddNotes').modal('hide') }
+        );
+    </script>
     </body>
 
 </html>
