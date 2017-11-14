@@ -200,3 +200,7 @@
 .leftLabel .buttons, .rightLabel .buttons {
     padding-left: 24%;
 }
+
+.wufoo li.buttons {
+    padding: 10px 1% 10px 3%;
+}
