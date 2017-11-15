@@ -63,8 +63,10 @@
       <!-- text -->
       <mj-section padding="30px 10px" background-color="#ffffff">
         <mj-column>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px">
-            One of your subscribers has engaged in the monthly newsletter.<br>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="5 20 0 20">
+            One of your subscribers has engaged in the monthly newsletter.
+					</mj-text>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="5 20 10 20">
 						Please follow up with the customer, we have provided their details below:
 					</mj-text>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="15 40 5 40">
@@ -84,7 +86,7 @@
           	Landing Page: {landing.page} <br>
           	More Info: {content.more_info}
           </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="20 20">
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="20 20 5">
             If you need help with this lead, please reply to this email.
 					</mj-text>
         </mj-column>
