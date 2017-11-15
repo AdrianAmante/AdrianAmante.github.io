@@ -56,7 +56,7 @@
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171110/1510286948lead_email.png" width="600" padding="0" alt="You have a new sales opportunity"></mj-image>
+          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171115/1510706599lead_email_v2.png" width="600" padding="0" alt="You have a new sales opportunity"></mj-image>
         </mj-column>
       </mj-section>
 
