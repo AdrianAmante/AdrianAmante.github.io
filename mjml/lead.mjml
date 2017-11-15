@@ -71,35 +71,18 @@
            	<strong>Customer Details</strong> <small><i>(if available)</i></small>
 					</mj-text>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Name:<br>
-            {lead.name}
-          </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Email:<br>
-            {lead.email}
-          </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Phone:<br>		
-						{lead.phone}
-          </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Notes:<br>
-						{lead.note}
+						Name: {lead.name} <br>
+         		Email: {lead.email} <br>
+         		Phone: {lead.phone} <br>
+            Notes: {lead.note}
           </mj-text>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="15 40 5 40">
            	<strong>Product/Article Details</small>
 					</mj-text>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Page Title:<br>
-						{content.title}
-          </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						Landing Page:<br>
-						{landing.page}
-          </mj-text>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="0 40 5 40">
-						More Info:<br>
-						{content.more_info}
+						Page Title: {content.title} <br>
+          	Landing Page: {landing.page} <br>
+          	More Info: {content.more_info}
           </mj-text>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" padding="20 20">
             If you need help with this lead, please reply to this email.
