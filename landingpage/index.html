@@ -532,6 +532,12 @@
         </div>
     </div>
 
+<div class="modal fade" id="successEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="alert alert-success" role="alert">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam laudantium similique perspiciatis labore quidem, accusantium dignissimos, sapiente dolor eaque vel minus velit placeat, suscipit! Quisquam hic consequatur, animi inventore.</div>
+  </div>
+</div>
+
 
     <!-- end terms and conditions pop-up modal -->
     <!-- jQuery -->
@@ -589,10 +595,7 @@
                                     $('#contact-by-email-modal').modal('hide');
                                     return false;
                                  });
-                                 $("form#emailusForm").submit(function()
-                                 {
-                                    $('article.card').hide();
-                                 });
+
 
 
                         });
@@ -601,6 +604,12 @@
              });
 
        
+    </script>
+
+    <script>
+        $("#contact-by-email-modal").on("hidden.bs.modal", function () {
+            $('#successEmail').modal('show');
+        });
     </script>
 
     <!-- js fiddle -->
