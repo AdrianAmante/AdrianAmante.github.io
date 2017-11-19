@@ -869,6 +869,14 @@ a:focus {
         }
     }
 }
+.form-group {
+    label {
+        span {
+            color: $red;
+            margin-left: 3px;
+        }
+    }
+}
 
 .alert {
     &.alert-success {

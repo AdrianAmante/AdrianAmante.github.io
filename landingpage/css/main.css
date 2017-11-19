@@ -782,6 +782,11 @@ a:focus {
   background: #ffc7c1;
 }
 
+.form-group label span {
+  color: #f44336;
+  margin-left: 3px;
+}
+
 .alert.alert-success {
   color: #4CAF50;
 }
