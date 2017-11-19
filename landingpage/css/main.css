@@ -571,6 +571,11 @@ a:focus {
   margin-bottom: 15px;
   margin-top: 4px;
 }
+.landing-page .sidebar-container .sidebar .sidebar-getintouch li.btn-cont .disabled {
+  color: #cccccc;
+  border-color: #cccccc;
+  background: #f5f5f5;
+}
 .landing-page .sidebar-container .sidebar .sidebar-getintouch li.contact-icon {
   background-color: #fafafa;
   padding: 0;
@@ -767,6 +772,18 @@ a:focus {
 }
 .modal-dialog-center {
   margin-top: 15%;
+}
+
+.form-group.has-error label {
+  color: #f44336;
+}
+.form-group.has-error .form-control {
+  border-color: #f44336;
+  background: #ffc7c1;
+}
+
+.alert.alert-success {
+  color: #4CAF50;
 }
 
 /*# sourceMappingURL=main.css.map */
