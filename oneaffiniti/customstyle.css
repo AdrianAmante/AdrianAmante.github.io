@@ -85,7 +85,7 @@ article img.wp-post-image {
 #right-sidebar #recent-posts-2 ul li {
   border-color: #e3e3e3;
   border-style: solid;
-  border-width: 1px 1px 0;
+  border-width: 1px 0 0;
 }
 
 #right-sidebar #recent-posts-2 ul li:last-child {
@@ -98,7 +98,8 @@ article img.wp-post-image {
   font-size: 1.2rem;
   line-height: 1.6rem;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 18px;
   text-transform: uppercase;
   color: #666666;
+  font-family: "Avenir LT W01_55 Roman1475520" !important;
 }
