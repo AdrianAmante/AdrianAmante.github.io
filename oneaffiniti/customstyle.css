@@ -104,3 +104,8 @@ article img.wp-post-image {
   font-family: "Avenir LT W01_55 Roman1475520" !important;
   font-weight: bold;
 }
+
+#right-sidebar #recent-posts-2 ul li  a:hover {
+  text-decoration: none;
+  color: #0ea7dc;
+}
