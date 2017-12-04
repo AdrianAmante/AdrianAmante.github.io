@@ -97,4 +97,8 @@ article img.wp-post-image {
   padding: 1rem;
   font-size: 1.2rem;
   line-height: 1.6rem;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #666666;
 }
