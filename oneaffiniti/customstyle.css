@@ -82,6 +82,16 @@ article img.wp-post-image {
 	width: 100%;
 }
 
+#right-sidebar #recent-posts-2 ul li {
+  border-color: #e3e3e3;
+  border-style: solid;
+  border-width: 1px 1px 0;
+}
+
+#right-sidebar #recent-posts-2 ul li:last-child {
+  border-bottom:  1px solid #e3e3e3;
+}
+
 #right-sidebar #recent-posts-2 ul li  a {
   display: block;
   padding: 1rem;
