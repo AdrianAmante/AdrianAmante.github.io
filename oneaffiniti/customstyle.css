@@ -81,3 +81,10 @@ a.toptop {
 article img.wp-post-image {
 	width: 100%;
 }
+
+#right-sidebar #recent-posts-2 ul li  a {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
