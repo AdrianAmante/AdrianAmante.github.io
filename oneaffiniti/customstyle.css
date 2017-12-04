@@ -98,8 +98,9 @@ article img.wp-post-image {
   font-size: 1.2rem;
   line-height: 1.6rem;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #666666;
   font-family: "Avenir LT W01_55 Roman1475520" !important;
+  font-weight: bold;
 }
