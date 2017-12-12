@@ -1,0 +1,398 @@
+body {
+  color: #90A4AE;
+  position: relative;
+  margin-top: 56px;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.navbar .navbar-nav .nav-item .btn {
+  margin-top: 3px;
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #233969;
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand small {
+  color: #233969;
+}
+
+ul.mainnav li {
+  display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.table {
+  font-size: 0.8rem;
+}
+
+.table thead {
+  background-color: #FAFAFA !important;
+}
+
+.table tfoot tr td .pagination {
+  margin-top: 0.5rem;
+}
+
+.table tfoot tr td .pagination .page-count {
+  color: #90A4AE;
+}
+
+.table tfoot tr td .pagination .page-count:hover {
+  background: #ffffff;
+}
+
+.table tr th {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #233969;
+  line-height: 0.9rem;
+}
+
+.table tr td {
+  vertical-align: middle;
+}
+
+.content {
+  padding-top: 1.5rem;
+}
+
+.searchField .card .card-body {
+  padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.searchField .card .card-body .fltr {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.search-result .table tr td .table {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.search-result .table tr td .table tr td {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.search-result .table tr td .table tr td h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.search-result .table tr td .table tr td.buttons {
+  margin: 0;
+  vertical-align: top;
+  width: 120px;
+  text-align: right;
+}
+
+.search-result .table tr td .table tr td.buttons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-result .table tr td .table tr td.buttons ul li {
+  display: inline;
+}
+
+.search-result .table tr td .table tr td.buttons ul li .btn {
+  border-radius: 50%;
+  font-size: 0.8rem;
+  padding: 3px;
+  width: 28px;
+  height: 28px;
+}
+
+.search-result .table tr td .cat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-result .table tr td .cat li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.advancedFilter .card .card-body {
+  padding: 0.5rem .85rem .85rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fafafa;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .btn-dark {
+  background-color: #233969;
+}
+
+.form-signin .btn-dark:hover {
+  background-color: #223765;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.25rem;
+  font-weight: 600;
+  color: #233969;
+}
+
+.login-title small {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.form-group label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  font-weight: 600;
+  color: #90A4AE;
+  color: #233969;
+}
+
+.form-group small {
+  font-size: 75% !important;
+  color: #90A4AE;
+}
+
+.view-edit {
+  margin-bottom: 1.75rem;
+}
+
+.view-edit .card .card-body {
+  padding-top: 1.75rem;
+  padding-bottom: .75rem;
+}
+
+.body-login {
+  background-color: #fafafa;
+}
+
+.linkedin-signin {
+  max-width: 360px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.linkedin-signin .head {
+  color: #233969;
+  text-align: center;
+}
+
+.linkedin-signin .head h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.linkedin-signin .head p {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 700;
+}
+
+.linkedin-signin .bgimage {
+  background-color: #ffffff;
+  padding: 0;
+  display: block;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-signin .bgimage img {
+  margin-bottom: 0.75rem;
+}
+
+.linkedin-signin .bgimage h1 {
+  color: #233969;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.linkedin-signin .button {
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.linkedin-signin .button h1 {
+  color: #233969;
+  font-weight: 200;
+}
+
+.linkedin-signin .button p {
+  font-size: 0.75rem;
+}
+
+.linkedin-signin .button a {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 215px;
+}
+
+.fourofour {
+  text-align: center;
+}
+
+.fourofour img {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fourofour h4 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #233969;
+}
+
+.fourofour .title {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 700;
+  color: #233969;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background: #ffffff;
+  border-radius: 0;
+  color: #000000;
+  border-color: #ffffff;
+  padding-left: 0;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-dialog-center {
+  margin-top: 15%;
+}
+
+.cat-wrapper {
+  display: table;
+}
+
+.cat-wrapper .cat-col {
+  width: 50%;
+  float: left;
+}
+
+.cat-wrapper .right {
+  border-left: 1px solid #fff;
+}
+
+.checkbox-wrapper input[type='checkbox'] {
+  position: absolute;
+  left: -9999px;
+}
+
+label.checkbox {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 10px 30px 10px 32px;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #007bff;
+  background-color: #ffffff;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-transition: background-color .2s;
+  transition: background-color .2s;
+  width: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+label.checkbox::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 11px;
+  bottom: 10px;
+  left: 10px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #007bff;
+  border-radius: 100px;
+  -moz-transition: background-color .2s;
+  transition: background-color .2s;
+}
+
+input:checked + label.checkbox {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+input:checked + label.checkbox::before {
+  background-color: #007bff;
+  border: 5px solid #ffffff;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
