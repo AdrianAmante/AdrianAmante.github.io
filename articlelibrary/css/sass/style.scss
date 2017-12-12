@@ -445,7 +445,7 @@ label.checkbox {
   position: relative;
   margin: 0;
   // margin-bottom: 1px;
-  padding: 10px 30px 10px 32px;
+  padding: 10px 30px 10px 28px;
   border-bottom: 1px solid #fff;
   border-radius: 0;
   color: #007bff;
@@ -469,7 +469,7 @@ label.checkbox::before {
   left: 10px;
   width: 13px;
   height: 13px;
-  border: 1px solid #007bff;
+  border: 1px solid #dddddd;
   border-radius: 100px;
   transition: background-color .2s;
 }
@@ -486,9 +486,25 @@ label.checkbox::before {
 //   box-shadow: 0 0 20px rgba(0, 0, 0, .6);
 // }
 
+
 input:checked + label.checkbox {
   background-color: #007bff;
   color: #ffffff;
+  padding: 10px 30px 10px 28px;
+}
+
+input:checked + label.checkbox::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 11px;
+  bottom: 10px;
+  left: 10px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #007bff;
+  border-radius: 100px;
+  transition: background-color .2s;
 }
 
 input:checked + label.checkbox::before {
