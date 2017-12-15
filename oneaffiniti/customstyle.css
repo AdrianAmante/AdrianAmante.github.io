@@ -110,10 +110,6 @@ article img.wp-post-image {
   color: #0ea7dc;
 }
 
-.author .site-main ul  {
-  
-}
-
 .author .author-header h1 {
   margin-bottom: 30px;
 }
@@ -138,3 +134,12 @@ article img.wp-post-image {
   margin-bottom: 30px;
 }
 
+.author .site-main ul  {
+  list-style:  none;
+  margin:  0;
+  padding: 0;
+}
+
+.author .site-main ul li {
+  margin-bottom: 15px;
+}
