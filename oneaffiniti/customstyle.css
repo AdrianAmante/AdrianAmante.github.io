@@ -117,4 +117,13 @@ article img.wp-post-image {
 .author .author-header img.avatar {
   width: 120px;
   height: auto;
+  position: absolute;
+}
+
+.author .author-header dl {
+  margin-left: 140px;
+}
+
+.author .author-header dl dt {
+  text-transform: uppercase;
 }
