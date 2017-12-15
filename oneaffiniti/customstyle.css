@@ -109,3 +109,12 @@ article img.wp-post-image {
   text-decoration: none;
   color: #0ea7dc;
 }
+
+.author .site-main ul  {
+  
+}
+
+.author .author-header img.avatar {
+  width: 160px;
+  height: auto;
+}
