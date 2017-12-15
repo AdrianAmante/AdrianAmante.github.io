@@ -65,5 +65,3 @@ jQuery(window).scroll(function() {
 
 jQuery('.author .author-header h1').html(jQuery('.author .author-header h1').html().substring(6));
 jQuery('.author .author-header h1').addClass('blue');
-  
-jQuery('.author .site-main ul li').empty('.byline');
