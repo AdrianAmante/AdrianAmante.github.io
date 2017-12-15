@@ -147,3 +147,9 @@ article img.wp-post-image {
 .author .site-main ul li span.byline {
   display: none;
 }
+
+.author .site-main ul li span.posted-on {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #888888;
+}
