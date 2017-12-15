@@ -114,6 +114,10 @@ article img.wp-post-image {
   
 }
 
+.author .author-header h1 {
+  margin-bottom: 30px;
+}
+
 .author .author-header img.avatar {
   width: 120px;
   height: auto;
@@ -122,8 +126,15 @@ article img.wp-post-image {
 
 .author .author-header dl {
   margin-left: 140px;
+  min-height: 100px;
 }
 
 .author .author-header dl dt {
   text-transform: uppercase;
 }
+
+.author .author-header h2 {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
