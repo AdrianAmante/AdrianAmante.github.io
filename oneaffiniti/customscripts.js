@@ -62,3 +62,5 @@ jQuery(window).scroll(function() {
   jQuery(".scrollNav").removeClass('scrollNavtotop').animate('fast');
   }
 });
+
+jQuery('.author .author-header h1').html(jQuery('.author .author-header h1').html().substring(6));
