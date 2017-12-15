@@ -144,6 +144,6 @@ article img.wp-post-image {
   margin-bottom: 15px;
 }
 
-.author .site-main ul li .byline {
+.author .site-main ul li span.byline {
   display: none;
 }
