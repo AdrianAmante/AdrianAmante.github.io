@@ -67,4 +67,4 @@ jQuery('.author .author-header h1').html(jQuery('.author .author-header h1').htm
 jQuery('.author .author-header h1').addClass('blue');
 
   
-$( ".author .site-main ul li" ).prepend( "<?php the_post_thumbnail('medium'); ?>" );
+jQuery( ".author .site-main ul li" ).prepend( "<?php the_post_thumbnail('medium'); ?>" );
