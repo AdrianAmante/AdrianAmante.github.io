@@ -63,5 +63,5 @@ jQuery(window).scroll(function() {
   }
 });
 
-jQuery('.author .author-header h1').html(jQuery('.author .author-header h1').html().substring(6)).addClass('blue');
-// jQuery('.author .author-header h1').addClass('scrollNavtotop');
+jQuery('.author .author-header h1').html(jQuery('.author .author-header h1').html().substring(6));
+jQuery('.author .author-header h1').addClass('blue');
