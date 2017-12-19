@@ -101,8 +101,17 @@ ul.mainnav li {
   padding: 0 .5rem;
 }
 
-.table tr td .fa {
+.table tr td.score .fa {
   color: #f1c40f;
+  font-size: 0.6rem;
+}
+
+.table tr td.edit .btn-sm {
+  padding: 0;
+}
+
+.table tr td.edit .btn-sm .fa {
+  padding: 0;
 }
 
 .pageheader {
@@ -350,6 +359,10 @@ ul.mainnav li {
 
 .modal-dialog-center {
   margin-top: 15%;
+}
+
+.hiw .nav-link {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

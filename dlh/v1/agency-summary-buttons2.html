@@ -24,14 +24,40 @@
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="partner-summary.html">Summary</a>
+                        <a class="nav-link active" href="agency-summary.html">Summary</a>
                     </li>
-<!--                     <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="btn btn-sm align-middle btn-primary" href="#">Add Lead</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="btn btn-sm align-middle btn-outline-primary" href="partner-signin.html">Log out</a>
+                        <a class="btn btn-sm align-middle btn-outline-primary" href="agency-signin.html">Log out</a>
                     </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="addLead" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Add Lead
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="addLead">
+                            <a class="dropdown-item" href="addleadpartner.html">By Partner</a>
+                            <a class="dropdown-item" href="addleadagency.html">By Agency</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sharelead.html">Share Lead</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="passtoagency.html">Pass to Agency</a>
+                    </li>
+                    <li>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="oi oi-person"></span>
+                </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="signin.html">Log out</a>
+                        </div>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -41,7 +67,7 @@
     <header class="pageheader">
         <div class="row">
             <div class="col-10">
-                <h4>Summary</h4>
+                <h4>Agency Summary</h4>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <!-- 
@@ -50,7 +76,6 @@
             </div> -->
         </div>
     </header>
-    
     <section class="searchfilter">
         <div class="card">
             <div class="card-body">
@@ -106,6 +131,7 @@
             </div>
         </div>
     </section>
+    <!-- <br> -->
     <section class="list-result">
         <div class="row">
             <div class="col">
@@ -114,14 +140,14 @@
                         <tr>
                             <th scope="col">ID</th>
                             <th scope="col">Follow-Up Date</th>
+                            <th scope="col">Partner</th>
+                            <th scope="col">Company</th>
                             <th scope="col">Name</th>
                             <th scope="col">End User Email</th>
                             <th scope="col">Type</th>
                             <th scope="col">Score</th>
                             <th scope="col">Status</th>
-                            <th scope="col">Pass to Agency</th>
                             <th scope="col" width="7%">Action</th>
-                            <th scope="col" width="7%">Edit</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -142,46 +168,49 @@
                     </tfoot>
                     <tbody>
                         <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
                             <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Techbuy</td>
+                            <td><span>Company:</span>Humedoors</td>
                             <td><span>Name:</span>Adrian Amante</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">adrian_amante@oneaffiniti.com</a></td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">adrian_amante@oneaffiniti.com</a></td>
                             <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
+                            <td class="score"><span>Score:</span>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                             </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
+                            <td><span>Status:</span>Open</td>
                             <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
+                                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                    <div class="btn-group" role="group">
+                                        <button id="btnGroupDrop1" type="button" class="btn btn-outline-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Action
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                            <a class="dropdown-item" href="#">Action One</a>
+                                            <a class="dropdown-item" href="#">Action Two</a>
+                                        </div>
                                     </div>
+                                    <button type="button" class="btn btn-outline-primary btn-sm">Edit</button>
                                 </div>
                             </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
                         </tr>
                         <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
                             <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Accucom</td>
+                            <td><span>Company:</span>Humedoors</td>
                             <td><span>Name:</span>Alex Roque</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">alex_roque@oneaffiniti.com</a></td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">alex_roque@oneaffiniti.com</a></td>
                             <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
+                            <td class="score"><span>Score:</span>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                             </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
+                            <td><span>Status:</span>Suppressed</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -189,203 +218,24 @@
                                     </button>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
                                     </div>
                                 </div>
                             </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
+                            <!-- <td class="edit"><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block"><i class="fa fa-pencil" aria-hidden="true"></i></a></td> -->
                         </tr>
                         <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
                             <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>JM Arguelles</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">john_arguelles@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-success btn-block disabled">Sent</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Alexis Calupad</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">alexis_calupad@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Miguel dela Cruz</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">miguel_delacruz@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Glenn Graellos</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">glenn_graellos@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Neil Cagiuoa</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">neil_cagiuoa@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Jun Garcia</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">fernando_garcia@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
-                            <td><span>Name:</span>Vanessa Pajarillo</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">vanessa_pajarillo@oneaffiniti.com</a></td>
-                            <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td><span>ID:</span><a href="partner-opportunity-edit.html">L9865</a></td>
-                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Accucom</td>
+                            <td><span>Company:</span>Humedoors</td>
                             <td><span>Name:</span>Sheila Caragay</td>
-                            <td><span>End User Email:</span><a href="partner-opportunity-edit.html">sheila_caragay@oneaffiniti.com</a></td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">sheila_caragay@oneaffiniti.com</a></td>
                             <td><span>Type:</span>Type</td>
-                            <td><span>Score:</span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
+                            <td class="score"><span>Score:</span>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                             </td>
-                            <td><span>Status:</span>Status</td>
-                            <td><a href="#" class="btn btn-sm btn-outline-primary btn-block sendBtn" data-toggle="modal" data-target="#modalSendAgency">Send</a></td>
+                            <td><span>Status:</span>Open</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -393,11 +243,191 @@
                                     </button>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#modalActionShare">Share</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
                                     </div>
                                 </div>
                             </td>
-                            <td><a href="partner-opportunity-edit.html" class="btn btn-sm btn-outline-primary btn-block">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>e-Volve</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Vanessa Pajarillo</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">vanessa_pajarillo@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Won</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Open</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Staples</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Jun Garcia</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">fernando_garcia@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Open</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>PAW</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Neil Cagiuoa</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">neil_cagiuoa@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Suppressed</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Invotech</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Glenn Graellos</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">glenn_graellos@oneaffiniti.com </a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agent</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Invotech</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Miguel dela Cruz</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">miguel_delacruz@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Won</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Techbuy</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>Alexis Calupad</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">alexis_calupad@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Open</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html">L9865</a></td>
+                            <td><span>Follow-Up Date:</span>2017-10-27</td>
+                            <td><span>Partner:</span>Techbuy</td>
+                            <td><span>Company:</span>Humedoors</td>
+                            <td><span>Name:</span>JM Arguelles</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">john_arguelles@oneaffiniti.com</a></td>
+                            <td><span>Type:</span>Type</td>
+                            <td class="score"><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>Suppressed</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -410,71 +440,6 @@
         <span class="text-muted"><small>ONEAFFINITI 2017 | <a href="http://oneaffiniti.com/privacy">Privacy Policy</a></small></span>
     </div>
 </footer>
-
-<div id="modalSendAgency" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-sm modal-dialog-center">
-        <div class="modal-content">
-            <div class="modal-body text-center">
-                <h5>Are you sure you want to {variable} to agency?</h5>
-                <br>
-                <a href="#" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">Cancel</a>
-                <a id="submitAgency" href="#" class="btn btn-primary">Submit</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="modalActionShare" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-center">
-        <div class="modal-content">
-            <div class="modal-header">
-                SHARE
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label class="col-form-label" for="formGroupExampleInput">Send from name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label class="col-form-label" for="formGroupExampleInput2">Sned from email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label class="col-form-label" for="formGroupExampleInput">Send to email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label class="col-form-label" for="formGroupExampleInput2">Send to email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label class="col-form-label" for="formGroupExampleInput2">Notes</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer text-right">
-                <a href="#" class="btn btn-outline-primary btn-sm">Cancel</a>
-                <a href="#" id="submitShare" class="btn btn-primary btn-sm">Submit</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <body>
     <script src="js/vendor/jquery-3.2.1.slim.min.js"></script>
@@ -489,26 +454,6 @@
         $('input[name="daterange"]').daterangepicker();
     });
     </script>
-    <script type="text/javascript">
-        jQuery('a#submitAgency').click(
-          function(){ jQuery('#modalSendAgency').modal('hide') }
-        );
-        jQuery('a#submitShare').click(
-          function(){ jQuery('#modalActionShare').modal('hide') }
-        );
-
-       // jQuery('#submitAgency').click(
-       //  function(){ alert("It Works"); }
-       //  );
-
-       // jQuery('.sendBtn').click(function() {
-       //      function(){ jQuery(this).removeClass('btn-otline-primary') },
-       //      function(){ jQuery(this).addClass('btn-success') }
-       //  });
-    </script>
-
-
-
 </body>
 
 </html>

@@ -90,7 +90,6 @@ ul.mainnav li {
         }
     }
     tr {
-
         th {
             font-size: 0.9rem;
             font-weight: 600;
@@ -102,12 +101,25 @@ ul.mainnav li {
             .btn-sm {
                 padding: 0 .5rem;
             }
-            .fa {
-                color:#f1c40f;
+            &.score {     
+                .fa {
+                    color:#f1c40f;
+                    font-size: 0.6rem;
+                }
+            }
+            &.edit {
+                .btn-sm  {
+                    padding: 0;
+                    .fa {
+                        padding: 0;
+                    }
+                }
             }
         }
     }
 }
+
+
 
 .pageheader {
     padding-top: 1.5rem;
@@ -372,4 +384,10 @@ ul.mainnav li {
 
 .modal-dialog-center {
     margin-top: 15%;
+}
+
+.hiw {
+    .nav-link {
+        border-radius: 50%;
+    }
 }
