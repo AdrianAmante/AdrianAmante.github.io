@@ -81,9 +81,9 @@ ul.mainnav li {
         }
         td {
             vertical-align: middle;
-            .btn-sm {
-                // padding: 0 .5rem;
-            }
+            // .btn-sm {
+            //     // padding: 0 .5rem;
+            // }
         }
     }
 }
@@ -112,6 +112,9 @@ ul.mainnav li {
                     margin: 0;
                     padding: 0;
                     border: none;
+                    margin: 0;
+                    vertical-align: top;
+                    // text-align: right;
                     tr {
                         td {
                             margin: 0;
@@ -120,27 +123,6 @@ ul.mainnav li {
                             h6 {
                                 margin: 0;
                                 padding: 0;
-                            }
-                            &.buttons {
-                                margin: 0;
-                                vertical-align: top;
-                                width: 120px;
-                                text-align: right;
-                                ul {
-                                    list-style: none;
-                                    margin: 0;
-                                    padding: 0;
-                                    li {
-                                        display: inline;
-                                        .btn {
-                                            border-radius: 50%;
-                                            font-size: 0.8rem;
-                                            padding: 3px;
-                                            width: 28px;
-                                            height: 28px;
-                                        }
-                                    }
-                                }
                             }
                         }
                     }
@@ -510,4 +492,13 @@ input:checked + label.checkbox::before {
 input:checked + label.checkbox::before {
   background-color: #007bff;
   border: 5px solid #ffffff;
+}
+
+.copied {
+    color: green;
+    display: none;
+}
+
+.search-result {
+  transition: all 1.0s ease;
 }

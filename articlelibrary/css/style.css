@@ -96,6 +96,8 @@ ul.mainnav li {
   margin: 0;
   padding: 0;
   border: none;
+  margin: 0;
+  vertical-align: top;
 }
 
 .search-result .table tr td .table tr td {
@@ -107,31 +109,6 @@ ul.mainnav li {
 .search-result .table tr td .table tr td h6 {
   margin: 0;
   padding: 0;
-}
-
-.search-result .table tr td .table tr td.buttons {
-  margin: 0;
-  vertical-align: top;
-  width: 120px;
-  text-align: right;
-}
-
-.search-result .table tr td .table tr td.buttons ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.search-result .table tr td .table tr td.buttons ul li {
-  display: inline;
-}
-
-.search-result .table tr td .table tr td.buttons ul li .btn {
-  border-radius: 50%;
-  font-size: 0.8rem;
-  padding: 3px;
-  width: 28px;
-  height: 28px;
 }
 
 .search-result .table tr td .cat {
@@ -409,6 +386,16 @@ input:checked + label.checkbox::before {
 input:checked + label.checkbox::before {
   background-color: #007bff;
   border: 5px solid #ffffff;
+}
+
+.copied {
+  color: green;
+  display: none;
+}
+
+.search-result {
+  -moz-transition: all 1.0s ease;
+  transition: all 1.0s ease;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
