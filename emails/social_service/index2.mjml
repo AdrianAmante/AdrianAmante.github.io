@@ -39,28 +39,42 @@
       </mj-section>
 
       <!-- text -->
-      <mj-section padding="30px 10px 15" background-color="#ffffff">
+      <mj-section padding="30px 10px 0" background-color="#ffffff">
         <mj-column>
           
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="center">
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             At OneAffiniti, we are always looking at ways to make your digital marketing life easier. 
 Today, we bring you Social Media marketing made easy. Just like your email newsletter it's still automated and still free.</mj-text>
           <mj-button href="#" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
             Get Started
           </mj-button>
-          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="center">
+        </mj-column>
+      </mj-section>
+              
+      <mj-section padding="0 10px 15px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>How does it work?</strong></span>
             <br> It's simple, we turn the content from your monthly newsletter into multiple social posts.
-            <br>
-            <br>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>Which social media platform?</strong></span>
             <br> We right now this service is available with Linkedin, the best way to get B2B leads.
-            <br>
-            <br>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+          
+      <mj-section padding="0 10px 15px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>How do approvals work?</strong></span>
             <br> You are still in control. Using the same approval method you use today, we will ask if you would like to post content onto your LinkedIn company page.
-            <br>
-            <br>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>Next Steps:</strong></span>
             <br>
             <strong>&raquo;</strong> Sign up now and we'll guide you through the set up process.  <br>
