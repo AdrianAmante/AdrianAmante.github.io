@@ -34,7 +34,7 @@
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20180111/social_invite.png" padding="0"></mj-image>
+          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20180112/social_invite.png" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 
@@ -61,7 +61,7 @@ Today, we bring you Social Media marketing made easy. Just like your email newsl
         <mj-column>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>Which social media platform?</strong></span>
-            <br> We right now this service is available with Linkedin, the best way to get B2B leads.
+            <br> We will post content on Linkedin, this has been proven as the best way to get B2B leads.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -120,7 +120,8 @@ Today, we bring you Social Media marketing made easy. Just like your email newsl
 
 
       <!-- email recepient -->
-      <mj-section padding="0" background-color="#ffffff" border-radius="0 0 8 8" border-top="1px solid #f5f5f5">
+      <!-- <mj-section padding="0" background-color="#ffffff" border-radius="0 0 8 8" border-top="1px solid #f5f5f5"> -->
+      <mj-section padding="0" background-color="#ffffff" border-radius="0 0 8 8">
         <mj-column vertical-align="middle">
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" align="center">
             This email was sent to <a style="color: #007aff; text-decoration: none;" href="mailto:{account.email}" target="_blank">{account.email}</a>.
