@@ -34,7 +34,7 @@
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20180111/social_invite.png" padding="0"></mj-image>
+          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20180111/invite_to_social_banner.png" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 
