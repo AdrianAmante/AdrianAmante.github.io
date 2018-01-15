@@ -54,10 +54,10 @@
 						You don't have to do anything else, your next draft will ask you if you would like to have the content in your email posted to Linkedin.
             <br>
             <br>
-            Please reach out if you have any issues.
+            If you'd like to expand your reach even further, make sure to sign up your colleagues. Simply invite them using the link below.
           </mj-text>
           <mj-button href="#" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
-            Login now
+            Invite now
           </mj-button>
         </mj-column>
       </mj-section>
