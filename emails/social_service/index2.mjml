@@ -9,6 +9,14 @@
 
     <mj-style>
       .button-hover td table tr td:hover { background-color: #007aff !important; } .button-hover td table tr td:hover a { background-color: #007aff !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #223969 !important; }  
+      a.link {
+       color: #007aff !important;
+      text-decoration:none;
+      font-weight: bold;
+      }
+      a.link:hover {
+       color: #223969 !important;
+      }
     </mj-style>
 
   </mj-head>
@@ -44,7 +52,7 @@
           
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="center">
             At OneAffiniti, we are always looking at ways to make your digital marketing life easier. 
-Today, we bring you Social Media marketing made easy. Just like your email newsletter it's still automated and still free.</mj-text>
+Today, we bring you social media marketing, made easy. Just like your email newsletter it's still automated and still funded.</mj-text>
           <mj-button href="#" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
             Get Started
           </mj-button>
@@ -55,7 +63,7 @@ Today, we bring you Social Media marketing made easy. Just like your email newsl
         <mj-column>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>How does it work?</strong></span>
-            <br> It's simple, we turn the content from your monthly newsletter into multiple social posts.
+            <br> It's simple, we turn the content from your monthly newsletter into multiple social posts. See <a href="http://www.oneaffiniti.com/docs/social/" target="_blank" class="link">here</a> for more info.
           </mj-text>
         </mj-column>
         <mj-column>
@@ -77,8 +85,10 @@ Today, we bring you Social Media marketing made easy. Just like your email newsl
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
             <span style="line-height: 30px;"><strong>Next Steps:</strong></span>
             <br>
-            <strong>&raquo;</strong> Sign up now and we'll guide you through the set up process.  <br>
-            <strong>&raquo;</strong> If you run into any issues please contact us on the number below and we will be more than happy to help.
+            Sign up now and we'll guide you through the set up process.
+            <br>
+            <br>
+            If you run into any issues please contact us on the number below and we will be more than happy to help.
           </mj-text>
         </mj-column>
       </mj-section>
