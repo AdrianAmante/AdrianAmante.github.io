@@ -72,7 +72,7 @@ We specialise in email marketing so we would design and manage a monthly e-newsl
       <!-- button -->
       <mj-section padding="10px 15px 0" background-color="#ffffff">
         <mj-column>
-          <mj-button href="#" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
+          <mj-button href="http://www.oneaffiniti.com/consultation/" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
             Schedule your FREE consultation
           </mj-button>
         </mj-column>
