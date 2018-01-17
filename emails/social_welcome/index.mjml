@@ -63,26 +63,27 @@
       </mj-section>
               
       <!-- contact numbers -->        
-      <mj-section padding="15px 30px 0" background-color="#fdfdfd"  border-top="2px dashed #f5f5f5">
+      <mj-section padding="15px 50px 0" background-color="#fdfdfd"  border-top="2px dashed #f5f5f5">
         <mj-column>
-          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="center">
+          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="left">
             <strong>United States:</strong> +1 512 982 0928
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="center">
-            <strong>Canada:</strong> +1 647 557 8690
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0 30 15" background-color="#fdfdfd" border-bottom="2px dashed #f5f5f5">
-        <mj-column>
-          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="center">
+          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="left">
             <strong>Australia:</strong> +61 2 8599 9870
           </mj-text>
         </mj-column>
+      </mj-section>
+      <mj-section padding="0 50 15" background-color="#fdfdfd" border-bottom="2px dashed #f5f5f5">
         <mj-column>
-          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="center">
+          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="left">
+            
+            <strong>Canada:</strong> +1 647 557 8690
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" align="left">
             <strong>New Zealand:</strong> +64 9 887 3190
           </mj-text>
         </mj-column>
