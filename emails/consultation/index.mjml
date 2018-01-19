@@ -8,7 +8,7 @@
     </mj-attributes>
 
     <mj-style>
-      .button-hover td table tr td:hover { background-color: #007aff !important; } .button-hover td table tr td:hover a { background-color: #007aff !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #223969 !important; }  a.link { color: #007aff !important; text-decoration: none; } a.link:hover { color: #223969 !important; }  
+      .button-hover td table tr td:hover { background-color: #c0e2cc !important; } .button-hover td table tr td:hover a { background-color: #c0e2cc !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #c0e2cc !important; }   a.link { color: #007aff !important; text-decoration: none; } a.link:hover { color: #223969 !important; }  
     </mj-style>
 
   </mj-head>
@@ -64,7 +64,7 @@ We've recently decided to expand our business model into the Insurance Industry 
             <br>
             <span style="line-height: 30px;"><strong>WHAT CAN WE DO FOR YOU?</strong></span>
             <br>
-We specialise in email marketing so we would design and manage a monthly e-newsletter for your business featuring hot-topical content that we create to engage with your clients. (<a href="http://pr-cdn.oneaffiniti.com/campaign/129709/html/Sample-Insurance-Campaign-129709.html?x=1515735037552" class="link" target="_blank"><strong>click here</strong></a> to see an example). We still put you in charge of when and who the newsletter is sentt to, but our 'one-click' feature means it only takes a few minutes of your time each month using our safe and secure platform.
+We specialise in email marketing so we would design and manage a monthly e-newsletter for your business featuring hot-topical content that we create to engage with your clients. (<a href="http://pr-cdn.oneaffiniti.com/campaign/129709/html/Sample-Insurance-Campaign-129709.html?x=1515735037552" class="link" target="_blank">click here</a> to see an example). We still put you in charge of when and who the newsletter is sentt to, but our 'one-click' feature means it only takes a few minutes of your time each month using our safe and secure platform.
           </mj-text>
         </mj-column>
       </mj-section>
