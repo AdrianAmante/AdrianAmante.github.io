@@ -8,17 +8,7 @@
     </mj-attributes>
     
     <mj-style>
-      .button-hover td table tr td:hover  {
-      	background-color: #223969 !important;
-      }
-      .button-hover td table tr td:hover a  {
-      	background-color: #223969 !important;
-      }
-      .privacy-links a {
-       color: #007aff !important;
-      }
-      .privacy-links a:hover {
-       color: #223969 !important;
+      .button-hover td table tr td:hover { background-color: #c0e2cc !important; } .button-hover td table tr td:hover a { background-color: #c0e2cc !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #c0e2cc !important; } 
       }
     </mj-style>
 
@@ -64,7 +54,7 @@
             <br>
               We hope you like it.
           </mj-text>
-          <mj-button href="{portal_invitation_url}" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#007aff" padding="25px" inner-padding="15 30" color="white" font-size="18px">
+          <mj-button href="{portal_invitation_url}" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#1e3869" padding="25px" inner-padding="15 30" color="white" font-size="18px">
             Verify Email
           </mj-button>
         </mj-column>
