@@ -1,0 +1,83 @@
+/* custom template */
+@font-face {
+  font-family: "HP Simplified";
+  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
+  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format("eot");
+}
+
+@font-face {
+  font-family: "HP Simplified Rg";
+  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
+  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format("eot");
+}
+
+html,
+body {
+  height: 100%;
+  padding-top: 25px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: 'HP Simplified', sans-serif;
+}
+
+.wrapper,
+.row {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wrapper:before,
+.wrapper:after,
+.content-column:before,
+.content-column:after {
+  content: "";
+  display: table;
+}
+
+.wrapper:after,
+.content-column:after {
+  clear: both;
+}
+
+#sidebar {
+  background-color: #000000;
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+
+.content-column {
+  padding: 0;
+}
+
+.navbar {
+  padding: 15px 15px 10px;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.jumbotron {
+  background-size: cover;
+  padding: 50px 0 0;
+}
+
+.jumbotron .heading {
+  text-align: center;
+  padding: 15px;
+}
+
+.jumbotron .heading h1 {
+  color: #dcaa30;
+  font-weight: 300;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.jumbotron .heading p {
+  color: #dcaa30;
+}
+
+/*# sourceMappingURL=maps/main.css.map */
