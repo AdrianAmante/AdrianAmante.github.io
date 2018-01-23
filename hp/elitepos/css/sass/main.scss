@@ -24,6 +24,24 @@ body {
     font-family: 'HP Simplified', sans-serif;
 }
 
+a {
+	color: #0096d6;
+	&:hover {
+		color: #0171ad;
+		text-decoration: none;
+	}
+}
+
+
+.btn {
+	text-transform: uppercase;
+	font-weight: 300;
+	background: #ffffff;
+	border-color: #0171ad;
+	color: #0096d6;
+	border-radius: 3px;
+}
+
 .wrapper,
 .row {
     height: 100%;
@@ -45,7 +63,7 @@ body {
 }
 
 #sidebar {
-    background-color: #000000;
+    background-color: #5a5a5a;
     height: 100%;
     position: fixed;
     right: 0;
@@ -88,6 +106,25 @@ body {
 	.video-wrapper {
 		margin-bottom: 50px;
 	}
+}
+
+.img-display {
+	background: url(http://www.www8-hp.com/us/en/images/07_04_tcm245_2543681_tcm245_2543664_tcm245-2543681.jpg) no-repeat scroll 50% 50%;
+	height: 400px;
+	background-size: cover;
+}
+
+footer {
+	background: #e8e8e8;
+	padding: 100px 30px 80px;
+	text-align: center;
+}
+
+.greybar {
+	background: #363636;
+	display: block;
+	min-height: 75px;
+	content: "&nbsp;";
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
