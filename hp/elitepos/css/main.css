@@ -1,14 +1,33 @@
-/* custom template */
 @font-face {
-  font-family: "HP Simplified";
-  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot);
-  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplified-Bold.eot?#iefix) format("eot");
+  font-family: 'hp_simplifiedbold';
+  src: url("../fonts/hpsimplified-bold_1-webfont.eot");
+  src: url("../fonts/hpsimplified-bold_1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hpsimplified-bold_1-webfont.woff2") format("woff2"), url("../fonts/hpsimplified-bold_1-webfont.woff") format("woff"), url("../fonts/hpsimplified-bold_1-webfont.ttf") format("truetype"), url("../fonts/hpsimplified-bold_1-webfont.svg#hp_simplifiedbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "HP Simplified Rg";
-  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot);
-  src: url(http://www.hpcloud.com/sites/default/themes/hp_cloud_tile_base/fonts/HPSimplifiedW01-Regular.eot?#iefix) format("eot");
+  font-family: 'hp_simplifieditalic';
+  src: url("../fonts/hpsimplified-italic_1-webfont.eot");
+  src: url("../fonts/hpsimplified-italic_1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hpsimplified-italic_1-webfont.woff2") format("woff2"), url("../fonts/hpsimplified-italic_1-webfont.woff") format("woff"), url("../fonts/hpsimplified-italic_1-webfont.ttf") format("truetype"), url("../fonts/hpsimplified-italic_1-webfont.svg#hp_simplifieditalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hp_simplifiedlight';
+  src: url("../fonts/hpsimplified-light_1-webfont.eot");
+  src: url("../fonts/hpsimplified-light_1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hpsimplified-light_1-webfont.woff2") format("woff2"), url("../fonts/hpsimplified-light_1-webfont.woff") format("woff"), url("../fonts/hpsimplified-light_1-webfont.ttf") format("truetype"), url("../fonts/hpsimplified-light_1-webfont.svg#hp_simplifiedlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hp_simplifiedregular';
+  src: url("../fonts/hpsimplified-regular_2-webfont.eot");
+  src: url("../fonts/hpsimplified-regular_2-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hpsimplified-regular_2-webfont.woff2") format("woff2"), url("../fonts/hpsimplified-regular_2-webfont.woff") format("woff"), url("../fonts/hpsimplified-regular_2-webfont.ttf") format("truetype"), url("../fonts/hpsimplified-regular_2-webfont.svg#hp_simplifiedregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
@@ -17,7 +36,8 @@ body {
   padding-top: 25px;
   font-size: 1rem;
   line-height: 1.3rem;
-  font-family: 'HP Simplified', sans-serif;
+  font-family: 'hp_simplifiedlight';
+  font-weight: 200;
 }
 
 a {
@@ -36,6 +56,12 @@ a:hover {
   border-color: #0171ad;
   color: #0096d6;
   border-radius: 3px;
+}
+
+.btn:hover {
+  background: #0096d6;
+  border-color: #0096d6;
+  color: #ffffff;
 }
 
 .wrapper,
