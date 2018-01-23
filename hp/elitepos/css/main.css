@@ -96,9 +96,7 @@ body {
   max-width: 100%;
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+.embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
