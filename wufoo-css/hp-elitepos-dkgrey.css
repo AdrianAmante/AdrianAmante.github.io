@@ -253,6 +253,7 @@
     background-color: #0096d6;
     color: #ffffff;
     font-family: 'hp_simplifiedlight', sans-serif !important;
+    text-transform: uppercase;
 }
 
 .wufoo input.btTxt:hover {
