@@ -195,4 +195,13 @@ footer {
 	margin-top: 10%;
 }
 
+.wufoo-form {
+	.modal-content {
+		background: #5a5a5a;
+		border-radius: 0;
+		border-color: #5a5a5a;
+		padding: 15px 30px 15px 15px
+	}
+}
+
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
