@@ -51,7 +51,7 @@
 }
 
 .wufoo {
-    font-family: 'hp_simplifiedlight', sans-serif;
+    font-family: 'hp_simplifiedlight', sans-serif !important;
     margin-bottom: 1rem;
     padding: 10px;
     border:  1px solid #5a5a5a;
