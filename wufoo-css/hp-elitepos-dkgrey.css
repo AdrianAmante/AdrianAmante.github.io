@@ -115,6 +115,7 @@
     line-height: 1.5;
     color: #ffffff;
     margin-bottom: .5rem;
+    font-family: 'hp_simplifiedlight', sans-serif !important;
 }
 
 .wufoo input.field,
