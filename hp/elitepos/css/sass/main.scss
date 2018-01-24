@@ -11,9 +11,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'hp_simplifieditalic';
     src: url('../fonts/hpsimplified-italic_1-webfont.eot');
@@ -27,9 +24,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'hp_simplifiedlight';
     src: url('../fonts/hpsimplified-light_1-webfont.eot');
@@ -42,9 +36,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'hp_simplifiedregular';
@@ -66,10 +57,12 @@ html,
 body {
     height: 100%;
     padding-top: 25px;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    font-family: 'hp_simplifiedlight';
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-family: 'hp_simplifiedlight', sans-serif;
     font-weight: 200;
+    color: #767676;
+    background: #5A5A5A;
 }
 
 a {
@@ -124,18 +117,25 @@ a {
 
 .content-column {
 	padding: 0;
+	background: #ffffff;
 }
 
 .navbar {
 	padding: 15px 15px 10px;
+	&.navbar-default {
+		background: #fcfcfc;
+		border-color: #f6f6f6;
+	}
 	.navbar-brand {
 		padding: 0;
 		}
 	}
 
 .jumbotron {
-	 // background: url('http://www.www8-hp.com/us/en/images/Nantucket_Ebony_Winterfell_Family_hero_tcm245_2543603_tcm245_2543664_tcm245-2543603.jpg') no-repeat center center;
-	 background-size: cover;
+	 // background: url('/img/eliteposbg.jpg') no-repeat top center;
+	 // background-size: cover;
+	 // height: 700px;
+	 background: #ffffff;
 	// .container {
 		padding: 50px 0 0;
 		.heading {
@@ -146,10 +146,15 @@ a {
 				font-weight: 300;
 				font-size: 3rem;
 				text-transform: uppercase;
+				margin-bottom: 25px;
 			}
 			p {
 				color: $gold;
+				// &.lead {
+				// 	font-size: 1.4rem;
+				// }
 			}
+
 		}
 	// }
 }
@@ -158,6 +163,11 @@ a {
 	padding: 50px 15px;
 	.video-wrapper {
 		margin-bottom: 50px;
+		text-align: center;
+		padding: 15px;
+		h3 {
+			font-size: 1.7rem;
+		}
 	}
 }
 
@@ -178,6 +188,10 @@ footer {
 	display: block;
 	min-height: 75px;
 	content: "&nbsp;";
+}
+
+.modal-dialog {
+	margin-top: 10%;
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

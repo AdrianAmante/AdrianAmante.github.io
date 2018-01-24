@@ -67,6 +67,7 @@
                     <div class="heading">
                         <h1>HP ElitePOS Retail System</h1>
                         <p>Transform your space with a versatile point of sale system that elevates the customer experience and business operations.</p>
+                        <p class="lead">EXPERIENCE THE FUTURE OF REATIL WITH A LIVE DEMO </p>
                         <br class="hidden-lg hidden-md">
                         <a href="" class="btn btn-primary btn-lg hidden-lg hidden-md">Request a training demo</a>
                     </div>
@@ -77,16 +78,18 @@
                         <div class="col-md-10 col-md-offset-1">
                             <div class="row">
                                 <div class="col-sm-6 video-wrapper">
-                                    <div class='embed-container'>
-                                        <iframe src='https://www.youtube.com/embed/9eqlppp74Ks' frameborder='0' allowfullscreen></iframe>
-                                    </div>
+                                    <a href="#" data-toggle="modal" data-target=".dura-vid">
+                                        <img src="img/vid-dura.jpg" alt="Durability" class="img-responsive center-block">
+                                    </a>
                                     <h3>Durability</h3>
+                                    Entrust a device that’s not only beautiful but retail-hardened. It's designed for extended days and a longer operating lifecycle.
                                 </div>
                                 <div class="col-sm-6 video-wrapper">
-                                    <div class='embed-container'>
-                                        <iframe src='https://www.youtube.com/embed/9eqlppp74Ks' frameborder='0' allowfullscreen></iframe>
-                                    </div>
+                                    <a href="#" data-toggle="modal" data-target=".secu-vid">
+                                        <img src="img/vid-secu.jpg" alt="Security" class="img-responsive center-block">
+                                    </a>
                                     <h3>Security</h3>
+                                    Today’s business calls for next-level security. The HP ElitePOS answers with HP SureStart Gen3, a self-healing PC BIOS and firmware that shields against attacks to help keep your data and devices safe and secure.
                                 </div>
                             </div>
                         </div>
@@ -95,16 +98,18 @@
                         <div class="col-md-10 col-md-offset-1">
                             <div class="row">
                                 <div class="col-sm-6 video-wrapper">
-                                    <div class='embed-container'>
-                                        <iframe src='https://www.youtube.com/embed/9eqlppp74Ks' frameborder='0' allowfullscreen></iframe>
-                                    </div>
+                                    <a href="#" data-toggle="modal" data-target=".conf-vid">
+                                        <img src="img/vid-conf.jpg" alt="Configuration" class="img-responsive center-block">
+                                    </a>
                                     <h3>Configuration</h3>
+                                    Alluring and easy to use. Build the ideal solution—whether it’s for checkout, interactive signage or self-service.
                                 </div>
                                 <div class="col-sm-6 video-wrapper">
-                                    <div class='embed-container'>
-                                        <iframe src='https://www.youtube.com/embed/9eqlppp74Ks' frameborder='0' allowfullscreen></iframe>
-                                    </div>
+                                    <a href="#" data-toggle="modal" data-target=".serv-vid">
+                                        <img src="img/vid-serv.jpg" alt="Serviceability" class="img-responsive center-block">
+                                    </a>
                                     <h3>Serviceability</h3>
+                                    Designed for a 5-year manufacturing lifecycle with a 3-year standard limited warranty.2 Get up to 5 years' peace of mind with optional HP Care services.
                                 </div>
                             </div>
                         </div>
@@ -130,6 +135,29 @@
             </div>
         </div>
     </div>
+
+
+<div class="modal fade dura-vid" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/yXWrnKpxm5Q' frameborder='0' allowfullscreen></iframe></div>
+  </div>
+</div>
+<div class="modal fade secu-vid" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/xbMwu_Bol7k' frameborder='0' allowfullscreen></iframe></div>
+  </div>
+</div>
+<div class="modal fade conf-vid" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ExMM3UX96_c' frameborder='0' allowfullscreen></iframe></div>
+  </div>
+</div>
+<div class="modal fade serv-vid" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/AnZrFJBZySY' frameborder='0' allowfullscreen></iframe></div>
+  </div>
+</div>
+
     <!-- jQuery -->
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <script>
@@ -141,6 +169,16 @@
     <script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
     <!-- Custom js -->
     <script src="js/main.js"></script>
+    <script>
+        $('.modal').on('hide.bs.modal', function(e) {    
+            var $if = $(e.delegateTarget).find('iframe');
+            var src = $if.attr("src");
+            $if.attr("src", '/empty.html');
+            $if.attr("src", src);
+        });
+    </script>
 </body>
+
+
 
 </html>

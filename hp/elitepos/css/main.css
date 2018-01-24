@@ -34,10 +34,12 @@ html,
 body {
   height: 100%;
   padding-top: 25px;
-  font-size: 1rem;
-  line-height: 1.3rem;
-  font-family: 'hp_simplifiedlight';
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  font-family: 'hp_simplifiedlight', sans-serif;
   font-weight: 200;
+  color: #767676;
+  background: #5A5A5A;
 }
 
 a {
@@ -93,10 +95,16 @@ a:hover {
 
 .content-column {
   padding: 0;
+  background: #ffffff;
 }
 
 .navbar {
   padding: 15px 15px 10px;
+}
+
+.navbar.navbar-default {
+  background: #fcfcfc;
+  border-color: #f6f6f6;
 }
 
 .navbar .navbar-brand {
@@ -104,7 +112,7 @@ a:hover {
 }
 
 .jumbotron {
-  background-size: cover;
+  background: #ffffff;
   padding: 50px 0 0;
 }
 
@@ -118,6 +126,7 @@ a:hover {
   font-weight: 300;
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .jumbotron .heading p {
@@ -130,6 +139,12 @@ a:hover {
 
 .videos .video-wrapper {
   margin-bottom: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+.videos .video-wrapper h3 {
+  font-size: 1.7rem;
 }
 
 .img-display {
@@ -149,6 +164,10 @@ footer {
   display: block;
   min-height: 75px;
   content: "&nbsp;";
+}
+
+.modal-dialog {
+  margin-top: 10%;
 }
 
 .embed-container {
