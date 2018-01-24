@@ -107,6 +107,7 @@
 
 .wufoo li.focused {
     background-color: #5a5a5a;
+    color: #dcaa30;
 }
 
 .wufoo span.req {
@@ -247,10 +248,11 @@
     padding: .5rem .75rem;
     font-size: 1rem;
     line-height: 1.25;
-    border-radius: .25rem;
+    border-radius: 3px;
     transition: all .15s ease-in-out;
-    background-color: #08A5DC;
+    background-color: #0096d6;
     color: #ffffff;
+    font-family: 'hp_simplifiedlight', sans-serif !important;
 }
 
 .wufoo input.btTxt:hover {
