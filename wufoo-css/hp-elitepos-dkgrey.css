@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'hp_simplifiedbold';
-    src: url('../fonts/hpsimplified-bold_1-webfont.eot');
-    src: url('../fonts/hpsimplified-bold_1-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hpsimplified-bold_1-webfont.woff2') format('woff2'),
-         url('../fonts/hpsimplified-bold_1-webfont.woff') format('woff'),
-         url('../fonts/hpsimplified-bold_1-webfont.ttf') format('truetype'),
-         url('../fonts/hpsimplified-bold_1-webfont.svg#hp_simplifiedbold') format('svg');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.svg#hp_simplifiedbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'hp_simplifieditalic';
-    src: url('../fonts/hpsimplified-italic_1-webfont.eot');
-    src: url('../fonts/hpsimplified-italic_1-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hpsimplified-italic_1-webfont.woff2') format('woff2'),
-         url('../fonts/hpsimplified-italic_1-webfont.woff') format('woff'),
-         url('../fonts/hpsimplified-italic_1-webfont.ttf') format('truetype'),
-         url('../fonts/hpsimplified-italic_1-webfont.svg#hp_simplifieditalic') format('svg');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.svg#hp_simplifieditalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'hp_simplifiedlight';
-    src: url('../fonts/hpsimplified-light_1-webfont.eot');
-    src: url('../fonts/hpsimplified-light_1-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hpsimplified-light_1-webfont.woff2') format('woff2'),
-         url('../fonts/hpsimplified-light_1-webfont.woff') format('woff'),
-         url('../fonts/hpsimplified-light_1-webfont.ttf') format('truetype'),
-         url('../fonts/hpsimplified-light_1-webfont.svg#hp_simplifiedlight') format('svg');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.svg#hp_simplifiedlight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'hp_simplifiedregular';
-    src: url('../fonts/hpsimplified-regular_2-webfont.eot');
-    src: url('../fonts/hpsimplified-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hpsimplified-regular_2-webfont.woff2') format('woff2'),
-         url('../fonts/hpsimplified-regular_2-webfont.woff') format('woff'),
-         url('../fonts/hpsimplified-regular_2-webfont.ttf') format('truetype'),
-         url('../fonts/hpsimplified-regular_2-webfont.svg#hp_simplifiedregular') format('svg');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.svg#hp_simplifiedregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
