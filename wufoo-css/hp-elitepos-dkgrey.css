@@ -49,11 +49,11 @@
 }
 
 .wufoo li.focused {
-    background-color: #f5f5f5;
+    background-color: #5a5a5a;
 }
 
 .wufoo span.req {
-    color: #FF6124 !important;
+    color: #dcaa30 !important;
 }
 
 .wufoo label.desc,
@@ -61,7 +61,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     margin-bottom: .5rem;
 }
 
