@@ -130,11 +130,16 @@ a:hover {
   font-weight: 300;
   font-size: 3rem;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .jumbotron .heading p {
   color: #dcaa30;
+  font-size: 1rem;
+}
+
+.jumbotron .heading p.lead {
+  font-size: 1.5rem;
 }
 
 .videos {
