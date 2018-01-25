@@ -72,7 +72,7 @@
 
 .wufoo .info h2 {
     color: #ffffff;
-    display: none;
+    /* display: none; */
 }
 
 .wufoo .info div {
