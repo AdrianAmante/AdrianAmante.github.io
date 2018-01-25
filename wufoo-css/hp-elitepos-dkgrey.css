@@ -72,11 +72,12 @@
 
 .wufoo .info h2 {
     color: #ffffff;
-    /* display: none; */
+    display: none;
 }
 
 .wufoo .info div {
     color: #ffffff;
+    font-size: 100%;
 }
 
 .wufoo .section section {}
