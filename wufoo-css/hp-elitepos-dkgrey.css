@@ -289,6 +289,6 @@ form li.error {
     padding-bottom: 0 !important;
 }
 
-form li.error p.error, form li.error .desc {
+form li.error p.error, form li.error .desc, form li.error label, form li.error span.symbol {
     color: #dcaa30 !important;
 }
