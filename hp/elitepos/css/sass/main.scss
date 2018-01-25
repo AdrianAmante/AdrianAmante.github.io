@@ -112,9 +112,11 @@ a {
     background-color: #5a5a5a;
     height: 100%;
     position: fixed;
+    top: 0;
     right: 0;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-right: 20px;
+    z-index: 999999;
 }
 
 .content-column {
@@ -202,6 +204,9 @@ footer {
 		border-radius: 0;
 		border-color: #5a5a5a;
 		padding: 5px 10px 15px 5px;
+		iframe {
+			height: 660px !important;
+		}
 	}
 }
 
