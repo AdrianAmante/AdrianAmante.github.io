@@ -279,3 +279,14 @@
     color: #dcaa30;
 }
 .embed{overflow:auto !important}
+
+#errorLi, .error-container {
+    display: none;
+}
+form li.error {
+    background: #545454 !important;
+}
+
+form li.error p.error, form li.error .desc {
+    color: #dcaa30 !important;
+}
