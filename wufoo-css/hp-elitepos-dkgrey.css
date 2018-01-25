@@ -284,7 +284,9 @@
     display: none;
 }
 form li.error {
-    background: #545454 !important;
+    background: #5a5a5a !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 form li.error p.error, form li.error .desc {
