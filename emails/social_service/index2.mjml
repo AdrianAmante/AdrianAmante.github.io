@@ -52,7 +52,7 @@
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="center">
             At OneAffiniti, we are always looking at ways to make your digital marketing life easier. 
 Today, we bring you social media marketing, made easy. Just like your email newsletter it's still automated and still funded.</mj-text>
-          <mj-button href="#" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
+          <mj-button href="https://hub.oneaffiniti.com/" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
             Get Started
           </mj-button>
         </mj-column>

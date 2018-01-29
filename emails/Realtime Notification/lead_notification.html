@@ -103,6 +103,35 @@
         .privacy-links a:hover {
             color: #c0e2cc !important;
         }
+
+        a.link {
+            color: #007aff !important;
+            text-decoration: none;
+        }
+
+        a.link:hover {
+            color: #223969 !important;
+        }
+
+        @media only screen and (max-width:480px) {
+            .result-table tr td {
+                width: 100% !important;
+                display: block !important;
+                font-size: 12px !important;
+                padding-bottom: 10px !important;
+                ;
+            }
+            .result-table tr th.head {
+                font-size: 14px !important;
+                background: #ffffff !important;
+            }
+            .result-table tr th {
+                width: 100% !important;
+                display: block !important;
+                font-size: 12px !important;
+                background: #f5f5f5;
+            }
+        }
     </style>
     <style type="text/css">
         @media only screen and (min-width:480px) {
@@ -250,7 +279,7 @@
             <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center" border="0">
                 <tbody>
                     <tr>
-                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:30px 10px 15px;">
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:30px 10px 0px;">
                             <!--[if mso | IE]>
       <table role="presentation" border="0" cellpadding="0" cellspacing="0">
         <tr>
@@ -261,18 +290,107 @@
                                     <tbody>
                                         <tr>
                                             <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
-                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;line-height:22px;text-align:left;"><strong>Hi {user_name},</strong></div>
+                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;line-height:22px;text-align:left;"><strong>Hi {first_name},</strong></div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
-                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;">Your account has successfully been registered.
-                                                    <br>
-                                                    <br> We believe that we can now make social media as easy for you as we have made sending monthly emails.
-                                                    <br>
-                                                    <br> You don't have to do anything else, your next draft will ask you if you would like to have the content in your email posted to Linkedin.
-                                                    <br>
-                                                    <br> If you'd like to expand your reach even further, make sure to sign up your colleagues. Simply invite them using the link below.</div>
+                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;">The telemarketing agency have now completed their calls for the opportunity below, which resulted in {opportunity_status}. <br></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px 10px;">
+                            <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="vertical-align:top;width:600px;">
+      <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="result-table">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;table-layout:auto;" width="100%" border="0">
+                                                    <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;font-size:16px;">
+                                                        <th class="head" colspan="2" style="color:90A4AE; padding: 5px;">Opportunity Details
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" width="150" style="color:90A4AE; padding: 3px 5px;">Contact Name:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserName}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Contact Email:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserEmail}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Company:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{EndUserCompany}</td>
+                                                    </tr>
+                                                    <tr style="border-bottom:1px solid #ecedee;">
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Opportunity Type:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{OpportunityType}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 10px 15px;">
+                            <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="vertical-align:top;width:600px;">
+      <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
+                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;">For more details, please visit the <a class="link" href="https://hub.oneaffiniti.com">Lead Hub</a>.</div>
                                             </td>
                                         </tr>
                                         <tr class="button-hover">
@@ -281,7 +399,7 @@
                                                     <tbody>
                                                         <tr>
                                                             <td style="border:none;border-radius:3px;color:white;cursor:auto;padding:15px 30px;" align="center" valign="middle" bgcolor="#223969"><a href="https://hub.oneaffiniti.com" style="text-decoration:none;background:#223969;color:white;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:120%;text-transform:none;margin:0px;"
-                                                                    target="_blank">Invite now</a></td>
+                                                                    target="_blank">View Opportunity</a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
