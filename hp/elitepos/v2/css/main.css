@@ -204,10 +204,6 @@ footer .container {
   padding: 5px 10px 15px 5px;
 }
 
-.wufoo-form .modal-content iframe {
-  height: 620px !important;
-}
-
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
