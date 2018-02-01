@@ -59,7 +59,7 @@
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20180113/social_welcome_banner.png" padding="0"></mj-image>
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180130/lead_notification.png" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 
