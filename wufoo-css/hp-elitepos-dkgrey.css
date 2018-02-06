@@ -304,5 +304,5 @@ form p.error {
 .form li.error  textarea.textarea,
 .form li.error  select.select {
     /* background-color: #fff; */
-    border: 1px solid #dcaa30;
+    border: 1px solid #dcaa30 !important;
 }
