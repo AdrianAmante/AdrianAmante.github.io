@@ -149,6 +149,17 @@ main:after {
   font-size: 1.7rem;
 }
 
+.videos .video-wrapper a img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.videos .video-wrapper a img:hover {
+  opacity: 0.7;
+}
+
 .two-col-img .rear {
   background: url(https://pr-cdn.oneaffiniti.com/upload/general/20180202/rear.jpg) no-repeat scroll 50% 50%;
   height: 300px;
