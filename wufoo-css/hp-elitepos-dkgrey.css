@@ -296,7 +296,7 @@ form li.error p.error, form li.error .desc, form li.error label, form li.error s
 }
 
 form p.error {
-    display: none !important;
+    /* display: none !important; */
 }
 
 .form li.error  input.field,
