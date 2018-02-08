@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+
+  <head>
+<link rel="stylesheet" href="introjs.css" />
+  </head>
+
+  <body>
+    
+   <div class="container-narrow" ng-controller="MyController"
+     ng-intro-options="IntroOptions" ng-intro-method="CallMe"
+     ng-intro-oncomplete="CompletedEvent" ng-intro-onexit="ExitEvent"
+     ng-intro-onchange="ChangeEvent" ng-intro-onbeforechange="BeforeChangeEvent"
+     ng-intro-autostart="false">
+
+    <div class="masthead">
+        <ul id="step5" class="nav nav-pills pull-right">
+            <li><a href="http://code.mendhak.com/angular-intro.js/example/index.html">Download</a></li>
+            <li>aliqua</li>
+        </ul>
+    </div>
+
+    <div class="jumbotron">
+        <h1 id="step1">Lorem ipsum</h1>
+        <p id="step4" class="lead">consectetur adipisicing elit</p>
+        <button class="btn btn-large btn-success" ng-click="CallMe();">Demo</button>
+        <button class="btn btn-large btn-success" ng-click="CallMe(3);">Start at step 3</button>
+
+    </div>
+
+
+    <div class="row-fluid marketing">
+        <br /><br />
+        <span id="step2" class="span6">
+           sed do eiusmod tempor
+        </span>
+        <br /><br />
+        <span id="step3" class="span6">
+            incididunt ut labore et dolore
+
+             </span>
+    </div>
+
+    <hr>
+
+</div>
+
+    <script data-require="angular.js@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="intro.min.js"></script>
+    <script src="angular-intro.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+</html>
