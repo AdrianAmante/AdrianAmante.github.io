@@ -306,3 +306,7 @@ form p.error {
     /* background-color: #fff; */
     border: 1px solid #dcaa30 !important;
 }
+
+.confirm h2 {
+    color: #ffffff;
+}
