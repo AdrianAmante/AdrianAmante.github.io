@@ -41,7 +41,7 @@
 
         img {
             border: 0;
-            /*height: auto;*/
+            height: auto;
             line-height: 100%;
             outline: none;
             text-decoration: none;
@@ -249,7 +249,7 @@
                                                 <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="center" border="0">
                                                     <tbody>
                                                         <tr>
-                                                            <td style="width:600px;"><img alt="" title="" height="auto" src="http://pr-cdn.oneaffiniti.com/upload/general/20180113/social_welcome_banner.png" style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;"
+                                                            <td style="width:600px;"><img alt="" title="" height="auto" src="https://pr-cdn.oneaffiniti.com/upload/general/20180130/lead_notification.png" style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;"
                                                                     width="600"></td>
                                                         </tr>
                                                     </tbody>
@@ -295,7 +295,64 @@
                                         </tr>
                                         <tr>
                                             <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
-                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;">The telemarketing agency have now completed their calls for the opportunity below, which resulted in {opportunity_status}. <br></div>
+                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;">{HubUserFirstName} {HubUserEmailAddress} would like to share details of the below opportunity with you.<br></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px 10px;">
+                            <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="vertical-align:top;width:600px;">
+      <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="result-table">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;table-layout:auto;" width="100%" border="0">
+                                                    <tr align="left" style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;font-size:16px;">
+                                                        <th class="head" colspan="2" style="color:90A4AE; padding: 5px;">Customer Contact Details</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" width="150" style="color:90A4AE; padding: 3px 5px;">Contact Name:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserName}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Contact Email:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserEmail}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Contact Phone:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserPhone}</td>
+                                                    </tr>
+                                                    <tr style="border-bottom:1px solid #ecedee;">
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Company:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserCompany}</td>
+                                                    </tr>
+                                                </table>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -338,20 +395,28 @@
                                                         </th>
                                                     </tr>
                                                     <tr>
-                                                        <th align="left" valign="top" width="150" style="color:90A4AE; padding: 3px 5px;">Contact Name:</th>
-                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserName}</td>
+                                                        <th align="left" valign="top" width="150" style="color:90A4AE; padding: 3px 5px;">Opportunity Type:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{OpportunityType}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Contact Email:</th>
-                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{EndUserEmail}</td>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Opportunity Status:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{OpportunityStatus}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Company:</th>
-                                                        <td style="color:90A4AE; padding: 3px 5px;">{EndUserCompany}</td>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Project Summary:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{OpportunityProject}</td>
                                                     </tr>
-                                                    <tr style="border-bottom:1px solid #ecedee;">
-                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Opportunity Type:</th>
-                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{OpportunityType}</td>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Project Budget:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{OpportunityBudget}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Due Date:</th>
+                                                        <td style="color:90A4AE; padding: 3px 5px;">{OpportunityDueDate}</td>
+                                                    </tr>
+                                                    <tr style="border-bottom:1px solid #ecedee;text-align:left;">
+                                                        <th align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">Project Details:</th>
+                                                        <td align="left" valign="top" style="color:90A4AE; padding: 3px 5px;">{OpportunityProjectDetails}</td>
                                                     </tr>
                                                 </table>
                                             </td>
