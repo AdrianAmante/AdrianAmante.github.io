@@ -1,0 +1,1467 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <title>Subscriber Summary</title>
+    <!--[if !mso]><!-- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        #outlook a {
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            /* height: auto; */
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            display: block;
+            margin: 13px 0;
+        }
+
+        .MsoNormal {
+            background: transparent !important;
+        }
+    </style>
+    <!--[if !mso]><!-->
+    <style type="text/css">
+        @media only screen and (max-width:480px) {
+            @-ms-viewport {
+                width: 320px;
+            }
+            @viewport {
+                width: 320px;
+            }
+        }
+    </style>
+    <!--<![endif]-->
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .outlook-group-fix {
+        width:100% !important;
+      }
+    </style>
+    <![endif]-->
+    <!--[if mso]>
+    <style type="text/css">
+      .MsoNormal {
+        background: transparent !important;
+    }
+    </style>
+    <![endif]-->
+    <style type="text/css">
+        .container {
+            background: #ebebeb;
+        }
+
+        a {
+            color: #57606F !important;
+            text-decoration: none !important;
+        }
+
+        .ii a,
+        .ii a[href] {
+            color: #57606F !important;
+            text-decoration: none !important;
+        }
+
+        a[x-apple-data-detectors] {
+            color: #57606F !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        u+#body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        span.mail-link,
+        span.mail-link a,
+        span.mail-link a[href] {
+            color: #57606F !important;
+            text-decoration: none !important;
+        }
+
+        .preheader,
+        span[summary=preheader] {
+            display: none !important;
+            margin-left: -9999 !important;
+            width: 0 !important;
+            height: 0 !important;
+            visibility: hidden !important;
+            min-width: 0 !important;
+            min-height: 0 !important;
+            font-size: 0 !important;
+            line-height: 0 !important;
+        }
+
+        .button-hover td table tr td:hover {
+            background-color: #C6EAD0 !important;
+        }
+
+        .button-hover td table tr td:hover a {
+            background-color: #C6EAD0 !important;
+        }
+
+
+        @media screen and(max-width: 480px) {
+            *[class=m-responsive] {
+                width: 100% !important;
+                height: auto !important;
+                display: block !important;
+            }
+            td[class=m-responsive] {
+                width: 100%!important;
+                height: auto!important;
+                display: block!important;
+            }
+            *[class=m-hidden] {
+                display: none !important;
+            }
+            .m-hidden {
+                display: none !important;
+            }
+            *[class=m-center] {
+                width: 100% !important;
+                height: auto !important;
+                display: block !important;
+                text-align: center;
+            }
+            *.m-center {
+                width: 100% !important;
+                height: auto !important;
+                display: block !important;
+                text-align: center;
+            }
+            td.col-perf {
+                display: block !important;
+                width: 100% !important;
+            }
+
+        }
+    </style>
+    <style type="text/css">
+        @media only screen and (min-width:480px) {
+            .mj-column-per-100 {
+                width: 100%!important;
+            }
+            .mj-column-per-100 {
+                width: 100%!important;
+            }
+            .mj-column-per-50 {
+                width: 50%!important;
+            }
+            .mj-column-per-50 {
+                width: 50%!important;
+            }
+            .mj-column-per-33 {
+                width: 33.333333333333336%!important;
+            }
+        }
+    </style>
+</head>
+
+<body id="body" style="background: #ebebeb;">
+    <span class="preheader" summary="preheader" style="display:none !important; Margin-left:-9999 !important; width:0 !important; height:0 !important; visibility:hidden !important; min-width:0 !important; min-height:0 !important; font-size:0 !important; line-height:0 !important"
+        width="0 !important" height="0 !important">
+        Here is a summary of your last Campaign. It includes your most valuable subscribers as well as a snapshot of your campaign.
+    </span>
+    <div class="mj-container container" style="background-color:#ebebeb;">
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;max-width:600px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="left">
+                                                <div style="cursor:auto;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:0px;line-height:22px;text-align:left;"></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;border-radius:6px 6px 0px 0px;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;border-radius:6px 6px 0px 0px;background:#ffffff;"
+                align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;font-size:0px;line-height:0px;text-align:left;width:100%;">
+                                <!--[if mso | IE]>
+                            <table  role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:middle;width:300px;">
+                            <![endif]-->
+                                <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:middle;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:middle;" width="100%" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td style="word-wrap:break-word;font-size:0px;padding:5px 20px;" align="left">
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="left"
+                                                        border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="width:140px;">
+                                                                    <img alt="OneAffiniti" title="" height="auto" src="http://pr-cdn.oneaffiniti.com/upload/general/20171004/1a_logo.png"
+                                                                        style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;"
+                                                                        width="140">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!--[if mso | IE]>
+                                </td>
+                                <td style="vertical-align:middle;width:300px;">
+                                <![endif]-->
+                                <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:middle;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:middle;" width="100%" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td style="word-wrap:break-word;font-size:0px;padding:0;" align="right">
+                                                    <div style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;line-height:22px;text-align:right;">{summary_date}
+                                                    </div>
+                                                </td>
+                                                <td width="57" valign="top" align="right" style="word-wrap:break-word;font-size:0px;padding:0;">
+                                                    <div style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;line-height:22px;text-align:right;">
+                                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20180123/1516667154beta.png" width="76" alt="BETA">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!--[if mso | IE]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- HIGH VALUE SUBSCRIBER SUMMARY OVERRIDE START -->
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#2C3E69;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#2C3E69;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:30px 15px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:center;">
+                                                    <strong>HIGH VALUE SUBSCRIBER SUMMARY</strong>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;">
+                                                <div style="font-size:1px;line-height:5px;white-space:nowrap;"> </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:18px;text-align:center;">Based on your campaign here is a list of valued subscribers contact.</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+
+
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:undefined;width:600px;">
+                            <![endif]-->
+                            <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                width="100%" border="0">
+                                <tr>
+                                    <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Subscriber:</th>
+                                    <!-- <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Phone:</th> -->
+                                    <th valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Lead Type:</th>
+                                    <th valign="middle" width="100" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">Quality:</th>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email-1}</td>
+                                    <!-- <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone-1}</td> -->
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type-1}</td>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171220/rating_{rating-1}.png" alt="{rating-1}">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email-2}</td>
+                                    <!-- <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone-2}</td> -->
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type-2}</td>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171220/rating_{rating-2}.png" alt="{rating-2}">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email-3}</td>
+                                    <!-- <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone-3}</td> -->
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type-3}</td>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171220/rating_{rating-3}.png" alt="{rating-3}">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email-4}</td>
+                                    <!-- <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone-4}</td> -->
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type-4}</td>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171220/rating_{rating-4}.png" alt="{rating-4}">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{email-5}</td>
+                                    <!-- <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{phone-5}</td> -->
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">{type-5}</td>
+                                    <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                        <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171220/rating_{rating-5}.png" alt="{rating-5}">
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#fff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#fff;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px 15px 20px;">
+                            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td style="vertical-align:top;width:600px;">
+                        <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="button-hover">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="center">
+                                                <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="border:none;border-radius:3px;color:#ffffff;cursor:auto;padding:18px 35px;" align="center" valign="middle" bgcolor="#2C3E69">
+                                                                <a href="https://hub.oneaffiniti.com" style="text-decoration:none;background:#2C3E69;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:120%;text-transform:none;margin:0px;"
+                                                                    target="_blank">
+                                                                    <span color="#ffffff" style="color: #ffffff;">SEE ALL LEADS</span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!-- HIGH VALUE SUBSCRIBER SUMMARY OVERRIDE END -->
+
+
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#2C3E69;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#2C3E69;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:30px 15px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:center;">
+                                                    <strong>PERFORMANCE</strong>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;">
+                                                <div style="font-size:1px;line-height:5px;white-space:nowrap;"> </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:18px;text-align:center;">Here is the summary of your last campaign.</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#f9f9f9;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#f9f9f9;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="m-responsive">
+                                            <td class="m-responsive" valign="middle" align="center" style="padding-bottom:5px;">
+                                                <!-- 3 columns -->
+                                                <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                    <tr class="m-responsive">
+                                                        <td class="m-responsive" valign="middle" align="center" width="33.33%" style="width:33.33%; padding:15px; background: #fff; border-left: 5px solid #f9f9f9; border-right: 5px solid #f9f9f9; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                            <!-- Reach-->
+                                                            <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#2ecc71; font-size:22px; line-height:22px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        {recipients}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="font-size:14px; line-height:12px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        REACH
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style=" color: #90A4AE; font-size:11px; line-height:11px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        This is the number of emails delivered
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- End Reach-->
+                                                        </td>
+                                                        <td class="m-responsive" valign="middle" align="center" width="33.33%" style="width:33.33%; padding:15px; background: #fff; border-left: 5px solid #f9f9f9; border-right: 5px solid #f9f9f9; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                            <!-- Open -->
+                                                            <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#2ecc71; font-size:22px; line-height:22px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        {opens}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="font-size:14px; line-height:12px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        OPEN
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#90A4AE; font-size:11px; line-height:11px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        Number of unique users that opened your email
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- End Open -->
+                                                        </td>
+                                                        <td class="m-responsive" valign="middle" align="center" width="33.33%" style="width:33.33%; padding:15px; background: #fff; border-left: 5px solid #f9f9f9; border-right: 5px solid #f9f9f9; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                           <!-- Engagement -->
+                                                           <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#2ecc71; font-size:22px; line-height:22px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        {clicks}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="font-size:14px; line-height:12px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        ENGAGEMENT
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#90A4AE; font-size:11px; line-height:11px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        Number of users that clicked your email
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        <!-- End Engagement -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- end 3 columns -->
+                                            </td>
+                                        </tr>
+                                        <tr class="m-responsive">
+                                            <td class="m-responsive" valign="middle" align="center">
+                                                <!-- 2 columns -->
+                                                <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                    <tr>
+                                                        <td class="m-responsive" valign="middle" align="center" width="50%" style="width:50%; padding:15px; background: #fff; border-left: 5px solid #f9f9f9; border-right: 5px solid #f9f9f9; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                            <!-- Bounce -->
+                                                           <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#e74c3c; font-size:22px; line-height:22px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        {bounces}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="font-size:14px; line-height:12px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        BOUNCE
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#90A4AE; font-size:11px; line-height:11px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        Number of email that could not be delivered
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        <!-- End Engagement -->
+                                                        </td>
+                                                        <td class="m-responsive" valign="middle" align="center" width="50%" style="width:50%; padding:15px; background: #fff; border-left: 5px solid #f9f9f9; border-right: 5px solid #f9f9f9; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                            <!-- Engagement -->
+                                                           <table class="m-responsive" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#e74c3c; font-size:22px; line-height:22px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        {unsubscribes}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="font-size:14px; line-height:12px; font-weight: 600; padding-bottom: 5px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        UNSUBSCRIBES
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="m-responsive">
+                                                                    <td class="m-responsive" valign="middle" align="center" style="color:#90A4AE; font-size:11px; line-height:11px; background: #fff; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">
+                                                                        Number of users who opted-out
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        <!-- End Engagement -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- end 2 columns -->
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+         <![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:300px;">
+                            <![endif]-->
+                            <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="left" style="color: #2ecc71; font-size: 16px; line-height: 16px; padding:5px 0;">
+                                                            <strong>Top 5 Opens</strong>
+                                                        </td>
+                                                        <td valign="top" align="right">
+                                                            <a href="https://login.createsend.com/l" target="_blank" style="color: #A5ADB7; background: #F0F5F7; padding:2px 4px 1px 4px; font-size: 9px; text-transform: uppercase; line-height: 9px; text-decoration: none;">More Info</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="middle" align="left">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{open-email-variable-1}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{open-email-variable-2}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{open-email-variable-3}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{open-email-variable-4}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{open-email-variable-5}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="color:#57606F; font-size: 13px; padding: 2px 0;">{open-email-variable-no-value}</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td><td style="vertical-align:top;width:300px;">
+                            <![endif]-->
+                            <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="left" style="color: #2ecc71; font-size: 16px; line-height: 16px; padding:5px 0;">
+                                                            <strong>Top 5 Clicks</strong>
+
+                                                        </td>
+                                                        <td valign="top" align="right">
+                                                            <a href="https://login.createsend.com/l" target="_blank" style="color: #A5ADB7; background: #F0F5F7; padding:2px 4px 1px 4px; font-size: 9px; text-transform: uppercase; line-height: 9px; text-decoration: none;">More Info</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="middle" align="left">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{click-email-variable-1}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{click-email-variable-2}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{click-email-variable-3}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{click-email-variable-4}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{click-email-variable-5}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="color:#57606F; font-size: 13px; padding: 2px 0;">{click-email-variable-no-value}</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#ffffff;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px 15px 5px;">
+                            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td style="vertical-align:top;width:300px;">
+                        <![endif]-->
+                            <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="left" style="color: #e74c3c; font-size: 16px; line-height: 16px; padding:5px 0;">
+                                                            <strong>Unsubscribes</strong>
+                                                        </td>
+                                                        <td valign="top" align="right">
+                                                            <a href="https://login.createsend.com/l" target="_blank" style="color: #A5ADB7; background: #F0F5F7; padding:2px 4px 1px 4px; font-size: 9px; text-transform: uppercase; line-height: 9px; text-decoration: none;">More Info</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="middle" align="left">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{unsubscribe-email-variable-1}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{unsubscribe-email-variable-2}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{unsubscribe-email-variable-3}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{unsubscribe-email-variable-4}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{unsubscribe-email-variable-5}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="color:#57606F; font-size: 13px; padding: 2px 0;">{unsubscribe-email-variable-no-value}</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td><td style="vertical-align:top;width:300px;">
+                            <![endif]-->
+                            <div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:50%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px;" align="left">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="left" style="color: #e74c3c; font-size: 16px; line-height: 16px; padding:5px 0;">
+                                                            <strong>Bounces</strong>
+
+                                                        </td>
+                                                        <td valign="top" align="right">
+                                                            <a href="https://login.createsend.com/l" target="_blank" style="color: #A5ADB7; background: #F0F5F7; padding:2px 4px 1px 4px; font-size: 9px; text-transform: uppercase; line-height: 9px; text-decoration: none;">More Info</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;"
+                                                    width="100%" border="0">
+                                                    <tr>
+                                                        <td valign="middle" align="left">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{bounce-email-variable-1}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{bounce-email-variable-2}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{bounce-email-variable-3}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{bounce-email-variable-4}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="left" style="color:#57606F; font-size: 13px; padding: 2px 0;">
+                                                                            <span class="mail-link">{bounce-email-variable-5}</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="color:#57606F; font-size: 13px; padding: 2px 0;">{bounce-email-variable-no-value}</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#fff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#fff;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px 15px 20px;">
+                            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td style="vertical-align:top;width:600px;">
+                        <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="button-hover">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="center">
+                                                <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="border:none;border-radius:3px;color:#ffffff;cursor:auto;padding:18px 35px;" align="center" valign="middle" bgcolor="#2C3E69">
+                                                                <a href="https://login.createsend.com/l" style="text-decoration:none;background:#2C3E69;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:120%;text-transform:none;margin:0px;"
+                                                                    target="_blank">
+                                                                    <span color="#ffffff" style="color: #ffffff;">VIEW ALL RESULTS</span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#2C3E69;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;background:#2C3E69;" align="center"
+                border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:30px 15px;">
+                            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td style="vertical-align:top;width:600px;">
+                        <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:center;">
+                                                    <strong>TIPS AND TRICKS</strong>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;">
+                                                <div style="font-size:1px;line-height:5px;white-space:nowrap;"> </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#ffffff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:18px;text-align:center;">Best practice to getting the most out of your campaigns.</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                        </td></tr></table>
+                        <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;border-radius:0px 0px 6px 6px;background:#ffffff;"
+                align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px;">
+                            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td style="vertical-align:top;width:200px;" class="m-responsive-outlook">
+                        <![endif]-->
+                            <div class="mj-column-per-33 outlook-group-fix m-responsive" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:33.3%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="m-responsive">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:5px;" align="center">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:16px;table-layout:auto;"
+                                                    width="175" border="0">
+                                                    <tr>
+                                                        <td valign="middle" align="center">
+                                                            <a href="http://www.oneaffiniti.com/email-bounces-make-opportunity/" style="display: block;">
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="padding-bottom:5px;">
+                                                                            <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171214/bounce.png" width="175" height="88" style="display:block;"
+                                                                                alt="Tips & Tricks">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" align="center" color="#57606F">
+                                                            <a href="http://www.oneaffiniti.com/email-bounces-make-opportunity/" css-class="tips-link" style="text-decoration: none; font-family:Helvetica Neue, Helvetica, Arial,sans-serif; font-size:12px; line-height: 12px; color: #57606F; padding:10px 5px 5px;">
+                                                                eMail Bounces: Make it an Opportunity
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td><td style="vertical-align:top;width:200px;" class="m-responsive-outlook">
+                            <![endif]-->
+                            <div class="mj-column-per-33 outlook-group-fix m-responsive" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:33.3%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="m-responsive">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:5px;" align="center">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:16px;table-layout:auto;"
+                                                    width="175" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="center">
+                                                            <a href="http://www.oneaffiniti.com/the-power-hour/">
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="padding-bottom:5px;">
+                                                                            <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171214/power_hour.png" alt="Tips & Tricks" width="175" height="88"
+                                                                                style="display:block;">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" align="center" color="#57606F">
+                                                            <a href="http://www.oneaffiniti.com/the-power-hour/" style="text-decoration: none; font-family:Helvetica Neue, Helvetica, Arial,sans-serif; font-size:12px; line-height: 14px; color: #57606F; padding:10px 5px 5px;">
+                                                                The Power Hour: Clicks to Conversations
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td><td style="vertical-align:top;width:200px;" class="m-responsive-outlook">
+                            <![endif]-->
+                            <div class="mj-column-per-33 outlook-group-fix m-responsive" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:33.3%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="m-responsive">
+                                            <td style="word-wrap:break-word;font-size:0px;padding:5px;" align="center">
+                                                <table cellpadding="0" cellspacing="0" style="cellspacing:0px;color:#000;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px;line-height:16px;table-layout:auto;"
+                                                    width="175" border="0">
+                                                    <tr>
+                                                        <td valign="top" align="center">
+                                                            <a href="http://www.oneaffiniti.com/email-unsubscribes-bad/">
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <tr>
+                                                                        <td valign="middle" align="center" style="padding-bottom:5px;">
+                                                                            <img src="http://pr-cdn.oneaffiniti.com/upload/general/20171214/unsubscribe.png" alt="Tips & Tricks" width="175" height="88"
+                                                                                style="display:block;">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" align="center" color="#57606F">
+                                                            <a href="http://www.oneaffiniti.com/email-unsubscribes-bad/" css-class="tips-link" style="text-decoration: none; font-family:Helvetica Neue, Helvetica, Arial,sans-serif; font-size:12px; line-height: 8px; color: #57606F; padding:10px 5px 5px;">
+                                                                eMail Unsubscribes:
+                                                                <br> Is it all bad?
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+
+
+
+
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;border-radius:0px 0px 6px 6px;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;border-radius:0px 0px 6px 6px;background:#ffffff;"
+                align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;border-top:1px solid #f5f5f5;direction:ltr;font-size:0px;padding:40px 20px;">
+                            <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="vertical-align:top;width:600px;">
+      <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px 0px 5px 0px;" align="center">
+                                                <div style="cursor:auto;color:#2C3E69;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:18px;line-height:18px;text-align:center;">
+                                                    <strong>Did you find this information useful?</strong>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px 0px 10px 0px;" align="center">
+                                                <div style="cursor:auto;color:#57606F;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:18px;text-align:center;">Your feedback will help us improve this email, please let us know what you think.</div>
+                                            </td>
+                                        </tr> -->
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="center">
+                                                <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="center"
+                                                    border="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width:124px;">
+                                                                <a href="https://insights.hotjar.com/s?siteId=409958&surveyId=34485"
+                                                                    target="_blank">
+
+                                                                    <img alt="" title="" height="51" src="https://pr-cdn.oneaffiniti.com/upload/general/20180201/1517447444thumbs.png" style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:51px;"
+                                                                        width="124">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+
+
+
+
+
+
+
+
+
+
+        <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+        <div style="margin:0px auto;border-radius:0px 0px 8px 8px;max-width:600px;background:#ffffff;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;border-radius:0px 0px 8px 8px;background:#ffffff;"
+                align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;border-top:1px solid #f5f5f5;direction:ltr;font-size:0px;padding:0px;">
+                            <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="vertical-align:middle;width:600px;">
+      <![endif]-->
+                            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:middle;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:middle;" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="center">
+                                                <div style="cursor:auto;color:#90A4AE;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;line-height:22px;text-align:center;">This email was sent to
+                                                    <a style="color: #007aff; text-decoration: none;"
+                                                        href="mailto:{sent_to_email}" target="_blank">{draft_email_to}</a>
+                                                    <br>from {account.name} as you are part of OneAffiniti's Partner Program.
+                                                    Campaign ID: {campaign_id}</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+        <!--[if mso | IE]>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+        <![endif]-->
+        <div style="margin:0px auto;max-width:600px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;">
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td style="vertical-align:top;width:600px;">
+                            <![endif]-->
+                            <!-- <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center">
+                                                <div style="cursor:auto;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:center;">
+                                                    <unsubscribe style="text-decoration:none;color:#13b5ea;">UNSUBSCRIBE</unsubscribe>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> -->
+                            <!--[if mso | IE]>
+                            </td></tr></table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--[if mso | IE]>
+        </td></tr></table>
+        <![endif]-->
+    </div>
+</body>
+
+</html>
