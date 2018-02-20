@@ -1,32 +1,33 @@
 function startIntro() {
-    var intro = introJs();
+    var intro = introJs(#test);
     intro.setOptions({
-        steps: [
+        steps: [{
+                intro: "Hello world!"
+            },
             {
-                element: document.querySelector('.intro-op-sum-1'),
+                element: document.querySelector('.step1'),
                 intro: "This is a tooltip."
             },
             {
-                element: document.querySelectorAll('.intro-op-sum-2')[0],
-                intro: "Ok, wasn't that fun?",
-                position: 'right'
-            },
-            {
-                element: '.intro-op-sum-3',
+                element: '.step2',
                 intro: 'More features, more fun.',
                 position: 'left'
             },
             {
-                element: '.intro-op-sum-4',
+                element: '.step3',
                 intro: "Another step.",
                 position: 'bottom'
             },
             {
-                element: '.intro-op-sum-5',
-                intro: 'Get it, use it.',
-                skipLabel: 'Exit'
+                element: '.step4',
+                intro: 'Get it, use it.'
+            },
+            {
+                element: '.step5',
+                intro: 'Finally'
             }
         ]
     });
-    intro.start();
+
+    intro.start(#test);
 }
