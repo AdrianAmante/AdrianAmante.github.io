@@ -1,5 +1,5 @@
 function startIntro() {
-    var intro = introJs(#test);
+    var intro = introJs();
     intro.setOptions({
         steps: [{
                 intro: "Hello world!"
@@ -29,5 +29,5 @@ function startIntro() {
         ]
     });
 
-    intro.start(#test);
+    intro.start();
 }
