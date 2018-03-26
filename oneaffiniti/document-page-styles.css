@@ -19,11 +19,16 @@
 .docs-card ul.scrollMenu {
 	list-style: none;
 	margin: 0;
-	padding: 0;  
+	padding: 0 0 0 15px;  
+}
+
+.docs-card ul.scrollMenu li.list-group-item {
+	text-indent: -15px;
 }
 
 .docs-card ul.scrollMenu li.list-group-item:before {
-    position: absolute;    
-    background: #C0E2CC;
+    position: relative;    
+    color: #C0E2CC;
     content: "» ";
+    left: 0;
 }
