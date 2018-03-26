@@ -3,12 +3,20 @@ body {
     font-family: "Avenir LT W01_55 Roman1475520" !important;
 }
 
+@media screen(max-width:768px){
+    .scrollNav {
+        display: none;
+        opacity: 0;
+    }
+}
+
 .scrollNav {
     position: fixed;
     max-width: 350px;
     -moz-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+    transition: all 1s ease-in-out;
 }
 
 .scrollNav h5.card-title {
@@ -21,7 +29,6 @@ body {
     -moz-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
-     transition: all 1s ease-in-out;
 }
 
 .scrollMenu li a {
