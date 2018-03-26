@@ -23,7 +23,6 @@
 }
 
 .docs-card ul.scrollMenu li.list-group {
-	li:before {
     position: absolute;  
     top: 8px;  
     margin: 8px 0 0 -12px;    
