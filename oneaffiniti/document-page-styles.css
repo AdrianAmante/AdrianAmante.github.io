@@ -22,7 +22,7 @@
 	padding: 0;  
 }
 
-.docs-card ul.scrollMenu li.list-group {
+.docs-card ul.scrollMenu li.list-group-item {
     position: absolute;  
     top: 8px;  
     margin: 8px 0 0 -12px;    
