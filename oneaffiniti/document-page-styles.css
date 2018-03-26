@@ -22,14 +22,8 @@
 	padding: 0;  
 }
 
-.docs-card ul.scrollMenu li.list-group-item {
-    position: absolute;  
-    top: 8px;  
-    margin: 8px 0 0 -12px;    
-    vertical-align: middle;
-    display: inline-block;
-    width: 4px;
-    height: 4px;
+.docs-card ul.scrollMenu li.list-group-item:before {
+    position: absolute;    
     background: #C0E2CC;
     content: "» ";
 }
