@@ -18,4 +18,10 @@
 
 .docs-card ul.scrollMenu {
 	list-style: none;
+	margin: 0;
+	padding: 0;  
+}
+
+.docs-card ul.scrollMenu li.list-group {
+	list-style: none;
 }
