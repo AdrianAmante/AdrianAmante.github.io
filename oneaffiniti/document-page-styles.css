@@ -23,9 +23,5 @@
 }
 
 .docs-card ul.scrollMenu li.list-group {
-	list-style: none;
-}
-
-.docs-card ul.scrollMenu li.list-group:before {
-	content: '&raquo;';
+	/* list-style: none; */
 }
