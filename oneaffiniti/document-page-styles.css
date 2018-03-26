@@ -9,6 +9,11 @@
 
 .docs-card {
 	background: #E5EBE7;
+	padding: 15px 15px 5px;
+}
+
+.docs-card .docs-card-block .docs-card-title {
+	
 }
 
 .docs-card ul.scrollMenu {
