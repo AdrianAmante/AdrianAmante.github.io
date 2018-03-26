@@ -1,0 +1,191 @@
+<section class="docs-header">
+    <h2 class="text-center">Improving email deliverability</h2>
+    <p class="lead">Authenticating your email</p>    
+</section>
+<div class="container">
+    <div class="section">
+        <div class="col span_4_of_6">
+            
+            <section class="docs-article">
+                <h3 id="emailauth">Email authentication</h3>
+                <p>Email authentication verifies that an email is actually from you or your business. Think of it like a digital signature: it protects your brand, identity and reputation. It's one of the most important steps you can take to improve your deliverability.</p>
+                <p>This article explains why it's important to authenticate, and how it changes the way email servers and email clients treat your email.</p>
+                <br>
+                <div class="alert alert-info" role="alert">
+                    <div class="row">
+                        <div class="col-1 text-center">
+                            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            Ready to set up authentication for your sending domain? <a href="https://help.createsend.com/admin/manage-your-own-authentication" target="_blank">Read the instructions</a>.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="whyauth">Why authentication matters</h3>
+                <p>The way email was originally designed makes sender details easy to forge, or "spoof". Spammers and phishers take advantage of this by posing as banks, auction sites, energy companies or otherwise to steal money or spread malicious software. In addition to harming the recipients of these scam emails, the companies and brands that have been impersonated are also harmed.</p>
+                <p>Email services such as Gmail, Outlook.com and Yahoo use email authentication to help determine if something is spam, or is worth blocking completely to protect their users. As such, any unauthenticated email, no matter how legitimate the content, runs the risk of ending up in someone's spam folder.</p>
+                <br>
+                <div class="alert alert-info" role="alert">
+                    <div class="row">
+                        <div class="col-1 text-center">
+                            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            To send transactional email, you must manage your own authentication.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="authenticate">Authenticate your domain</h3>
+                <p>To set up your own authentication:</p>
+                <ol>
+                    <li>Click your profile image at the top right, then select <strong>Account settings</strong>.</li>
+                    <li>Click <strong>Authentication</strong>.</li>
+                    <li>Click <strong>Add a sending domain</strong>.</li>
+                    <li>Enter a fully qualified domain name to authenticate. Authenticating just the base domain name will not authenticate subdomains. For example, authenticating <code>designco.com</code> will not authenticate <code>mail.designco.com</code>.</li>
+                    <li>Click <strong>Generate DNS records</strong>.</li>
+                    <li>The next page will show the "TXT Name" and "TXT Value" details that you will need to add to your domain's DNS records. How to do this varies <a href="#manageauth">depending on the service you use</a> to manage your DNS.</li>
+                    <li>After you've added the record to your domain host, in Campaign Monitor click <strong>I've added the record, please verify it</strong>. <a href="#dnsnotverified">It can take time for DNS record changes to update around the internet</a>, so if our servers don't see the changes right away, try again later.</li>
+                    <li>After everything has been set up correctly, the authenticated domain will be listed on the <strong>Account settings</strong> > <strong>Authentication</strong> page.</li>
+                </ol>
+                <br>
+                <p><img src="https://hi1.createsend1.com/images/authenticated-domain-a2.png" alt=""></p>
+                <br>
+                <div class="alert alert-info" role="alert">
+                    <div class="row">
+                        <div class="col-1 text-center">
+                            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            Some DNS hosts do not support semicolons ( ; ) or underscores ( _ ), which are required to authenticate with Campaign Monitor. In some cases you can work around semicolons by replacing any occurrences of ; with \;. If this doesn't work, or your host doesn't support underscores, you will need to <a href="#switchdns">switch DNS providers</a> to authenticate your email.
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p>The next time you send an email campaign, you will be able to select the authenticated domain for the sender's "From" address with a dropdown menu on the right.</p>
+                <br>
+                <p><img src="https://hi1.createsend1.com/images/authenticated-from-domain.png" alt=""></p>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="instructions">Instructions for modifying DNS records</h3>
+                <p>Below are links to instructions from commonly used DNS providers for changing their TXT records. If you have a different host, they may have their own instructions, or one of examples below may be similar.</p>
+                <br>
+                <h3>Commonly used domain hosting software:</h3>
+                <ul>
+                    <li><a href="http://www.webfusion.co.uk/support/answers/Plesk/Email/setting-up-dkim-and-spf-records-4683/#ctl00_mainContentPlaceHolder_lblTitle">Plesk-based management</a></li>
+                    <li><a href="https://www.siteground.com/tutorials/cpanel/dns_zone_editor.htm">cPanel-based management</a></li>
+                </ul>
+                <br>
+                <h3>Commonly used DNS providers:</h3>
+                <ul>
+                    <li><a href="http://help.dnsmadeeasy.com/managed-dns/records/txt-record/">DNS Made Easy</a></li>
+                    <li><a href="https://support.dnsimple.com/articles/advanced-editor/">DNSimple</a></li>
+                    <li>Dreamhost: <a href="https://help.dreamhost.com/hc/en-us/articles/215029758-What-are-DKIM-records-">DKIM information</a> + <a href="https://help.dreamhost.com/hc/en-us/articles/215414867">How do I add custom DNS records?</a></li>
+                    <li><a href="https://godaddy.com/help/manage-dns-680">GoDaddy</a></li>
+                    <li><a href="https://support.hostgator.com/articles/cpanel/how-to-change-dns-zones-mx-cname-and-a-records">Hostgator</a></li>
+                    <li><a href="https://help.hover.com/hc/en-us/articles/217282457-How-to-Edit-DNS-records-A-CNAME-MX-TXT-and-SRV-Updated-Aug-2015-">Hover</a></li>
+                    <li><a href="https://mediatemple.net/community/products/dv/204403794/how-can-i-change-the-dns-records-for-my-domain">Media Temple</a></li>
+                    <li><a href="http://support.melbourneit.com.au/articles/help/How-do-I-manage-advanced-DNS/">Melbourne IT</a></li>
+                    <li><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/317">Namecheap</a></li>
+                    <li><a href="http://www.networksolutions.com/support/how-to-manage-advanced-dns-records">Network Solutions</a></li>
+                    <li><a href="https://knowledge.web.com/subjects/article/KA-01111">Register.com</a></li>
+                </ul>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="manageownauth">Manage your own authentication with DKIM</h3>
+                <p>DomainKeys Identified Mail (DKIM) is a way to authorize Email Service Providers (ESPs) to send email on your or your company's behalf. DKIM authentication allows a sender to take responsibility for their email, and is used to help separate legitimate email from spam and <a href="https://help.campaignmonitor.com/avoid-looking-like-a-phisher" target="_blank">phishing campaigns</a>.</p>
+                <p>To authenticate using DKIM, you will need:</p>
+                <ul>
+                    <li>your own domain name, which you are using for your email address</li>
+                    <li>access to your domain's DNS records</li>
+                    <li>familiarity with modifying DNS records</li>
+                </ul>
+                <br>
+                <div class="alert alert-info" role="alert">
+                    <div class="row">
+                        <div class="col-1 text-center">
+                            <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            Managing your own authentication is one of the most important steps you can take to <a href="#emailauth">improve your deliverability</a>.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="manageauth">Manage your own authentication</h3>
+                <p>Managing your own email authentication is highly recommended. The default level of authentication added to each email sent through Campaign Monitor proves that the email came from our servers, however, to prove that the email comes from your or your company's domain, you need to authorize Campaign Monitor to send on your behalf. This is the case with all Email Service Providers (ESPs).</p>
+                <p>You can do this by modifying the DNS records attached to a domain name you own, so that any email sent through Campaign Monitor is verified as coming from your own domain. Authenticating this way improves deliverability, as you are properly stating your identity to recipient mail servers.</p>
+                <p><a href="#manageownauth">See instructions for setting up your own authentication</a></p>
+            </section>
+            
+            <section class="docs-article">
+                <h3 id="howauth">How authentication affects deliverability</h3>
+                <p>Managing your own authentication changes how your emails are displayed in email clients. If you haven't authorized an ESP to send email on your behalf, many major email clients flag the email as coming from a different server, which can potentially cause the email to be blocked, or lead recipients to believe they're receiving spam.</p>
+                <p>For example, in Outlook 2016 if you haven't authorized your ESP to send email on your behalf, your email will display in the recipient's inbox as being "sent by" someone else. In the image below, while the From address shows correctly as "sally@designco.com", the email is flagged as coming from a Campaign Monitor mail server ("cmail2.com"):</p>
+                <p><img src="https://hi1.createsend1.com/images/outlook-not-authenticated.png" alt=""></p>
+                <p>In this case, the email has also been sent to the junk folder as a result of the sending domain not being authenticated. This won't happen every time — unauthenticated mail can still make it to the inbox, and there are many other reasons why an email can be filtered as spam.</p>
+                <p>Once you have authenticated your own domain, the "sent by" phrase and sending server are not present:</p>
+                <p><img src="https://hi1.createsend1.com/images/outlook-authenticated.png" alt=""></p>
+                <p>Gmail uses the word "via" to indicate an email hasn't had its sending domain authenticated:</p>
+                <p><img src="https://hi1.createsend1.com/images/gmail-not-authenticated.png" alt=""></p>
+                <p>After authenticating the sending domain, "via" and the sending server are removed:</p>
+                <p><img src="https://hi1.createsend1.com/images/gmail-authenticated.png" alt=""></p>
+                <p>Similarly, Outlook.com uses the phrase "on behalf of:"</p>
+                <p><img src="https://hi1.createsend1.com/images/outlook-com-not-authenticated.png" alt=""></p>
+                <p>This is removed for domain authenticated email:</p>
+                <p><img src="https://hi1.createsend1.com/images/outlook-com-authenticated.png" alt=""></p>
+            </section>
+
+            <section class="docs-article">
+                <h3 id="faqs">Frequently asked questions</h3>
+                <p>Below are some answers to questions we're commonly asked about authentication. For help with something we haven't addressed, please <a href="http://probable-plum.flywheelsites.com/contact-us/">contact us</a>.</p>
+                <h5>My host doesn't allow me to modify my DNS, what should I do?</h5>
+                <p>Some web and DNS hosts won't let you modify your DNS records yourself, however many will add authentication records for you. Contact your host to find out if they offer this service.</p>
+                <br>
+                <h5 id="switchdns">My web host doesn't support DKIM, do I have to switch to one that does?</h5>
+                <p>Not necessarily. DNS records are usually hosted by the same company that hosts your site, but it doesn't have to be that way. It's possible to keep your webhost and change who provides your DNS records using services like <a href="http://www.dnsmadeeasy.com/" target="_blank">DNS Made Easy</a>, <a href="https://www.zoneedit.com/" target="_blank">ZoneEdit</a> and <a href="https://www.easydns.com/" target="_blank">easyDNS</a>.</p>
+                <br>
+                <h5>Will all email sent through the selected domain be authenticated?</h5>
+                <p>After <a href="#authenticate">following the instructions above</a>, only emails sent through Campaign Monitor using your chosen domain will be authenticated. Emails sent through other services that use the same domain will not be authenticated. If you opt to send email from an unauthenticated domain in Campaign Monitor, your email will also not be authenticated.</p>
+                <br>
+                <h5 id="dnsnotverified">My DNS records are still not verified in my account, what should I do?</h5>
+                <p>DNS record changes can take a while to propagate, sometimes more than 24 hours. If the records still cannot be verified after a few days, it may be because they were not added correctly.</p>
+                <p>You can use a third party DNS testing tool like <a href="http://emailstuff.org/" target="_blank">EmailStuff</a> to check if DNS record changes have propagated. On the EmailStuff site, click <strong>DNS</strong>, enter the domain name you are trying to verify into the hostname TXT field and click the <strong>TXT</strong> button.</p>
+                <p><img src="https://hi1.createsend1.com/images/hostname-txt-a1.png" alt=""></p>
+                <p>If the record has propagated, the "Answer" given will contain the TXT value that Campaign Monitor generated for you earlier, and the "DKIM" tag will be in the "Type" column.</p>
+                <p>If no record is found, try lowering the "time to live" (TTL) value in your DNS. This is the amount of time DNS servers will cache your record for, and lowering the value will make the record propagate faster. The method to do this will vary depending on the DNS host you use.</p>
+                <p>If after this the records are still not showing up, contact your DNS host to make sure everything is working as it should be, and if there are no problems found, please contact support and let them know the domain name you're trying to authenticate.</p>
+            </section>
+            
+        </div>
+        <div class="col span_2_of_6">
+            <div class="docs-card scrollNav">
+                <div class="docs-card-block">
+                    <h5 class="docs-card-title">
+                        In this article
+                    </h5>
+                </div>
+                <ul class="scrollMenu">
+                    <li class="list-group-item"><a href="#emailauth">Email Authentication</a></li>
+                    <li class="list-group-item"><a href="#whyauth">Why authentication matters</a></li>
+                    <li class="list-group-item"><a href="#authenticate">Authenticate your domain</a></li>
+                    <li class="list-group-item"><a href="#instructions">Instructions of modifying DNS records</a></li>
+                    <li class="list-group-item"><a href="#manageownauth">Manage your own authentication with DKIM</a></li>
+                    <li class="list-group-item"><a href="#manageauth">Manage your own authentication</a></li>
+                    <li class="list-group-item"><a href="#howauth">How authentication affects deliverability</a></li>
+                    <li class="list-group-item"><a href="#faqs">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="scrollMenu"><a href="#scrolltopTitle" class="toptop"><i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</div>
