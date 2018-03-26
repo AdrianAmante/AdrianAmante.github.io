@@ -21,6 +21,12 @@
     -webkit-transform: translateZ(0);
 }
 
+@media screen(max-width:768px){
+    .docs-card.scrollNav {
+        display: none !important;
+        opacity: 0 !important;
+    }
+}
 
 .docs-card {
 	background: #E5EBE7;

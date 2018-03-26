@@ -4,9 +4,9 @@ body {
 }
 
 @media screen(max-width:768px){
-    .scrollNav {
-        display: none;
-        opacity: 0;
+    .docs-card.scrollNav {
+        display: none !important;
+        opacity: 0 !important;
     }
 }
 
