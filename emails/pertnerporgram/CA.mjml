@@ -1,0 +1,95 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="left" color="#677777" />
+      <mj-container background-color="#f5f5f5" />
+    </mj-attributes>
+
+    <mj-style>
+      body {background: #f5f5f5;} .button-hover td table tr td:hover { background-color: #c0e2cc !important; } .button-hover td table tr td:hover a { background-color: #c0e2cc !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #c0e2cc !important; } ul li {padding-bottom: 5px ;} ol li {padding-bottom: 10px ;} a { color: #007bff !important; text-decoration: none; }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background="#f5f5f5">
+    <mj-container>
+
+      <!-- header spacing -->
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="0" padding="0">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- header -->
+      <mj-section padding="10" background-color="#ffffff" border-radius="8 8 0 0">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180308/logo.png" width="182" height="75" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- main image -->
+      <mj-section padding="0" background-color="#ffffff">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180314/email_banner.jpg" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- text -->
+      <mj-section padding="30px 10px 40px" background-color="#ffffff">
+        <mj-column>
+          <mj-text padding="10px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22px" font-weight="bold" align="center">
+            Whats next?
+          </mj-text>
+          <mj-text padding="0 10px 0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" line-height="20px;" align="left">
+           <ol>
+            <li>
+            	You should start to prepare your email subscriber list.*
+            </li>
+            <li>
+            	We'll get you setup on Campaign Monitor. (you'll receive an invitation via e-mail to setup your own password and a step-by-step guide for how to import your list)
+            </li>
+            <li>
+            	By uploading or sending us your subscriber list, you agree to our <a href="https://www.oneaffiniti.com/canada-terms-and-conditions/" target="_blank">Standard Terms and Conditions</a> and confirm that you have read, and agree to abide by our <a href="https://www.oneaffiniti.com/canada-privacy-policy-042018/" target="blank">Privacy Policy</a>.
+            </li>
+             <li>
+             	You'll receive a draft every month to approve and provide feedback.
+             </li>
+           </ol>
+          </mj-text>
+          <mj-text padding="0 30px 0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" line-height="20px;" align="left">
+           	If you need assistance preparing/uploading your list or if you have any questions, please don't hesitate to contact us.
+<br>
+<br>
+We look forward to working with you!
+          </mj-text>
+  				<mj-text padding="30px 30px 0 30px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="14px;" align="left">
+           	* You will need to ensure you obtain the relevant consents from your customers and comply with all relevant privacy and spam laws.
+          </mj-text>
+         </mj-column>
+      </mj-section>
+
+      <!-- email recepient -->
+      <mj-section padding="5" background-color="#ffffff" border-radius="0 0 8 8" border-top="1px solid #f5f5f5">
+        <mj-column vertical-align="middle">
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" align="center">
+            For any assistance please reply to <a href="mailto:info@oneaffiniti.com" target="_blank">info@oneaffiniti.com</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer spacing -->
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="0" padding="0">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+
+</mjml>

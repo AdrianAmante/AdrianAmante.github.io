@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Digital Hub</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='stylesheet' href='css/vendor/bootstrap.min.css' />
+    <link rel='stylesheet' href='css/vendor/font/css/open-iconic-bootstrap.min.css' />
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<!-- Top Navigation -->
+<header class="fixed-top">
+    <!-- Bottom Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a><small>DIGITAL HUB</small>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="agency-summary.html">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm align-middle btn-primary" href="agency-signin.html">Add Lead</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm align-middle btn-outline-primary" href="agency-signin.html">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container content">
+    <header class="pageheader">
+        <div class="row">
+            <div class="col-10">
+                <h4>Opportunity Summary</h4>
+                <p class="text-muted">Welcome John Smith, below you'll see a list of your opportunities.</p>
+            </div>
+        </div>
+    </header>
+    <section class="searchfilter">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="fltr col-lg-2 col-md-12 col">
+                        <div class="form-group">
+                            <label>Type</label>
+                            <select class="form-control form-control-sm">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="fltr col-lg-2 col-md-12">
+                        <div class="form-group">
+                            <label>Status</label>
+                            <select class="form-control form-control-sm">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="fltr col-lg-3 col-md-12">
+                        <div class="form-group">
+                            <label>Date range</label>
+                            <input class="form-control form-control-sm" type="text" name="daterange" />
+                        </div>
+                    </div>
+                    <div class="fltr col-lg-2 col-md-12">
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <div>
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Archive</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <div>
+                                <div class="row">
+                                    <div class="fltr col-6">
+                                        <a href="#" class="btn btn-sm btn-outline-primary btn-block">Clear</a>
+                                    </div>
+                                    <div class="fltr col-6">
+                                        <a href="#" class="btn btn-sm btn-primary btn-block">Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="list-result">
+        <div class="row">
+            <div class="col">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Created Date</th>
+                            <th scope="col">Follow-Up Date</th>
+                            <th scope="col">Partner</th>
+                            <th scope="col">Company</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">End User Email</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Score</th>
+                            <th scope="col">Status</th>
+                            <th scope="col" width="7%">Pass to Agency</th>
+                            <th scope="col" width="7%">Action</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="8">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination">
+                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                    </ul>
+                                </nav>
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16775</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Acecloud</td>
+                            <td><span>Company:</span>Honey Navigations</td>
+                            <td><span>Name:</span>Andrew Scott</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">wojciech@live.com</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16774</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Primetechs</td>
+                            <td><span>Company:</span>Cruise Enterprises</td>
+                            <td><span>Name:</span>Joshua Diaz</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">lbaxter@sbcglobal.net</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16772</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Smartfruit</td>
+                            <td><span>Company:</span>Soul Corporation</td>
+                            <td><span>Name:</span>Nigel Wakefield</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">gtaylor@comcast.net</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16771</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Vortexecurity</td>
+                            <td><span>Company:</span>Whirlpoolutions</td>
+                            <td><span>Name:</span>Scott Garcia</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">klaudon@att.net</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16770</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Bridgelectrics</td>
+                            <td><span>Company:</span>Hookurity</td>
+                            <td><span>Name:</span>Carol Bryant</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">rcwil@gmail.com</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16769</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Venusystems</td>
+                            <td><span>Company:</span>Moondustries</td>
+                            <td><span>Name:</span>Aaron Thompson</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">breegster@yahoo.ca</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16768</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Lagoonavigations</td>
+                            <td><span>Company:</span>Paragonetworks</td>
+                            <td><span>Name:</span>John Long</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">ajlitt@mac.com</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16766</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Ghost Industries</td>
+                            <td><span>Company:</span>Bansheedale</td>
+                            <td><span>Name:</span>Frances Flores</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">matsn@verizon.net</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16765</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Lagoon Technologies</td>
+                            <td><span>Company:</span>Rootshine</td>
+                            <td><span>Name:</span>Juan Barnes</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">cliffordj@sbcglobal.net</a></td>
+                            <td><span>Type:</span>Subscriber</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16764</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Shadow </td>
+                            <td><span>Company:</span>Bluefly</td>
+                            <td><span>Name:</span>Tammy Perez</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">josephw@mac.com</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16736</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Twister Limited</td>
+                            <td><span>Company:</span>Buzzy Bee</td>
+                            <td><span>Name:</span>Gena Alcina</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">lbaxter@sbcglobal.net</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16762</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Cavern</td>
+                            <td><span>Company:</span>Pyramidustries</td>
+                            <td><span>Name:</span>Deedee Parvin</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">gtaylor@comcast.net</a></td>
+                            <td><span>Type:</span>Subscriber</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16761</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Diamontronics</td>
+                            <td><span>Company:</span>Grasshoproductions</td>
+                            <td><span>Name:</span>Eleonor Luff</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">klaudon@att.net</a></td>
+                            <td><span>Type:</span>Subscriber</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16760</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Sunshinetworks</td>
+                            <td><span>Company:</span>Voidway</td>
+                            <td><span>Name:</span>Madelyn Engelke</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">rcwil@gmail.com</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16759</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Cannonpaw</td>
+                            <td><span>Company:</span>Gorillawood</td>
+                            <td><span>Name:</span>Elvin Neely</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">breegster@yahoo.ca</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16758</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Arcane Corporation</td>
+                            <td><span>Company:</span>Lucky Arts</td>
+                            <td><span>Name:</span>Myesha Enger</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">ajlitt@mac.com</a></td>
+                            <td><span>Type:</span>BANT Lead</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16757</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Canics</td>
+                            <td><span>Company:</span>Buzzylectrics</td>
+                            <td><span>Name:</span>Bobbye Branum</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">matsn@verizon.net</a></td>
+                            <td><span>Type:</span>Online Enquiry</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16756</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Energence</td>
+                            <td><span>Company:</span>Stormbite</td>
+                            <td><span>Name:</span>Bernardine Batman</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">cliffordj@sbcglobal.net</a></td>
+                            <td><span>Type:</span>Subscriber</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>ID:</span><a href="agency-opportunity.html" class="btn btn-outline-primary btn-sm">16755</a></td>
+                            <td><span>Created Date:</span>2017-9-26</td>
+                            <td class="text-danger"><span>Follow-Up Date:</span>2018-03-15</td>
+                            <td><span>Partner:</span>Coreshadow </td>
+                            <td><span>Company:</span>Petalforce</td>
+                            <td><span>Name:</span>Oralee Panos</td>
+                            <td><span>End User Email:</span><a href="agency-opportunity.html">josephw@mac.com</a></td>
+                            <td><span>Type:</span>Subscriber</td>
+                            <td><span>Score:</span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
+                            <td><span>Status:</span>With Agency</td>
+                            <td><a href="agency-opportunity.html" class="btn btn-sm btn-outline-primary btn-block">Pass to Agency</a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-outline-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted"><small>ONEAFFINITI 2017 | <a href="http://oneaffiniti.com/privacy">Privacy Policy</a> -- <a href="#" data-toggle="modal" data-target=".hiw-modal" data-backdrop="static" data-keyboard="false">How it works</a></small></span>
+    </div>
+</footer>
+
+
+<!-- how it works modal -->
+<div class="modal fade hiw-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="max-width: 1200px;">
+        <div class="modal-content">
+            <section class="howitworks">
+                <div class="card" style="margin-bottom: 0;">
+                    <h5 class="card-header text-center">How it Works
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button> -->
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-8 float-right float-lg-right float-md-right float-sm-right">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="text-center tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 1" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead">You approve your e-newsletter to be send to you customers and prospects</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 2" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead">Your customers receive the email opening and clicking to read more</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 3" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead col-md-10 offset-md-1">When a customer completes a form or requesting more information, you're sent a real-time
+                                            notification</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 4" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead">You can now access this 'opportunity' via OneAffiniti's Lead Hub</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 5" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead col-md-10 offset-md-1">You can keep track of your customer inquiries and update them with notes and close
+                                            when you win</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-six-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 6" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead col-md-10 offset-md-1">As an optional process, you may ask for a 3rd partner tele-marketing agency to call
+                                            on your behalf</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-seven" role="tabpanel" aria-labelledby="pills-seven-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 7" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead">Once you confirm to "pass to agency", the telemarketing team will make 3 call attempts
+                                            to connect to the customer and attempt to uncover more information about the
+                                            opportunity and to help secure you a meeting</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-eight" role="tabpanel" aria-labelledby="pills-eight-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 8" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead col-md-10 offset-md-1">During this time you will be unable to edit this opportunity until the telemarketing
+                                            team have completed their calls</p>
+                                    </div>
+                                    <div class="text-center tab-pane fade" id="pills-nine" role="tabpanel" aria-labelledby="pills-nine-tab">
+                                        <img src="https://placeholdit.co//i/850x500?&bg=f5f5f5&fc=90A4AE&text=IMAGE 9" class="img-fluid" style="margin-bottom: 1rem;">
+                                        <p class="lead col-md-10 offset-md-1">Upon call completion you’ll be sent an update notification and you will then be able
+                                            to continue editing</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 float-left float-lg-left float-md-left float-sm-left">
+                                <div class="nav flex-column nav-pills" id="pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">
+                                        1. Approve your e-newsletter
+                                    </a>
+                                    <a class="nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">
+                                        2. Customers receive email
+                                    </a>
+                                    <a class="nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">
+                                        3. Real time notification
+                                    </a>
+                                    <a class="nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false">
+                                        4. Access via Lead Hub
+                                    </a>
+                                    <a class="nav-link" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab" aria-controls="pills-five" aria-selected="false">
+                                        5. Keep track
+                                    </a>
+                                    <a class="nav-link" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab" aria-controls="pills-six" aria-selected="false">
+                                        6. 3rd partner agency
+                                    </a>
+                                    <a class="nav-link" id="pills-seven-tab" data-toggle="pill" href="#pills-seven" role="tab" aria-controls="pills-seven" aria-selected="false">
+                                        7. Connect to the customer
+                                    </a>
+                                    <a class="nav-link" id="pills-eight-tab" data-toggle="pill" href="#pills-eight" role="tab" aria-controls="pills-eight" aria-selected="false">
+                                        8. Telemarketing team
+                                    </a>
+                                    <a class="nav-link" id="pills-nine-tab" data-toggle="pill" href="#pills-nine" role="tab" aria-controls="pills-nine" aria-selected="false">
+                                        9. Sent notification
+                                    </a>
+
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <a href="#" data-dismiss="modal" class="btn btn-lg btn-primary text-center">
+                                            <i class="fa fa-thumbs-up" aria-hidden="true"></i> Got it! thanks!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+</div>
+<!-- end how it works modal -->
+
+
+<body>
+    <script src="js/vendor/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- date range -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+    <script type="text/javascript">
+    $(function() {
+        $('input[name="daterange"]').daterangepicker();
+    });
+    </script>
+</body>
+
+</html>

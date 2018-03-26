@@ -1,0 +1,89 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="left" color="#677777" />
+      <mj-container background-color="#f5f5f5" />
+    </mj-attributes>
+
+    <mj-style>
+      .button-hover td table tr td:hover { background-color: #c0e2cc !important; } .button-hover td table tr td:hover a { background-color: #c0e2cc !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #c0e2cc !important; } ul li {padding-bottom: 10px ;} a { color: #007bff !important; text-decoration: none; }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-container width="600">
+
+      <!-- header spacing -->
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="0" padding="0">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- header -->
+      <mj-section padding="10" background-color="#ffffff" border-radius="8 8 0 0">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180308/logo.png" width="182" height="75" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- main image -->
+      <mj-section padding="0" background-color="#ffffff">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180302/updates.png" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- text -->
+      <mj-section padding="30px 10px 40px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" font-weight="bold" align="left">
+          	Dear [NAME],
+          </mj-text>
+          <mj-text padding="0 25px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="18px;" align="left">
+          	We are always looking at new ways to deliver the highest quality of services to you. That’s why we are launching some new features and more efficient processes. 
+            <br><br>
+            To support these improvements, we’re updating our Standard Terms and Conditions and Privacy Policy.
+            <br><br>
+             Here are the highlights:
+          </mj-text>
+          
+          <mj-list padding="0 30px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="18px;" align="left" color="#677777">
+            <li><strong>Increased Efficiency.</strong> We are introducing easier approval mechanisms to make the process of sending your campaigns faster.</li>
+						<li><strong>Agreement Term.</strong> We don’t believe in locking you in to a service that doesn’t deliver. We are removing annual terms and automatic rollovers, so you can cancel by giving us 14 days’ notice if you don’t enjoy it.</li>
+						<li><strong>Improved Services.</strong> We want to continuously improve campaign performance by optimising your subscriber list, profiling subscribers and using online advertising to offer a more personalised experience.</li> 
+						<li><strong>Streamlined Agreement and New Options.</strong> We have consolidated our agreements across industries, included a non-sponsor funded payment option and introduced terms for users who have opted in to use telemarketing lead qualification.</li>
+						<li><strong>Better Privacy, Spam and Telemarketing Management.</strong> We understand you care about your subscribers’ privacy and their preferences to receiving marketing emails and calls. Along with the Standard Terms and Conditions, we have also updated our Privacy Policy to strengthen your subscribers’ privacy protections and respect their preferences so that you remain a trusted provider.</li> 	
+					</mj-list>
+          <mj-text padding="0 25px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="18px;" align="left">
+            Our updated Standard Terms and Conditions and Privacy Policy will be effective on 9 April 2018 and will apply to information you’ve previously provided to us, such as your subscriber lists. By continuing to use our services after 9 April 2018, you agree to these updated terms. If you wish to terminate the services, or if you have any questions, please contact your OneAffiniti account manager or <a href="mailto:info@oneaffiniti.com" target="_blank">info@oneaffiniti.com</a>.
+          </mj-text>
+        </mj-column>
+              
+      </mj-section>
+
+      <!-- email recepient -->
+      <mj-section padding="0" background-color="#ffffff" border-radius="0 0 8 8" border-top="1px solid #f5f5f5">
+        <mj-column vertical-align="middle">
+          <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" align="center">
+            For any assistance please reply to <a href="mailto:info@oneaffiniti.com" target="_blank">info@oneaffiniti.com</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer spacing -->
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="0" padding="0">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+
+</mjml>

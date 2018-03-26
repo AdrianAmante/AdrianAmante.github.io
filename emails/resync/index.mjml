@@ -27,14 +27,14 @@
       <!-- header -->
       <mj-section padding="10" background-color="#ffffff" border-radius="8 8 0 0">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171004/1a_logo.png" width="160" height="75" padding="0"></mj-image>
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180308/logo.png" width="182" height="75" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 
       <!-- main image -->
       <mj-section padding="0" background-color="#ffffff">
         <mj-column vertical-align="middle">
-          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180213/1518484593resync.png" padding="0"></mj-image>
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180305/connect_linkedin_account.jpg" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 
@@ -42,10 +42,10 @@
       <mj-section padding="30px 10px 15" background-color="#ffffff">
         <mj-column>
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="center">
-          	We need to re-link your company {{variable_container}} account so you can continue to automatically post content.
+          	Please connect your linkedIn account so we can continue to <br>automatically post your social content.
           </mj-text>
-          <mj-button href="https://hub.oneaffiniti.com" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
-            Re-sync account
+          <mj-button href="{social_auth_link}" css-class="button-hover" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" background-color="#223969" padding="25px" inner-padding="15 30" color="white" font-size="18px">
+            Re-sync now
           </mj-button>
         </mj-column>
       </mj-section>
@@ -54,7 +54,7 @@
       <mj-section padding="0" background-color="#ffffff" border-radius="0 0 8 8" border-top="1px solid #f5f5f5">
         <mj-column vertical-align="middle">
           <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" align="center">
-            This email was sent to <a style="color: #007aff; text-decoration: none;" href="mailto:{account.email}" target="_blank">{account.email}</a>.
+            This email was sent to <a style="color: #007aff; text-decoration: none;" href="mailto:{email}" target="_blank">{email}</a>.
             <br>
             For any asistance please reply to this email
           </mj-text>

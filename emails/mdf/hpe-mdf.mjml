@@ -1,0 +1,182 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text align="left" color="#000000" />
+            <mj-container background-color="#f5f5f5" />
+        </mj-attributes>
+        <mj-style>
+            .button-hover td table tr td:hover { background-color: #c0e2cc !important; } .button-hover td table tr td:hover a { background-color: #c0e2cc !important; } .privacy-links a { color: #007aff !important; } .privacy-links a:hover { color: #c0e2cc !important; } a.link { color: #007aff !important; text-decoration: none; } a.link:hover { color: #223969 !important; }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-container width="600">
+            <!-- header spacing -->
+            <mj-section>
+                <mj-column>
+                    <mj-text font-size="0" padding="0">
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- header -->
+            <mj-section padding="10px" background-color="#425563">
+                <mj-column vertical-align="middle">
+                    <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180301/hpe_logo_white.png" width="120" height="70" padding="0" align="left"></mj-image>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="25px 10px" background-color="#ffffff">
+                <mj-column>
+                    <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26px" line-height="26px" align="center">
+                        <strong>Ready to win more business?</strong>
+                        <br>
+                    </mj-text>
+                    <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20px" line-height="20px" align="center">
+                        Easy. Simple. MDF approved.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- main image -->
+            <mj-section padding="0" background-color="#ffffff">
+                <mj-column vertical-align="middle">
+                    <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180301/newsletter.jpg" padding="0"></mj-image>
+                </mj-column>
+            </mj-section>
+            <!-- text -->
+            <mj-section padding="30px 10px 15px" background-color="#ffffff">
+                <mj-column>
+                    <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20px" align="left">
+                        <strong>Dear partner,</strong>
+                    </mj-text>
+                    <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
+                        At Hewlett Packard Enterprise (HPE), we are always looking for new ways to help you grow your business. As a result, we are offering select valued partners the chance to participate in a storage-focused campaign designed to promote HPE Nimble Storage with InfoSight. Keep your HPE Storage’s AI capabilities top of mind with your subscriber set to grow your business and uncover new sales opportunities.
+                        <br>
+                        <br> This program is an MDF funded integrated marketing campaign that includes customized content development as an extension of your business. Three different package options are available through this program, depending on the levels of customization your business needs.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="15px 10px 0" background-color="#ffffff">
+                <mj-column>
+                    <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22px" line-height="22px" align="center">
+                        <strong>Choose from one of the plans below</strong>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="15px 10px 25" background-color="#ffffff">
+                <mj-column>
+                    <mj-image width="300" src="https://pr-cdn.oneaffiniti.com/upload/general/20180302/standard.png" />
+                    <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="14px" font-weight="bold" color="#00b287" align="center">
+                        STANDARD
+                        <br>$4,500 / 6 MONTH
+                    </mj-text>
+                    <mj-text padding="5px 0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="12px" font-weight="bold" align="center">
+                        6 x CAMPAIGNS
+                    </mj-text>
+                    <mj-text padding="10px 5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="16px" align="left">
+                        <span style="color:#00b287;">&raquo;</span> Content creation
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> EDM send <i style="color:#00b287;">(&lt;10K subscribers)</i>
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Social Post <i style="color:#00b287;">(&lt;5 accounts)</i>
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Microsite set-up & hosting
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Digital lead hub
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Phone-based marketing support
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Reporting / PoE
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image width="300" src="https://pr-cdn.oneaffiniti.com/upload/general/20180302/premium.png" />
+                    <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="14px" font-weight="bold" color="#00b287" align="center">
+                        PREMIUM
+                        <br> $11,000/ 6 MONTH
+                    </mj-text>
+                    <mj-text padding="5px 0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="12px" font-weight="bold" align="center">
+                        STANDARD PLUS ONE VIDEO
+                    </mj-text>
+                    <mj-text padding="10px 5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="16px" align="left">
+                        <span style="color:#00b287;">&raquo;</span> 1 custom-written article each month
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Database enrichment and prospecting (up to 500 records) +
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Bi-quarterly reviews via teleconference with marketing recommendations
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image width="300" src="https://pr-cdn.oneaffiniti.com/upload/general/20180302/platinum.png" />
+                    <mj-text padding="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14px" line-height="14px" font-weight="bold" color="#00b287" align="center">
+                        PLATINUM
+                        <br>$16,500/ 6 MONTH
+                    </mj-text>
+                    <mj-text padding="5px 0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="12px" font-weight="bold" align="center">
+                        STANDARD PLUS
+                    </mj-text>
+                    <mj-text padding="10px 5px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12px" line-height="15px" align="left">
+                        <span style="color:#00b287;">&raquo;</span> Animated video content
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Your brand look & feel
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Short explainer or event video
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Using existing footage + animation
+                        <br>
+                        <span style="color:#00b287;">&raquo;</span> Voiceover + music capabilities
+                        <br>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="30px 10px 30px" background-color="#425563">
+                <mj-column>
+                    <mj-text padding="0 25px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20px" align="left" color="#ffffff">
+                        <strong>Five reasons to sign up:</strong>
+                    </mj-text>
+                    <mj-list padding="0 30px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" line-height="20px;" align="left" color="#ffffff">
+                        <li>Funded through MDF support.</li>
+                        <li>Topical articles each month to engage your subscribers.</li>
+                        <li>Spend as little as five minutes a month to approve email and landing page content.</li>
+                        <li>Automated POE process.</li>
+                        <li>Sales-ready leads delivered directly to you.</li>
+                    </mj-list>
+                    <mj-text padding="0 25" color="#ffffff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" align="left">
+                        HPE values your loyalty and we would like you to be one of a handful of partners invited to join this program. There is a limited number of spots available for this program, so please get in touch quickly if you wish to join.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="20 10px 0" background-color="#ffffff">
+                <mj-group>
+                    <mj-column>
+                        <mj-text padding-top="15px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22px" font-weight="bold" line-height="15px" align="left">
+                            Interested?
+                        </mj-text>
+                </mj-group>
+            </mj-section>
+            <mj-section padding="0 10px 30px" background-color="#ffffff">
+                <mj-group>
+                    <mj-column>
+                        <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16px" line-height="18px" align="left">
+                            Contact our marketing partner, OneAffiniti, by simply replying to this email, or call Korina Skhinas from OneAffiniti at 512-982-1625 to get on board.
+                            <br>
+                            <br>
+                            <br> Sincerely,
+                            <br>
+                            <strong>EG NA Marketing</strong>
+                            <br>
+                            <i>Hewlett Packard Enterprise</i>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image width="200px" height="auto" padding="5px" src="https://pr-cdn.oneaffiniti.com/upload/general/20180302/korina_headshot.jpg" />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <!-- footer spacing -->
+            <mj-section>
+                <mj-column>
+                    <mj-text font-size="0" padding="0">
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>

@@ -52,7 +52,7 @@
       <!-- header -->
       <mj-section padding="10" background-color="#ffffff" border-radius="8 8 0 0">
         <mj-column vertical-align="middle">
-          <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171004/1a_logo.png" width="160" height="75" padding="0"></mj-image>
+          <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180308/logo.png" width="182" height="75" padding="0"></mj-image>
         </mj-column>
       </mj-section>
 

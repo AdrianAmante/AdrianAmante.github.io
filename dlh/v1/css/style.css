@@ -5,8 +5,24 @@ body {
   margin-bottom: 100px;
 }
 
+a:not([href]):not([tabindex]).btn.btn-primary {
+  color: #ffffff;
+}
+
+a:not([href]):not([tabindex]).btn.btn-outline-primary {
+  color: #007bff;
+}
+
+a:not([href]):not([tabindex]).btn.btn-outline-primary:hover {
+  color: #ffffff;
+}
+
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar a:not([href]):not([tabindex]).navbar-brand {
+  color: #233969;
 }
 
 .navbar .navbar-brand {
@@ -43,27 +59,59 @@ body {
   color: #233969;
 }
 
-ul.mainnav li {
-  display: inline-block;
-}
-
 .navbar-light .navbar-nav .nav-link {
   font-size: 0.8rem;
   font-weight: 600;
 }
 
+ul.mainnav li {
+  display: inline-block;
+}
+
 .pageheader {
-  padding-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.pageheader h4 {
+  color: #233969;
+}
+
 .pageheader p {
+  font-size: 0.9rem;
   margin-bottom: 0;
+}
+
+.pageheader .text-muted {
+  color: #B0BEC5 !important;
 }
 
 .pageheader .btn {
   margin-top: 1.3rem;
+}
+
+.searchfilter .card {
+  margin-bottom: 1.5rem;
+}
+
+.searchfilter .card .card-body {
+  padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.searchfilter .card .card-body .fltr {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fafafa;
 }
 
 .table {
@@ -86,67 +134,59 @@ ul.mainnav li {
   background: #ffffff;
 }
 
+.table tbody + tbody {
+  border-top: 1px solid #e9ecef;
+}
+
 .table tr th {
   font-size: 0.9rem;
   font-weight: 600;
   color: #233969;
   line-height: 0.9rem;
+  vertical-align: middle;
+  padding: 1rem 0.4rem;
 }
 
 .table tr td {
   vertical-align: middle;
+  padding: 0.6rem 0.4rem;
+  line-height: 0.9rem;
 }
 
 .table tr td .btn-sm {
   padding: 0 .5rem;
 }
 
-.table tr td.score .fa {
-  color: #f1c40f;
-  font-size: 0.6rem;
+.table tr td a:not([href]):not([tabindex]) {
+  color: #007bff;
 }
 
-.table tr td.edit .btn-sm {
-  padding: 0;
+.table tr td a:not([href]):not([tabindex]):hover {
+  color: #80bdff;
 }
 
-.table tr td.edit .btn-sm .fa {
-  padding: 0;
+.table tr td a.btn-outline-primary {
+  color: #007bff;
 }
 
-.pageheader {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.table tr td a.btn-outline-primary:hover {
+  color: #ffffff;
 }
 
-.pageheader h4 {
-  color: #233969;
+.table tr td.full-name {
+  text-transform: capitalize;
 }
 
-.pageheader p {
-  font-size: 0.9rem;
+.table tr td.e-mail a:not([href]):not([tabindex]) {
+  text-transform: lowercase;
 }
 
-.pageheader .text-muted {
-  color: #B0BEC5 !important;
+.table.table-hover tbody tr:hover {
+  background: #fafafa;
 }
 
-.searchfilter .card .card-body {
-  padding: .5rem 1.5rem 0 1.5rem;
-}
-
-.searchfilter .card .card-body .fltr {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background-color: #fafafa;
+.table.table-hover tbody tr:hover td {
+  border-color: none;
 }
 
 .form-signin {
@@ -190,9 +230,13 @@ ul.mainnav li {
   color: #90A4AE;
 }
 
-.daterangepicker {
-  position: relative;
-  top: 240px !important;
+.form-group .alert {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  -moz-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
 }
 
 .view-edit {
@@ -204,27 +248,26 @@ ul.mainnav li {
   padding-bottom: .75rem;
 }
 
-.body-login {
-  background-color: #fafafa;
-}
-
-.linkedin-signin {
+.social-signin {
   max-width: 360px;
-  padding: 0 15px;
+  padding: 15px 15px 0;
   margin: 0 auto;
+  background-color: #fafafa;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
-.linkedin-signin .head {
+.social-signin .head {
   color: #233969;
   text-align: center;
 }
 
-.linkedin-signin .head h1 {
+.social-signin .head h1 {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
 
-.linkedin-signin .head p {
+.social-signin .head p {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 0.8rem;
@@ -232,44 +275,56 @@ ul.mainnav li {
   font-weight: 700;
 }
 
-.linkedin-signin .bgimage {
-  background-color: #ffffff;
+.social-signin .bgimage {
   padding: 0;
   display: block;
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
-.linkedin-signin .bgimage img {
-  margin-bottom: 0.75rem;
-}
-
-.linkedin-signin .bgimage h1 {
-  color: #233969;
+.social-signin .bgimage h1 {
   font-weight: 200;
   color: #ffffff;
   font-size: 1.8rem;
 }
 
-.linkedin-signin .button {
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  background-color: #ffffff;
+.social-signin .button {
+  padding: 1.5rem 1.5rem 1rem;
+  border-radius: 0 0 6px 6px;
 }
 
-.linkedin-signin .button h1 {
+.social-signin .button h1 {
   color: #233969;
   font-weight: 200;
 }
 
-.linkedin-signin .button p {
+.social-signin .button p {
   font-size: 0.75rem;
 }
 
-.linkedin-signin .button a {
+.social-signin .button a {
   display: block;
   margin: 0 auto;
   width: 100%;
   max-width: 215px;
+}
+
+.social-signin button {
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 215px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.social-signin .alert {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0 1rem 1rem;
+}
+
+.social-signin button {
+  border: none;
 }
 
 .fourofour {
@@ -297,7 +352,28 @@ ul.mainnav li {
   color: #233969;
 }
 
+button.hand-hover:hover {
+  cursor: pointer;
+}
+
+ngb-pagination {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.table tr td .fa {
+  color: #f1c40f;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
 @media screen and (max-width: 991px) {
+  .table tbody + tbody {
+    border-top: 1px solid #e9ecef;
+  }
   .table tr th {
     display: block;
     display: none;
@@ -323,46 +399,56 @@ ul.mainnav li {
     border-bottom-color: #e8ebef;
     padding-bottom: 1rem;
   }
-  .table.table-hover tr:hover td {
-    border-color: #ececec;
+  .table-hover tr:hover td {
+    border-color: #fafafa;
   }
 }
 
+.docs-container, .docs {
+  margin-top: 100px;
+}
+
+.docs-container .card, .docs .card {
+  min-height: 70vh;
+}
+
+.docs-container .menu li, .docs .menu li {
+  margin-bottom: 1rem;
+}
+
+.docs-container .menu li a, .docs .menu li a {
+  font-weight: 600;
+}
+
+.docs-container .docs-content, .docs .docs-content {
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 767px) {
-  .table tr td span {
+  .table tbody tr td span {
     display: none;
   }
 }
 
-.form-control:disabled, .form-control[readonly] {
-  background: #ffffff;
-  border-radius: 0;
-  color: #000000;
-  border-color: #ffffff;
-  padding-left: 0;
+button.hand-hover:hover {
+  cursor: pointer;
 }
 
-.card {
-  margin-bottom: 1.5rem;
+@media (max-width: 1200px) {
+  .container {
+    min-width: 100%;
+  }
 }
 
-.hidden {
-  display: none;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.show {
-  visibility: visible;
-  opacity: 1;
-}
-
-.modal-dialog-center {
-  margin-top: 15%;
-}
-
-.hiw .nav-link {
-  border-radius: 50%;
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1440px;
+  }
+  .container.docs-container {
+    width: 100%;
+    max-width: 1100px;
+  }
 }
 
 /*# sourceMappingURL=maps/style.css.map */

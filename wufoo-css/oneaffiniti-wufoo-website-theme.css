@@ -17,6 +17,10 @@
     border-bottom: 1px solid #E5EBE7;
 }
 
+.wufoo a {
+    color: #333333;
+}
+
 .wufoo .info h2 {}
 
 .wufoo .info div {}
@@ -61,7 +65,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.5;
-    color: #212529;
+    color: #333333;
     margin-bottom: .5rem;
 }
 
@@ -145,13 +149,19 @@
 }
 
 .wufoo .instruct {
-    background: #08A5DC;
-    border-color: #08A5DC;
+    background: #C0E2CC;
+    border-color: #C0E2CC;
 }
 
 .wufoo .instruct small {
-    color: #ffffff;
+    color: #333333;
 }
+
+
+.wufoo li.focused .instruct, .wufoo li:hover .instruct {
+    left: 95%;
+}
+
 
 .wufoo span.symbol {
     margin-top: 5px;
@@ -186,17 +196,18 @@
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    padding: .5rem .75rem;
+    padding: 1rem 1.25rem;
     font-size: 1rem;
     line-height: 1.25;
     border-radius: 0;
     transition: all .15s ease-in-out;
-    background-color: #C0E2CC;
+    background-color: #1E3869;
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .wufoo input.btTxt:hover {
-    background-color: #0494c7;
+    background-color: #1E3869;
 }
 
 .leftLabel .buttons, .rightLabel .buttons {

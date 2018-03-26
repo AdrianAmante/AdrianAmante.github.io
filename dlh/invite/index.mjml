@@ -29,6 +29,7 @@
       <mj-section padding="10" background-color="#ffffff" border-radius="8 8 0 0">
         <mj-column vertical-align="middle">
           <mj-image src="http://pr-cdn.oneaffiniti.com/upload/general/20171004/1a_logo.png" width="160" height="75" padding="0"></mj-image>
+          <!-- <mj-image src="https://pr-cdn.oneaffiniti.com/upload/general/20180308/logo.png" width="182" height="75" padding="0"></mj-image> -->
         </mj-column>
       </mj-section>
 
@@ -74,8 +75,8 @@
             <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
               <tr>
                 <td style="word-wrap:break-word;font-size:0px;padding-bottom:5px;" align="center" class="privacy-links">
-                  <div style="cursor:auto;color:#007aff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:20px;text-align:center;text-transform:uppercase;">
-                  		<a href="{provacy_variable}" style="color:007aff; text-decoration: none;">Privacy</a> | <a href="{conditions_variable}" style="color:007aff; text-decoration: none;">Telemarketing Agency Conditions</a>
+                  <div style="cursor:auto;color:#007aff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;line-height:20px;text-align:center;text-transform:uppercase;">
+                  		<a href="{privacy_variable}" style="color:007aff; text-decoration: none;">Privacy</a> | <a href="{conditions_variable}" style="color:007aff; text-decoration: none;">Telemarketing Agency Conditions</a>
                     </div>
                 </td>
               </tr>

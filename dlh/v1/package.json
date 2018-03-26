@@ -1,0 +1,21 @@
+{
+  "name": "gulp-project-starter",
+  "version": "0.0.0",
+  "description": "Simple gulp starter project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "intro.js": "^2.8.0-alpha.1",
+    "node-sass": "^4.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Amante",
+  "license": "ISC"
+}
