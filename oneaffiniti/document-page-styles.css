@@ -21,10 +21,13 @@
     -webkit-transform: translateZ(0);
 }
 
-@media screen(max-width:768px) {
+@media screen and (max-width:768px) {
     .docs-card.scrollNav.scrollNavtotop {
         display: none !important;
         opacity: 0 !important;
+    }
+    #docsNav {
+    	display: none;
     }
 }
 
