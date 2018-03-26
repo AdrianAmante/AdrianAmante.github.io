@@ -34,6 +34,7 @@
 .docs-card {
 	background: #E5EBE7;
 	padding: 15px;
+	width: 100%;
 }
 
 .docs-card .docs-card-block .docs-card-title {
