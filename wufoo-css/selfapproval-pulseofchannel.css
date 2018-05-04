@@ -1,69 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 .wufoo {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-family: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
     margin-bottom: 1rem;
     padding: 10px;
     border:  1px solid #ffffff;
     background: #ffffff;
 }
 
-.embed #container {
+/* .embed #container {
     background: #ffffff;
-}
+} */
 
-.wufoo .info {
+/* .wufoo .info {
     display: none;
     border-bottom: 1px solid #f5f5f5;
-}
+} */
 
-.wufoo .info h2 {}
+/* .wufoo .info h2 {} */
 
-.wufoo .info div {}
+/* .wufoo .info div {} */
 
-.wufoo .section section {}
+/* .wufoo .section section {} */
 
-.wufoo .section section h3,
+/* .wufoo .section section h3,
 .wufoo .likert table caption {
     font-weight: 600;
     font-size: 130%;
     padding: 10px 1% 15px 3%;
-}
+} */
 
-.wufoo .section section h3 {
+/* .wufoo .section section h3 {
     border-top: 1px solid #f5f5f5;
     margin-top: 8px;
-}
+} */
 
-.wufoo .section section div,
+/* .wufoo .section section div,
 .wufoo .likert table div {
     padding: 0 1% 0 3%;
-}
+} */
 
-.wufoo li {
+/* .wufoo li {
     padding: 6px 1% 9px 3%;
-}
+} */
 
-.leftLabel li, .rightLabel li {
+/* .leftLabel li, .rightLabel li {
     width: 70% !important;
-}
+} */
 
-.wufoo li.focused {
+/* .wufoo li.focused {
     background-color: #f5f5f5;
-}
+} */
 
-.wufoo span.req {
+/* .wufoo span.req {
     color: #FF6124 !important;
-}
+} */
 
-.wufoo label.desc,
+/* .wufoo label.desc,
 .wufoo legend.desc {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.5;
     color: #212529;
     margin-bottom: .5rem;
-}
+} */
 
-.wufoo input.field,
+/* .wufoo input.field,
 .wufoo input.field,
 .wufoo textarea.textarea,
 .wufoo select.select {
@@ -79,43 +80,43 @@
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
+} */
 
-.wufoo input.checkbox,
+/* .wufoo input.checkbox,
 .wufoo input.radio {
     display: block;
     margin: 4px 0 0 0;
     padding: 0;
     width: 13px;
     height: 13px;
-}
+} */
 
-.wufoo textarea.textarea {
+/* .wufoo textarea.textarea {
     min-width: 82%;
     max-width: 95.5%;
-}
+} */
 
-.wufoo select.select {
+/* .wufoo select.select {
     width: 100%;
-}
+} */
 
-.wufoo input.file {
+/* .wufoo input.file {
     max-width: 250px;
-}
+} */
 
-.wufoo input.currency {
+/* .wufoo input.currency {
     max-width: 100px;
-}
+} */
 
-.wufoo label.choice {
+/* .wufoo label.choice {
     width: 38%;
-}
+} */
 
 /*.wufoo  span {
     float: left;
 }*/
 
-.wufoo .complex input.field,
+/* .wufoo .complex input.field,
 .wufoo .complex input.field,
 .wufoo .complex textarea.textarea,
 .wufoo .complex select.select {
@@ -131,53 +132,53 @@
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
+} */
 
-.wufoo .complex textarea.textarea {
+/* .wufoo .complex textarea.textarea {
     min-width: 82%;
     max-width: 95.5%;
-}
+} */
 
-.wufoo .complex select.select {
+/* .wufoo .complex select.select {
     width: 100%;
-}
+} */
 
-.wufoo .time span.ampm select.select {
+/* .wufoo .time span.ampm select.select {
     width: 5em !important;
-}
+} */
 
-.wufoo .instruct {
+/* .wufoo .instruct {
     background: #08A5DC;
     border-color: #08A5DC;
-}
+} */
 
-.wufoo .instruct small {
+/* .wufoo .instruct small {
     color: #ffffff;
-}
+} */
 
-.wufoo span.symbol {
+/* .wufoo span.symbol {
     margin-top: 5px;
-}
+} */
 
-.wufoo .likert table,
+/* .wufoo .likert table,
 .wufoo .likert th,
 .wufoo .likert td {
     border-color: #e9ecef;
-}
+} */
 
-.wufoo .likert table thead tr td,
+/* .wufoo .likert table thead tr td,
 .wufoo .likert table thead tr th {
     background-color: #e9ecef;
-}
+} */
 
-.wufoo .likert tbody tr:hover td,
+/* .wufoo .likert tbody tr:hover td,
 .wufoo .likert tbody tr:hover th,
 .wufoo .likert tbody tr:hover label {
     background-color: #daf2fa;
     border-color: #e9ecef;
-}
+} */
 
-.wufoo input.btTxt {
+/* .wufoo input.btTxt {
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -195,17 +196,17 @@
     transition: all .15s ease-in-out;
     background-color: #08A5DC;
     color: #ffffff;
-}
+} */
 
-.wufoo input.btTxt:hover {
+/* .wufoo input.btTxt:hover {
     background-color: #0494c7;
-}
+} */
 
-.leftLabel .buttons, .rightLabel .buttons {
+/* .leftLabel .buttons, .rightLabel .buttons {
     padding-left: 24%;
-}
+} */
 
-.wufoo span input.field,
+/* .wufoo span input.field,
 .wufoo span input.field,
 .wufoo span textarea.textarea,
 .wufoo span select.select,
@@ -214,10 +215,10 @@
 .wufoo .complex span textarea.textarea,
 .wufoo .complex span select.select {
     width: calc(100% - 4rem);
-}
+} */
 
 
 /* remove border-focus */
-*:focus {
+/* *:focus {
     outline: none;
-}
+} */
