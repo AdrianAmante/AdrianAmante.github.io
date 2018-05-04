@@ -27,6 +27,13 @@
     padding-bottom: 15px;
 }
 
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    letter-spacing: normal;
+}
+
 /* .wufoo .info h2 {} */
 
 /* .wufoo .info div {} */
