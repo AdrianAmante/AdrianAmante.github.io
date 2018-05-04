@@ -11,10 +11,14 @@
     background: #ffffff;
 } */
 
-/* .wufoo .info {
+.wufoo .info {
     display: none;
-    border-bottom: 1px solid #f5f5f5;
-} */
+    border-bottom: none;
+}
+
+.wufoo .section h3 {
+    font-family: 'Montserrat';
+}
 
 /* .wufoo .info h2 {} */
 
