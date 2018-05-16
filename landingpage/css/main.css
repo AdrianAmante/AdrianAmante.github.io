@@ -524,15 +524,20 @@ a:focus {
   background: #f9f9f9;
 }
 .landing-page .sidebar-container .sidebar .sidebar-contact li.address .image {
+  width: 100%;
   display: block;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 0;
+}
+.landing-page .sidebar-container .sidebar .sidebar-contact li.address .image a {
+  display: block;
+  width: 100%;
 }
 .landing-page .sidebar-container .sidebar .sidebar-contact li.address .image a img {
-  width: 100%;
+  width: 100% !important;
   border: 3px solid #fff;
-  max-width: 250px;
-  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
 }
 .landing-page .sidebar-container .sidebar .sidebar-contact li.address .text {
   font-size: 13px;
@@ -540,13 +545,10 @@ a:focus {
 .landing-page .sidebar-container .sidebar .sidebar-contact li.address .text .address-wrapper {
   display: block;
   margin: 0 auto 15px;
-  max-width: 250px;
+  max-width: 100%;
   width: 100%;
   border: 3px solid transparent;
   word-wrap: break-word;
-}
-.landing-page .sidebar-container .sidebar .sidebar-contact li.address .text .address-wrapper br {
-  display: none;
 }
 .landing-page .footer {
   background: #212121;
@@ -947,9 +949,6 @@ a:focus {
   width: 100%;
   border: 3px solid transparent;
   word-wrap: break-word;
-}
-.sidebar-container .sidebar .sidebar-contact li.address .text .address-wrapper br {
-  display: none;
 }
 
 .footer {
