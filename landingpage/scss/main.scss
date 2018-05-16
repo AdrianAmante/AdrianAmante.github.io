@@ -591,17 +591,21 @@ a:focus {
                         clear: both;
                         background: #f9f9f9;
                         .image{
-                            // width: 100%;
+                            width: 100%;
                             // float: left;
                             display: block;
                             text-align: center;
-                            padding-bottom: 15px;
+                            padding-bottom: 0;
                             a {
+                                display: block;
+                                width: 100%;
                                 img{
-                                    width: 100%;
+                                    width: 100% !important;
                                     border: 3px solid #fff;
-                                    max-width: 250px;
-                                    margin: 0 auto;
+                                    // max-width: 250px;
+                                    // margin: 0 auto;
+                                    height: auto;
+                                    max-width: 100%;
                                 }
                             }
                         }
@@ -615,12 +619,12 @@ a:focus {
                             .address-wrapper {
                                 display: block;
                                 margin: 0 auto 15px;
-                                max-width: 250px;
+                                max-width: 100%;
                                 width: 100%;
                                 border: 3px solid transparent;
                                 word-wrap: break-word;
                                 br {
-                                    display: none;
+                                    // display: none;
                                 }
                             }
                         }
@@ -1074,7 +1078,7 @@ a:focus {
                                 border: 3px solid transparent;
                                 word-wrap: break-word;
                                 br {
-                                    display: none;
+                                    // display: none;
                                 }
                             }
                         }
