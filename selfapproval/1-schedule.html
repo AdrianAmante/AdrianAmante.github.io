@@ -181,7 +181,7 @@
 <!-- Update Email Card -->
                         <div class="card update-collapse update-info">
                             <!-- incomplete self approval -->
-                            <div class="alert-incomplete" data-toggle="tooltip" data-placement="top" title="Please add a subject line">
+                            <div class="alert-incomplete" data-toggle="tooltip" data-placement="top" title="Please complete email settings">
                                 <i class="fa fa-exclamation-circle"></i>
                             </div>
                             <div class="collapse-header collapsed" data-toggle="collapse" data-target="#update-email-collapse">
@@ -203,11 +203,11 @@
                                         <input type="email" class="form-control input-lg" placeholder="myemail@company.com" ng-blur="ctrl.onChangeAccountInfo('companynamechange', 'edm_company_name')" ng-model="ctrl.campaignData.media_booking.edm_company_name" style="">
                                     </div>
                                     <div class="col-sm-12">
-                                        <span>Send from email:</span>
+                                        <span>Send from email: <i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="This is the email address that the email is sent from."></i></span>
                                         <input type="email" class="form-control input-lg" placeholder="myemail@company.com" ng-blur="ctrl.onChangeAccountInfo('companynamechange', 'edm_company_name')" ng-model="ctrl.campaignData.media_booking.edm_company_name" style="">
                                     </div>
                                     <div class="col-sm-12">
-                                        <span>Send from name:</span>
+                                        <span>Send from name: <i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="This is the name of the person who the email is sent from."></i></span>
                                         <input type="text" class="form-control input-lg" placeholder="John Smith" ng-blur="ctrl.onChangeAccountInfo('companynamechange', 'edm_company_name')" ng-model="ctrl.campaignData.media_booking.edm_company_name" style="">
                                     </div>
                                     <div class="col-md-12 save-btn">
