@@ -1,0 +1,694 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Self Approval | OneAffiniti</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Google font Gudea  -->
+    <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Intro.js CSS -->
+    <link href="css/introjs.css" rel="stylesheet">
+    <!-- Modernizr -->
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <div class="logo">
+            <a href="1-schedule.html" class="logo">
+                <h1 class="text-center">
+                    <img src="http://self-approval-pr-stage.oneaffiniti.com/style/images/logo.png" alt="">
+                </h1>
+            </a>
+        </div>
+    </header>
+
+    <section class="alerts-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- copy to clipboard alert -->
+                    <div class="clipboardAlert alert alert-success text-center" role="alert" style="display: none;">
+                        <strong>Article ID Copied</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-continer">
+        <div class="article-library container">
+            <div class="row">
+                <section class="articles-list col-sm-8">
+                    <!-- Article Search -->
+                    <section class="article-search">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Search</label>
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-xs-6">
+                                    <div class="form-group">
+                                        <label>Year</label>
+                                        <select class="form-control">
+                                            <option>2018</option>
+                                            <option>2017</option>
+                                            <option>2016</option>
+                                            <option>2015</option>
+                                            <option>2014</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-xs-6">
+                                    <div class="form-group">
+                                        <label>Month</label>
+                                        <select class="form-control">
+                                            <option selected>Select</option>
+                                            <option>January</option>
+                                            <option>February</option>
+                                            <option>March</option>
+                                            <option>April</option>
+                                            <option>May</option>
+                                            <option>June</option>
+                                            <option>July</option>
+                                            <option>August</option>
+                                            <option>September</option>
+                                            <option>October</option>
+                                            <option>November</option>
+                                            <option>December</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-xs-12">
+                                    <div class="form-group">
+                                        <label class="hidden-xs">&nbsp;</label>
+                                        <a href="#" class="submit btn btn-primary btn-block">Submit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="card">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Article
+                                    </th>
+                                    <th class="text-center">
+                                        Preview
+                                    </th>
+                                    <th class="text-center">
+                                        Copy to clipboard
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5678" value="A5678">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5678">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5678" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5679" value="A5679">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5679">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5679" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5680" value="A5680">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5680">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5680" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5681" value="A5681">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5681">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5681" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                                <li>Education</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5682" value="A5682">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5682">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5682" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5683" value="A5683">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5683">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5683" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5684" value="A5684">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5684">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5684" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5685" value="A5685">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5685">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5685" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5686" value="A5686">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5686">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5686" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                                <li>Education</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5687" value="A5687">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5687">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5687" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5688" value="A5688">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5688">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5688" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5688" value="A5688">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5688">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5688" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5689" value="A5689">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5689">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5689" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5690" value="A5690">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5690">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5690" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                                <tr class="article-item">
+                                    <td align="left" valign="middle">
+                                        <div class="name">
+                                            <a href="#" data-toggle="modal" data-target=".article-modal">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <div class="date">20171207</div>
+                                            <ul class="vertical">
+                                                <li>SMB</li>
+                                                <li>Education</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
+                                    </td>
+                                    <td align="center" valign="middle" width="140">
+                                        <div class="article-id input-group input-group-sm">
+                                            <input type="text" class="form-control text-center" id="A5691" value="A5691">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button" data-clipboard-target="#A5691">
+                                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="copy-alert form-control text-center" id="A5691" value="Copied" style="display: none;;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="article-aside col-sm-4">
+                    <div class="card">
+                        <div class="aside-heading">
+                            Verticals
+                        </div>
+                        <div class="vertical-container">
+                                <div class="cat-wrapper">
+                                        <div class="cat-col">
+                                            <div class="checkbox-wrapper">
+                                                <input id="toggle1" type="checkbox">
+                                                <label class="checkbox" for="toggle1">SMB</label>
+                                                <input id="toggle2" type="checkbox">
+                                                <label class="checkbox" for="toggle2">Education</label>
+                                                <input id="toggle3" type="checkbox">
+                                                <label class="checkbox" for="toggle3">Gaming</label>
+                                                <input id="toggle7" type="checkbox">
+                                                <label class="checkbox" for="toggle7">Health</label>
+                                                <input id="toggle9" type="checkbox">
+                                                <label class="checkbox" for="toggle9">Media</label>
+                                                <input id="toggle11" type="checkbox">
+                                                <label class="checkbox" for="toggle11">Software</label>
+                                                <input id="toggle12" type="checkbox">
+                                                <label class="checkbox" for="toggle12">Security</label>
+                                                <input id="toggle15" type="checkbox">
+                                                <label class="checkbox" for="toggle15">Cloud</label>
+                                                <input id="toggle16" type="checkbox">
+                                                <label class="checkbox" for="toggle16">Workstations</label>
+                                            </div>
+                                        </div>
+                                        <div class="cat-col right">
+                                            <div class="checkbox-wrapper">
+                                                <input id="toggle4" type="checkbox">
+                                                <label class="checkbox" for="toggle4">Engineering</label>
+                                                <input id="toggle5" type="checkbox">
+                                                <label class="checkbox" for="toggle5">Enterprise</label>
+                                                <input id="toggle6" type="checkbox">
+                                                <label class="checkbox" for="toggle6">Government</label>
+                                                <input id="toggle8" type="checkbox">
+                                                <label class="checkbox" for="toggle8">Manufacturing</label>
+                                                <input id="toggle10" type="checkbox">
+                                                <label class="checkbox" for="toggle10">Datancentre</label>
+                                                <input id="toggle13" type="checkbox">
+                                                <label class="checkbox" for="toggle13">Networking</label>
+                                                <input id="toggle14" type="checkbox">
+                                                <label class="checkbox" for="toggle14">Storage</label>
+                                                <input id="toggle17" type="checkbox">
+                                                <label class="checkbox" for="toggle17">Print</label>
+                                                <input id="toggle18" type="checkbox">
+                                                <label class="checkbox" for="toggle18">Managed Services</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- article modal -->
+    <div class="modal fade article-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="max-width: 730px;" role="document">
+            <div class="modal-content">
+                <img class="img-responsive banner" src="http://pr-cdn.oneaffiniti.com/images/content/5142/Pitch_tech_solutions_to_upper_management_and_succeed_730x365.jpg">
+                <div class="articlepreviewcontent">
+                    <h4>Card title</h4>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                        tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+                        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
+                        et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit
+                        amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+                        lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque
+                        id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.
+                        Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    <ul>
+                        <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies
+                            in, diam. Sed arcu. Cras consequat.</li>
+                        <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu
+                            erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus,
+                            metus.
+                        </li>
+                        <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique
+                            cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+                        <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate,
+                            nunc.
+                        </li>
+                    </ul>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                        tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+                        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <!-- Bootstrap js -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
+    <!-- Intro.js -->
+    <script src="js/vendor/intro.js"></script>
+    <!-- Custom js -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+    <script>
+        var clip = new Clipboard('.btn');
+        clip.on('success', function (e) {
+            $('.clipboardAlert').fadeIn(150).delay(2000)
+            $('.clipboardAlert').fadeOut(1000);
+        });
+    </script>
+</body>
+
+</html>
