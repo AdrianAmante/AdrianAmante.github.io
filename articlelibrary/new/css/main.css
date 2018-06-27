@@ -1865,9 +1865,18 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
   font-weight: 600;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .article-library .articles-list .article-item .name a:hover {
   text-decoration: none;
+}
+.article-library .articles-list .article-item .name a .label-success {
+  position: relative;
+  top: -5px;
+  padding: .2em .6em;
+  color: #5cb85c;
+  border: 1px solid #5cb85c;
+  background: #ffffff;
 }
 .article-library .articles-list .article-item .details {
   position: relative;

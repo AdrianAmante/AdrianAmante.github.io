@@ -2046,8 +2046,17 @@ ul.uib-datepicker-popup {
           font-weight: 600;
           margin: 0;
           padding: 0;
+          position: relative;
           &:hover {
             text-decoration: none;
+          }
+          .label-success {
+            position: relative;
+            top: -5px;
+            padding: .2em .6em;;
+            color: #5cb85c;
+            border: 1px solid #5cb85c;
+            background: #ffffff;
           }
         }
       }
