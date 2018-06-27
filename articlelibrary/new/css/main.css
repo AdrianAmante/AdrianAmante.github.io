@@ -1863,6 +1863,11 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
 }
 .article-library .articles-list .article-item .name a {
   font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.article-library .articles-list .article-item .name a:hover {
+  text-decoration: none;
 }
 .article-library .articles-list .article-item .details {
   position: relative;
@@ -1896,6 +1901,16 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
 .article-library .articles-list .article-item .details .vertical li:last-child::after {
   content: " ";
 }
+.article-library .articles-list .table {
+  margin-bottom: 0;
+}
+.article-library .articles-list .table tr td {
+  border-top-color: #f5f5f5;
+  .vertical-align: middle;
+}
+.article-library .articles-list .table tr:first-child td {
+  border-top-color: #ffffff;
+}
 .article-library .article-aside .card {
   padding: 0;
 }
@@ -1907,15 +1922,12 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
   letter-spacing: 1px;
   border-bottom: 5px solid #f5f5f5;
 }
-.article-library .article-aside .card .cat-wrapper {
-  display: table;
-}
-.article-library .article-aside .card .cat-wrapper .cat-col {
-  width: 50%;
-  float: left;
-}
-.article-library .article-aside .card .cat-wrapper .right {
-  border-left: 1px solid #fff;
+.article-library .article-aside .card .aside-heading .help-text {
+  text-transform: none;
+  font-weight: normal;
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #888888;
 }
 .article-library .article-aside .card .vertical-container {
   padding: 15px;
@@ -1944,7 +1956,7 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
   border-radius: 0;
   color: #08a5dc;
   background-color: #ffffff;
-  white-space: nowrap;
+  white-space: wrap;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1967,7 +1979,7 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
   width: 13px;
   height: 13px;
   border: 1px solid #dddddd;
-  border-radius: 100px;
+  border-radius: 0;
   -webkit-transition: background-color 0.2s;
           transition: background-color 0.2s;
 }
@@ -1986,13 +1998,20 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
   width: 13px;
   height: 13px;
   border: 1px solid #007bff;
-  border-radius: 100px;
+  border-radius: 0;
   -webkit-transition: background-color 0.2s;
           transition: background-color 0.2s;
 }
 .article-library .article-aside .card .vertical-container input:checked + label.checkbox::before {
   background-color: #007bff;
   border: 5px solid #ffffff;
+}
+.article-library .form-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333333;
 }
 .article-library .form-control {
   border: solid 1px #dce4e6 !important;
@@ -2030,9 +2049,49 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
     margin-right: 15px;
     border-radius: 0;
   }
+  .article-library .article-table .article-item td {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    border-top: #ffffff;
+    border-bottom: #ffffff;
+    border-left: 1px solid #dce4e6;
+    border-right: 1px solid #dce4e6;
+  }
+  .article-library .article-table .article-item td:first-child {
+    border-top: 1px solid #dce4e6 !important;
+    display: none;
+  }
+  .article-library .article-table .article-item td:first-child {
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .article-library .article-table .article-item td:last-child {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .article-library .article-table .article-item td:nth-child(2) {
+    padding: 30px 15px 0;
+    border-top: 1px solid #dce4e6;
+  }
+  .article-library .article-table .article-item:first-child td:nth-child(2) {
+    border-top: 1px solid #dce4e6;
+  }
+  .article-library .article-table .article-item:last-child td:last-child {
+    border-bottom: 1px solid #dce4e6;
+  }
 }
 body {
   padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

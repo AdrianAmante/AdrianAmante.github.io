@@ -2044,6 +2044,11 @@ ul.uib-datepicker-popup {
       .name {
         a {
           font-weight: 600;
+          margin: 0;
+          padding: 0;
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
       .details {
@@ -2079,6 +2084,21 @@ ul.uib-datepicker-popup {
         }
       }
     }
+    .table {
+      margin-bottom: 0;
+      tr {
+        td {
+          border-top-color:#f5f5f5;
+          .vertical-align: middle;
+        }
+      }
+      tr:first-child {
+        td {
+          border-top-color: #ffffff;
+        }
+      }
+
+    }
   }
   .article-aside {
     .card {
@@ -2090,15 +2110,12 @@ ul.uib-datepicker-popup {
         font-size: 16px;
         letter-spacing: 1px;
         border-bottom: 5px solid #f5f5f5;
-      }
-      .cat-wrapper {
-        display: table;
-        .cat-col {
-          width: 50%;
-          float: left;
-        }
-        .right {
-          border-left: 1px solid #fff;
+        .help-text {
+          text-transform: none;
+          font-weight: normal;
+          margin: 5px 0 0;
+          font-size: 14px;
+          color: #888888;
         }
       }
       .vertical-container {
@@ -2133,7 +2150,7 @@ ul.uib-datepicker-popup {
           border-radius: 0;
           color: #08a5dc;
           background-color: #ffffff;
-          white-space: nowrap;
+          white-space: wrap;
           cursor: pointer;
           user-select: none;
           transition: background-color 0.2s;
@@ -2153,7 +2170,7 @@ ul.uib-datepicker-popup {
           width: 13px;
           height: 13px;
           border: 1px solid #dddddd;
-          border-radius: 100px;
+          border-radius: 0;
           transition: background-color 0.2s;
         }
 
@@ -2185,7 +2202,7 @@ ul.uib-datepicker-popup {
           width: 13px;
           height: 13px;
           border: 1px solid #007bff;
-          border-radius: 100px;
+          border-radius: 0;
           transition: background-color 0.2s;
         }
 
@@ -2194,6 +2211,16 @@ ul.uib-datepicker-popup {
           border: 5px solid #ffffff;
         }
       }
+    }
+  }
+
+  .form-group {
+    label {
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #333333;
     }
   }
   .form-control {
@@ -2236,8 +2263,58 @@ ul.uib-datepicker-popup {
       margin-right: 15px;
       border-radius: 0;
     }
+    .article-table {
+      .article-item {
+        td {
+          display: block;
+          width: 100%;
+          padding: 0 15px;
+          border-top:#ffffff;
+          border-bottom: #ffffff;
+          border-left: 1px solid #dce4e6;
+          border-right: 1px solid #dce4e6;
+          &:first-child {
+            border-top: 1px solid #dce4e6 !important;
+            display: none;
+          }
+          &:first-child {
+            text-align: right;
+            padding-top: 30px;
+            padding-bottom: 0;
+          }
+          &:last-child {
+            padding-top: 15px;
+            padding-bottom: 30px;
+          }
+          &:nth-child(2) {
+            padding: 30px 15px 0;
+            border-top: 1px solid #dce4e6;
+          }
+        }
+        &:first-child {
+          td:nth-child(2) {
+            border-top: 1px solid #dce4e6;
+          }
+        }
+        &:last-child {
+          td:last-child {
+            border-bottom: 1px solid #dce4e6;
+          }
+        }
+      }
+    }
   }
 }
 body {
     padding-bottom: 100px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+

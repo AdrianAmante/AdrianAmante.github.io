@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Self Approval | OneAffiniti</title>
+    <title>Article Library | OneAffiniti</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap core CSS -->
@@ -49,7 +49,7 @@
                 <div class="col-sm-12">
                     <!-- copy to clipboard alert -->
                     <div class="clipboardAlert alert alert-success text-center" role="alert" style="display: none;">
-                        <strong>Article ID Copied</strong>
+                        <strong>Article ID and Title Copied</strong>
                     </div>
                 </div>
             </div>
@@ -59,18 +59,18 @@
     <section class="main-continer">
         <div class="article-library container">
             <div class="row">
-                <section class="articles-list col-sm-8">
+                <section class="articles-list col-md-8 col-sm-7">
                     <!-- Article Search -->
                     <section class="article-search">
                         <div class="card">
                             <div class="row">
-                                <div class="col-sm-6 col-xs-12">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Search</label>
                                         <input type="text" class="form-control" placeholder="Search">
                                     </div>
                                 </div>
-                                <div class="col-sm-2 col-xs-6">
+                                <div class="col-md-2 col-sm-4 col-xs-6">
                                     <div class="form-group">
                                         <label>Year</label>
                                         <select class="form-control">
@@ -82,7 +82,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-sm-2 col-xs-6">
+                                <div class="col-md-2 col-sm-4 col-xs-6">
                                     <div class="form-group">
                                         <label>Month</label>
                                         <select class="form-control">
@@ -102,9 +102,9 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-sm-2 col-xs-12">
+                                <div class="col-md-2 col-sm-4 col-xs-12">
                                     <div class="form-group">
-                                        <label class="hidden-xs">&nbsp;</label>
+                                        <label class="">&nbsp;</label>
                                         <a href="#" class="submit btn btn-primary btn-block">Submit</a>
                                     </div>
                                 </div>
@@ -113,41 +113,31 @@
                     </section>
 
                     <div class="card">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        Article
-                                    </th>
-                                    <th class="text-center">
-                                        Preview
-                                    </th>
-                                    <th class="text-center">
-                                        Copy to clipboard
-                                    </th>
-                                </tr>
-                            </thead>
+                        <table class="table article-table">
                             <tbody>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle" width="100">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                5-step security compliance for SMBs
+                                                <span class="label label-success">New</span>
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5678" value="A5678">
+                                            <input type="text" class="form-control text-center" id="A5678" value="A5678 5-step security compliance for SMBs">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5678">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -158,25 +148,29 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Security tips you can act on today
+                                                <span class="label label-success">New</span>
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5679" value="A5679">
+                                            <input type="text" class="form-control text-center" id="A5679" value="A5679 Security tips you can act on today">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5679">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -187,25 +181,29 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Choosing a monitor for your business
+                                                <span class="label label-success">New</span>
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5680" value="A5680">
+                                            <input type="text" class="form-control text-center" id="A5680" value="A5680 Choosing a monitor for your business">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5680">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -216,25 +214,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Cloud-based mobile device management for healthcare is here
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
+                                                <li>Health</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5681" value="A5681">
+                                            <input type="text" class="form-control text-center" id="A5681" value="A5681 Cloud-based mobile device management for healthcare is here">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5681">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -245,26 +246,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                How to maintain your Active Directory
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
-                                                <li>Education</li>
+                                                <li>Enterprise</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5682" value="A5682">
+                                            <input type="text" class="form-control text-center" id="A5682" value="A5682 How to maintain your Active Directory">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5682">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -275,25 +278,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Cloud or on-premises storage? Why not use both?
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
+                                                <li>Enterprise</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5683" value="A5683">
+                                            <input type="text" class="form-control text-center" id="A5683" value="A5683 Cloud or on-premises storage? Why not use both?">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5683">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -304,25 +310,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Interactive learning is good for students, good for teachers
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
+                                                <li>Education</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5684" value="A5684">
+                                            <input type="text" class="form-control text-center" id="A5684" value="A5684 Interactive learning is good for students, good for teachers">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5684">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -333,25 +342,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Interactive learning is good for students, good for teachers
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5685" value="A5685">
+                                            <input type="text" class="form-control text-center" id="A5685" value="A5685 Interactive learning is good for students, good for teachers">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5685">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -362,25 +374,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                How cloud printing protects against hackers
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5686" value="A5686">
+                                            <input type="text" class="form-control text-center" id="A5686" value="A5686 How cloud printing protects against hackers">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5686">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -391,26 +406,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Virtual desktop technology has big real-world benefits
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
                                                 <li>Education</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5687" value="A5687">
+                                            <input type="text" class="form-control text-center" id="A5687" value="A5687 Virtual desktop technology has big real-world benefits">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5687">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -421,25 +438,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Endpoint security: 5 things to know
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5688" value="A5688">
+                                            <input type="text" class="form-control text-center" id="A5688" value="A5688 Endpoint security: 5 things to know">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5688">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -450,25 +470,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Grow your business with big data and analytics
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5688" value="A5688">
+                                            <input type="text" class="form-control text-center" id="A5688" value="A5688 Grow your business with big data and analytics">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5688">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -479,25 +502,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Getting smart on the future of cities and communities
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
                                                 <li>SMB</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5689" value="A5689">
+                                            <input type="text" class="form-control text-center" id="A5689" value="A5689 Getting smart on the future of cities and communities">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5689">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -508,25 +534,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                There’s a revolution going on in distance learning
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
+                                                <li>Education</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5690" value="A5690">
+                                            <input type="text" class="form-control text-center" id="A5690" value="A5690 There’s a revolution going on in distance learning">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5690">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -537,26 +566,28 @@
                                     </td>
                                 </tr>
                                 <tr class="article-item">
+                                    <td align="center" valign="middle">
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".article-modal">
+                                            <span>Preview</span>
+                                        </button>
+                                    </td>
                                     <td align="left" valign="middle">
                                         <div class="name">
                                             <a href="#" data-toggle="modal" data-target=".article-modal">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, fi
+                                                Track your business’s health to make good decisions
                                             </a>
                                         </div>
                                         <div class="details">
-                                            <div class="date">20171207</div>
+                                            <div class="date">June 2018</div>
                                             <ul class="vertical">
-                                                <li>SMB</li>
-                                                <li>Education</li>
+                                                <li>Enterprise</li>
                                             </ul>
                                         </div>
                                     </td>
-                                    <td align="center" valign="middle">
-                                        <button type="button" class="btn btn-outline-primary btn-sm float-right" data-toggle="modal" data-target=".article-modal">PREVIEW</button>
-                                    </td>
-                                    <td align="center" valign="middle" width="140">
+
+                                    <td align="center" valign="middle" width="110">
                                         <div class="article-id input-group input-group-sm">
-                                            <input type="text" class="form-control text-center" id="A5691" value="A5691">
+                                            <input type="text" class="form-control text-center" id="A5691" value="A5691 Track your business’s health to make good decisions">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-primary" type="button" data-clipboard-target="#A5691">
                                                     <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -570,63 +601,69 @@
                         </table>
                     </div>
                 </section>
-                <section class="article-aside col-sm-4">
+                <section class="article-aside col-md-4 col-sm-5 hidden-xs">
                     <div class="card">
                         <div class="aside-heading">
                             Verticals
+                            <p class="help-text">Select the verticals you would like to filter</p>
                         </div>
                         <div class="vertical-container">
-                                <div class="cat-wrapper">
-                                        <div class="cat-col">
-                                            <div class="checkbox-wrapper">
-                                                <input id="toggle1" type="checkbox">
-                                                <label class="checkbox" for="toggle1">SMB</label>
-                                                <input id="toggle2" type="checkbox">
-                                                <label class="checkbox" for="toggle2">Education</label>
-                                                <input id="toggle3" type="checkbox">
-                                                <label class="checkbox" for="toggle3">Gaming</label>
-                                                <input id="toggle7" type="checkbox">
-                                                <label class="checkbox" for="toggle7">Health</label>
-                                                <input id="toggle9" type="checkbox">
-                                                <label class="checkbox" for="toggle9">Media</label>
-                                                <input id="toggle11" type="checkbox">
-                                                <label class="checkbox" for="toggle11">Software</label>
-                                                <input id="toggle12" type="checkbox">
-                                                <label class="checkbox" for="toggle12">Security</label>
-                                                <input id="toggle15" type="checkbox">
-                                                <label class="checkbox" for="toggle15">Cloud</label>
-                                                <input id="toggle16" type="checkbox">
-                                                <label class="checkbox" for="toggle16">Workstations</label>
-                                            </div>
-                                        </div>
-                                        <div class="cat-col right">
-                                            <div class="checkbox-wrapper">
-                                                <input id="toggle4" type="checkbox">
-                                                <label class="checkbox" for="toggle4">Engineering</label>
-                                                <input id="toggle5" type="checkbox">
-                                                <label class="checkbox" for="toggle5">Enterprise</label>
-                                                <input id="toggle6" type="checkbox">
-                                                <label class="checkbox" for="toggle6">Government</label>
-                                                <input id="toggle8" type="checkbox">
-                                                <label class="checkbox" for="toggle8">Manufacturing</label>
-                                                <input id="toggle10" type="checkbox">
-                                                <label class="checkbox" for="toggle10">Datancentre</label>
-                                                <input id="toggle13" type="checkbox">
-                                                <label class="checkbox" for="toggle13">Networking</label>
-                                                <input id="toggle14" type="checkbox">
-                                                <label class="checkbox" for="toggle14">Storage</label>
-                                                <input id="toggle17" type="checkbox">
-                                                <label class="checkbox" for="toggle17">Print</label>
-                                                <input id="toggle18" type="checkbox">
-                                                <label class="checkbox" for="toggle18">Managed Services</label>
-                                            </div>
-                                        </div>
+                            <div class="cat-wrapper">
+                                <div class="cat-col">
+                                    <div class="checkbox-wrapper">
+                                        <input id="toggle1" type="checkbox">
+                                        <label class="checkbox" for="toggle1">SMB</label>
+                                        <input id="toggle2" type="checkbox">
+                                        <label class="checkbox" for="toggle2">Education</label>
+                                        <input id="toggle3" type="checkbox">
+                                        <label class="checkbox" for="toggle3">Gaming</label>
+                                        <input id="toggle7" type="checkbox">
+                                        <label class="checkbox" for="toggle7">Health</label>
+                                        <input id="toggle9" type="checkbox">
+                                        <label class="checkbox" for="toggle9">Media</label>
+                                        <input id="toggle11" type="checkbox">
+                                        <label class="checkbox" for="toggle11">Software</label>
+                                        <input id="toggle12" type="checkbox">
+                                        <label class="checkbox" for="toggle12">Security</label>
+                                        <input id="toggle15" type="checkbox">
+                                        <label class="checkbox" for="toggle15">Cloud</label>
+                                        <input id="toggle16" type="checkbox">
+                                        <label class="checkbox" for="toggle16">Workstations</label>
                                     </div>
                                 </div>
+                                <div class="cat-col right">
+                                    <div class="checkbox-wrapper">
+                                        <input id="toggle4" type="checkbox">
+                                        <label class="checkbox" for="toggle4">Engineering</label>
+                                        <input id="toggle5" type="checkbox">
+                                        <label class="checkbox" for="toggle5">Enterprise</label>
+                                        <input id="toggle6" type="checkbox">
+                                        <label class="checkbox" for="toggle6">Government</label>
+                                        <input id="toggle8" type="checkbox">
+                                        <label class="checkbox" for="toggle8">Manufacturing</label>
+                                        <input id="toggle10" type="checkbox">
+                                        <label class="checkbox" for="toggle10">Datancentre</label>
+                                        <input id="toggle13" type="checkbox">
+                                        <label class="checkbox" for="toggle13">Networking</label>
+                                        <input id="toggle14" type="checkbox">
+                                        <label class="checkbox" for="toggle14">Storage</label>
+                                        <input id="toggle17" type="checkbox">
+                                        <label class="checkbox" for="toggle17">Print</label>
+                                        <input id="toggle18" type="checkbox">
+                                        <label class="checkbox" for="toggle18">Managed Services</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-right" style="padding: 0 30px 15px;">
+                                <a href="#" class="submit btn btn-primary ">Submit</a>
+                            </div>
                         </div>
                     </div>
-                </section>
             </div>
+            </section>
+        </div>
         </div>
     </section>
 
