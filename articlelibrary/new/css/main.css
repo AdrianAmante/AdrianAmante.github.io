@@ -2054,9 +2054,15 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
 
 @media only screen and (max-width: 480px) {
   .article-library .card {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 0;
+  }
+  .article-library .article-table .article-item .name a .label-success {
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    padding: .4em .6em;
   }
   .article-library .article-table .article-item td {
     display: block;
