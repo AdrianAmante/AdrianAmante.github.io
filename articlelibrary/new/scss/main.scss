@@ -2032,9 +2032,6 @@ ul.uib-datepicker-popup {
     position: relative;
   }
   .article-search {
-    .submit {
-      // margin-top: 36px;
-    }
     .help-block {
       margin-bottom: 0;
     }
@@ -2098,7 +2095,7 @@ ul.uib-datepicker-popup {
       tr {
         td {
           border-top-color:#f5f5f5;
-          .vertical-align: middle;
+          vertical-align: middle;
         }
       }
       tr:first-child {

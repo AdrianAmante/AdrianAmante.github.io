@@ -1915,7 +1915,7 @@ ul.uib-datepicker-popup .uib-daypicker > table > tbody tr td button.btn[disabled
 }
 .article-library .articles-list .table tr td {
   border-top-color: #f5f5f5;
-  .vertical-align: middle;
+  vertical-align: middle;
 }
 .article-library .articles-list .table tr:first-child td {
   border-top-color: #ffffff;
