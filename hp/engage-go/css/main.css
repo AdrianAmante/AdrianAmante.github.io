@@ -286,11 +286,12 @@ footer .container {
 }
 
 .intel-tagline {
-  font-size: 14px;
   position: absolute;
   display: block;
   bottom: 0;
-  right: 100px;
+  padding: 0 15px;
+  right: 130px;
+  text-align: right;
 }
 
 .intel-logo {
@@ -324,6 +325,11 @@ footer .container {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2694a2', endColorstr='#2694a2',GradientType=0 );
   /* IE6-9 */
+}
+
+.m-space {
+  display: block;
+  height: 120px;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
