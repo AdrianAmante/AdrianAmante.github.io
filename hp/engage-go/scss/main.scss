@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'bootstrap-overrides';
+
+@import 'global/header/header.scss';
+@import 'global/footer/footer.scss';
+
+body {
+  font-family: $font-secondary;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+  font-weight: bold;
+}
+
+.container {
+	 min-height: calc(100vh - 130px);
+}

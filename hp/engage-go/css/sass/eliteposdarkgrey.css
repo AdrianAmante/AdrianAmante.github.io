@@ -1,0 +1,326 @@
+
+@font-face {
+    font-family: 'hp_simplifiedbold';
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-bold_1-webfont.svg#hp_simplifiedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hp_simplifieditalic';
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-italic_1-webfont.svg#hp_simplifieditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hp_simplifiedlight';
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-light_1-webfont.svg#hp_simplifiedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hp_simplifiedregular';
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.eot');
+    src: url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.woff2') format('woff2'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.woff') format('woff'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.ttf') format('truetype'),
+         url('https://adrianamante.github.io/hp/elitepos/fonts/hpsimplified-regular_2-webfont.svg#hp_simplifiedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wufoo {
+    font-family: 'hp_simplifiedlight', sans-serif !important;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border:  1px solid #5a5a5a;
+    background: #5a5a5a;
+    color: #fff;
+}
+
+.embed #container {
+    background: #5a5a5a;
+    color: #fff;
+     font-family: 'hp_simplifiedlight', sans-serif !important;
+}
+
+.wufoo .info {
+    /* display: none; */
+    border-bottom: 1px solid #616161;
+}
+
+.wufoo .info h2 {
+    color: #ffffff;
+    display: none;
+}
+
+.wufoo .info div {
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.wufoo .section section {}
+
+.wufoo .section section h3,
+.wufoo .likert table caption {
+    font-weight: 600;
+    font-size: 130%;
+    padding: 10px 1% 15px 3%;
+}
+
+.wufoo .section section h3 {
+    border-top: 1px solid #f5f5f5;
+    margin-top: 8px;
+}
+
+.wufoo .section section div,
+.wufoo .likert table div {
+    padding: 0 1% 0 3%;
+}
+
+.wufoo li {
+    padding: 6px 1% 3px 3%;
+}
+
+.leftLabel li, .rightLabel li {
+    width: 70% !important;
+}
+
+.wufoo li.focused {
+    background-color: #5a5a5a;
+    color: #dcaa30;
+}
+
+.wufoo span.req {
+    color: #dcaa30 !important;
+}
+
+.wufoo label.desc,
+.wufoo legend.desc {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'hp_simplifiedlight', sans-serif !important;
+}
+
+.wufoo input.field,
+.wufoo input.field,
+.wufoo textarea.textarea,
+.wufoo select.select {
+    display: block;
+    width: calc(100% - 1.6rem);
+    padding: .2rem .3rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wufoo input.checkbox,
+.wufoo input.radio {
+    display: block;
+    margin: 4px 0 0 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+}
+
+.wufoo textarea.textarea {
+    min-width: 82%;
+    max-width: 95.5%;
+}
+
+.wufoo select.select {
+    width: 100%;
+}
+
+.wufoo input.file {
+    max-width: 250px;
+}
+
+.wufoo input.currency {
+    max-width: 100px;
+}
+
+/*.wufoo  span {
+    float: left;
+}*/
+
+.wufoo .complex input.field,
+.wufoo .complex input.field,
+.wufoo .complex textarea.textarea,
+.wufoo .complex select.select {
+    display: block;
+    width: calc(100% - 1.6rem);
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wufoo .complex textarea.textarea {
+    min-width: 82%;
+    max-width: 95.5%;
+}
+
+.wufoo .complex select.select {
+    width: 100%;
+}
+
+.wufoo .time span.ampm select.select {
+    width: 5em !important;
+}
+
+.wufoo .instruct {
+    background: #08A5DC;
+    border-color: #08A5DC;
+}
+
+.wufoo .instruct small {
+    color: #ffffff;
+}
+
+.wufoo span.symbol {
+    margin-top: 5px;
+}
+
+.wufoo .likert table,
+.wufoo .likert th,
+.wufoo .likert td {
+    border-color: #e9ecef;
+}
+
+.wufoo .likert table thead tr td,
+.wufoo .likert table thead tr th {
+    background-color: #e9ecef;
+}
+
+.wufoo .likert tbody tr:hover td,
+.wufoo .likert tbody tr:hover th,
+.wufoo .likert tbody tr:hover label {
+    background-color: #daf2fa;
+    border-color: #e9ecef;
+}
+
+.wufoo input.btTxt {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 3px;
+    transition: all .15s ease-in-out;
+    font-family: 'hp_simplifiedlight', sans-serif !important;
+    text-transform: uppercase;
+    border-radius: 0;
+	background: #044e67; /* Old browsers */
+	background: -moz-linear-gradient(top, #044e67 0%, #2694a2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #044e67 0%,#2694a2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #044e67 0%,#2694a2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044e67', endColorstr='#2694a2',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	border: transparent;
+}
+
+.wufoo input.btTxt:hover {
+    background: #2694a2; /* Old browsers */
+    background: -moz-linear-gradient(top, #2694a2 0%, #2694a2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2694a2 0%,#2694a2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2694a2 0%,#2694a2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2694a2', endColorstr='#2694a2',GradientType=0 ); /* IE6-9 */
+}
+
+.leftLabel .buttons, .rightLabel .buttons {
+    padding-left: 24%;
+}
+
+.wufoo li.buttons {
+    padding: 10px 1% 10px 3%;
+}
+
+.wufoo li div,
+.wufoo li span,
+.wufoo li div label,
+.wufoo li span label {
+    color: #ffffff;
+}
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
+    color: #dcaa30;
+}
+.embed{overflow:auto !important}
+
+#errorLi, .error-container {
+    display: none;
+}
+form li.error {
+    background: #5a5a5a !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+form li.error p.error, form li.error .desc, form li.error label, form li.error span.symbol {
+    color: #dcaa30 !important;
+}
+
+form p.error {
+    /* display: none !important; */
+}
+
+.form li.error  input.field,
+.form li.error  input.field,
+.form li.error  textarea.textarea,
+.form li.error  select.select {
+    /* background-color: #fff; */
+    border: 1px solid #dcaa30 !important;
+}
+
+.confirm h2 {
+    color: #ffffff;
+}
+
+html {
+    background: #5a5a5a;
+}
