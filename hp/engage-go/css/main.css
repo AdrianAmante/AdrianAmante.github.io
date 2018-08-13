@@ -65,6 +65,10 @@ a:hover {
   color: #ffffff;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .wrapper,
 .row {
   margin-left: 0;
