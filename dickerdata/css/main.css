@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+body h1 {
+  color: gray;
+}
+
+body p {
+  color: black;
+}
+
+body p span {
+  color: orange;
+}
+
+/*# sourceMappingURL=maps/main.css.map */

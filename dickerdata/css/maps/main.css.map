@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA;EACC,wBAAuB;CAUvB;;AAXD;EAGE,YAAW;CACX;;AAJF;EAME,aAAY;CAIZ;;AAVF;EAQG,cAAa;CACb","file":"../main.css","sourcesContent":["body {\n\tfont-family: sans-serif;\n\th1 {\n\t\tcolor: gray;\n\t}\n\tp {\n\t\tcolor: black;\n\t\tspan {\n\t\t\tcolor: orange;\n\t\t}\n\t}\n}\n"]}
