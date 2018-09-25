@@ -1,17 +1,86 @@
-body {
-  font-family: sans-serif;
+.bg-dark {
+  background: #373838 !important;
 }
 
-body h1 {
-  color: gray;
+.bg-primary {
+  background: #C20047 !important;
 }
 
-body p {
-  color: black;
+.bg-secondary {
+  background: #CBA846 !important;
 }
 
-body p span {
-  color: orange;
+.navbar.bg-dark {
+  background: #000 !important;
+}
+
+.logos {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+}
+
+.logos li {
+  float: left;
+}
+
+.logos li a {
+  padding: 5px 10px 5px 5px;
+}
+
+.jumbotron.main-jumbotron {
+  background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg") 50% 50%/cover no-repeat scroll #627077;
+  min-height: 600px;
+}
+
+.jumbotron.video-jumbotron {
+  background: url("http://www8.hp.com/us/en/images/D_2_tcm245_2539975_tcm245_2540313_tcm245-2539975.jpg") 50% 50%/cover no-repeat scroll #627077;
+  min-height: 798px;
+}
+
+.blog-layout {
+  margin: 70px 0;
+}
+
+.testimonials {
+  background: #f5f5f5;
+  padding: 70px 0 100px;
+}
+
+.testimonials .card {
+  border-color: #f5f5f5;
+}
+
+.testimonials .card .card-body img {
+  margin-bottom: 15px;
+}
+
+.testimonials .card .card-body .card-title span {
+  color: #9c9c9c;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.footer {
+  padding: 70px 0;
+  color: #cccccc;
+}
+
+.footer a {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.footer a:hover {
+  color: #C20047;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
