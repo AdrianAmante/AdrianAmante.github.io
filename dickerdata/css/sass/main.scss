@@ -19,6 +19,28 @@
   }
 }
 
+a {
+  color: #c20047;
+  &:hover {
+    color: #cba846;
+  }
+}
+
+.article-links {
+	list-style: none;
+	padding-left: 1.1rem;
+	li {
+		padding: 0;
+		margin: 0 0 0.5rem 0;
+		text-indent: -0.6rem;
+		a {
+			padding: 0 0 00;
+			margin: 0;
+			display: block;
+		}
+	}
+}
+
 .navbar-dark .navbar-nav .nav-link {
   text-transform: uppercase;
   color: #f5f5f5;
@@ -144,8 +166,15 @@ body.scrolled {
   }
 }
 
-
 .alert-secondary {
-	background: #f5f5f5;
-	border-color: #f5f5f5;
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+}
+::-moz-selection {
+  background: #373838;
+  color: #ffffff;
+}
+::selection {
+  background: #373838;
+  color: #ffffff;
 }
