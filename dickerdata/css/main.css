@@ -10,6 +10,10 @@
   background: #cba846 !important;
 }
 
+.text-primary {
+  color: #c20047 !important;
+}
+
 .btn-primary {
   background: #c20047;
   border-color: #c20047;
@@ -47,7 +51,7 @@ a:hover {
 
 .navbar-dark .navbar-nav .nav-link {
   text-transform: uppercase;
-  color: #f5f5f5;
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -58,7 +62,7 @@ a:hover {
 }
 
 .navbar.bg-dark {
-  background: #000 !important;
+  background: #000000 !important;
 }
 
 .navbar .logos {
@@ -90,15 +94,45 @@ a:hover {
   height: auto;
 }
 
-body.scrolled .navbar .logos {
+.index {
+  background: #000000;
+}
+
+.index .navbar .logos {
+  margin: 0 auto;
   padding: 5px;
 }
 
-body.scrolled .navbar .logos li a img.dicker {
+.index .jumbotron {
+  height: -moz-calc(100vh - 108px);
+  height: calc(100vh - 108px);
+  min-height: -moz-calc(100vh - 108px);
+  min-height: calc(100vh - 108px);
+  margin: 108px 0 0 0;
+}
+
+.index .jumbotron .container-fluid {
+  max-width: 1400px;
+}
+
+.index .jumbotron .container-fluid h1 {
+  font-size: 3.5rem;
+}
+
+.index .jumbotron .container-fluid .form-container {
+  margin-bottom: 25%;
+}
+
+.home .logos {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.home.scrolled .navbar .logos li a img.dicker {
   width: 100px;
 }
 
-body.scrolled .navbar .logos li a img.hp {
+.home.scrolled .navbar .logos li a img.hp {
   width: 38px;
 }
 
@@ -107,12 +141,18 @@ body.scrolled .navbar .logos li a img.hp {
 }
 
 .jumbotron.main-jumbotron {
-  background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg") 50% 50%/cover no-repeat scroll #627077;
+  background: url("http://www8.hp.com/ph/en/images/HP_MDP_D_Resources_Module_07_tcm195_2615959_tcm195_2540313_tcm195-2615959.jpg") 50% 50%/cover no-repeat scroll #627077;
   min-height: 600px;
 }
 
 .jumbotron.main-jumbotron .lead {
   font-size: 1.5rem;
+}
+
+.jumbotron.home-jumbotron {
+  margin-top: 98px;
+  background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg") 50% 50%/cover no-repeat scroll #627077;
+  min-height: 400px;
 }
 
 .jumbotron.video-jumbotron {
@@ -125,12 +165,12 @@ body.scrolled .navbar .logos li a img.hp {
 }
 
 .testimonials {
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 70px 0 100px;
 }
 
 .testimonials .card {
-  border-color: #f5f5f5;
+  border-color: #ffffff;
 }
 
 .testimonials .card .card-body img {
@@ -166,8 +206,8 @@ body.scrolled .navbar .logos li a img.hp {
 }
 
 .alert-secondary {
-  background: #f5f5f5;
-  border-color: #f5f5f5;
+  background: #ffffff;
+  border-color: #ffffff;
 }
 
 ::-moz-selection {
