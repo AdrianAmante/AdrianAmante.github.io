@@ -58,7 +58,19 @@ a {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: $red;
+  // color: $red;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    line-height:1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $gold;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+  color: $gold;
 }
 .navbar {
   &.bg-dark {
@@ -74,10 +86,10 @@ a {
       a {
         padding: 5px 10px 5px 5px;
         img {
-          -webkit-transition: all 0.3s ease-in-out;
-          -moz-transition: all 0.3s ease-in-out;
-          -o-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+          -webkit-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+          transition: all 0.2s ease;
           &.dicker {
             width: 160px;
             height: auto;
@@ -116,15 +128,38 @@ a {
     }
   }
 }
-.home {
+.page {
   .logos {
     margin: 0 auto;
     padding: 5px;
   }
+  .main-navigation {
+    top: 98px;
+    background: $red;
+    border-color: $red;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .navbar {
+      .navbar-toggler {
+        margin: 0 auto;
+        color: #ffffff;
+      }
+  }
   &.scrolled {
+    .main-navigation {
+      top: 55px;
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease;
+    }
     .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
       .logos {
-
         li {
           a {
             img {
@@ -154,7 +189,7 @@ a {
     }
   }
   &.home-jumbotron {
-    margin-top: 98px;
+    margin-top: 140px;
     background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
     min-height: 400px;
@@ -163,6 +198,10 @@ a {
     background: url("http://www8.hp.com/us/en/images/D_2_tcm245_2539975_tcm245_2540313_tcm245-2539975.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
     min-height: 798px;
+  }
+  &.heading-jumbotron {
+     margin-top: 140px;
+    background: $light;
   }
 }
 
