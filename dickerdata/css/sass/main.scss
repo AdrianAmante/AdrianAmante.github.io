@@ -179,10 +179,14 @@ a {
 
 .jumbotron {
   margin-top: 108px;
+  .lead {
+    font-size: 1.5rem;
+  }
   &.main-jumbotron {
     // background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181002/security.jpg")
     background: url("http://www8.hp.com/ph/en/images/HP_MDP_D_Resources_Module_07_tcm195_2615959_tcm195_2540313_tcm195-2615959.jpg")
-      50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    no-repeat center center fixed;
+    background-size: cover;
     min-height: 600px;
     .lead {
       font-size: 1.5rem;
@@ -192,17 +196,87 @@ a {
     margin-top: 140px;
     background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
-    min-height: 400px;
+    min-height: 750px;
+    a {
+      &.play-btn {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 50px auto 5px;
+        padding: 0;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
   }
-  &.video-jumbotron {
-    background: url("http://www8.hp.com/us/en/images/D_2_tcm245_2539975_tcm245_2540313_tcm245-2539975.jpg")
+  &.pc-jumbotron {
+    margin-top: 0;
+    margin-bottom: 0;
+    // background: url("http://www8.hp.com/us/en/images/D_2_tcm245_2539975_tcm245_2540313_tcm245-2539975.jpg")
+    //   50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181008/matrix.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
-    min-height: 798px;
+    min-height: 750px;
+    h1 {
+      font-size: 3rem;
+    }
+    .lead {
+      font-size: 1.5rem;;
+    }
   }
   &.heading-jumbotron {
      margin-top: 140px;
     background: $light;
   }
+  &.print-jumbotron {
+    margin-top: 0;
+    margin-bottom: 0;
+    // background: url("http://www8.hp.com/us/en/images/D_2_tcm245_2539975_tcm245_2540313_tcm245-2539975.jpg")
+    //   50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181008/print.jpg")
+      50% 100% / cover no-repeat scroll rgb(98, 112, 119);
+    min-height: 750px;
+    h1 {
+      font-size: 3rem;
+    }
+    .lead {
+      font-size: 1.5rem;;
+    }
+  }
+  &.heading-jumbotron {
+     margin-top: 140px;
+    background: $light;
+  }
+  &.blog-jumbotron {
+    margin-top: 140px;
+    background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg")
+      50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    min-height: 400px;
+    a {
+      &.play-btn {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 50px auto 5px;
+        padding: 0;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.print-bg {
+  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181008/print.jpg")
+      center right / cover no-repeat scroll rgb(98, 112, 119);
+    min-height: 750px;
+    .text-content {
+      padding: 1rem .5rem;
+    }
 }
 
 // http://www8.hp.com/us/en/images/Elite_tcm245_2540098_tcm245_2540313_tcm245-2540098.jpg
@@ -228,6 +302,17 @@ a {
         }
       }
     }
+  }
+}
+
+.title-section {
+  padding: 3.5rem 0 4rem;
+  h1 {
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  .lead {
+    font-size: 2rem;;
   }
 }
 
