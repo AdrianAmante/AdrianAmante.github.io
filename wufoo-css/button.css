@@ -1,0 +1,27 @@
+.wufoo input.btTxt {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    background-color: #08A5DC;
+    color: #ffffff;
+}
+
+.wufoo input.btTxt:hover {
+    background-color: #0494c7;
+}
+
+.leftLabel .buttons, .rightLabel .buttons {
+    padding-left: 24%;
+}
