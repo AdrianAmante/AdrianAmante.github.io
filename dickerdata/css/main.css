@@ -2,6 +2,10 @@
   background: #373838 !important;
 }
 
+.bg-black {
+  background: #000000 !important;
+}
+
 .bg-primary {
   background: #c20047 !important;
 }
@@ -267,11 +271,12 @@ a:hover {
 
 .jumbotron.blog-jumbotron {
   margin-top: 140px;
+  margin-bottom: 0;
   background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg") 50% 50%/cover no-repeat scroll #627077;
 }
 
 .jumbotron.blog-jumbotron .col {
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .jumbotron.blog-jumbotron .col h1 {
@@ -458,6 +463,15 @@ a:hover {
   .jumbotron.blog-jumbotron {
     margin-top: 120px;
   }
+}
+
+.securetechnology a {
+  padding: 2rem;
+  display: block;
+}
+
+.securetechnology a:hover {
+  background: #cba846;
 }
 
 /*# sourceMappingURL=maps/main.css.map */

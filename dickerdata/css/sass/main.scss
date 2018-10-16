@@ -1,4 +1,4 @@
-$dark: #373838;
+$dark: rgba(55, 56, 56, 1);
 $black: #000000;
 $red: #c20047;
 $gold: #cba846;
@@ -8,6 +8,9 @@ $grey: #cccccc;
 
 .bg-dark {
   background: $dark !important;
+}
+.bg-black {
+  background: $black !important;
 }
 .bg-primary {
   background: $red !important;
@@ -268,10 +271,11 @@ a {
   }
   &.blog-jumbotron {
     margin-top: 140px;
+    margin-bottom: 0;
     background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
     .col {
-      min-height: 400px;
+      min-height: 300px;
       h1 {
         font-size: 3.5rem;;
       }
@@ -480,5 +484,15 @@ a {
   }
   .jumbotron.blog-jumbotron {
     margin-top: 120px;
+  }
+}
+
+.securetechnology {
+  a {
+    padding: 2rem;
+    display: block;
+    &:hover {
+      background:$gold;
+    }
   }
 }
