@@ -1,4 +1,4 @@
-$dark: rgba(55, 56, 56, 1);
+$dark: #373838;
 $black: #000000;
 $red: #c20047;
 $gold: #cba846;
@@ -269,10 +269,25 @@ a {
      margin-top: 140px;
     background: $light;
   }
-  &.blog-jumbotron {
+  &.blog-experts {
     margin-top: 140px;
     margin-bottom: 0;
     background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg")
+      50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    .col {
+      min-height: 300px;
+      h1 {
+        font-size: 3.5rem;;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+  &.blog-resources {
+    margin-top: 140px;
+    margin-bottom: 0;
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/Everyone_banner6.jpg")
       50% 50% / cover no-repeat scroll rgb(98, 112, 119);
     .col {
       min-height: 300px;

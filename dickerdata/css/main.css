@@ -269,21 +269,39 @@ a:hover {
   background: #f5f5f5;
 }
 
-.jumbotron.blog-jumbotron {
+.jumbotron.blog-experts {
   margin-top: 140px;
   margin-bottom: 0;
   background: url("http://www8.hp.com/us/en/images/HP_MDP_D_SecurityPage_HeroBanner_02_tcm245_2539546_tcm245_2540313_tcm245-2539546.jpg") 50% 50%/cover no-repeat scroll #627077;
 }
 
-.jumbotron.blog-jumbotron .col {
+.jumbotron.blog-experts .col {
   min-height: 300px;
 }
 
-.jumbotron.blog-jumbotron .col h1 {
+.jumbotron.blog-experts .col h1 {
   font-size: 3.5rem;
 }
 
-.jumbotron.blog-jumbotron .col p {
+.jumbotron.blog-experts .col p {
+  font-size: 2rem;
+}
+
+.jumbotron.blog-resources {
+  margin-top: 140px;
+  margin-bottom: 0;
+  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/Everyone_banner6.jpg") 50% 50%/cover no-repeat scroll #627077;
+}
+
+.jumbotron.blog-resources .col {
+  min-height: 300px;
+}
+
+.jumbotron.blog-resources .col h1 {
+  font-size: 3.5rem;
+}
+
+.jumbotron.blog-resources .col p {
   font-size: 2rem;
 }
 
