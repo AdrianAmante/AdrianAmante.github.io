@@ -284,6 +284,21 @@ a {
       }
     }
   }
+  &.blog-learn {
+    margin-top: 140px;
+    margin-bottom: 0;
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/secso.jpg")
+      50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    .col {
+      min-height: 300px;
+      h1 {
+        font-size: 3.5rem;;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
   &.blog-resources {
     margin-top: 140px;
     margin-bottom: 0;
@@ -299,6 +314,22 @@ a {
       }
     }
   }
+  &.blog-help {
+    margin-top: 140px;
+    margin-bottom: 0;
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/help.png")
+      50% 50% / cover no-repeat scroll rgb(98, 112, 119);
+    .col {
+      min-height: 300px;
+      h1 {
+        font-size: 3.5rem;;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
 }
 
 .print-sec {

@@ -287,6 +287,24 @@ a:hover {
   font-size: 2rem;
 }
 
+.jumbotron.blog-learn {
+  margin-top: 140px;
+  margin-bottom: 0;
+  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/secso.jpg") 50% 50%/cover no-repeat scroll #627077;
+}
+
+.jumbotron.blog-learn .col {
+  min-height: 300px;
+}
+
+.jumbotron.blog-learn .col h1 {
+  font-size: 3.5rem;
+}
+
+.jumbotron.blog-learn .col p {
+  font-size: 2rem;
+}
+
 .jumbotron.blog-resources {
   margin-top: 140px;
   margin-bottom: 0;
@@ -302,6 +320,24 @@ a:hover {
 }
 
 .jumbotron.blog-resources .col p {
+  font-size: 2rem;
+}
+
+.jumbotron.blog-help {
+  margin-top: 140px;
+  margin-bottom: 0;
+  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181017/help.png") 50% 50%/cover no-repeat scroll #627077;
+}
+
+.jumbotron.blog-help .col {
+  min-height: 300px;
+}
+
+.jumbotron.blog-help .col h1 {
+  font-size: 3.5rem;
+}
+
+.jumbotron.blog-help .col p {
   font-size: 2rem;
 }
 
