@@ -456,15 +456,48 @@ a:hover {
   .jumbotron.pc-jumbotron .col p {
     font-size: 1.2rem;
   }
-  .jumbotron.blog-jumbotron .col {
+  .jumbotron.blog-experts .col {
     min-height: 200px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-  .jumbotron.blog-jumbotron .col h1 {
+  .jumbotron.blog-experts .col h1 {
     font-size: 2.5rem;
   }
-  .jumbotron.blog-jumbotron .col p {
+  .jumbotron.blog-experts .col p {
+    font-size: 1.2rem;
+  }
+  .jumbotron.blog-learn .col {
+    min-height: 200px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .jumbotron.blog-learn .col h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron.blog-learn .col p {
+    font-size: 1.2rem;
+  }
+  .jumbotron.blog-resources .col {
+    min-height: 200px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .jumbotron.blog-resources .col h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron.blog-resources .col p {
+    font-size: 1.2rem;
+  }
+  .jumbotron.blog-help .col {
+    min-height: 200px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .jumbotron.blog-help .col h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron.blog-help .col p {
     font-size: 1.2rem;
   }
   .print-sec .text-content {
@@ -514,7 +547,16 @@ a:hover {
   .jumbotron.home-jumbotron {
     margin-top: 120px;
   }
-  .jumbotron.blog-jumbotron {
+  .jumbotron.blog-experts {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-learn {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-resources {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-help {
     margin-top: 120px;
   }
 }

@@ -456,7 +456,46 @@ a {
       }
     }
   }
-  &.blog-jumbotron {
+  &.blog-experts {
+    .col {
+      min-height: 200px;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  &.blog-learn {
+    .col {
+      min-height: 200px;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  &.blog-resources {
+    .col {
+      min-height: 200px;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  &.blog-help {
     .col {
       min-height: 200px;
       padding-top: 1.5rem;
@@ -528,7 +567,16 @@ a {
   .jumbotron.home-jumbotron {
     margin-top: 120px;
   }
-  .jumbotron.blog-jumbotron {
+  .jumbotron.blog-experts {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-learn {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-resources {
+    margin-top: 120px;
+  }
+  .jumbotron.blog-help {
     margin-top: 120px;
   }
 }
