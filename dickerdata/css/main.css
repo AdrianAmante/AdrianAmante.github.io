@@ -468,6 +468,8 @@ a:hover {
 .securetechnology a {
   padding: 2rem;
   display: block;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .securetechnology a:hover {
@@ -481,6 +483,11 @@ a:hover {
 
 .edms a img:hover {
   opacity: 0.5;
+}
+
+.btn {
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
