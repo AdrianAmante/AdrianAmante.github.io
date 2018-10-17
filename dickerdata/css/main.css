@@ -474,4 +474,13 @@ a:hover {
   background: #cba846;
 }
 
+.edms a img {
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.edms a img:hover {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
