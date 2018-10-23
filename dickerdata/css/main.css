@@ -123,11 +123,8 @@ a:hover {
 }
 
 .index .jumbotron {
-  height: -moz-calc(100vh - 108px);
-  height: calc(100vh - 108px);
   min-height: -moz-calc(100vh - 108px);
   min-height: calc(100vh - 108px);
-  margin: 108px 0 0 0;
 }
 
 .index .jumbotron .container-fluid {
@@ -136,10 +133,6 @@ a:hover {
 
 .index .jumbotron .container-fluid h1 {
   font-size: 3.5rem;
-}
-
-.index .jumbotron .container-fluid .form-container {
-  margin-bottom: 25%;
 }
 
 .page .logos {
@@ -188,9 +181,10 @@ a:hover {
 }
 
 .jumbotron.main-jumbotron {
-  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181011/index_background.jpg") no-repeat center center fixed;
+  background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181023/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 600px;
+  margin-bottom: 0;
 }
 
 .jumbotron.main-jumbotron .lead {
@@ -584,6 +578,33 @@ a:hover {
 .btn {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.login-footer {
+  padding: 45px 15px;
+  display: block;
+}
+
+.login-footer .container-fluid {
+  max-width: 1400px;
+}
+
+.login-footer .container-fluid .logos {
+  padding: 15px 30px;
+}
+
+.login-footer .container-fluid .text-wrapper h1 {
+  font-size: 2.1rem;
+  color: #c20047;
+}
+
+.login-footer .container-fluid .text-wrapper h2 {
+  font-size: 1.4rem;
+  color: #c20047;
+}
+
+.login-footer .container-fluid .text-wrapper p {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=maps/main.css.map */

@@ -123,9 +123,9 @@ a {
     }
   }
   .jumbotron {
-    height: calc(100vh - 108px);
+    // height: calc(100vh - 108px);
     min-height: calc(100vh - 108px);
-    margin: 108px 0 0 0;
+    // margin: 108px 0 0 0;
     .container-fluid {
       max-width: 1400px;
       h1 {
@@ -133,7 +133,7 @@ a {
         // font-weight: 600;
       }
       .form-container {
-        margin-bottom: 25%;
+        // margin-bottom: 25%;
       }
     }
   }
@@ -194,10 +194,11 @@ a {
   }
   &.main-jumbotron {
     // background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181002/security.jpg")
-    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181011/index_background.jpg")
+    background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181023/bg.jpg")
     no-repeat center center fixed;
     background-size: cover;
     min-height: 600px;
+    margin-bottom: 0;
     .lead {
       font-size: 1.5rem;
     }
@@ -605,4 +606,28 @@ a {
 
 .btn {
   transition: all 0.2s ease-in-out;
+}
+
+.login-footer {
+  padding: 45px 15px;
+  display: block;
+  .container-fluid {
+    max-width: 1400px;
+    .logos {
+      padding: 15px 30px;
+    }
+    .text-wrapper {
+      h1 {
+        font-size: 2.1rem;
+        color: $red;
+      }
+      h2 {
+        font-size: 1.4rem;
+        color: $red;
+      }
+      p {
+        margin-bottom: 0;
+      };
+    }
+}
 }
