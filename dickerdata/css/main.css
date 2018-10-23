@@ -181,6 +181,7 @@ a:hover {
 }
 
 .jumbotron.main-jumbotron {
+  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
   background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181023/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 600px;
@@ -593,6 +594,12 @@ a:hover {
   padding: 15px 30px;
 }
 
+.login-footer .container-fluid .text-wrapper {
+  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .login-footer .container-fluid .text-wrapper h1 {
   font-size: 2.1rem;
   color: #c20047;
@@ -605,6 +612,18 @@ a:hover {
 
 .login-footer .container-fluid .text-wrapper p {
   margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Aguda-Regular4', Roboto, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2, h3, p.lead, .jumbotron p {
+  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
