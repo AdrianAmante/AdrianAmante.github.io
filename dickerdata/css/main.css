@@ -181,7 +181,6 @@ a:hover {
 }
 
 .jumbotron.main-jumbotron {
-  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
   background: url("https://pr-cdn.oneaffiniti.com/upload/general/20181023/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 600px;
@@ -384,10 +383,6 @@ a:hover {
   font-size: 3.5rem;
 }
 
-.title-section p {
-  font-size: 2rem;
-}
-
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
@@ -581,49 +576,36 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
-.login-footer {
+.page-footer {
   padding: 45px 15px;
   display: block;
 }
 
-.login-footer .container-fluid {
+.page-footer .container-fluid {
   max-width: 1400px;
 }
 
-.login-footer .container-fluid .logos {
+.page-footer .container-fluid .logos {
   padding: 15px 30px;
 }
 
-.login-footer .container-fluid .text-wrapper {
-  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
+.page-footer .container-fluid .text-wrapper {
   font-weight: normal;
   font-style: normal;
 }
 
-.login-footer .container-fluid .text-wrapper h1 {
+.page-footer .container-fluid .text-wrapper h1 {
   font-size: 2.1rem;
   color: #c20047;
 }
 
-.login-footer .container-fluid .text-wrapper h2 {
+.page-footer .container-fluid .text-wrapper h2 {
   font-size: 1.4rem;
   color: #c20047;
 }
 
-.login-footer .container-fluid .text-wrapper p {
+.page-footer .container-fluid .text-wrapper p {
   margin-bottom: 0;
-}
-
-h1 {
-  font-family: 'Aguda-Regular4', Roboto, 'Helvetica Neue', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h2, h3, p.lead, .jumbotron p {
-  font-family: 'Aguda-Regular2', Roboto, 'Helvetica Neue', sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
