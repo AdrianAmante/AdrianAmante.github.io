@@ -577,6 +577,7 @@ a:hover {
 }
 
 .page-footer {
+  border-top: 15px solid #c20047;
   padding: 45px 15px;
   display: block;
 }
