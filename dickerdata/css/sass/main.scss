@@ -210,9 +210,7 @@ a {
       .col {
         min-height: 600px;
         h1 {
-          font-size: 3.5rem;
-        // text-transform: uppercase;
-        // font-weight: 600;
+          font-size: 3.2rem;
         }
         p {
           font-size: 2rem;
@@ -243,6 +241,7 @@ a {
       min-height: 600px;
       h1 {
         font-size: 3.2rem;
+        text-transform: uppercase;
       }
       p {
         font-size: 2rem;
@@ -262,12 +261,11 @@ a {
       50% 100% / cover no-repeat scroll rgb(98, 112, 119);
     min-height: 750px;
     h1 {
-      font-size: 3.8rem;
-        text-transform: uppercase;
-        font-weight: 600;
+      font-size: 3rem;
+      text-transform: uppercase;
     }
     .lead {
-      font-size: 1.5rem;;
+      font-size: 1.5rem;
     }
   }
   &.heading-jumbotron {
@@ -282,9 +280,8 @@ a {
     .col {
       min-height: 300px;
       h1 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         text-transform: uppercase;
-        font-weight: 600;
       }
       p {
         font-size: 2rem;
@@ -299,9 +296,8 @@ a {
     .col {
       min-height: 300px;
       h1 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         text-transform: uppercase;
-        font-weight: 600;
       }
       p {
         font-size: 2rem;
@@ -316,9 +312,8 @@ a {
     .col {
       min-height: 300px;
       h1 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         text-transform: uppercase;
-        font-weight: 600;
       }
       p {
         font-size: 2rem;
@@ -333,9 +328,8 @@ a {
     .col {
       min-height: 300px;
       h1 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         text-transform: uppercase;
-        font-weight: 600;
       }
       p {
         font-size: 2rem;

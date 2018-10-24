@@ -201,7 +201,7 @@ a:hover {
 }
 
 .jumbotron.home-jumbotron .col h1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 
 .jumbotron.home-jumbotron .col p {
@@ -232,6 +232,7 @@ a:hover {
 
 .jumbotron.pc-jumbotron .col h1 {
   font-size: 3.2rem;
+  text-transform: uppercase;
 }
 
 .jumbotron.pc-jumbotron .col p {
@@ -251,9 +252,8 @@ a:hover {
 }
 
 .jumbotron.print-jumbotron h1 {
-  font-size: 3.8rem;
+  font-size: 3rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .jumbotron.print-jumbotron .lead {
@@ -276,9 +276,8 @@ a:hover {
 }
 
 .jumbotron.blog-experts .col h1 {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .jumbotron.blog-experts .col p {
@@ -296,9 +295,8 @@ a:hover {
 }
 
 .jumbotron.blog-learn .col h1 {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .jumbotron.blog-learn .col p {
@@ -316,9 +314,8 @@ a:hover {
 }
 
 .jumbotron.blog-resources .col h1 {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .jumbotron.blog-resources .col p {
@@ -336,9 +333,8 @@ a:hover {
 }
 
 .jumbotron.blog-help .col h1 {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .jumbotron.blog-help .col p {
