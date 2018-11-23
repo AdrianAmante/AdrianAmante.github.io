@@ -1,8 +1,36 @@
+$navy: #253E68;
+
 /* colors */
 .bg-primary {
-  background: #253E68 !important;
+  background: $navy !important;
 }
 
 .full-height {
   min-height: 100vh;
+}
+
+// nav bar styles
+.bmd-layout-drawer>header .navbar-brand {
+  padding: 30px 5px 20px;
+  margin: 0;
+}
+
+//breadcrumb styles
+.breadcrumb {
+  padding: .25rem 0.75rem;
+}
+
+//form styles
+
+[class*=" bmd-label"], [class^=bmd-label] {
+  color: $navy;
+}
+
+
+// buttons contols
+.toptop-right-controls {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

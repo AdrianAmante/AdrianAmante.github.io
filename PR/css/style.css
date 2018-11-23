@@ -4,3 +4,19 @@
 
 .full-height {
   min-height: 100vh; }
+
+.bmd-layout-drawer > header .navbar-brand {
+  padding: 30px 5px 20px;
+  margin: 0; }
+
+.breadcrumb {
+  padding: .25rem 0.75rem; }
+
+[class*=" bmd-label"], [class^=bmd-label] {
+  color: #253E68; }
+
+.toptop-right-controls {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0; }
