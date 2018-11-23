@@ -53,42 +53,37 @@
           <!-- card -->
           <div class="card">
             <div class="card-header pb-2">
-              <h5>Featured</h5>
-              <span class="top-right-controls btn-group-sm">
-                  <button type="button" class="btn btn-danger bmd-btn-fab">
-                    <i class="material-icons">grade</i>
-                  </button>
-              </span>
+              <h5>Search campaigns</h5>
+
+
+              <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
+                <div class="btn-group mr-2 pu" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-secondary">ADVANCED</button>
+                  <button type="button" class="btn btn-secondary">TOGGLE</button>
+                </div>
+              </div>
+
+
             </div>
             <div class="card-body">
-              <h5 class="card-title">Search campaigns</h5>
 
-              <p class="card-text">
-                Some cool instructions maybe if needed
-              </p>
-
-              <span class="top-right-controls btn-group-sm">
-                  <button type="button" class="btn btn-danger bmd-btn-fab">
-                    <i class="material-icons">grade</i>
-                  </button>
-              </span>
 
               <div class="container-fluid">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-xl-3 col-md-6">
                     <div class="form-group">
                       <label>Partner</label>
                       <input type="text" class="form-control" placeholder="Partner name">
                       <small class="form-text text-muted">Invalid ID:</small>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-xl-3">
                     <div class="form-group">
                       <label>Dac</label>
-                      <input type="text" class="form-control" placeholder="Partner name">
+                      <input type="text" class="form-control" placeholder="">
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-xl-2">
                     <div class="form-group">
                       <label>Country</label>
                       <select class="form-control">
@@ -97,19 +92,36 @@
                       </select>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-xl-2">
                     <div class="form-group">
                       <label>Year / Month</label>
                       <input type="text" class="form-control" placeholder="Partner name">
                       <small class="form-text text-muted">Format: YYYYMM</small>
                     </div>
                   </div>
+                  <div class="col-lg-2">
+                    <div class="form-group">
+                      <label>Status</label>
+                      <select class="form-control">
+                        <option value=""></option>
+                        <option value="Planning">Planning</option>
+                        <option value="Content Qty Error">Content Qty Error</option>
+                        <option value="Content Approval Error">Content Approval Error</option>
+                        <option value="Prepared">Prepared</option>
+                        <option value="Draft" selected="selected">Draft</option>
+                        <option value="Processing">Processing</option>
+                        <option value="Custom Content Requested">Custom Content Requested</option>
+                        <option value="Pending Approval">Pending Approval</option>
+                        <option value="Schedule Requested">Schedule Requested</option>
+                        <option value="Scheduled">Scheduled</option>
+                        <option value="Sent">Sent</option>
+                        <option value="Do not send">Do not send</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-
-
 
           </div>
           <!-- end card -->
