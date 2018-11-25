@@ -18,6 +18,8 @@
 
 <body>
   <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-in full-height">
+
+    <!-- start header -->
     <header class="bmd-layout-header bg-primary text-white">
       <div class="navbar navbar-light bg-faded">
         <button class="navbar-toggler text-white" type="button" data-toggle="drawer" data-target="#dw-s1">
@@ -30,104 +32,111 @@
         </ul>
       </div>
     </header>
+    <!-- end header -->
+
+    <!-- start drawer navigation -->
     <div id="dw-s1" class="bmd-layout-drawer bg-faded">
-      <header><a class="navbar-brand">
-          <img src="./assets/images/pr-logo.png" alt="PartnerReach" class="img-fluid">
-        </a></header>
+      <header>
+        <a class="navbar-brand">
+          <img src="./assets/images/pr-logo.png" alt="PartnerReach" class="img-fluid" />
+        </a>
+      </header>
       <ul class="list-group">
         <a class="list-group-item">Link 1</a>
         <a class="list-group-item">Link 2</a>
         <a class="list-group-item">Link 3</a>
       </ul>
     </div>
+    <!-- end drawer navigation -->
+
+    <!-- start page contents -->
     <main class="bmd-layout-content">
-      <div class="container-fluid">
+      <div class="col mt-3">
 
-        <div class="col mt-3">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Campaigns</li>
-            </ol>
-          </nav>
-          <!-- card -->
-          <div class="card">
-            <div class="card-header pb-2">
-              <h5>Search campaigns</h5>
+        <!-- start breadcrumbs -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Campaigns
+            </li>
+          </ol>
+        </nav>
+        <!-- end breadcrumbs -->
 
-
-              <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
-                <div class="btn-group mr-2 pu" role="group" aria-label="First group">
-                  <button type="button" class="btn btn-secondary">ADVANCED</button>
-                  <button type="button" class="btn btn-secondary">TOGGLE</button>
-                </div>
-              </div>
-
-
-            </div>
-            <div class="card-body">
-
-
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-xl-3 col-md-6">
-                    <div class="form-group">
-                      <label>Partner</label>
-                      <input type="text" class="form-control" placeholder="Partner name">
-                      <small class="form-text text-muted">Invalid ID:</small>
-                    </div>
-                  </div>
-                  <div class="col-xl-3">
-                    <div class="form-group">
-                      <label>Dac</label>
-                      <input type="text" class="form-control" placeholder="">
-                    </div>
-                  </div>
-                  <div class="col-xl-2">
-                    <div class="form-group">
-                      <label>Country</label>
-                      <select class="form-control">
-                        <option>AU</option>
-                        <option>NZ</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-xl-2">
-                    <div class="form-group">
-                      <label>Year / Month</label>
-                      <input type="text" class="form-control" placeholder="Partner name">
-                      <small class="form-text text-muted">Format: YYYYMM</small>
-                    </div>
-                  </div>
-                  <div class="col-lg-2">
-                    <div class="form-group">
-                      <label>Status</label>
-                      <select class="form-control">
-                        <option value=""></option>
-                        <option value="Planning">Planning</option>
-                        <option value="Content Qty Error">Content Qty Error</option>
-                        <option value="Content Approval Error">Content Approval Error</option>
-                        <option value="Prepared">Prepared</option>
-                        <option value="Draft" selected="selected">Draft</option>
-                        <option value="Processing">Processing</option>
-                        <option value="Custom Content Requested">Custom Content Requested</option>
-                        <option value="Pending Approval">Pending Approval</option>
-                        <option value="Schedule Requested">Schedule Requested</option>
-                        <option value="Scheduled">Scheduled</option>
-                        <option value="Sent">Sent</option>
-                        <option value="Do not send">Do not send</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
+        <!-- start search filter -->
+        <div class="card">
+          <div class="card-header pb-2">
+            <h5>Search campaigns</h5>
+            <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
+              <div class="btn-group mr-2 pu" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary">
+                  ADVANCED
+                </button>
+                <button type="button" class="btn btn-secondary">
+                  TOGGLE
+                </button>
               </div>
             </div>
-
           </div>
-          <!-- end card -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label>Partner name</label>
+                  <input type="text" class="form-control" />
+                  <small class="form-text text-muted">Invalid ID:</small>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label>Dac</label>
+                  <input type="text" class="form-control" placeholder="" />
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4">
+                <div class="form-group">
+                  <label>Country</label>
+                  <select class="form-control">
+                    <option>AU</option>
+                    <option>NZ</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4">
+                <div class="form-group">
+                  <label>Year / Month</label>
+                  <input type="text" class="form-control" />
+                  <small class="form-text text-muted">Format: YYYYMM</small>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4">
+                <div class="form-group">
+                  <label>Status</label>
+                  <select class="form-control">
+                    <option value=""></option>
+                    <option value="Planning">Planning</option>
+                    <option value="Content Qty Error">Content Qty Error</option>
+                    <option value="Content Approval Error">Content Approval Error</option>
+                    <option value="Prepared">Prepared</option>
+                    <option value="Draft" selected="selected">Draft</option>
+                    <option value="Processing">Processing</option>
+                    <option value="Custom Content Requested">Custom Content Requested</option>
+                    <option value="Pending Approval">Pending Approval</option>
+                    <option value="Schedule Requested">Schedule Requested</option>
+                    <option value="Scheduled">Scheduled</option>
+                    <option value="Sent">Sent</option>
+                    <option value="Do not send">Do not send</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- end search filter -->
       </div>
     </main>
+    <!-- end page contents -->
   </div>
 
   <!-- Optional JavaScript -->
@@ -137,5 +146,4 @@
   <script src="./node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.js"></script>
   <script src="./js/main.js"></script>
 </body>
-
 </html>
