@@ -69,14 +69,14 @@
           <div class="card-header pb-2">
             <h5>Search campaigns</h5>
             <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
-              <div class="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" class="btn btn-secondary">
+              <div class="btn-group mr-2" role="group" aria-label="expand group">
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="basicFields advancedFields">
                   <img src="./assets/icons/search-closed-24px.svg" width="24" height="24" alt="closed">
                 </button>
-                <button type="button" class="btn btn-secondary">
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#basicFields" aria-expanded="false" aria-controls="basicFields">
                   <img src="./assets/icons/search-basic-24px.svg" width="24" height="24" alt="basic">
                 </button>
-                <button type="button" class="btn btn-secondary">
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#advancedFields" aria-expanded="false" aria-controls="advancedFields">
                   <img src="./assets/icons/search-advanced-24px.svg" width="24" height="24" alt="advanced">
                 </button>
               </div>
@@ -84,7 +84,8 @@
           </div>
           <div class="card-body pb-2">
             <!-- start basic fields -->
-            <div class="row">
+            <div id="basicFields" class="collapse multi-collapse show">
+              <div class="row">
               <div class="col-xl-3 col-md-6 col-sm-6">
                 <div class="form-group">
                   <label>Partner name</label>
@@ -135,9 +136,11 @@
                 </div>
               </div>
             </div>
+            </div>
             <!-- end basic fields -->
             <!-- start advanced fields -->
-            <div class="row">
+            <div id="advancedFields" class="collapse multi-collapse">
+              <div class="row">
               <div class="col-xl-3 col-md-3 col-sm-3">
                 <div class="form-group">
                   <label>Biz Dev Rep</label>
@@ -321,6 +324,7 @@
                   </select>
                 </div>
               </div>
+            </div>
             </div>
             <!-- end advanced fields -->
           </div>
