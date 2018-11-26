@@ -1,5 +1,9 @@
 $(document).ready(function() {
   $("body").bootstrapMaterialDesign();
+
+  $(".toggle-close").click(
+    function(){ $(".multi-collapse").removeClass('show') }
+  )
 });
 
 $(window).on('resize', function () {

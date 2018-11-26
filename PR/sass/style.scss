@@ -37,3 +37,12 @@ $navy: #253E68;
   top: 0;
   left: 0;
 }
+
+
+// animate
+.animate {
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+  transition: background-color 500ms ease-out 1s;
+}
