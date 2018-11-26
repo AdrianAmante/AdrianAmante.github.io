@@ -15,6 +15,9 @@
 [class*=" bmd-label"], [class^=bmd-label] {
   color: #253E68; }
 
+.custom-multiselect {
+  height: 7.9rem; }
+
 .toptop-right-controls {
   display: block;
   position: absolute;

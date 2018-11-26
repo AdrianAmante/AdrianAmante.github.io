@@ -69,17 +69,21 @@
           <div class="card-header pb-2">
             <h5>Search campaigns</h5>
             <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
-              <div class="btn-group mr-2 pu" role="group" aria-label="First group">
+              <div class="btn-group mr-2" role="group" aria-label="First group">
                 <button type="button" class="btn btn-secondary">
-                  ADVANCED
+                  <img src="./assets/icons/search-closed-24px.svg" width="24" height="24" alt="closed">
                 </button>
                 <button type="button" class="btn btn-secondary">
-                  TOGGLE
+                  <img src="./assets/icons/search-basic-24px.svg" width="24" height="24" alt="basic">
+                </button>
+                <button type="button" class="btn btn-secondary">
+                  <img src="./assets/icons/search-advanced-24px.svg" width="24" height="24" alt="advanced">
                 </button>
               </div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="card-body pb-2">
+            <!-- start basic fields -->
             <div class="row">
               <div class="col-xl-3 col-md-6 col-sm-6">
                 <div class="form-group">
@@ -131,6 +135,199 @@
                 </div>
               </div>
             </div>
+            <!-- end basic fields -->
+            <!-- start advanced fields -->
+            <div class="row">
+              <div class="col-xl-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                  <label>Biz Dev Rep</label>
+                  <select class="form-control">
+                    <option value=""></option>
+                    <option value="">Yael Padilla</option>
+                    <option value="">Shehanta Dias</option>
+                    <option value="">Regan Sice</option>
+                    <option value="">Mario Hernandez</option>
+                    <option value="">Jeninne Martin</option>
+                    <option value="">Ian Glasgow</option>
+                    <option value="">Greta Lee</option>
+                    <option value="">Greg Grierson</option>
+                    <option value="">Erik Beltz</option>
+                    <option value="">Cruz Fuentez</option>
+                    <option value="">Anthony Silveira</option>
+                    <option value="">Amanda Gonzales</option>
+                    <option value="">Alex Lopez</option>
+                    <option value="">Alex Cheng</option>
+                    <option value="">Aimee Butler</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                  <label>Batch ID</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                  <label>Type</label>
+                  <select class="form-control">
+                    <option value=""></option>
+                    <option value="Normal">Normal</option>
+                    <option value="Action">Action</option>
+                    <option value="Second Send">Second Send</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                  <label>Checked</label>
+                  <select class="form-control">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group mb-0">
+                        <label>Last Draft/Reminder</label>
+                        <select class="form-control">
+                          <option value=""></option>
+                          <option value="Yes">Earlier than</option>
+                          <option value="Yes">Later than</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Date</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control">
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary m-0" type="button">
+                              <i class="material-icons">calendar_today</i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group mb-2">
+                        <label>List size</label>
+                        <select class="form-control">
+                          <option value=""></option>
+                          <option value="Yes">Less than</option>
+                          <option value="Yes">Greater than</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Number</label>
+                        <input type="number" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 mt-3">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label>With note</label>
+                      <select class="form-control">
+                        <option value=""></option>
+                        <option value="Yes">Yes</option>
+                        <option value="Yes">No</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label>With schedule error</label>
+                      <select class="form-control">
+                        <option value=""></option>
+                        <option value="Yes">Yes</option>
+                        <option value="Yes">No</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                <div class="form-group">
+                  <label>Primary sponsor</label>
+                  <select multiple class="form-control custom-multiselect">
+                    <option value="40" style="">StorageCraft</option>
+                    <option value="50">Microsoft AU</option>
+                    <option value="9">Lenovo NZ PCG</option>
+                    <option value="10">Lenovo NZ EBG</option>
+                    <option value="2">Lenovo AU PCG</option>
+                    <option value="6">Lenovo AU EBG</option>
+                    <option value="83">HPI Print AU</option>
+                    <option value="66">HPI NZ Print</option>
+                    <option value="12">HPI NZ PC</option>
+                    <option value="67">HPI Incremental</option>
+                    <option value="1">HPI AU PC</option>
+                    <option value="14">HPE NZ Storage</option>
+                    <option value="11">HPE NZ Server</option>
+                    <option value="13">HPE NZ Networking</option>
+                    <option value="39">HPE Dicker</option>
+                    <option value="3">HPE AU Storage</option>
+                    <option value="5">HPE AU Server</option>
+                    <option value="4">HPE AU Networking</option>
+                    <option value="80">Fujitsu NZ</option>
+                    <option value="79">Fujitsu AU</option>
+                    <option value="37">Cisco Dicker</option>
+                    <option value="47">APC by Schneider Electric</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                <div class="form-group">
+                  <label>Secondary sponsor</label>
+                  <select multiple class="form-control custom-multiselect">
+                    <option value="40" style="">StorageCraft</option>
+                    <option value="50">Microsoft AU</option>
+                    <option value="9">Lenovo NZ PCG</option>
+                    <option value="10">Lenovo NZ EBG</option>
+                    <option value="2">Lenovo AU PCG</option>
+                    <option value="6">Lenovo AU EBG</option>
+                    <option value="83">HPI Print AU</option>
+                    <option value="66">HPI NZ Print</option>
+                    <option value="12">HPI NZ PC</option>
+                    <option value="67">HPI Incremental</option>
+                    <option value="1">HPI AU PC</option>
+                    <option value="14">HPE NZ Storage</option>
+                    <option value="11">HPE NZ Server</option>
+                    <option value="13">HPE NZ Networking</option>
+                    <option value="39">HPE Dicker</option>
+                    <option value="3">HPE AU Storage</option>
+                    <option value="5">HPE AU Server</option>
+                    <option value="4">HPE AU Networking</option>
+                    <option value="80">Fujitsu NZ</option>
+                    <option value="79">Fujitsu AU</option>
+                    <option value="37">Cisco Dicker</option>
+                    <option value="47">APC by Schneider Electric</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- end advanced fields -->
+          </div>
+          <div class="card-footer text-muted pb-2 text-right">
+            <button type="button" class="btn btn-primary btn-raised">Export</button>
+            <button type="button" class="btn btn-primary btn-raised">Clear</button>
+            <button type="button" class="btn btn-primary btn-raised">Search</button>
           </div>
         </div>
         <!-- end search filter -->
@@ -146,4 +343,5 @@
   <script src="./node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.js"></script>
   <script src="./js/main.js"></script>
 </body>
+
 </html>
