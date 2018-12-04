@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+
+  <!-- Material Design for Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="./node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>PR Material</title>
+</head>
+
+<body>
+  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-in full-height">
+
+    <!-- start header -->
+    <header class="bmd-layout-header bg-primary text-white">
+      <div class="navbar navbar-light bg-faded">
+        <button class="navbar-toggler text-white" type="button" data-toggle="drawer" data-target="#dw-s1">
+          <span class="sr-only">Toggle drawer</span>
+          <i class="material-icons">menu</i>
+        </button>
+        <div class="navbar-brand text-white">Campaigns</div>
+        <ul class="nav navbar-nav navbar-left">
+          <li class="nav-item">Dashboard</li>
+        </ul>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start drawer navigation -->
+    <div id="dw-s1" class="bmd-layout-drawer bg-faded">
+      <header>
+        <a class="navbar-brand">
+          <img src="./assets/images/pr-logo.png" alt="PartnerReach" class="img-fluid" />
+        </a>
+      </header>
+      <ul class="list-group">
+        <a class="list-group-item">Link 1</a>
+        <a class="list-group-item">Link 2</a>
+        <a class="list-group-item">Link 3</a>
+      </ul>
+    </div>
+    <!-- end drawer navigation -->
+
+    <!-- start page contents -->
+    <main class="bmd-layout-content">
+      <div class="col mt-3">
+
+        <!-- start breadcrumbs -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Campaigns
+            </li>
+          </ol>
+        </nav>
+        <!-- end breadcrumbs -->
+
+        <!-- start search filter -->
+        <div class="card mb-3">
+          <div class="card-header pb-2">
+            <h5>Search campaigns</h5>
+            <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
+              <div class="btn-group mr-2" role="group" aria-label="expand group">
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target=".multi-collapse"
+                  aria-expanded="false" aria-controls="basicFields advancedFields">
+                  <!-- <button type="button" class="btn btn-secondary toggle-close"
+                  aria-expanded="false" aria-controls="basicFields advancedFields"> -->
+                  <img src="./assets/icons/search-closed-24px.svg" width="24" height="24" alt="closed">
+                </button>
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#basicFields"
+                  aria-expanded="false" aria-controls="basicFields">
+                  <img src="./assets/icons/search-basic-24px.svg" width="24" height="24" alt="basic">
+                </button>
+                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#advancedFields"
+                  aria-expanded="false" aria-controls="advancedFields">
+                  <img src="./assets/icons/search-advanced-24px.svg" width="24" height="24" alt="advanced">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card-body pb-2">
+            <!-- start basic fields -->
+            <div id="basicFields" class="collapse multi-collapse show animate">
+              <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                  <div class="form-group">
+                    <label>Partner name</label>
+                    <input type="text" class="form-control" />
+                    <small class="form-text text-muted">Invalid ID:</small>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                  <div class="form-group">
+                    <label>Dac</label>
+                    <input type="text" class="form-control" placeholder="" />
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                  <div class="form-group">
+                    <label>Country</label>
+                    <select class="form-control">
+                      <option>AU</option>
+                      <option>NZ</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                  <div class="form-group">
+                    <label>Year / Month</label>
+                    <input type="text" class="form-control" />
+                    <small class="form-text text-muted">Format: YYYYMM</small>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                  <div class="form-group">
+                    <label>Status</label>
+                    <select class="form-control">
+                      <option value=""></option>
+                      <option value="Planning">Planning</option>
+                      <option value="Content Qty Error">Content Qty Error</option>
+                      <option value="Content Approval Error">Content Approval Error</option>
+                      <option value="Prepared">Prepared</option>
+                      <option value="Draft" selected="selected">Draft</option>
+                      <option value="Processing">Processing</option>
+                      <option value="Custom Content Requested">Custom Content Requested</option>
+                      <option value="Pending Approval">Pending Approval</option>
+                      <option value="Schedule Requested">Schedule Requested</option>
+                      <option value="Scheduled">Scheduled</option>
+                      <option value="Sent">Sent</option>
+                      <option value="Do not send">Do not send</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end basic fields -->
+            <!-- start advanced fields -->
+            <div id="advancedFields" class="collapse multi-collapse animate">
+              <div class="row">
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                  <div class="form-group">
+                    <label>Biz Dev Rep</label>
+                    <select class="form-control">
+                      <option value=""></option>
+                      <option value="">Yael Padilla</option>
+                      <option value="">Shehanta Dias</option>
+                      <option value="">Regan Sice</option>
+                      <option value="">Mario Hernandez</option>
+                      <option value="">Jeninne Martin</option>
+                      <option value="">Ian Glasgow</option>
+                      <option value="">Greta Lee</option>
+                      <option value="">Greg Grierson</option>
+                      <option value="">Erik Beltz</option>
+                      <option value="">Cruz Fuentez</option>
+                      <option value="">Anthony Silveira</option>
+                      <option value="">Amanda Gonzales</option>
+                      <option value="">Alex Lopez</option>
+                      <option value="">Alex Cheng</option>
+                      <option value="">Aimee Butler</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                  <div class="form-group">
+                    <label>Batch ID</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                  <div class="form-group">
+                    <label>Type</label>
+                    <select class="form-control">
+                      <option value=""></option>
+                      <option value="Normal">Normal</option>
+                      <option value="Action">Action</option>
+                      <option value="Second Send">Second Send</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                  <div class="form-group">
+                    <label>Checked</label>
+                    <select class="form-control">
+                      <option value=""></option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                  <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group mb-0">
+                          <label>Last Draft/Reminder</label>
+                          <select class="form-control">
+                            <option value=""></option>
+                            <option value="Yes">Earlier than</option>
+                            <option value="Yes">Later than</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Date</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control">
+                            <div class="input-group-append">
+                              <button class="btn btn-sm btn-secondary m-0" type="button">
+                                <i class="material-icons">calendar_today</i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                  <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group mb-2">
+                          <label>List size</label>
+                          <select class="form-control">
+                            <option value=""></option>
+                            <option value="Yes">Less than</option>
+                            <option value="Yes">Greater than</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Number</label>
+                          <input type="number" class="form-control" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 mt-3">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>With note</label>
+                        <select class="form-control">
+                          <option value=""></option>
+                          <option value="Yes">Yes</option>
+                          <option value="Yes">No</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>With schedule error</label>
+                        <select class="form-control">
+                          <option value=""></option>
+                          <option value="Yes">Yes</option>
+                          <option value="Yes">No</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                  <div class="form-group">
+                    <label>Primary sponsor</label>
+                    <select multiple class="form-control custom-multiselect">
+                      <option value="40" style="">StorageCraft</option>
+                      <option value="50">Microsoft AU</option>
+                      <option value="9">Lenovo NZ PCG</option>
+                      <option value="10">Lenovo NZ EBG</option>
+                      <option value="2">Lenovo AU PCG</option>
+                      <option value="6">Lenovo AU EBG</option>
+                      <option value="83">HPI Print AU</option>
+                      <option value="66">HPI NZ Print</option>
+                      <option value="12">HPI NZ PC</option>
+                      <option value="67">HPI Incremental</option>
+                      <option value="1">HPI AU PC</option>
+                      <option value="14">HPE NZ Storage</option>
+                      <option value="11">HPE NZ Server</option>
+                      <option value="13">HPE NZ Networking</option>
+                      <option value="39">HPE Dicker</option>
+                      <option value="3">HPE AU Storage</option>
+                      <option value="5">HPE AU Server</option>
+                      <option value="4">HPE AU Networking</option>
+                      <option value="80">Fujitsu NZ</option>
+                      <option value="79">Fujitsu AU</option>
+                      <option value="37">Cisco Dicker</option>
+                      <option value="47">APC by Schneider Electric</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                  <div class="form-group">
+                    <label>Secondary sponsor</label>
+                    <select multiple class="form-control custom-multiselect">
+                      <option value="40" style="">StorageCraft</option>
+                      <option value="50">Microsoft AU</option>
+                      <option value="9">Lenovo NZ PCG</option>
+                      <option value="10">Lenovo NZ EBG</option>
+                      <option value="2">Lenovo AU PCG</option>
+                      <option value="6">Lenovo AU EBG</option>
+                      <option value="83">HPI Print AU</option>
+                      <option value="66">HPI NZ Print</option>
+                      <option value="12">HPI NZ PC</option>
+                      <option value="67">HPI Incremental</option>
+                      <option value="1">HPI AU PC</option>
+                      <option value="14">HPE NZ Storage</option>
+                      <option value="11">HPE NZ Server</option>
+                      <option value="13">HPE NZ Networking</option>
+                      <option value="39">HPE Dicker</option>
+                      <option value="3">HPE AU Storage</option>
+                      <option value="5">HPE AU Server</option>
+                      <option value="4">HPE AU Networking</option>
+                      <option value="80">Fujitsu NZ</option>
+                      <option value="79">Fujitsu AU</option>
+                      <option value="37">Cisco Dicker</option>
+                      <option value="47">APC by Schneider Electric</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end advanced fields -->
+          </div>
+          <div class="card-footer text-muted pb-2 text-right">
+            <button type="button" class="btn btn-primary btn-raised">Export</button>
+            <button type="button" class="btn btn-primary btn-raised">Clear</button>
+            <button type="button" class="btn btn-primary btn-raised">Search</button>
+          </div>
+        </div>
+        <!-- end search filter -->
+
+        <!-- start results table -->
+        <div class="card mb-5">
+          <div class="card-header pb-2 text-right">
+            <button type="button" class="btn btn-primary btn-raised">Add New</button>
+            <button type="button" class="btn btn-primary btn-raised">Generate with existing batch id</button>
+            <button type="button" class="btn btn-primary btn-raised">Send for Self Approval</button>
+          </div>
+          <div class="card-body p-0">
+            <div class="table-responsive">
+              <table class="table table-hover mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col" width="25">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox">
+                        </label>
+                      </div>
+                    </th>
+                    <th scope="col">Camp ID</th>
+                    <th scope="col">Partner</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Draft/Reminders</th>
+                    <th scope="col">Region</th>
+                    <th scope="col">YearMonth</th>
+                    <th scope="col">&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-details">
+                    <td scope="row">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox">
+                        </label>
+                      </div>
+                    </td>
+                    <td><a href="#">181630</a></td>
+                    <td><a href="#">Production Sample Account</a></td>
+                    <td>
+                      <span class="badge badge-pill badge-draft">Draft</span>
+                    </td>
+                    <td>
+                      <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                        Nov 16, 2018</span>
+                      <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                        Nov 27, 2018</span>
+                    </td>
+                    <td>AU</td>
+                    <td>201811</td>
+                    <td>
+                      <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                          class="material-icons m-0 p-0">view_list</i></a>
+                    </td>
+                  </tr>
+                  <tr class="table-details">
+                      <td scope="row">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox">
+                          </label>
+                        </div>
+                      </td>
+                      <td><a href="#">181630</a></td>
+                      <td><a href="#">Production Sample Account</a></td>
+                      <td>
+                        <span class="badge badge-pill badge-danger">Do not send</span>
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                          Nov 16, 2018</span>
+                        <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                          Nov 27, 2018</span>
+                      </td>
+                      <td>AU</td>
+                      <td>201811</td>
+                      <td>
+                        <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                            class="material-icons m-0 p-0">view_list</i></a>
+                      </td>
+                    </tr>
+                    <tr class="table-details">
+                        <td scope="row">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                            </label>
+                          </div>
+                        </td>
+                        <td><a href="#">181630</a></td>
+                        <td><a href="#">Production Sample Account</a></td>
+                        <td>
+                          <span class="badge badge-pill badge-draft">Draft</span>
+                        </td>
+                        <td>
+                          <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                            Nov 16, 2018</span>
+                          <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                            Nov 27, 2018</span>
+                        </td>
+                        <td>AU</td>
+                        <td>201811</td>
+                        <td>
+                          <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                              class="material-icons m-0 p-0">view_list</i></a>
+                        </td>
+                      </tr>
+                      <tr class="table-details">
+                          <td scope="row">
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox">
+                              </label>
+                            </div>
+                          </td>
+                          <td><a href="#">181630</a></td>
+                          <td><a href="#">Production Sample Account</a></td>
+                          <td>
+                            <span class="badge badge-pill badge-draft">Draft</span>
+                          </td>
+                          <td>
+                            <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                              Nov 16, 2018</span>
+                            <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                              Nov 27, 2018</span>
+                          </td>
+                          <td>AU</td>
+                          <td>201811</td>
+                          <td>
+                            <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                class="material-icons m-0 p-0">view_list</i></a>
+                          </td>
+                        </tr>
+                        <tr class="table-details">
+                            <td scope="row">
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox">
+                                </label>
+                              </div>
+                            </td>
+                            <td><a href="#">181630</a></td>
+                            <td><a href="#">Production Sample Account</a></td>
+                            <td>
+                              <span class="badge badge-pill badge-draft">Draft</span>
+                            </td>
+                            <td>
+                              <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                                Nov 16, 2018</span>
+                              <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                                Nov 27, 2018</span>
+                            </td>
+                            <td>AU</td>
+                            <td>201811</td>
+                            <td>
+                              <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                  class="material-icons m-0 p-0">view_list</i></a>
+                            </td>
+                          </tr>
+                          <tr class="table-details">
+                              <td scope="row">
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td><a href="#">181630</a></td>
+                              <td><a href="#">Production Sample Account</a></td>
+                              <td>
+                                <span class="badge badge-pill badge-draft">Draft</span>
+                              </td>
+                              <td>
+                                <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                                  Nov 16, 2018</span>
+                                <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                                  Nov 27, 2018</span>
+                              </td>
+                              <td>AU</td>
+                              <td>201811</td>
+                              <td>
+                                <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                    class="material-icons m-0 p-0">view_list</i></a>
+                              </td>
+                            </tr>
+                            <tr class="table-details">
+                                <td scope="row">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox">
+                                    </label>
+                                  </div>
+                                </td>
+                                <td><a href="#">181630</a></td>
+                                <td><a href="#">Production Sample Account</a></td>
+                                <td>
+                                  <span class="badge badge-pill badge-draft">Draft</span>
+                                </td>
+                                <td>
+                                  <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                                    Nov 16, 2018</span>
+                                  <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                                    Nov 27, 2018</span>
+                                </td>
+                                <td>AU</td>
+                                <td>201811</td>
+                                <td>
+                                  <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                      class="material-icons m-0 p-0">view_list</i></a>
+                                </td>
+                              </tr>
+                              <tr class="table-details">
+                                  <td scope="row">
+                                    <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox">
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td><a href="#">181630</a></td>
+                                  <td><a href="#">Production Sample Account</a></td>
+                                  <td>
+                                    <span class="badge badge-pill badge-draft">Draft</span>
+                                  </td>
+                                  <td>
+                                    <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                                      Nov 16, 2018</span>
+                                    <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                                      Nov 27, 2018</span>
+                                  </td>
+                                  <td>AU</td>
+                                  <td>201811</td>
+                                  <td>
+                                    <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                        class="material-icons m-0 p-0">view_list</i></a>
+                                  </td>
+                                </tr>
+                                <tr class="table-details">
+                                    <td scope="row">
+                                      <div class="checkbox">
+                                        <label>
+                                          <input type="checkbox">
+                                        </label>
+                                      </div>
+                                    </td>
+                                    <td><a href="#">181630</a></td>
+                                    <td><a href="#">Production Sample Account</a></td>
+                                    <td>
+                                      <span class="badge badge-pill badge-draft">Draft</span>
+                                    </td>
+                                    <td>
+                                      <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                                        Nov 16, 2018</span>
+                                      <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                                        Nov 27, 2018</span>
+                                    </td>
+                                    <td>AU</td>
+                                    <td>201811</td>
+                                    <td>
+                                      <a href="#" class="table-action m-0 p-0" data-toggle="modal" data-target=".campaign-detail-modal"><i
+                                          class="material-icons m-0 p-0">view_list</i></a>
+                                    </td>
+                                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card-footer text-right pb-2">
+            <!-- <button type="button" class="btn btn-primary btn-raised">Add New</button>
+            <button type="button" class="btn btn-primary btn-raised">Generate with existing batch id</button>
+            <button type="button" class="btn btn-primary btn-raised">Send for Self Approval</button> -->
+          </div>
+        </div>
+        <!-- end results table -->
+
+      </div>
+    </main>
+    <!-- end page contents -->
+  </div>
+
+
+  <!-- start campaign detail modal -->
+  <div class="modal fade campaign-detail-modal" tabindex="-1" role="dialog" aria-labelledby="campaigndetailModal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Campaign content details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="table-responsive">
+            <table class="table table-hover mb-0">
+              <tbody>
+                <tr>
+                  <th>
+                    Campaign ID
+                  </th>
+                  <td>
+                    <a href="#">181630</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Partner Name
+                  </th>
+                  <td>
+                    <a href="#">Production Sample Account</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Template
+                  </th>
+                  <td>
+                    <a href="#">Master - (A, P, A, P, A, P, A, P)</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Batch ID
+                  </th>
+                  <td>
+                    201810-HPE-NZ-Storage-NZ-1540847523
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Status
+                  </th>
+                  <td>
+                    <span class="badge badge-pill badge-draft">Draft</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Type
+                  </th>
+                  <td>
+                    Normal
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Checked
+                  </th>
+                  <td>
+                    Yes
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Draft/Reminders
+                  </th>
+                  <td>
+                    <span class="badge badge-pill badge-danger" data-toggle="tooltip" data-placement="top" title="12:35:25">R1
+                      Nov 16, 2018</span>
+                    <span class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="top" title="13:54:50">D1
+                      Nov 27, 2018</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Region
+                  </th>
+                  <td>
+                    AU
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Industry
+                  </th>
+                  <td>
+                    IT
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Year/Month
+                  </th>
+                  <td>
+                    201811
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Campaign content
+                  </th>
+                  <td>
+                    <a href="#">A7597 The business benefits of mobile printing</a><br>
+                    <a href="#">P7595 HPE Server | Rack</a><br>
+                    <a href="#">A7598 The pros and cons of using managed print services</a><br>
+                    <a href="#">The case for collaboration tools</a><br>
+                    <a href="#">HPE Server | Tower | No Pricing</a><br>
+                    <a href="#">HPE Server | Tower</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-raised m-1">Preview</button>
+          <button type="button" class="btn btn-primary btn-raised m-1">Build</button>
+          <button type="button" class="btn btn-primary btn-raised m-1">Self Approval</button>
+          <button type="button" class="btn btn-primary btn-raised m-1">Edit</button>
+          <button type="button" class="btn btn-primary btn-raised m-1">Schedule</button>
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end campaign detail modal -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="./js/jquery-3.2.1.slim.min.js"></script>
+  <script src="./js/popper.js"></script>
+  <script src="./node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
