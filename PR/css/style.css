@@ -2,6 +2,9 @@
 .bg-primary {
   background: #253E68 !important; }
 
+.bmd-layout-backdrop {
+  background-color: rgba(0, 0, 0, 0); }
+
 .full-height {
   min-height: 100vh; }
 

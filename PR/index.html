@@ -19,29 +19,146 @@
 </head>
 
 <body>
-  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-in full-height">
 
-    <!-- start header -->
-    <header class="bmd-layout-header bg-primary text-white">
-      <div class="navbar navbar-light bg-faded">
-        <button class="navbar-toggler text-white" type="button" data-toggle="drawer" data-target="#dw-s1">
+  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay full-height">
+    <header class="bmd-layout-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pl-2">
+
+        <button class="btn bmd-btn-icon" type="button" data-toggle="drawer" data-target="#dw-s2">
           <span class="sr-only">Toggle drawer</span>
-          <i class="material-icons">menu</i>
+          <i class="material-icons">more_horiz</i>
         </button>
-        <div class="navbar-brand text-white">Campaigns</div>
-        <ul class="nav navbar-nav navbar-left">
-          <li class="nav-item">Dashboard</li>
-        </ul>
-      </div>
-    </header>
-    <!-- end header -->
 
-    <!-- start drawer navigation -->
-    <div id="dw-s1" class="bmd-layout-drawer bg-faded">
+
+        <button class="navbar-toggler btn bmd-btn-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="material-icons">more_vert</i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Admin
+              </a>
+              <div class="dropdown-menu" aria-labelledby="adminDropdown">
+                <a class="dropdown-item" href="#">Campaign Batch</a>
+                <a class="dropdown-item" href="#">Clients</a>
+                <a class="dropdown-item" href="#">Sponsors</a>
+                <a class="dropdown-item" href="#">Templates</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="partnersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Partners
+              </a>
+              <div class="dropdown-menu" aria-labelledby="partnersDropdown">
+                <a class="dropdown-item" href="#">Accounts</a>
+                <a class="dropdown-item" href="#">Business Development</a>
+                <a class="dropdown-item" href="#">Media Bookings</a>
+                <a class="dropdown-item" href="#">Leads</a>
+                <a class="dropdown-item" href="#">Registrations</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="campaignDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Campaigns
+              </a>
+              <div class="dropdown-menu" aria-labelledby="campaignDropdown">
+                <a class="dropdown-item" href="#">Campaign Content</a>
+                <a class="dropdown-item" href="#">Campaigns</a>
+                <a class="dropdown-item" href="#">Campaign Groups</a>
+                <a class="dropdown-item" href="#">Campaign Schedules</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Social
+              </a>
+              <div class="dropdown-menu" aria-labelledby="socialDropdown">
+                <a class="dropdown-item" href="#">Contacts</a>
+                <a class="dropdown-item" href="#">Posts</a>
+                <a class="dropdown-item" href="#">Companies</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="clientDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Client
+                </a>
+                <div class="dropdown-menu" aria-labelledby="clientDropdown">
+                  <a class="dropdown-item" href="#">Order</a>
+                  <a class="dropdown-item" href="#"><i class="material-icons mr-0">remove</i> Order Items</a>
+                  <a class="dropdown-item" href="#">Invoices</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Target</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="salesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Sales
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="salesDropdown">
+                    <a class="dropdown-item" href="#">Invoices</a>
+                    <a class="dropdown-item" href="#"><i class="material-icons mr-0">remove</i> Invoice Items</a>
+                    <a class="dropdown-item" href="#">Products</a>
+                  </div>
+                </li>
+
+          </ul>
+          <div class="my-2 my-lg-0">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="regionDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      <img src="https://cdn.countryflags.com/thumbs/australia/flag-round-250.png" width="16" height="16">  ANZ
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="regionDropdown">
+                      <a class="dropdown-item" href="#">ANZ</a>
+                      <a class="dropdown-item" href="#">NA</a>
+                      <a class="dropdown-item" href="#">UK</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="industryDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        IT
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="industryDropdown">
+                        <a class="dropdown-item" href="#">Insurance</a>
+                        <a class="dropdown-item" href="#">EPP</a>
+                      </div>
+                    </li>
+      
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Adrian Amante
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                          <a class="dropdown-item" href="#">Account Info</a>
+                          <a class="dropdown-item" href="#">User Management</a>
+                          <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                      </li>
+        
+                </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="dw-s2" class="bmd-layout-drawer bg-faded">
       <header>
-        <a class="navbar-brand">
-          <img src="./assets/images/pr-logo.png" alt="PartnerReach" class="img-fluid" />
-        </a>
+        <a class="navbar-brand">Title</a>
       </header>
       <ul class="list-group">
         <a class="list-group-item">Link 1</a>
@@ -49,303 +166,11 @@
         <a class="list-group-item">Link 3</a>
       </ul>
     </div>
-    <!-- end drawer navigation -->
-
-    <!-- start page contents -->
     <main class="bmd-layout-content">
-      <div class="col mt-3">
-
-        <!-- start breadcrumbs -->
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">
-              Campaigns
-            </li>
-          </ol>
-        </nav>
-        <!-- end breadcrumbs -->
-
-        <!-- start search filter -->
-        <div class="card mb-3">
-          <div class="card-header pb-2">
-            <h5>Search campaigns</h5>
-            <div class="btn-toolbar mb-3 position-absolute" style="right: 0; top: 0;" role="toolbar">
-              <div class="btn-group mr-2" role="group" aria-label="expand group">
-                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target=".multi-collapse"
-                  aria-expanded="false" aria-controls="basicFields advancedFields">
-                  <!-- <button type="button" class="btn btn-secondary toggle-close"
-                  aria-expanded="false" aria-controls="basicFields advancedFields"> -->
-                  <img src="./assets/icons/search-closed-24px.svg" width="24" height="24" alt="closed">
-                </button>
-                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#basicFields"
-                  aria-expanded="false" aria-controls="basicFields">
-                  <img src="./assets/icons/search-basic-24px.svg" width="24" height="24" alt="basic">
-                </button>
-                <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#advancedFields"
-                  aria-expanded="false" aria-controls="advancedFields">
-                  <img src="./assets/icons/search-advanced-24px.svg" width="24" height="24" alt="advanced">
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="card-body pb-2">
-            <!-- start basic fields -->
-            <div id="basicFields" class="collapse multi-collapse show animate">
-              <div class="row">
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                  <div class="form-group">
-                    <label>Partner name</label>
-                    <input type="text" class="form-control" />
-                    <small class="form-text text-muted">Invalid ID:</small>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                  <div class="form-group">
-                    <label>Dac</label>
-                    <input type="text" class="form-control" placeholder="" />
-                  </div>
-                </div>
-                <div class="col-xl-2 col-md-4 col-sm-4">
-                  <div class="form-group">
-                    <label>Country</label>
-                    <select class="form-control">
-                      <option>AU</option>
-                      <option>NZ</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-md-4 col-sm-4">
-                  <div class="form-group">
-                    <label>Year / Month</label>
-                    <input type="text" class="form-control" />
-                    <small class="form-text text-muted">Format: YYYYMM</small>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-md-4 col-sm-4">
-                  <div class="form-group">
-                    <label>Status</label>
-                    <select class="form-control">
-                      <option value=""></option>
-                      <option value="Planning">Planning</option>
-                      <option value="Content Qty Error">Content Qty Error</option>
-                      <option value="Content Approval Error">Content Approval Error</option>
-                      <option value="Prepared">Prepared</option>
-                      <option value="Draft" selected="selected">Draft</option>
-                      <option value="Processing">Processing</option>
-                      <option value="Custom Content Requested">Custom Content Requested</option>
-                      <option value="Pending Approval">Pending Approval</option>
-                      <option value="Schedule Requested">Schedule Requested</option>
-                      <option value="Scheduled">Scheduled</option>
-                      <option value="Sent">Sent</option>
-                      <option value="Do not send">Do not send</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end basic fields -->
-            <!-- start advanced fields -->
-            <div id="advancedFields" class="collapse multi-collapse animate">
-              <div class="row">
-                <div class="col-xl-3 col-md-3 col-sm-3">
-                  <div class="form-group">
-                    <label>Biz Dev Rep</label>
-                    <select class="form-control">
-                      <option value=""></option>
-                      <option value="">Yael Padilla</option>
-                      <option value="">Shehanta Dias</option>
-                      <option value="">Regan Sice</option>
-                      <option value="">Mario Hernandez</option>
-                      <option value="">Jeninne Martin</option>
-                      <option value="">Ian Glasgow</option>
-                      <option value="">Greta Lee</option>
-                      <option value="">Greg Grierson</option>
-                      <option value="">Erik Beltz</option>
-                      <option value="">Cruz Fuentez</option>
-                      <option value="">Anthony Silveira</option>
-                      <option value="">Amanda Gonzales</option>
-                      <option value="">Alex Lopez</option>
-                      <option value="">Alex Cheng</option>
-                      <option value="">Aimee Butler</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-sm-3">
-                  <div class="form-group">
-                    <label>Batch ID</label>
-                    <input type="text" class="form-control" />
-                  </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-sm-3">
-                  <div class="form-group">
-                    <label>Type</label>
-                    <select class="form-control">
-                      <option value=""></option>
-                      <option value="Normal">Normal</option>
-                      <option value="Action">Action</option>
-                      <option value="Second Send">Second Send</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-sm-3">
-                  <div class="form-group">
-                    <label>Checked</label>
-                    <select class="form-control">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                  <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group mb-0">
-                          <label>Last Draft/Reminder</label>
-                          <select class="form-control">
-                            <option value=""></option>
-                            <option value="Yes">Earlier than</option>
-                            <option value="Yes">Later than</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <label>Date</label>
-                          <div class="input-group">
-                            <input type="text" class="form-control">
-                            <div class="input-group-append">
-                              <button class="btn btn-sm btn-secondary m-0" type="button">
-                                <i class="material-icons">calendar_today</i>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                  <div class="border mt-3 pt-0 pr-3 pb-0 pl-3">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group mb-2">
-                          <label>List size</label>
-                          <select class="form-control">
-                            <option value=""></option>
-                            <option value="Yes">Less than</option>
-                            <option value="Yes">Greater than</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <label>Number</label>
-                          <input type="number" class="form-control" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 mt-3">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label>With note</label>
-                        <select class="form-control">
-                          <option value=""></option>
-                          <option value="Yes">Yes</option>
-                          <option value="Yes">No</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label>With schedule error</label>
-                        <select class="form-control">
-                          <option value=""></option>
-                          <option value="Yes">Yes</option>
-                          <option value="Yes">No</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
-                  <div class="form-group">
-                    <label>Primary sponsor</label>
-                    <select multiple class="form-control custom-multiselect">
-                      <option value="40" style="">StorageCraft</option>
-                      <option value="50">Microsoft AU</option>
-                      <option value="9">Lenovo NZ PCG</option>
-                      <option value="10">Lenovo NZ EBG</option>
-                      <option value="2">Lenovo AU PCG</option>
-                      <option value="6">Lenovo AU EBG</option>
-                      <option value="83">HPI Print AU</option>
-                      <option value="66">HPI NZ Print</option>
-                      <option value="12">HPI NZ PC</option>
-                      <option value="67">HPI Incremental</option>
-                      <option value="1">HPI AU PC</option>
-                      <option value="14">HPE NZ Storage</option>
-                      <option value="11">HPE NZ Server</option>
-                      <option value="13">HPE NZ Networking</option>
-                      <option value="39">HPE Dicker</option>
-                      <option value="3">HPE AU Storage</option>
-                      <option value="5">HPE AU Server</option>
-                      <option value="4">HPE AU Networking</option>
-                      <option value="80">Fujitsu NZ</option>
-                      <option value="79">Fujitsu AU</option>
-                      <option value="37">Cisco Dicker</option>
-                      <option value="47">APC by Schneider Electric</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
-                  <div class="form-group">
-                    <label>Secondary sponsor</label>
-                    <select multiple class="form-control custom-multiselect">
-                      <option value="40" style="">StorageCraft</option>
-                      <option value="50">Microsoft AU</option>
-                      <option value="9">Lenovo NZ PCG</option>
-                      <option value="10">Lenovo NZ EBG</option>
-                      <option value="2">Lenovo AU PCG</option>
-                      <option value="6">Lenovo AU EBG</option>
-                      <option value="83">HPI Print AU</option>
-                      <option value="66">HPI NZ Print</option>
-                      <option value="12">HPI NZ PC</option>
-                      <option value="67">HPI Incremental</option>
-                      <option value="1">HPI AU PC</option>
-                      <option value="14">HPE NZ Storage</option>
-                      <option value="11">HPE NZ Server</option>
-                      <option value="13">HPE NZ Networking</option>
-                      <option value="39">HPE Dicker</option>
-                      <option value="3">HPE AU Storage</option>
-                      <option value="5">HPE AU Server</option>
-                      <option value="4">HPE AU Networking</option>
-                      <option value="80">Fujitsu NZ</option>
-                      <option value="79">Fujitsu AU</option>
-                      <option value="37">Cisco Dicker</option>
-                      <option value="47">APC by Schneider Electric</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end advanced fields -->
-          </div>
-          <div class="card-footer text-muted pb-2 text-right">
-            <button type="button" class="btn btn-primary btn-raised">Export</button>
-            <button type="button" class="btn btn-primary btn-raised">Clear</button>
-            <button type="button" class="btn btn-primary btn-raised">Search</button>
-          </div>
-        </div>
-        <!-- end search filter -->
-
+      <div class="container-fluid">
+        <p>Main content</p>
       </div>
     </main>
-    <!-- end page contents -->
   </div>
 
   <!-- Optional JavaScript -->
