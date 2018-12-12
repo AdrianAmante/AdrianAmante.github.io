@@ -1,0 +1,15 @@
+.form-placeholder-one {
+  margin-top: -250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-placeholder-one {
+    margin-top: 0;
+  }
+}
+
+.tablet {
+  min-height: 500px;
+}
+
+/*# sourceMappingURL=maps/main.css.map */
