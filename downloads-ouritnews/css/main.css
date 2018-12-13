@@ -1,3 +1,7 @@
+.bg-green {
+  background: #2AC080;
+}
+
 body {
   padding-bottom: 6rem;
 }
@@ -14,6 +18,11 @@ body {
 
 .tablet {
   min-height: 500px;
+}
+
+.ozbeanz-bg {
+  background: url(../images/ozbeanz-bg.png) no-repeat center center fixed;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=maps/main.css.map */

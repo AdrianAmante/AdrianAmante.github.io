@@ -20,6 +20,12 @@
 // 	padding: 5px 15px;
 // }
 
+$green: #2AC080;
+
+.bg-green {
+	background: $green;
+}
+
 
 body {
 	padding-bottom: 6rem;
@@ -38,4 +44,14 @@ body {
 
 .tablet {
 	min-height: 500px;
+}
+
+
+
+.ozbeanz-bg {
+	background: url(../images/ozbeanz-bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
