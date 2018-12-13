@@ -25,4 +25,9 @@ body {
   background-size: cover;
 }
 
+.microsoft-bg {
+  background: url(../images/microsoft-bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
