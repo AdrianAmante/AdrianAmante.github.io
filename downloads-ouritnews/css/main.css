@@ -38,7 +38,7 @@ body {
   background-size: cover;
 }
 
-[class*=" bmd-label"], [class^=bmd-label] {
+.bmd-label-static {
   color: #212529;
 }
 
