@@ -71,3 +71,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+[class*=" bmd-label"], [class^=bmd-label] {
+	color: #212529;
+}

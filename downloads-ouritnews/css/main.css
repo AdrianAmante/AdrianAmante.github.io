@@ -38,4 +38,8 @@ body {
   background-size: cover;
 }
 
+[class*=" bmd-label"], [class^=bmd-label] {
+  color: #212529;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
