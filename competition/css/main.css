@@ -74,4 +74,12 @@
   background-color: #ffffff !important;
 }
 
+.title {
+  line-height: 1;
+}
+
+.subtitle {
+  line-height: 1.1;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
