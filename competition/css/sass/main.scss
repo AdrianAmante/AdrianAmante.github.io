@@ -54,8 +54,6 @@ $green: #2AC080;
 	min-height: 500px;
 }
 
-
-
 .ozbeanz-bg {
 	background: url(../images/ozbeanz-bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -76,13 +74,34 @@ $green: #2AC080;
 	color: #212529;
 }
 
-
 .vh-100 {
 	min-height: calc(100vh - 112px);
 }
 
-
-
 .gradient-bg {
 	background-image: linear-gradient( 206.8deg,  rgba(73,168,255,1) 19.1%, rgba(0,48,249,1) 109.8% ) ;
+}
+
+.radius {
+	border-radius: 25px !important;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px; /* for old Konqueror browsers */
+}
+
+.input-round {
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px; /* future proofing */
+	-khtml-border-radius: 25px; /* for old Konqueror browsers */
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+	box-sizing: border-box;
+	outline: none;
+	border-width: 0;
+}
+
+.bg-info {
+	// background-color: #58D4FF !important;
 }

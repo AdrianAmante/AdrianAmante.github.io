@@ -48,4 +48,26 @@
   background-image: linear-gradient(206.8deg, #49a8ff 19.1%, #0030f9 109.8%);
 }
 
+.radius {
+  border-radius: 25px !important;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  /* for old Konqueror browsers */
+}
+
+.input-round {
+  border-radius: 25px;
+  /* future proofing */
+  -khtml-border-radius: 25px;
+  /* for old Konqueror browsers */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border-width: 0;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
