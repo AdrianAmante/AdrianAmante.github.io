@@ -39,8 +39,8 @@
 }
 
 .vh-100 {
-  min-height: -moz-calc(100vh - 112px);
-  min-height: calc(100vh - 112px);
+  min-height: -moz-calc(100vh - 0);
+  min-height: calc(100vh - 0);
 }
 
 .gradient-bg {
