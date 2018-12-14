@@ -82,4 +82,8 @@
   line-height: 1.1;
 }
 
+.js-cm-submit-button {
+  box-shadow: none !important;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
