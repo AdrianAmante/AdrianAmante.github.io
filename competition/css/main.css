@@ -1,0 +1,51 @@
+.text-purple {
+  color: #663190;
+}
+
+.text-orange {
+  color: #f26527;
+}
+
+.bg-green {
+  background: #2AC080;
+}
+
+.form-placeholder-one {
+  margin-top: -250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-placeholder-one {
+    margin-top: 0;
+  }
+}
+
+.tablet {
+  min-height: 500px;
+}
+
+.ozbeanz-bg {
+  background: url(../images/ozbeanz-bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.microsoft-bg {
+  background: url(../images/microsoft-bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bmd-label-static {
+  color: #212529;
+}
+
+.vh-100 {
+  min-height: -moz-calc(100vh - 112px);
+  min-height: calc(100vh - 112px);
+}
+
+.gradient-bg {
+  background-image: -moz- oldlinear-gradient(243.2deg, #49a8ff 19.1%, #0030f9 109.8%);
+  background-image: linear-gradient(206.8deg, #49a8ff 19.1%, #0030f9 109.8%);
+}
+
+/*# sourceMappingURL=maps/main.css.map */
