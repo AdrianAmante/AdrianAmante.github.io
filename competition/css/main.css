@@ -70,4 +70,8 @@
   border-width: 0;
 }
 
+.bg-light {
+  background-color: #ffffff !important;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
