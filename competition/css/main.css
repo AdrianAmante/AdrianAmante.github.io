@@ -10,6 +10,10 @@
   background: #2AC080;
 }
 
+.dell-blue {
+  color: #007db8;
+}
+
 .form-placeholder-one {
   margin-top: -250px;
 }
@@ -49,8 +53,7 @@
 }
 
 .gradient-bg {
-  background-image: -moz- oldlinear-gradient(243.2deg, #49a8ff 19.1%, #0030f9 109.8%);
-  background-image: linear-gradient(206.8deg, #49a8ff 19.1%, #0030f9 109.8%);
+  background: #0085c3;
 }
 
 .radius {

@@ -21,6 +21,9 @@
 // }
 
 $green: #2AC080;
+$dell-blue: #007db8;
+
+
 
 .text-purple {
 	color:#663190;
@@ -33,7 +36,9 @@ $green: #2AC080;
 }
 
 
-
+.dell-blue {
+	color: $dell-blue;
+}
 
 // body {
 // 	padding-bottom: 6rem;
@@ -84,7 +89,8 @@ $green: #2AC080;
 }
 
 .gradient-bg {
-	background-image: linear-gradient( 206.8deg,  rgba(73,168,255,1) 19.1%, rgba(0,48,249,1) 109.8% ) ;
+	// background-image: linear-gradient( 206.8deg,  rgba(73,168,255,1) 19.1%, rgba(0,48,249,1) 109.8% ) ;
+	background: #0085c3;
 }
 
 .radius {
@@ -188,3 +194,4 @@ $green: #2AC080;
 		font-size: 12px;
 	}
 }
+
