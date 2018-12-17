@@ -158,4 +158,17 @@ small p {
   margin-bottom: 0;
 }
 
+span.copy {
+  padding: 30px 15px;
+}
+
+span.code {
+  background: #f5f5f5;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 6px;
+  color: #f26527;
+  padding: 15px;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
