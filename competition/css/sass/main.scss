@@ -23,8 +23,6 @@
 $green: #2AC080;
 $dell-blue: #007db8;
 
-
-
 .text-purple {
 	color:#663190;
 }
@@ -42,11 +40,6 @@ $dell-blue: #007db8;
 .dell-blue {
 	color: $dell-blue;
 }
-
-// body {
-// 	padding-bottom: 6rem;
-// }
-
 
 .form-placeholder-one {
 	margin-top: -250px;
@@ -199,7 +192,7 @@ $dell-blue: #007db8;
 }
 
 small p {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 span.copy {
@@ -215,8 +208,6 @@ span.code {
 	color: #f26527;
 	padding: 15px;
 }
-
-
 
 .hide {
 	display: none;
