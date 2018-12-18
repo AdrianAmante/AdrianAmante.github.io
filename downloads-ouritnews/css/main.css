@@ -10,6 +10,10 @@
   background: #2AC080;
 }
 
+.bg-blue {
+  background-color: #1879d5;
+}
+
 body {
   padding-bottom: 6rem;
 }
@@ -35,6 +39,11 @@ body {
 
 .microsoft-bg {
   background: url(../images/microsoft-bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.ransomware-bg {
+  background: url(../images/ransomware-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
