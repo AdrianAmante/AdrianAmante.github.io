@@ -71,8 +71,8 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
                   <div class="input-group">
                       <input id="eppcode" value="EPP5off" type="text" class="code-input text-center">
                       <div class="input-group-append">
-                        <button class="copy-btn btn btn-primary btn-lg btn-raised btn-warning type="button" data-clipboard-target="#eppcode">
-                          Copy
+                        <button class="copy-btn btn btn-primary btn-lg btn-raised btn-warning type="button" id="fold" data-clipboard-target="#eppcode">
+                          <span id="fold_p">Copy</span>
                         </button>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
 
 
         <div class="col-md-6 offset-md-3 text-center circles mt-3">
-          <img src="images/cart-lady.png" class="img-fluid">
+          <img src="images/cart-lady.png" width="450" class="img-fluid">
         </div>
         <!-- <div class="col-md-6 offset-md-3 text-center circles mt-3">
           <div class="big-circle">
@@ -233,16 +233,23 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
   <script>
     $(document).ready(function () {
       $("body").bootstrapMaterialDesign();
+
+      $('.copy-btn').click(
+        function () { $('.go-button').removeClass('hide') }
+      );
+
+      var fold = $("#fold");
+      fold.cliked = 1;
+      fold.click(function () {
+        $("#fold_p").text((fold.cliked++ % 2 == 0) ? "Copy" : "Copied");
+      });
     });
   </script>
+
   <script>
     new ClipboardJS('.copy-btn');
   </script>
-  <script>
-    jQuery('.copy-btn').click(
-      function () { jQuery('.go-button').removeClass('hide') }
-    );
-  </script>
+
 </body>
 
 </html>
