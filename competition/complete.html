@@ -12,7 +12,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5930356-16"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-5930356-16');
@@ -24,7 +24,8 @@
     <div class="container">
       <div class="navbar-brand" href="#">
         <span class="dell-blue mr-3"><b>Employee Purchase Program</b></span>
-        <span>|</span> <span class="ml-3 mr-3"><small>in association with</small></span>  <img src="images/dell_logo_svg.png" width="auto" height="62" class="mr-3">
+        <span>|</span> <span class="ml-3 mr-3"><small>in association with</small></span> <img src="images/dell_logo_svg.png"
+          width="auto" height="62" class="mr-3">
       </div>
     </div>
   </nav>
@@ -33,13 +34,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-            <h2 class="display-3 text-white">
-                Great! You are in the draw to win a $3,000 laptop!
-              </h2>
-              <p class="lead text-white">
-                  <b>Now take advantage of your exclusive 5% stackable coupon to save on Dell products.</b>
-              </p>
-              <!-- <h2 class="display-4 text-white">
+          <h2 class="display-3 text-white">
+            Great! You are in the draw to win a $3,000 laptop!
+          </h2>
+          <p class="lead text-white">
+            <b>Now take advantage of your exclusive 5% stackable coupon to save on Dell products.</b>
+          </p>
+          <!-- <h2 class="display-4 text-white">
                   Good Luck
               </h2> -->
           <!-- <p class="text-white lead">
@@ -48,15 +49,58 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
           </p> -->
         </div>
 
-        <div class="col-md-12 text-center text-white p-4">
-            <span class="copy">Copy this code:</span> <span class="code">EPP5off</span> <a href="http://altfarm.mediaplex.com/ad/ck/10589-241552-63443-0?ven1=eppplus&ven2=signup&ven3=122018&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fshop%2Fdeals%2Fpopular-laptop-deals%3Fr%3Depp" target="blank" class="js-cm-submit-button btn btn-raised btn-warning btn-lg radius ml-3 mr-3">
-              Go Save
+        <div class="col-md-12 text-center text-white">
+          <!-- <span class="copy">Copy this code:</span> <span class="code">EPP5off</span> <a href="http://altfarm.mediaplex.com/ad/ck/10589-241552-63443-0?ven1=eppplus&ven2=signup&ven3=122018&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fshop%2Fdeals%2Fpopular-laptop-deals%3Fr%3Depp"
+            target="blank" class="js-cm-submit-button btn btn-raised btn-warning btn-lg radius ml-3 mr-3">
+            Go Save
             <img src="images/arrow-right.svg" width="16" class="mb-1">
-          </a>
-        </div>
+          </a> -->
+
+          <div class="row">
+            <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="input-group">
+                    <input id="eppcode" value="EPP5off" type="text" class="form-control form-control-lg text-center">
+                    <div class="input-group-append">
+                      <button class="copy-btn btn btn-primary btn-lg btn-outline-warning" type="button" data-clipboard-target="#eppcode">
+                        Copy
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="go-button hide mt-3">
+                    <a href="http://altfarm.mediaplex.com/ad/ck/10589-241552-63443-0?ven1=eppplus&ven2=signup&ven3=122018&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fshop%2Fdeals%2Fpopular-laptop-deals%3Fr%3Depp"
+                      target="blank" class="js-cm-submit-button btn btn-raised btn-warning btn-lg radius btn-block">
+                      Go Save
+                      <img src="images/arrow-right.svg" width="16" class="mb-1">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- <input id="eppcode" value="https://github.com/zenorocha/clipboard.js.git">
+
+          <button class="btn" data-clipboard-target="#eppcode">
+              <img src="assets/clippy.svg" alt="Copy to clipboard">
+          </button> -->
+
+
+
+
+
+
+
+
+
+
 
         <div class="col-md-6 offset-md-3 text-center circles mt-3">
-            <img src="images/dog.png" class="img-fluid">
+          <img src="images/cart-lady.png" class="img-fluid">
         </div>
         <!-- <div class="col-md-6 offset-md-3 text-center circles mt-3">
           <div class="big-circle">
@@ -77,9 +121,9 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
               </a>
               <img src="images/dog.png" class="doggy" width="250" width="250">
           </div> -->
-        </div>
       </div>
     </div>
+  </div>
   </div>
 
   <nav class="navbar navbar-light bg-light">
@@ -128,21 +172,27 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
               Dell promotional offers are subject to
               <a href="https://www.dell.com/learn/au/en/aucorp1/terms-of-sale" target="_blank" class="text-warning">Dell's
                 terms and conditions</a>.
-              <b>^Dell Coupon Terms & Conditions:</b> If you have received a coupon with a coupon code from Dell Australia Pty
+              <b>^Dell Coupon Terms & Conditions:</b> If you have received a coupon with a coupon code from Dell
+              Australia Pty
               Limited, and you use it to obtain a coupon discount, the following coupon terms and conditions apply:
               Discount coupons can only be used with purchases of selected Dell-branded work systems, Dell-branded
-              printers, flat panel monitors and accessories (keyboard, mouse or peripherals). To redeem this offer, visit
-              the Dell Australia online store at dell.com.au and insert the coupon code at the "Review Your Order" stage.
-              Coupon discounts can only be redeemed when the order is confirmed at Checkout in the Dell Australia Online
+              printers, flat panel monitors and accessories (keyboard, mouse or peripherals). To redeem this offer,
+              visit
+              the Dell Australia online store at dell.com.au and insert the coupon code at the "Review Your Order"
+              stage.
+              Coupon discounts can only be redeemed when the order is confirmed at Checkout in the Dell Australia
+              Online
               store. Coupon can only be used on Dell products with a minimum spend of AU$1,000. Coupon discounts cannot
               be redeemed after an order has been submitted and confirmed. Dell is not liable for coupons that are lost
               or stolen. A coupon cannot be exchanged, refunded, replaced or redeemed for cash or payment of accounts.
-              Dell reserves the right to cancel coupon promotions at any time. These terms and conditions are subject to
+              Dell reserves the right to cancel coupon promotions at any time. These terms and conditions are subject
+              to
               change at any time without prior written notice from Dell.This coupon cannot be combined with any other
               coupon offer. Coupon offer ends 31 Jan 2019.
             </p>
             <p class="text-muted">
-              <b>Mistakes:</b> While all efforts are made to check pricing and other errors, inadvertent errors do occur
+              <b>Mistakes:</b> While all efforts are made to check pricing and other errors, inadvertent errors do
+              occur
               from time to time and Dell reserves the right to decline orders arising from such errors. Finnigan
               Investments (Australia) Pty Ltd trading as OneAffiniti ("OneAffiniti") makes every effort to ensure the
               accuracy of all information but takes no responsibility for any editorial, photographic or typographic
@@ -151,10 +201,12 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
             </p>
             <p class="text-muted">
               <b>Trademarks:</b> Dell, Inspiron, Vostro and XPS are trademarks of Dell Inc. Other trademarks and trade
-              names may be used in this advertisement to refer to either the entity claiming the marks and names or their
+              names may be used in this advertisement to refer to either the entity claiming the marks and names or
+              their
               product. Dell Inc. disclaims any proprietary interest in these trademarks and names. All rights reserved.
               <b>Further information:</b> For more important information about our products and services go to <a href="https://www.dell.com/learn/au/en/aucorp1/terms-conditions/important-dell-detail-au"
-                class="text-warning" target="_blank">Dell.com.au/important_information</a>. <b>Copyright:</b> &copy;2018
+                class="text-warning" target="_blank">Dell.com.au/important_information</a>. <b>Copyright:</b>
+              &copy;2018
               Dell Inc. All rights reserved.
             </p>
             <p class="text-muted">
@@ -170,10 +222,19 @@ Check out Dell latest offers <a href="http://altfarm.mediaplex.com/ad/ck/10589-2
   <script src="js/jquery-3.2.1.slim.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap-material-design.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   <script>
     $(document).ready(function () {
       $("body").bootstrapMaterialDesign();
     });
+  </script>
+  <script>
+    new ClipboardJS('.copy-btn');
+  </script>
+  <script>
+    jQuery('.copy-btn').click(
+      function () { jQuery('.go-button').removeClass('hide') }
+    );
   </script>
 </body>
 
