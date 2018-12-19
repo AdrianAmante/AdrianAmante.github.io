@@ -32,6 +32,10 @@ body {
   min-height: 500px;
 }
 
+.jumbotron {
+  background-color: #1879d5;
+}
+
 .ozbeanz-bg {
   background: url(../images/ozbeanz-bg.png) no-repeat center center fixed;
   background-size: cover;
