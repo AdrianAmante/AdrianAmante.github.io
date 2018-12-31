@@ -19,7 +19,7 @@
               <div class="card-header">
                 <b>{{ article.category }}</b>
               </div>
-              <a href="#/details/{{articles.indexOf(article)}}" target="_blank">
+              <a href="#/details/{{articles.indexOf(article)}}">
                 <img class="card-img-top pointer" ng-src="{{ article.banner_url }}">
               </a>
               <div class="card-body">
@@ -28,7 +28,7 @@
                   {{ article.description }}
                 </p>
                 <a href="#/details/{{articles.indexOf(article)}}"
-                  target="_blank" class="btn btn-raised btn-primary">
+                 class="btn btn-raised btn-primary">
                   {{ article.cta_text }}
                 </a>
               </div>
