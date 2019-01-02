@@ -1,0 +1,430 @@
+<!-- <div class="container-fluid">
+ <div class="row">
+    <div class="col">
+      <div class="card mt-3 mb-3">
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">Search <span ng-if="searchQuery">{{ 'for: ' + searchQuery }}</span></label>
+            <input type="text" class="form-control" ng-model="searchQuery">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col mt-4 ml-3 mr-3">
+      <h1 class="display-4 mb-0">Campaigns</h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="dashboard">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Campaigns</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5 class="mb-0">Search Campaigns</h5>
+        </div>
+        <div class="card-body pb-3">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div for="searchAccount" class="form-group">
+                        <label>Partner name</label>
+                        <div angucomplete-alt id="searchAccount" placeholder="Search Partner Name" pause="300"
+                            remote-api-handler="ctrl.accountSearchHandler" remote-url-response-formatter="ctrl.anguFormatter"
+                            selected-object="ctrl.searchObj.selectedAccount" search-fields="name" title-field="name"
+                            minlength="2" input-class="form-control form-control-small" match-class="highlight"
+                            ng-keyup="$event.keyCode == 13 && ctrl.postSearch()" initial-value="ctrl.searchObj.selectedAccount.originalObject.name">
+                        </div>
+                        <small class="form-text text-muted">
+                            {{ctrl.searchObj.selectedAccount ?ctrl.searchObj.selectedAccount.originalObject.id :
+                            'invalid ID'}}
+                        </small>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="searchByYearMonthStr">Dac</label>
+                        <input type="text" ng-model="ctrl.searchObj.searchByDac" class="form-control" placeholder="Search by Dac"
+                            id="searchByDac" ng-keyup="$event.keyCode == 13 && ctrl.postSearch()">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="searchByCountry">Country:</label>
+                        <select ng-model="ctrl.searchObj.searchByCountry" class="form-control" id="searchByCountry">
+                            <option value=""></option>
+                            <option ng-repeat="country in ctrl.$rootScope.region.countries" value="{{country}}">{{country}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="searchByYearMonthStr">YearMonth</label>
+                        <input type="text" ng-model="ctrl.searchObj.searchByYearMonthStr" class="form-control"
+                            placeholder="Search by YearMonth" id="searchByYearMonthStr" ng-keyup="$event.keyCode == 13 && ctrl.postSearch()">
+                        <small class="form-text text-muted">Format: YYYYMM</small>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="searchByStatus">Status:</label>
+                        <select ng-model="ctrl.searchObj.searchByStatus" class="form-control" id="searchByStatus">
+                            <option value=""></option>
+                            <option value="Planning">Planning</option>
+                            <option value="Content Qty Error">Content Qty Error</option>
+                            <option value="Content Approval Error">Content Approval Error</option>
+                            <option value="Prepared">Prepared</option>
+                            <option value="Draft">Draft</option>
+                            <option value="Processing">Processing</option>
+                            <option value="Custom Content Requested">Custom Content Requested</option>
+                            <option value="Pending Approval">Pending Approval</option>
+                            <option value="Schedule Requested">Schedule Requested</option>
+                            <option value="Scheduled">Scheduled</option>
+                            <option value="Sent">Sent</option>
+                            <option value="Do not send">Do not send</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label>Biz Dev Rep</label>
+                        <div ng-show="ctrl.bizDevUsersLoading" class="loading-fb">&nbsp;</div>
+                        <select ng-model="ctrl.searchObj.biz_dev_rep_user_id" class="form-control" ng-hide="ctrl.bizDevUsersLoading">
+                            <option value=""></option>
+                            <option ng-repeat="bizItem in ctrl.bizDevUsers" value="{{bizItem.id}}">{{bizItem.name}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label for="searchByBatchStr">Batch ID:</label>
+                        <input type="text" ng-model="ctrl.searchObj.searchByBatchIdStr" class="form-control"
+                            placeholder="Search by Batch id" id="searchByBatchStr" ng-keyup="$event.keyCode == 13 && ctrl.postSearch()">
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label>Type</label>
+                        <select ng-model="ctrl.searchObj.searchByType" class="form-control" style="margin-bottom: 5px">
+                            <option value=""></option>
+                            <option value="Normal">Normal</option>
+                            <option value="Action">Action</option>
+                            <option value="Second Send">Second Send</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-3 col-sm-3">
+                    <div class="form-group">
+                        <label for="searchByChecked">Checked:</label>
+                        <select ng-model="ctrl.searchObj.searchByChecked" class="form-control" id="searchByChecked">
+                            <option value=""></option>
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                    <div class="border mt-3 pt-3 pr-3 pb-0 pl-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group mb-0">
+                                    <label for="searchByDraftSendComparator">Last Draft/Reminder:</label>
+                                    <select ng-model="ctrl.searchObj.searchByDraftSendComparator" class="form-control"
+                                        id="searchByDraftSendComparator">
+                                        <option value=""></option>
+                                        <option value="earlier_than">Earlier Than</option>
+                                        <option value="later_than">Later Than</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="input-group">
+                                    <label class="w-100 mt-2">Date</label>
+                                    <input type="text" class="form-control" uib-datepicker-popup ng-model="ctrl.searchObj.searchByDraftSendDate"
+                                        is-open="ctrl.draftSendDatePicker.opened" datepicker-options="ctrl.dateOptions"
+                                        close-text="Close" readonly="readonly" />
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default mb-0 pl-2 pr-2" ng-click="ctrl.openDraftSendDatePicker()">
+                                            <img src="https://pr-cdn.oneaffiniti.com/upload/general/20181207/baseline_calendar_today_24px.svg"
+                                                width="24" height="24" alt="">
+                                        </button>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                    <div class="border mt-3 pt-3 pr-3 pb-0 pl-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group mb-2">
+                                    <label>List size</label>
+                                    <select ng-model="ctrl.searchObj.list_size_comparator" class="form-control">
+                                        <option value=""></option>
+                                        <option value="less_than">Less Than</option>
+                                        <option value="greater_than">Greater Than</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Number</label>
+                                    <input type="number" class="form-control" ng-model="ctrl.searchObj.list_size" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 mt-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="searchByWithNote">With Note:</label>
+                                <select ng-model="ctrl.searchObj.searchByWithNote" class="form-control" id="searchByWithNote">
+                                    <option value=""></option>
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="searchByWithScheduleError">With Schedule Error:</label>
+                                <select ng-model="ctrl.searchObj.searchByWithScheduleError" class="form-control" id="searchByWithScheduleError">
+                                    <option value=""></option>
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                    <div class="form-group">
+                        <label>Primary Sponsor:</label>
+                        <div ng-show="ctrl.sponsorListLoading" class="loading-fb">&nbsp;</div>
+                        <select ng-model="ctrl.searchObj.selectedPrimarySponsors" ng-hide="ctrl.sponsorListLoading"
+                            class="form-control" multiple>
+                            <option ng-repeat="sponsor in ctrl.sponsors" value="{{sponsor.id}}">{{sponsor.name}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mt-3">
+                    <div class="form-group">
+                        <label>Other Sponsor:</label>
+                        <div ng-show="ctrl.sponsorListLoading" class="loading-fb">&nbsp;</div>
+                        <select ng-model="ctrl.searchObj.selectedOtherSponsors" ng-hide="ctrl.sponsorListLoading"
+                            class="form-control" multiple>
+                            <option ng-repeat="sponsor in ctrl.sponsors" value="{{sponsor.id}}">{{sponsor.name}}</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col mt-4">
+                <button ng-click="ctrl.postSearch()" type="button" class="btn btn-icon btn-raised btn-primary">
+                    <i class="material-icons">search</i>
+                    Search
+                </button>
+                <button ng-click="ctrl.clearAllSearch()" type="button" class="btn btn-icon btn-outline-primary">
+                    <i class="material-icons">clear</i>
+                    Clear Search
+                </button>
+                <button ng-click="ctrl.postExport()" ng-disabled="ctrl.exportclicked" type="button" class="btn btn-icon btn-outline-primary pull-right">
+                    <i class="material-icons">cloud_download</i>
+                    Export
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <form class="form-inline pl-3 pr-3 mb-2 mt-4">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class=" mr-4" for="exampleCheck1">Select all</label>
+        </div>
+        <div class="form-group pt-0">
+          <select class="form-control ml-1 mr-4" id="inputGroupSelect01">
+            <option>-- Filter by --</option>
+            <option>ID</option>
+            <option>Status</option>
+            <option>Type</option>
+            <option>Checked</option>
+            <option>Industry</option>
+            <option>Partner</option>
+            <option>Template</option>
+            <option>YearMonth</option>
+            <option>Bacth ID</option>
+            <option>Draft/Reminder</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <div class="form-check form-check-inline ml-1 mr-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Asc</label>
+          </div>
+          <div class="form-check form-check-inline ml-1 mr-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Desc</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div ng-repeat="campaign in campaigns">
+    <div class="card card-table mb-2 mt-0">
+      <div class="card-body" ng-mouseover="open = true" ng-mouseleave="open = false">
+        <div class="card-checkbox" style="max-width: 25px;">
+          <input type="checkbox">
+        </div>
+        <div class="card-content">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="row">
+                <div class="col">
+                  <label>ID</label>
+                  <p><a href="#">{{ campaign.id }}</a></p>
+                </div>
+                <div class="col">
+                  <label>Status</label>
+                  <p>{{ campaign.status }}</p>
+                </div>
+                <div class="col">
+                  <label>Type</label>
+                  <p>{{ campaign.type }}</p>
+                </div>
+                <div class="col">
+                  <label>Checked</label>
+                  <p>{{ campaign.checked }}</p>
+                </div>
+                <div class="col">
+                  <label>Industry</label>
+                  <p>{{ campaign.industry }}</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-7">
+                  <label>Partner</label>
+                  <p><a href="#">{{ campaign.partner }}</a></p>
+                </div>
+                <div class="col-md-5">
+                  <label>Template</label>
+                  <div class="template-container">
+                    <p><a href="#">{{ campaign.template }}</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <label>YearMonth</label>
+                  <p>{{ campaign.yearmonth }}</p>
+                </div>
+                <div class="col-md-9">
+                  <label>Batch ID</label>
+                  <p>{{ campaign.batch_id }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <label>Draft/Reminder</label>
+              <div>
+                <!-- <p>{{ campaign.draftreminders }}</p> -->
+                <p>
+                  Draft 2018-12-21 13:24:11 <br>
+                  Scheduled 2018-12-21 02:00 pm
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <label>Campaign Content</label>
+              <div class="content-container">
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/8743' role='button'>A8743</a>
+                  Survey: DecJanFeb 2019
+                </div>
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/9171' role='button'>A9171</a>
+                  The 4 key steps to put you on a path to GDPR and NDB compliance
+                </div>
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/9301' role='button'>P9301</a>
+                  Are you still running Windows Server or SQL Server 2008?
+                </div>
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/9373' role='button'>A9373</a>
+                  Another article about the cloud.
+                </div>
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/9117' role='button'>P9117</a>
+                  Microsoft 365. Make the shift.
+                </div>
+                <div class="content-item">
+                  <a href='https://pr-stage.oneaffiniti.com/content-detail/8907' role='button'>A8907</a>
+                  Don't open the door to data thieves
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- campaign options -->
+        <div class="table-buttons-control text-right" ng-show="open">
+          <span class="btn-group-sm">
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">pageview</i>
+            </button>
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">build</i>
+            </button>
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">person</i>
+            </button>
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">grade</i>
+            </button>
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">person</i>
+            </button>
+            <button type="button" class="btn btn-primary bmd-btn-fab">
+              <i class="material-icons">today</i>
+            </button>
+          </span>
+        </div><!-- end campaignoptions -->
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
