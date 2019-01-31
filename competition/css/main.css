@@ -211,4 +211,9 @@ span.code {
   border-color: #d74324 !important;
 }
 
+.winner.card:hover {
+  background: #FF4343;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
