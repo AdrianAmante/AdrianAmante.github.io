@@ -1,0 +1,14 @@
+open cmd/terminal on project folder type
+npm install -g gulpjs/gulp-cli
+
+- wait to download then type
+npm install --save-dev gulpjs/gulp gulp-sass gulp-postcss autoprefixer cssnano gulp-sourcemaps
+
+- wait to download then type
+npm install -g live-server
+
+- when finished type
+gulp watch
+
+- then open new cmd/terminalin project folder type
+live-server
