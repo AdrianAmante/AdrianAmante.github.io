@@ -1,0 +1,218 @@
+.hp-bold {
+  font-family: 'HP Simplified';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.hp-normal {
+  font-family: 'HP Simplified';
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'HP Simplified';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-purple {
+  color: #663190;
+}
+
+.text-orange {
+  color: #f26527;
+}
+
+.text-blue {
+  color: #0184C1;
+}
+
+.bg-green {
+  background: #2AC080;
+}
+
+.hp-blue {
+  color: #0096d6;
+}
+
+.form-placeholder-one {
+  margin-top: -250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-placeholder-one {
+    margin-top: 0;
+  }
+}
+
+.bmd-label-static {
+  color: #212529;
+}
+
+.vh-100 {
+  min-height: -moz-calc(100vh - 0);
+  min-height: calc(100vh - 0);
+}
+
+.vh-complete {
+  min-height: -moz-calc(100vh - 88px);
+  min-height: calc(100vh - 88px);
+}
+
+.gradient-bg {
+  background: #0096d6;
+}
+
+.radius {
+  border-radius: 25px !important;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  /* for old Konqueror browsers */
+}
+
+.input-round {
+  border-radius: 25px;
+  /* future proofing */
+  -khtml-border-radius: 25px;
+  /* for old Konqueror browsers */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border-width: 0;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.title {
+  line-height: 1;
+}
+
+.subtitle {
+  line-height: 1.1;
+}
+
+.js-cm-submit-button {
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  color: #a9a9a9 !important;
+}
+
+.big-circle {
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 200px;
+  display: block;
+  padding-top: 100px;
+}
+
+.circles {
+  position: relative;
+}
+
+.doggy {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .doggy {
+    display: none;
+  }
+  .big-circle {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .big-circle {
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 200px;
+    display: block;
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .big-circle {
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 200px;
+    display: block;
+    padding-top: 60px;
+  }
+  .display-3.title {
+    font-size: 30px;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+}
+
+small p {
+  margin-bottom: 10px;
+}
+
+span.copy {
+  padding: 30px 15px;
+}
+
+span.code {
+  background: #f5f5f5;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 6px;
+  color: #f26527;
+  padding: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.code-input {
+  position: relative;
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 1px solid #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.copy-btn {
+  margin-bottom: 0;
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+.btn-warning {
+  background-color: #ce1126 !important;
+  border-color: #ce1126 !important;
+}
+
+.btn-warning:hover {
+  background-color: #d74324 !important;
+  border-color: #d74324 !important;
+}
+
+/*# sourceMappingURL=maps/main.css.map */
