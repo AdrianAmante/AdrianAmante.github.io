@@ -75,6 +75,13 @@ body, #images, #images a {
 
 
 .about {
+	background: $green;
+	color: #ffffff;
+}
+
+.key-points {
+	background: $grey-lt;
 	background: $red;
 	color: #ffffff;
+	font-weight: 300;
 }
