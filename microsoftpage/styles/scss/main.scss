@@ -1,0 +1,107 @@
+
+// Segoe UI font
+@import "/fonts/stylesheet.css";
+
+$blue: 		#00a1f1;
+$green: 	#7cbb00;
+$red: 		#f65314;
+$yellow:	#ffbb00;
+$grey-lt: 	#F1F1F2;
+$grey-md: 	#d7d7d7;
+$grey-dk: 	#616161;
+$black: 	#0C0C0C;
+$link: 		#0067b8;
+
+body, #images, #images a {
+	font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.no-shadow {
+	box-shadow: none;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.navbar {
+	box-shadow: none;
+	.main-logo {
+		margin-bottom: 5px;
+	}
+}
+
+.pay-nothing-banner {
+	background: $blue;
+	color: #ffffff;
+	text-align:	center;
+}
+
+
+
+
+
+.jumbotron-main {
+	background: url(/images/main-bg.png) no-repeat center bottom fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #ffffff;
+	padding: 0;
+	position: relative;
+
+	.partner {
+		position: absolute;
+		bottom: 0;
+		display: block;
+	} 
+} 
+
+
+
+
+
+.faq {
+	border-top: 1px solid $grey-md;
+	.card {
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.07), 0 3px 1px -2px rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.06);
+		h5 {
+			text-indent: -1.5rem;
+			margin-left: 1.5rem;
+		}
+		h6 {
+			span {
+				font-weight: 600;
+				font-size: 1.25rem;
+			}
+			text-indent: -1.4rem;
+			margin-left: 1.4rem;
+		}
+		&:hover {
+			background: #f9f1a5;
+		}
+		.card-body {
+			min-height:185px;
+		}
+	}
+}
+
+.testimonial {
+	background: $grey-lt;
+}
+
+
+.about {
+	background: $grey-dk;
+	color: #ffffff;
+}
+
+.key-points {
+	background: $grey-lt;
+	background: $red;
+	color: #ffffff;
+	font-weight: 300;
+}

@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        <div class="col mt-3" style="max-width: 600px; margin: 0 auto;">
+            <div class="card">
+                <div class="card-header">
+                    <b>{{articles[whichItem].category}}</b>
+                </div>
+                <a href="{{articles[whichItem].cta_url}}" target="_blank">
+                    <img class="card-img-top pointer" ng-src="{{articles[whichItem].banner_url}}">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{articles[whichItem].title}}</h5>
+                    <p class="card-text">
+                        {{articles[whichItem].description}}
+                    </p>
+                    <a href="{{articles[whichItem].cta_url}}" target="_blank" class="btn btn-raised btn-primary">
+                        {{articles[whichItem].cta_text}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="btn-group" role="group">
+                        <a href="#/details/{{prevArticle}}" class="btn btn-secondary">
+                            <i class="material-icons">chevron_left</i>
+                        </a>
+                        <a href="#/" class="btn btn-secondary">
+                            <i class="material-icons">close</i>
+                        </a>
+                        <a href="#/details/{{nextArticle}}" class="btn btn-secondary">
+                            <i class="material-icons">chevron_right</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
