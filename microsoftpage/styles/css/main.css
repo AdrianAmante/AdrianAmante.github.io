@@ -24,7 +24,7 @@ body {
   text-align: center;
 }
 .jumbotron-main {
-  background: url("/images/main-bg.png") no-repeat bottom fixed;
+  background: url(https://pr-cdn.oneaffiniti.com/upload/general/20190227/main_bg.png) no-repeat bottom fixed;
   background-size: cover;
   color: #fff;
   padding: 0;
