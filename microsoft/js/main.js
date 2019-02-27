@@ -14,15 +14,15 @@ $(window).scroll(function() {
       .animate("fast");
   }
 
-  if ($(window).scrollTop() > 550) {
-    $(".interested-text p")
-      .addClass("f-size-adj")
-      .animate("slow");
-  } else {
-    $(".interested-text p")
-      .removeClass("f-size-adj")
-      .animate("fast");
-  }
+//   if ($(window).scrollTop() > 550) {
+//     $(".interested-text p")
+//       .addClass("f-size-adj")
+//       .animate("slow");
+//   } else {
+//     $(".interested-text p")
+//       .removeClass("f-size-adj")
+//       .animate("fast");
+//   }
   
   if ($(window).scrollTop() > 550) {
     $(".interested-text h4")
