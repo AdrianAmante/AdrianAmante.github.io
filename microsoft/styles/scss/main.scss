@@ -18,6 +18,10 @@ body, #images, #images a {
     font-style: normal;
 }
 
+.btn {
+	text-transform: none;
+}
+
 .no-shadow {
 	box-shadow: none;
 }
@@ -39,13 +43,65 @@ body, #images, #images a {
 	text-align:	center;
 }
 
-.jumbotron-1 {
-	background: $black;
+.jumbotron-main {
+	background: url(/images/main-bg.png) no-repeat center bottom fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #ffffff;
+	padding: 0;
+	position: relative;
+	.main-image {
+		display: flex;
+		align-items:flex-end;
+	}
 } 
 
+.interested	{
+	background: $blue;
+	color: #ffffff;
+	z-index: 1050 !important;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		a {
+			&.contact-form-btn
+			{
+				background: $red;
+				color: #ffffff;
+				font-size: 1.2rem;
+			}
+		}
+	}
+	
+}
+
+.f-size-adj {
+	font-size: 0.8rem;
+	line-height: 1rem;
+}
+
+.f-title-adj {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+
+.key-points {
+	// background: $grey-lt;
+	// background: $red;
+	// color: #ffffff;
+	font-weight: 300;
+	// border-bottom: 1px solid $grey-md;
+}
+
+.how-can-we-help {
+	background: $grey-lt;
+}
+
 .faq {
-	border-top: 1px solid $grey-md;
+	// border-top: 1px solid $grey-md;
 	.card {
 		box-shadow: 0 2px 2px 0 rgba(0,0,0,.07), 0 3px 1px -2px rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.06);
 		h5 {
@@ -61,7 +117,10 @@ body, #images, #images a {
 			margin-left: 1.4rem;
 		}
 		&:hover {
-			background: #f9f1a5;
+			// background: #f9f1a5;
+			h5 {
+				color: $blue;
+			}
 		}
 		.card-body {
 			min-height:185px;
@@ -73,15 +132,13 @@ body, #images, #images a {
 	background: $grey-lt;
 }
 
-
 .about {
 	background: $grey-dk;
 	color: #ffffff;
 }
 
-.key-points {
-	background: $grey-lt;
+.contact-form {
 	background: $red;
 	color: #ffffff;
-	font-weight: 300;
 }
+
