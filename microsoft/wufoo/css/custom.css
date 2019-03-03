@@ -1,0 +1,70 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Microsoft Theme
+ Author : Adrian Amante
+ URL : https://oneaffiniti.com
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+#container, 
+.wufoo {
+    background: #f65314;
+    color: #ffffff;
+}
+
+.wufoo .info {
+    display: none;
+}
+
+.wufoo li.section div {
+    color: #ffffff;
+}
+
+.wufoo li.focused {
+    background: transparent;
+}
+
+.wufoo label.desc, 
+.wufoo legend.desc, 
+.wufoo label.choice,
+.wufoo li div label, 
+.wufoo li span label,
+.wufoo li span,
+.wufoo input.file {
+    color: #ffffff;
+}
+
+.wufoo input.text, 
+.wufoo input.search, 
+.wufoo textarea.textarea
+{
+    padding: 7px;
+    outline: none;
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+
+.wufoo li.complex div span.right select {
+    padding: 6px 7px;
+    outline: none;
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+
+.wufoo textarea.textarea {
+    min-width: calc(100% - 17px);
+    max-width: calc(100% - 17px);
+}
+
+.wufoo select.select {
+    padding: 6px 4px;
+    outline: none;
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+
