@@ -23,6 +23,10 @@ body, #images, #images a {
     font-style: normal;
 }
 
+body {
+	padding-top: 65px;
+}
+
 .btn {
 	text-transform: none;
 }
@@ -99,7 +103,6 @@ body, #images, #images a {
 	color: #ffffff;
 	padding: 0;
 	position: relative;
-	margin-top: 65px;
 	.text {
 		display: flex;
 		align-items: flex-start;
@@ -188,13 +191,20 @@ body, #images, #images a {
 	}
 }
 
-.about {
-	// background: $grey-dk;
-	// color: #ffffff;
-}
+// .about {
+// 	// background: $grey-dk;
+// 	// color: #ffffff;
+// }
 
 .contact {
 	background: $red;
 	color: #ffffff;
 }
 
+.scrolltotop {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	z-index: 99999;
+	background-color: $yellow;
+}
