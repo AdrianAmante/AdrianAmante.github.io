@@ -57,7 +57,7 @@ body, #images, #images a {
 	background: $yellow;
 	color: #ffffff;
 	&:hover {
-		background: $blue-h;
+		background: $yellow-h;
 		color: #ffffff;
 	}
 }
@@ -82,8 +82,8 @@ body, #images, #images a {
 	.navbar-text {
 		font-size: 0.8rem;
 		font-weight: 600;
-		.btn-blue {
-			color: #ffffff;
+		.btn-yellow {
+			color: $black;
 			&:hover {
 				color: #ffffff;
 			}
@@ -124,11 +124,14 @@ body, #images, #images a {
 	}
 	.funded100 {
 		z-index: 9;
+		.lead {
+			letter-spacing: 1px;
+		}
 	}
 } 
 
 .interested	{
-	background: $blue;
+	background: $yellow;
 	color: #ffffff;
 	z-index: 1050 !important;
 	.wrapper {
@@ -193,16 +196,9 @@ body, #images, #images a {
 }
 
 .testimonial {
-	background: $grey-lt;
-	blockquote {
-		min-height: 170px;
-	}
-}
+	background: $yellow;
 
-// .about {
-// 	// background: $grey-dk;
-// 	// color: #ffffff;
-// }
+}
 
 .contact {
 	background: $red;

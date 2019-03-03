@@ -1,0 +1,81 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : OneAffiniti Microsoft
+ Author : Adrian Amante
+ URL : https://www.oneaffiniti.com
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+.wufoo {
+    background:#F6541B;
+    color: #ffffff;
+}
+
+
+/* text color */
+.wufoo,
+.wufoo li div,
+.wufoo label.desc, 
+.wufoo legend.desc,
+.wufoo label.choice,
+.wufoo li div label, 
+.wufoo li span label,
+.wufoo input.file,
+.wufoo li span
+{
+    color: #ffffff;
+}
+
+/* Header */
+.wufoo .info {
+    display: none;
+}
+
+.wufoo input.text, .wufoo input.search, .wufoo li.complex div span.right select, .wufoo select.select {
+    /* width:calc(100% - 15px); */
+    /* padding:0.5rem;
+    border: 1px solid #e3e3e3; */
+
+    -webkit-box-shadow: 
+      none;
+    -moz-box-shadow: 
+      none;
+    box-shadow: 
+      none;
+    padding: 10px;
+    background: rgba(255,255,255,1);
+    outline: none;
+}
+
+.wufoo textarea.textarea {
+    background: rgba(255,255,255,1);
+    outline: none;
+    padding: 5px;
+    /* width: calc(100% - 60px); */
+    -webkit-box-shadow: 
+      none;
+    -moz-box-shadow: 
+      none;
+    box-shadow: 
+      none;
+}
+
+.wufoo li.complex div span.right input, .wufoo li.complex div span.left input {
+    width: calc(100% - 20px);
+}
+
+.wufoo li.focused {
+    background-color: transparent;
+}
+
+
+.wufoo select.select {
+    width: 5em !important;
+    padding: 9px 5px;
+    outline: none;
+}
+
+.wufoo .instruct {
+    background: #fffffff;
+}
