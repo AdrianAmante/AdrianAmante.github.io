@@ -11,6 +11,11 @@ $grey-md: 	#d7d7d7;
 $grey-dk: 	#616161;
 $black: 	#0C0C0C;
 $link: 		#0067b8;
+$red-h: 	darken($red, 15%);
+$blue-h: 	darken($blue, 15%);
+$yellow-h: 	darken($yellow, 15%);
+
+
 
 body, #images, #images a {
 	font-family: 'Segoe UI';
@@ -20,6 +25,33 @@ body, #images, #images a {
 
 .btn {
 	text-transform: none;
+}
+
+.btn-red {
+	background: $red;
+	color: #ffffff;
+	&:hover {
+		background: $red-h;
+		color: #ffffff;
+	}
+}
+
+.btn-blue {
+	background: $blue;
+	color: #ffffff;
+	&:hover {
+		background: $blue-h;
+		color: #ffffff;
+	}
+}
+
+.btn-yellow {
+	background: $yellow;
+	color: #ffffff;
+	&:hover {
+		background: $blue-h;
+		color: #ffffff;
+	}
 }
 
 .no-shadow {
@@ -32,8 +64,21 @@ body, #images, #images a {
 
 .navbar {
 	box-shadow: none;
+	&.bg-light {
+		background: #ffffff !important;
+	}
 	.main-logo {
 		margin-bottom: 5px;
+	}
+	.navbar-text {
+		font-size: 0.8rem;
+		font-weight: 600;
+		.btn-blue {
+			color: #ffffff;
+			&:hover {
+				color: #ffffff;
+			}
+		}
 	}
 }
 
@@ -42,6 +87,8 @@ body, #images, #images a {
 	color: #ffffff;
 	text-align:	center;
 }
+
+
 
 .jumbotron-main {
 	background: url("https://pr-cdn.oneaffiniti.com/upload/general/20190228/main_bg.png") no-repeat center bottom fixed; 
@@ -52,6 +99,17 @@ body, #images, #images a {
 	color: #ffffff;
 	padding: 0;
 	position: relative;
+	margin-top: 65px;
+	.text {
+		display: flex;
+		align-items: flex-start;
+		align-contents: center;
+		.text-content {
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+		}
+	}
 	.main-image {
 		display: flex;
 		align-items:flex-end;
@@ -78,32 +136,26 @@ body, #images, #images a {
 	
 }
 
-.f-size-adj {
-	font-size: 0.8rem;
-	line-height: 1rem;
-}
-
-.f-title-adj {
-	font-size: 1.2rem;
-	line-height: 1.4rem;
-}
-
 .key-points {
 	// background: $grey-lt;
 	// background: $red;
 	// color: #ffffff;
 	font-weight: 300;
 	// border-bottom: 1px solid $grey-md;
+	img {
+		opacity: 0.7;
+	}
 }
 
 .how-can-we-help {
-	background: $grey-lt;
+	background: $red;
+	color: #ffffff;
 }
 
 .faq {
 	// border-top: 1px solid $grey-md;
 	.card {
-		box-shadow: 0 2px 2px 0 rgba(0,0,0,.07), 0 3px 1px -2px rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.06);
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.06), 0 3px 1px -2px rgba(0,0,0,.05), 0 1px 5px 0 rgba(0,0,0,.05);
 		h5 {
 			text-indent: -1.5rem;
 			margin-left: 1.5rem;
@@ -134,8 +186,8 @@ body, #images, #images a {
 }
 
 .about {
-	background: $grey-dk;
-	color: #ffffff;
+	// background: $grey-dk;
+	// color: #ffffff;
 }
 
 .contact-form {
