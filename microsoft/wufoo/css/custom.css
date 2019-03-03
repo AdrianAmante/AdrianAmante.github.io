@@ -83,3 +83,23 @@ background-color: #00a1f1; /* Green */
 .wufoo li.buttons input:hover {
     background-color: #006ea5;
 }
+
+.wufoo #errorLi, 
+.error-container {
+    margin: 15px auto 15px auto;
+    background: #ffbb00 !important;
+    border: 1px solid #ffbb00;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-radius: 0;
+}
+
+.wufoo li.error {
+    display: block !important;
+    background-color: #ffbb00 !important;
+    margin-bottom: 3px !important;
+}
+
+.confirm .wufoo h2 {
+    color: #ffffff;
+}

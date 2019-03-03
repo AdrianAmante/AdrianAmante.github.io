@@ -23,8 +23,12 @@ body, #images, #images a {
     font-style: normal;
 }
 
-body {
+.main {
 	padding-top: 65px;
+}
+
+.main-mob {
+	padding-top: 0;
 }
 
 .btn {
@@ -68,6 +72,7 @@ body {
 
 .navbar {
 	box-shadow: none;
+	z-index: 10;
 	&.bg-light {
 		background: #ffffff !important;
 	}
@@ -116,6 +121,9 @@ body {
 	.main-image {
 		display: flex;
 		align-items:flex-end;
+	}
+	.funded100 {
+		z-index: 9;
 	}
 } 
 
