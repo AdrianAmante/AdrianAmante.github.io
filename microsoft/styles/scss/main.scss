@@ -183,6 +183,9 @@ body, #images, #images a {
 
 .testimonial {
 	background: $grey-lt;
+	blockquote {
+		min-height: 170px;
+	}
 }
 
 .about {
