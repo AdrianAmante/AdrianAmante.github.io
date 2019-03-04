@@ -32,7 +32,7 @@ body, #images, #images a {
 }
 
 .btn {
-	text-transform: none;
+	// text-transform: none;
 }
 
 .btn-red {
@@ -199,6 +199,10 @@ body, #images, #images a {
 .testimonial {
 	background: $yellow;
 
+}
+
+.about {
+	background: $grey-lt;
 }
 
 .contact {
