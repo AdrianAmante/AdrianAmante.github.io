@@ -224,7 +224,31 @@ body, #images, #images a {
 
 .testimonial {
 	background: $yellow;
-
+	.testi-container {
+		blockquote {
+			p::before, p::after {
+				content: '"';
+				font-size: 5rem;
+				position: absolute;
+				line-height: 3.2rem;
+				color: $grey-lt;
+				font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+				z-index: 0;
+			}
+			p::before {
+				left: -16px;
+			}
+				// z-index: 1;
+				// span {
+				// 	position: absolute;
+				// 	color: $grey-md;
+				// 	font-size: 120px;
+				// 	z-index: 0;
+				// 	line-height: 32px;
+				// 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+				// }
+		}
+	}
 }
 
 .about {
