@@ -84,6 +84,7 @@ body, #images, #images a {
 		font-weight: 600;
 		.btn-yellow {
 			color: $black;
+			letter-spacing: 1px;
 			&:hover {
 				color: #ffffff;
 			}
