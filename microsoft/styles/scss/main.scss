@@ -125,6 +125,7 @@ body, #images, #images a {
 	}
 	.funded100 {
 		z-index: 9;
+		max-width: 350px;
 		.lead {
 			letter-spacing: 1px;
 		}
@@ -214,6 +215,9 @@ body, #images, #images a {
 	position: fixed;
 	bottom: 15px;
 	right: 15px;
-	z-index: 99999;
+	z-index: 9999;
+	display: block;
+	width: 40px;
+	height: 40px;
 	background-color: $yellow;
 }
