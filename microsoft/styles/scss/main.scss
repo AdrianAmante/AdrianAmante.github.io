@@ -240,10 +240,10 @@ body, #images, #images a {
 			}
 			p::before {
 				left: -10px;
-				content: "\f10d";
+				content: " \f10d ";
 			}
 			P::after {
-				content: "\f10e";
+				content: " \f10e ";
 			}
 				// z-index: 1;
 				// span {
