@@ -99,7 +99,8 @@ body, #images, #images a {
 	}
 	.navbar-text {
 		font-size: 0.8rem;
-		font-weight: 600;
+		font-weight: 500;
+		color: $black;
 		.btn-yellow {
 			color: $black;
 			letter-spacing: 1px;
@@ -212,7 +213,7 @@ body, #images, #images a {
 		&:hover {
 			// background: #f9f1a5;
 			h5 {
-				color: $blue;
+				color: $yellow;
 			}
 		}
 		.card-body {
@@ -237,7 +238,7 @@ body, #images, #images a {
 
 .scrolltotop {
 	position: fixed;
-	bottom: 15px;
+	bottom: 30px;
 	right: 15px;
 	z-index: 9999;
 	display: block;
