@@ -73,6 +73,13 @@ body, #images, #images a {
 	}
 }
 
+.text-blue {
+	color: $blue;
+	&:hover {
+		color: $blue-h;
+	}
+}
+
 .no-shadow {
 	box-shadow: none;
 }
@@ -172,6 +179,7 @@ body, #images, #images a {
 	// background: $grey-lt;
 	// background: $red;
 	// color: #ffffff;
+	background-color: #ffffff; 
 	font-weight: 300;
 	// border-bottom: 1px solid $grey-md;
 	// img {
