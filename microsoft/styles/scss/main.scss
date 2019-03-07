@@ -25,7 +25,7 @@ body, #images, #images a {
 }
 
 .main {
-	padding-top: 65px;
+	padding-top: 55px;
 }
 
 .main-mob {
@@ -80,6 +80,10 @@ body, #images, #images a {
 	}
 }
 
+.text-red {
+	color: $red;
+}
+
 .no-shadow {
 	box-shadow: none;
 }
@@ -120,7 +124,7 @@ body, #images, #images a {
 
 
 .jumbotron-main {
-	background: url("https://pr-cdn.oneaffiniti.com/upload/general/20190228/main_bg.png") no-repeat center bottom fixed; 
+	background: url("https://pr-cdn.oneaffiniti.com/upload/general/20190307/office_bg.png") no-repeat center bottom fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -145,7 +149,7 @@ body, #images, #images a {
 	.funded100 {
 		z-index: 9;
 		max-width: 260px;
-		color: $black;
+		color: #ffffff;
 		letter-spacing: 1px;
 		font-size: .9rem;
 		font-weight: 600;
@@ -177,12 +181,12 @@ body, #images, #images a {
 }
 
 .key-points {
-	// background: $grey-lt;
+	background: $blue;
 	// background: $red;
-	// color: #ffffff;
-	background-color: #ffffff; 
+	color: #ffffff;
+	// background-color: #ffffff; 
 	font-weight: 300;
-	// border-bottom: 1px solid $grey-md;
+	// border-top: 1px solid $grey-lt;
 	// img {
 	// 	opacity: 0.7;
 	// }
@@ -195,6 +199,7 @@ body, #images, #images a {
 
 .faq {
 	// border-top: 1px solid $grey-md;
+	background: #ffffff;
 	.card {
 		box-shadow: 0 2px 2px 0 rgba(0,0,0,.06), 0 3px 1px -2px rgba(0,0,0,.05), 0 1px 5px 0 rgba(0,0,0,.05);
 		h5 {
@@ -210,12 +215,12 @@ body, #images, #images a {
 			text-indent: -1.4rem;
 			margin-left: 1.4rem;
 		}
-		&:hover {
-			// background: #f9f1a5;
-			h5 {
-				color: $yellow;
-			}
-		}
+		// &:hover {
+		// 	// background: #f9f1a5;
+		// 	h5 {
+		// 		color: $yellow;
+		// 	}
+		// }
 		.card-body {
 			min-height:185px;
 		}
@@ -223,7 +228,7 @@ body, #images, #images a {
 }
 
 .testimonial {
-	background: $yellow;
+	background: $blue;
 	.testi-container {
 		blockquote {
 			p::before, p::after {
@@ -263,8 +268,8 @@ body, #images, #images a {
 }
 
 .contact {
-	background: $red;
-	color: #ffffff;
+	background: #ffffff;;
+	color: $black;
 }
 
 .scrolltotop {
@@ -279,11 +284,11 @@ body, #images, #images a {
 }
 
 .section-title {
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
 .theprogram {
-	background: $yellow;
-	color: #ffffff;
+	background: #ffffff;
+	color: $black;
 }

@@ -10,8 +10,8 @@
 
 #container, 
 .wufoo {
-    background: #f65314;
-    color: #ffffff !important;
+    background: #ffffff;
+    color: #000000 !important;
 }
 
 .wufoo .info {
@@ -19,7 +19,7 @@
 }
 
 .wufoo li.section div {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .wufoo li.focused {
@@ -33,7 +33,7 @@
 .wufoo li span label,
 .wufoo li span,
 .wufoo input.file {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .wufoo input.text, 
@@ -42,9 +42,11 @@
 {
     padding: 7px;
     outline: none;
-    border: none; 
-    border-width: 0; 
     box-shadow: none;
+    border-top: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
 }
 
 .wufoo li.complex div span.right select {
@@ -69,7 +71,7 @@
 }
 
 .wufoo li.buttons input {
-background-color: #00a1f1; /* Green */
+background-color: #f65314; /* Green */
   border: none;
   color: white;
   padding: 10px 15px;
@@ -77,18 +79,19 @@ background-color: #00a1f1; /* Green */
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+
   /* font-weight: 600; */
 }
 
 .wufoo li.buttons input:hover {
-    background-color: #006ea5;
+    background-color: #00a1f1;
 }
 
 .wufoo #errorLi, 
 .error-container {
     margin: 15px auto 15px auto;
-    background: #ffbb00 !important;
-    border: 1px solid #ffbb00;
+    background: #f65314 !important;
+    border: 1px solid #f65314;
     text-align: center;
     padding: 1em 0 1em 0;
     border-radius: 0;
@@ -96,10 +99,15 @@ background-color: #00a1f1; /* Green */
 
 .wufoo li.error {
     display: block !important;
-    background-color: #ffbb00 !important;
+    background-color: #f65314 !important;
     margin-bottom: 3px !important;
 }
 
 .confirm .wufoo h2 {
-    color: #ffffff;
+    color: #000000;
+}
+
+
+.wufoo .section h3, .wufoo .captcha, #payment .paging-context {
+    border: none;
 }
