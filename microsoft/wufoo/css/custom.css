@@ -90,8 +90,8 @@ background-color: #f65314; /* Green */
 .wufoo #errorLi, 
 .error-container {
     margin: 15px auto 15px auto;
-    background: #f65314 !important;
-    border: 1px solid #f65314;
+    background: #ffffff !important;
+    border: 1px solid #ffffff;
     text-align: center;
     padding: 1em 0 1em 0;
     border-radius: 0;
@@ -99,7 +99,7 @@ background-color: #f65314; /* Green */
 
 .wufoo li.error {
     display: block !important;
-    background-color: #f65314 !important;
+    background-color: #ffffff !important;
     margin-bottom: 3px !important;
 }
 

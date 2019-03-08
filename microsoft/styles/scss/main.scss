@@ -135,7 +135,7 @@ body, #images, #images a {
 	.text {
 		display: flex;
 		align-items: flex-start;
-		align-contents: center;
+		align-content: center;
 		.text-content {
 			display: flex;
 			flex-direction: column;
@@ -205,6 +205,7 @@ body, #images, #images a {
 		h5 {
 			text-indent: -1.5rem;
 			margin-left: 1.5rem;
+			color: $blue;
 		}
 		h6 {
 			font-weight: 400;
@@ -215,12 +216,12 @@ body, #images, #images a {
 			text-indent: -1.4rem;
 			margin-left: 1.4rem;
 		}
-		// &:hover {
-		// 	// background: #f9f1a5;
-		// 	h5 {
-		// 		color: $yellow;
-		// 	}
-		// }
+		&:hover {
+			// background: #f9f1a5;
+			h5 {
+				color: $red;
+			}
+		}
 		.card-body {
 			min-height:185px;
 		}
@@ -236,7 +237,7 @@ body, #images, #images a {
 				font-weight: 900;
 				// content: "&#xf10d;" !important;
 				// font-family: FontAwesome !important;
-				font-size: 1.5rem;
+				font-size: 1.1rem;
 				position: absolute;
 				line-height: 1.5rem;
 				color: $grey-md;
@@ -244,7 +245,7 @@ body, #images, #images a {
 				z-index: 0;
 			}
 			p::before {
-				left: -10px;
+				left: -5px;
 				content: " \f10d ";
 			}
 			P::after {
@@ -291,4 +292,14 @@ body, #images, #images a {
 .theprogram {
 	background: #ffffff;
 	color: $black;
+}
+
+.footer {
+	background: #ffffff;
+	border-top: 1px solid $grey-lt;
+	.social-icons {
+		font-size: 1.5rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 }
