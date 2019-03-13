@@ -2,23 +2,25 @@
 // Segoe UI font
 // @import "./fonts/stylesheet.css";
 
-$blue: 		#00a1f1;
-$green: 	#7cbb00;
-$red: 		#f65314;
-$yellow:	#ffbb00;
+$blue: 		#1e3869;
+$blue-sec: 		#1e3869;
+$green: 	#c1e2cb;
+$red: 		#e5ebe7;
+$yellow:	#fee48b;
 $grey-lt: 	#F1F1F2;
 $grey-md: 	#d7d7d7;
 $grey-dk: 	#616161;
-$black: 	#000000;
+$black: 	#333333;
 $link: 		#0067b8;
 $red-h: 	darken($red, 15%);
 $blue-h: 	darken($blue, 15%);
 $yellow-h: 	darken($yellow, 15%);
+$green-h: 	darken($green, 15%);
 
 
 
 body, #images, #images a {
-	font-family: 'Segoe UI';
+	font-family: "Sofia Pro", Verdana, Arial, Helvetica, sans-serif !important;
     font-weight: 400;
 	font-style: normal;
 	color: $black;
@@ -35,6 +37,8 @@ body, #images, #images a {
 .btn {
 	letter-spacing: 1px;
 	font-weight: 600;
+	text-transform: capitalize;
+	border-radius: 0 !important;
 }
 
 .btn-red {
@@ -77,6 +81,13 @@ body, #images, #images a {
 	color: $blue;
 	&:hover {
 		color: $blue-h;
+	}
+}
+
+.text-green {
+	color: $green;
+	&:hover {
+		color: $green-h;
 	}
 }
 
@@ -181,15 +192,19 @@ body, #images, #images a {
 }
 
 .key-points {
-	background: $blue;
+	background: $green;
 	// background: $red;
-	color: #ffffff;
+	// color: #ffffff;
 	// background-color: #ffffff; 
 	font-weight: 300;
 	// border-top: 1px solid $grey-lt;
-	// img {
-	// 	opacity: 0.7;
-	// }
+	img {
+		filter: invert(1);
+		-webkit-filter: invert(1);
+		-moz-filter: invert(1);
+		-o-filter: invert(1);
+		opacity: 0.7;
+	}
 }
 
 .how-can-we-help {
@@ -217,10 +232,10 @@ body, #images, #images a {
 			margin-left: 1.4rem;
 		}
 		&:hover {
-			// background: #f9f1a5;
-			h5 {
-				color: $red;
-			}
+			background: $yellow;
+			// h5 {
+			// 	color: $green;
+			// }
 		}
 		.card-body {
 			min-height:185px;
@@ -229,7 +244,7 @@ body, #images, #images a {
 }
 
 .testimonial {
-	background: $blue;
+	background: $red;
 	.testi-container {
 		blockquote {
 			p::before, p::after {
@@ -265,7 +280,8 @@ body, #images, #images a {
 }
 
 .about {
-	background: $grey-lt;
+	background: $blue;
+	color: #ffffff;
 }
 
 .contact {
@@ -287,6 +303,7 @@ body, #images, #images a {
 .section-title {
 	// text-transform: uppercase;
 	letter-spacing: 1px;
+	font-weight: 600;
 }
 
 .theprogram {
