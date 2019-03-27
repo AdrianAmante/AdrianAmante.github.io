@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Employee Purchase Program</title>
+  <link rel="stylesheet" href="./styles/css/bootstrap-material-design.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+  <link rel="stylesheet" href="./styles/css/main.css" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5930356-16"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-5930356-16');
+  </script>
+  <script type="text/javascript">
+    _linkedin_partner_id = "345155";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function () {
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript"; b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);
+    })();
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=345155&fmt=gif" />
+  </noscript>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <div class="navbar-brand">
+        <img src="images/hp-cepp.png" class="img-fluid" alt="Dell EPP in association with DELL"/>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron m-0 gradient-bg vh-complete rounded-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="display-3 text-white">
+            <b>Thank you for signing up. 
+              <br>You have gained 1 entry to win a HP 2-in-1. 
+              <br>Good luck!</b>
+          </h2>
+        </div>
+        <div class="col-md-4 offset-md-4 mt-4">
+            <img src="images/pavillion.png" class="img-fluid" />
+        </div>
+        <div class="col-md-12 text-center text-white mt-4">
+            <h3><a href="http://www.hpshopping.com.au/cepp" target="_blank" class="text-white">Click here to visit HP Corporate Employee Purchase</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light bg-light"  style="box-shadow:none;">
+        <div class="container">
+          <ul class="navbar-nav mr-auto d-flex flex-row">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www8.hp.com/au/en/privacy/privacy.html"
+                target="_blank"><b>HP Privacy Policy</b></a>
+            </li>
+            <li class="nav-item">
+              <div class="mt-1 text-muted"><small>|</small></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="termsandconditions.html" target="_blank">
+                <b>Terms and Conditions</b></a>
+            </li>
+            <li class="nav-item">
+              <div class="mt-1 text-muted"><small>|</small></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:hp@oneaffiniti.com"><b>Contact US</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+  <script src="js/lib/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/lib/popper.js"></script>
+  <script src="js/lib/bootstrap-material-design.js"></script>
+  <script src="js/lib/clipboard.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("body").bootstrapMaterialDesign();
+
+      $('.copy-btn').click(
+        function () { $('.go-button').removeClass('hide') }
+      );
+
+      var fold = $("#fold");
+      fold.cliked = 1;
+      fold.click(function () {
+        $("#fold_p").text((fold.cliked++ % 2 == 0) ? "Copy" : "Copied!");
+      });
+    });
+  </script>
+  <script>
+    new ClipboardJS('.copy-btn');
+  </script>
+</body>
+
+</html>

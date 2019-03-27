@@ -1,0 +1,22 @@
+{
+  "name": "oneaffiniti-html-strater-template",
+  "version": "1.0.0",
+  "description": "Basic sterter template",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "cssnano": "^4.1.10",
+    "gulp": "github:gulpjs/gulp",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
