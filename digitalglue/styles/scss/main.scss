@@ -1,0 +1,52 @@
+
+$green: #2AC080;
+
+.text-purple {
+	color:#663190;
+}
+.text-orange {
+	color:#f26527;
+}
+.bg-green {
+	background: $green;
+}
+
+.bg-blue {
+	background-color: #1879d5;
+}
+
+body {
+	padding-bottom: 6rem;
+}
+
+.form-placeholder-one {
+	margin-top: -250px;
+}
+
+@media only screen and (max-width : 768px) {
+	.form-placeholder-one {
+		margin-top: 0;
+	}
+}
+.tablet {
+	min-height: 500px;
+}
+
+.jumbotron {
+	background-color: #33312F;
+}
+
+.digitalglue-bg {
+	// background: url(../../images/digitalglue-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+.bmd-label-static {
+	color: #212529;
+}
+
+
+
