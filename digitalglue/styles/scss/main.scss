@@ -1,6 +1,10 @@
 
 $green: #2AC080;
 
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .text-purple {
 	color:#663190;
 }
@@ -13,10 +17,6 @@ $green: #2AC080;
 
 .bg-blue {
 	background-color: #1879d5;
-}
-
-body {
-	padding-bottom: 6rem;
 }
 
 .form-placeholder-one {
@@ -33,7 +33,8 @@ body {
 }
 
 .jumbotron {
-	background-color: #33312F;
+	background-color: #E9E4E8;
+	border-top: 3px solid #BB9452 !important;
 }
 
 .digitalglue-bg {
@@ -48,5 +49,37 @@ body {
 	color: #212529;
 }
 
+.jumbotron .display-2 {
+	font-weight: 700;
+}
 
 
+.input-round {
+	border-radius: 25px;
+	-khtml-border-radius: 25px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	border-width: 0;
+	border: 1px solid #BB9452;
+  }
+
+  .radius {
+	border-radius: 25px !important;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+  }
+
+  .box-shadow {
+	-webkit-box-shadow: 3px 26px 55px -20px rgba(0,0,0,0.43);
+	-moz-box-shadow: 3px 26px 55px -20px rgba(0,0,0,0.43);
+	box-shadow: 3px 26px 55px -20px rgba(0,0,0,0.43);
+  }
+  
+  .navbar {
+	  box-shadow: none;
+  }

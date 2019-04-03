@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="styles/css/bootstrap-material-design.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
   <link rel='stylesheet' href='styles/css/main.css' />
 </head>
@@ -20,16 +21,17 @@
     </a>
   </nav>
 
-  <main role="main">
+  <main role="main" class="pb-5">
 
     
-  <div class="jumbotron digitalglue-bg">
+  <div class="jumbotron digitalglue-bg pt-0 pb-0">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="display-2 text-white text-uppercase">
-            <b>Our shout!</b>
-          </h1>
+          <!-- <h1 class="display-2 text-white text-uppercase">
+            It's our shout!
+          </h1> -->
+          <img src="./images/1170x290-text-left-black.jpg" alt="It's our shout!">
         </div>
       </div>
     </div>
@@ -40,28 +42,31 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <img src="./images/edm.png" class="img-fluid" alt="">
+          <img src="./images/edm.png" class="box-shadow img-fluid" alt="">
         </div>
         <div class="col-md-5">
-          <div class="card form-placeholder-two">
-            <div class="card-header pb-1">
-              <h5 class="display-4">Our Shout</h5>
+          <div class="card-not form-placeholder-two">
+            <div class="card-header-not pb-1">
+              <h5 class="display-4">Sunt ex elit!</h5>
               <p>Culpa labore nulla cillum id do dolore consequat. Ad quis laboris fugiat dolore laboris culpa eiusmod anim esse qui. Deserunt exercitation exercitation duis reprehenderit.</p>
             </div>
-            <div class="card-body">
-              <form>
-                <div class="form-group">
-                  <label>First & Last Name</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label>Work Email</label>
-                  <input type="email" class="form-control">
-                </div>
-                <div class="form-group mt-4">
-                  <button type="button" class="btn btn-raised btn-dark">Submit</button>
-                </div>
-              </form>
+            <div class="card-body-not">
+              <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="30FEA77E7D0A9B8D7616376B90063231D6E411A950A4BAE0D369FFAF76100ECFA698792C3E7598DD6E7950EB95079B97C2B91835FB2FF88B9750D9A754087507">
+                <p>
+                    <label for="fieldName"><b>First &amp; Last Name:</b></label>
+                    <br />
+                    <input id="fieldName" class="input-round" name="cm-name" type="text" />
+                </p>
+                <p>
+                    <label for="fieldEmail"><b>Email</b></label>
+                    <br />
+                    <input id="fieldEmail" name="cm-vihukt-vihukt" type="email" class="js-cm-email-input input-round" required />
+                </p>
+                <p>
+                    <button class="js-cm-submit-button btn btn-raised btn-dark btn-lg mt-2 radius" type="submit">Subscribe</button>
+                </p>
+            </form>
+            <!-- <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script> -->
             </div>
           </div>
         </div>
@@ -73,7 +78,7 @@
   </main>
 
   <footer class="mt-5">
-    <nav class="navbar navbar-light bg-light fixed-bottom">
+    <nav class="navbar navbar-light bg-dark">
       <a class="navbar-brand" href="#">&nbsp;</a>
     </nav>
   </footer>
