@@ -1,0 +1,29 @@
+$primary: pink;
+$secondary: green;
+$background: #333333;
+
+
+.listbuild-container {
+	.card {
+		.list-group  {
+
+		
+		min-height: 300px;
+		.email {
+			font-size: 1rem;
+		}
+	}
+		.card-footer {
+			.btn-info {
+				background: #03a9f4;
+				color: #ffffff;
+			}
+		} 
+	}
+	.fas {
+		font-size: 3rem;
+		&.fa-arrow-right {
+			margin-top: 100%;
+		}
+	}
+}
