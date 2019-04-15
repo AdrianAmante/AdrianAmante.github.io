@@ -1,6 +1,9 @@
 
-$primary: #EA5B21;
-$secondary: #333333;
+$primary: #fd5402;
+$secondary: #244cdf;
+$tertiary: #7c35fe;
+$dark: #333333;
+
 
 // body, h1, h2, h3, h4, h5, h6 {
 // 	font-family: 'Source Sans Pro', sans-serif;
@@ -11,6 +14,10 @@ $secondary: #333333;
 }
 .text-orange {
 	color:#f26527;
+}
+
+.purple-bg {
+	background-color: $tertiary;
 }
 
 .bg-blue {
@@ -92,5 +99,14 @@ $secondary: #333333;
 	footer {
 		.bg-dark {
 			background: $secondary !important;
+		}
+	}
+
+	.alert-warning {
+		background: $secondary;
+		color: #ffffff;
+		a {
+			color: #ffffff;
+			text-decoration: underline;
 		}
 	}
