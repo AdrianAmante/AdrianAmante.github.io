@@ -13,12 +13,7 @@ $background: #333333;
 			font-size: 1rem;
 		}
 	}
-		.card-footer {
-			.btn-info {
-				background: #03a9f4;
-				color: #ffffff;
-			}
-		} 
+		
 	}
 	.fas {
 		font-size: 3rem;
@@ -26,4 +21,10 @@ $background: #333333;
 			margin-top: 100%;
 		}
 	}
+	.button-container {
+		.btn-info {
+			background: #03a9f4;
+			color: #ffffff;
+		}
+	} 
 }
