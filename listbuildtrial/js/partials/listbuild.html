@@ -9,7 +9,7 @@
     </div>
     <div class="row">
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Contacts</h6>
+            <h6 class="pl-3 pb-2">Google Contacts</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
@@ -20,22 +20,13 @@
                         4
                     </div>
                 </div>
-                <!-- <ul class="list-group bmd-list-group-sm pt-3 pb-3">
-                    <li ng-repeat="email in emails" class="list-group-item" ng-hide="showme{{email.id}}">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">{{email.email}}</label>
-                        </div>
-                        <a href="" ng-click="showme{{email.id}}=true">Add</a>
-                    </li>
-                </ul> -->
                 <ul class="list-group bmd-list-group-sm pt-3 pb-3">
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                johnsmith@tesla.com <br>
-                                <small class="role text-muted">Managing Director</small>
+                                <div class="namerole mb-1">John Smith / Managing Director</div>
+                                <div class="emailaddress text-muted"><small>johnsmith@tesla.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm add">Add</a>
@@ -44,9 +35,8 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                janedoe@acme.com
-                                <br>
-                                <small class="role text-muted">Board Director</small>
+                                <div class="namerole mb-1">Jane Doe / Board Director</div>
+                                <div class="emailaddress text-muted"><small>janedoe@acme.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm add">Add</a>
@@ -55,9 +45,8 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                joebloggs@martketingboy.com
-                                <br>
-                                <small class="role text-muted">VP Country Manager</small>
+                                <div class="namerole mb-1">Joe Bloggs / VP Country Manager</div>
+                                <div class="emailaddress text-muted"><small>joebloggs@martketingboy.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm add">Add</a>
@@ -66,9 +55,8 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                jimcrow@campaign.com
-                                <br>
-                                <small class="role text-muted">Vice President, Client Sales</small>
+                                <div class="namerole mb-1">Jim Crow / VP, Client Sales</div>
+                                <div class="emailaddress text-muted"><small>jimcrow@campaign.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm add">Add</a>
@@ -88,7 +76,7 @@
             <i class="fas fas-stransfer fa-arrow-down"></i>
         </div>
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Contacts added</h6>
+            <h6 class="pl-3 pb-2">Newsletter Contacts</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
@@ -99,22 +87,13 @@
                         2
                     </div>
                 </div>
-                <!-- <ul ng-repeat="email in emails" class="list-group bmd-list-group-sm pt-3 pb-3">
-                    <li class="list-group-item">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">thivanka_desilva@oneaffiniti.com</label>
-                        </div>
-                    </li>
-                </ul> -->
                 <ul class="list-group bmd-list-group-sm pt-3 pb-3">
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                juangarcia@tacosplus.com
-                                <br>
-                                <small class="role text-muted">CTO</small>
+                                <div class="namerole mb-1">Juan Garcia / CTO</div>
+                                <div class="emailaddress text-muted"><small>juangarcia@tacosplus.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm remove">Remove</a>
@@ -123,9 +102,8 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                jacquesbonhomme@cartel.com
-                                <br>
-                                <small class="role text-muted">Global Product Director</small>
+                                <div class="namerole mb-1">Jacques Bonhomme / Global Product Director</div>
+                                <div class="emailaddress text-muted"><small>jacquesbonhomme@cartel.com</small></div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm remove">Remove</a>
@@ -133,10 +111,16 @@
                 </ul>
 
             </div>
-            <div class="button-container pt-3 text-right">
-                <a href="#" class="btn btn-default remove">Remove</a>
-                <a href="#" class="btn btn-info btn-active">Submit</a>
-                <p class="m-0 text-muted">
+            <div class="button-container pt-3 text-left">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="#" class="btn btn-default remove">Remove</a>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <a href="#" class="btn btn-info btn-active text-right">Submit</a>
+                    </div>
+                </div>                
+                <p class="m-0 text-muted text-right">
                     <small>
                         By clicking submit you accept out <a href="#" class="text-info">terms and conditions</a>.
                     </small>
