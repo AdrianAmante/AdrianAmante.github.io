@@ -136,6 +136,21 @@
   
 .listbuild-container {
 	.card {
+    .card-header {
+      .emailcounter {
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: #03a9f4;
+        border-radius: 50%;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 2rem;
+      }
+    }
 		.list-group  {		
 		min-height: 300px;
 		.email {
@@ -145,17 +160,15 @@
       a {
         position: absolute;
         color: darkgray;
-        right: -15px;
-        i {
-          font-size: 0.8rem;
+        right: 15px;
+        padding: 2px 5px;
+        &.btn.add:hover {
+          background: #2ecc71;
+          color: #ffffff;
         }
-        &:hover {
-          .fa-plus {
-            color: #03a9f4;
-          }
-          .fa-times {
-            color: #D93025;
-          }
+        &.btn.remove:hover {
+          background: #e74c3c;
+          color: #ffffff;
         }
       }
     }
@@ -173,7 +186,11 @@
 			background: #03a9f4;
 			color: #ffffff;
 		}
-	} 
+  } 
+  .btn.remove:hover {
+    background: #e74c3c;
+    color: #ffffff; 
+  }
 }
 
 

@@ -4,17 +4,20 @@
             <h1>Import your contacts</h1>
         </div>
         <div class="col-md-8 offset-md-2 text-center pb-4">
-            <p>We've imported 95 contacts from your Google account. Please select the users you have worked with in the past that you would like to add your newsletter.</p>
+            <p>We have found 95 contacts from your Google account that aren’t in your subscriber list. Please select the who you have worked with in the past and you would like to add your newsletter.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Contacts <span class="badge badge-pill badge-info">4</span></h6>
+            <h6 class="pl-3 pb-2">Contacts</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input">
                         <label class="form-check-label mt-1">Select all</label>
+                    </div>
+                    <div class="emailcounter">
+                        4
                     </div>
                 </div>
                 <!-- <ul class="list-group bmd-list-group-sm pt-3 pb-3">
@@ -30,30 +33,45 @@
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">johnsmith@tesla.com</label>
+                            <label class="form-check-label mt-1">
+                                johnsmith@tesla.com <br>
+                                <small class="role text-muted">Managing Director</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-plus"></i></a>
+                        <a href="" class="btn btn-default btn-sm add">Add</a>
                     </li>
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">janedoe@acme.com</label>
+                            <label class="form-check-label mt-1">
+                                janedoe@acme.com
+                                <br>
+                                <small class="role text-muted">Board Director</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-plus"></i></a>
+                        <a href="" class="btn btn-default btn-sm add">Add</a>
                     </li>
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">joebloggs@martketingboy.com</label>
+                            <label class="form-check-label mt-1">
+                                joebloggs@martketingboy.com
+                                <br>
+                                <small class="role text-muted">VP Country Manager</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-plus"></i></a>
+                        <a href="" class="btn btn-default btn-sm add">Add</a>
                     </li>
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">jimcrow@campaign.com</label>
+                            <label class="form-check-label mt-1">
+                                jimcrow@campaign.com
+                                <br>
+                                <small class="role text-muted">Vice President, Client Sales</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-plus"></i></a>
+                        <a href="" class="btn btn-default btn-sm add">Add</a>
                     </li>
                 </ul>
             </div>
@@ -70,12 +88,15 @@
             <i class="fas fas-stransfer fa-arrow-down"></i>
         </div>
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Contacts added <span class="badge badge-pill badge-info">2</span></h6>
+            <h6 class="pl-3 pb-2">Contacts added</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input">
                         <label class="form-check-label mt-1">Remove all</label>
+                    </div>
+                    <div class="emailcounter">
+                        2
                     </div>
                 </div>
                 <!-- <ul ng-repeat="email in emails" class="list-group bmd-list-group-sm pt-3 pb-3">
@@ -90,22 +111,30 @@
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">juangarcia@tacosplus.com</label>
+                            <label class="form-check-label mt-1">
+                                juangarcia@tacosplus.com
+                                <br>
+                                <small class="role text-muted">CTO</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-times"></i></a>
+                        <a href="" class="btn btn-default btn-sm remove">Remove</a>
                     </li>
                     <li class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">jacquesbonhomme@cartel.com</label>
+                            <label class="form-check-label mt-1">
+                                jacquesbonhomme@cartel.com
+                                <br>
+                                <small class="role text-muted">Global Product Director</small>
+                            </label>
                         </div>
-                        <a href=""><i class="fas fa-times"></i></a>
+                        <a href="" class="btn btn-default btn-sm remove">Remove</a>
                     </li>
                 </ul>
 
             </div>
             <div class="button-container pt-3 text-right">
-                <a href="#" class="btn btn-default ">Remove</a>
+                <a href="#" class="btn btn-default remove">Remove</a>
                 <a href="#" class="btn btn-info btn-active">Submit</a>
                 <p class="m-0 text-muted">
                     <small>
