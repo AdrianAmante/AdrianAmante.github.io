@@ -84,11 +84,11 @@ $dark: #333333;
 	-moz-box-shadow: 3px 26px 55px -20px rgba(0,0,0,0.43);
 	box-shadow: 3px 26px 55px -20px rgba(0,0,0,0.43);
   }
-  
+
   // .navbar {
 	//   box-shadow: none;
 	// }
-	
+
 	.btn-primary {
 		background: $primary !important;
 		&:hover {
@@ -109,4 +109,31 @@ $dark: #333333;
 			color: #ffffff;
 			text-decoration: underline;
 		}
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.code-input {
+		position: relative;
+		flex: 1 1 auto;
+		width: 1%;
+		margin-bottom: 0;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+		border: 1px solid #fff;
+		font-size: 26px;
+		font-weight: 600;
+	}
+
+	.copy-btn {
+		margin-bottom: 0;
+		border-top-right-radius: 30px !important;
+		border-bottom-right-radius: 30px !important;
+		box-shadow: none !important;
+	}
+
+	.complete {
+	 min-height: calc(100vh - 110px);
 	}

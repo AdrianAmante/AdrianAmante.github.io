@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>OneAffiniti</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/css/bootstrap-material-design.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel='stylesheet' href='styles/css/main.css' />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light purple-bg d-flex justify-content-center">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png" width="150" alt="Partner Logo">
+    </a>
+  </nav>
+
+  <main role="main">
+
+    <div class="jumbotron m-0 complete vh-complete rounded-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="display-3">
+              <b>Great! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, architecto?</b>
+            </h2>
+            <p class="lead">
+              <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, inventore animi aspernatur libero dolores fugiat accusamus adipisci numquam dignissimos quisquam alias soluta neque maiores hic enim nisi. Facilis, eligendi laborum.`</b>
+            </p>
+          </div>
+
+          <div class="col-md-12 text-center text-white">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+                <div class="p-4">
+                  <div class="input-group">
+                    <input id="eppcode" value="123456" type="text" class="code-input text-center">
+                    <div class="input-group-append">
+                      <button class="copy-btn btn btn-primary btn-lg btn-raised btn-warning type=" button" id="fold"
+                        data-clipboard-target="#eppcode">
+                        <span id="fold_p">Copy</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="go-button hide mt-3">
+                    <a href="http://altfarm.mediaplex.com/ad/ck/10589-241552-63443-0?ven1=eppplus&ven2=signup&ven3=122018&mpre=https%3A%2F%2Fwww.dell.com%2Fen-au%2Fshop%2Fdeals%2Fpopular-laptop-deals%3Fr%3Depp"
+                      target="blank" class="js-cm-submit-button btn btn-raised btn-warning btn-lg radius btn-block">
+                      Go Save
+                      <img src="images/arrow-right.svg" width="16" class="mb-1">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.oneaffiniti.com/australian-privacy-policy/#sectionThree">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                  <!-- <span class="navbar-text">
+
+                    </span> -->
+                <a class="nav-link" href="#"><span>Content created and provided by</span> OneAffiniti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+  </footer>
+
+  <!-- <div class="alert alert-warning alert-dismissible fade show fixed-bottom container" role="alert">This site uses cookies to provide you with a personalised browsing experience.
+    By using this site you agree to our use of cookies as explained in our <a target="_blank"
+      href="http://www.oneaffiniti.com/australian-privacy-policy/#sectionThree">Privacy Policy</a>.
+    Please read our <a target="_blank" href="http://www.oneaffiniti.com/australian-privacy-policy/#sectionThree">Privacy
+      Policy</a> for more
+    information on how we use cookies and how to manage them.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+  </div> -->
+
+
+
+
+  <script src="js/lib/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/lib/popper.js"></script>
+  <script src="js/lib/bootstrap-material-design.min.js"></script>
+  <script src="js/lib/clipboard.js"></script>
+
+  <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("body").bootstrapMaterialDesign();
+
+      $('.copy-btn').click(
+        function () { $('.go-button').removeClass('hide') }
+      );
+
+      var fold = $("#fold");
+      fold.cliked = 1;
+      fold.click(function () {
+        $("#fold_p").text((fold.cliked++ % 2 == 0) ? "Copy" : "Copied!");
+      });
+    });
+  </script>
+  <script>
+    new ClipboardJS('.copy-btn');
+  </script>
+
+</body>
+
+</html>
