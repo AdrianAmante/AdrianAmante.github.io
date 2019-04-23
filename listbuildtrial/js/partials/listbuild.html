@@ -4,12 +4,14 @@
             <h1>Import your contacts</h1>
         </div>
         <div class="col-md-8 offset-md-2 text-center pb-4">
-            <p>We have found 95 contacts from your Google account that aren’t in your subscriber list. Please select the who you have worked with in the past and you would like to add your newsletter.</p>
+            <p>We have found 95 contacts from your Google account that aren’t in your subscriber list. Please select the
+                who you have worked with in the past and you would like to add your newsletter.</p>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Google Contacts</h6>
+            <h6 class="pb-2">Google Contacts</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
@@ -21,57 +23,50 @@
                     </div>
                 </div>
                 <ul class="list-group bmd-list-group-sm pt-3 pb-3">
-                    <li class="list-group-item">
+                    <li ng-repeat="email in emails | startFrom:currentPage*pageSize | limitTo:pageSize"
+                        class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">John Smith</div>
-                                <div class="namerole mb-1 text-muted"><small>Managing Director</small></div>
-                                <div class="emailaddress text-muted"><small>johnsmith@tesla.com</small></div>
-                            </label>
-                        </div>
-                        <a href="" class="btn btn-default btn-sm add"><i class="fas fa-plus"></i>Add</a>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">Jane Doe</div>
-                                <div class="namerole mb-1 text-muted"><small>Board Director</small></div>
-                                <div class="emailaddress text-muted"><small>janedoe@acme.com</small></div>
-                            </label>
-                        </div>
-                        <a href="" class="btn btn-default btn-sm add"><i class="fas fa-plus"></i>Add</a>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">Joe Bloggs</div>
-                                <div class="namerole mb-1 text-muted"><small>VP, Country Manager</small></div>
-                                <div class="emailaddress text-muted"><small>joebloggs@martketingboy.com</small></div>
-                            </label>
-                        </div>
-                        <a href="" class="btn btn-default btn-sm add"><i class="fas fa-plus"></i>Add</a>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">Jim Crow</div>
-                                <div class="namerole mb-1 text-muted"><small>VP, Client Sales</small></div>
-                                <div class="emailaddress text-muted"><small>jimcrow@campaign.com</small></div>
+                                <div class="namerole mb-1">
+                                    {{ email.first_name }}
+                                    {{ email.last_name }}
+                                    - <span class="text-muted">
+                                        {{ email.job_title }}
+                                    </span>
+                                </div>
+                                <div class="emailaddress text-muted">
+                                    <small>
+                                        {{ email.email_address }}
+                                    </small>
+                                </div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm add"><i class="fas fa-plus"></i>Add</a>
                     </li>
                 </ul>
             </div>
-            <div class="button-container pt-3 text-right">
-                <a href="#" class="btn btn-info btn-active">Add contacts</a>
+
+            <div class="button-container pt-3 text-left">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                            <button class="btn btn-default text-left page btn-round" ng-disabled="currentPage == 0"
+                            ng-click="currentPage=currentPage-1">
+                            Previous
+                        </button>
+                        <button class="btn btn-default text-right page btn-round" ng-disabled="currentPage == 9"
+                            ng-click="currentPage=currentPage+1">
+                            Next
+                        </button>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <a href="#" class="btn btn-info btn-active btn-round">Add contacts</a>
+                    </div>
+                </div>
+
+
             </div>
-
-
         </div>
         <div class="col-md-2 text-center text-muted d-none d-md-block d-lg-block">
             <i class="fas fas-transfer fa-arrow-right"></i>
@@ -80,7 +75,7 @@
             <i class="fas fas-transfer fa-arrow-down"></i>
         </div>
         <div class="col-md-5">
-            <h6 class="pl-3 pb-2">Newsletter Contacts</h6>
+            <h6 class="pb-2">Newsletter Contacts</h6>
             <div class="card">
                 <div class="card-header">
                     <div class="form-check">
@@ -92,38 +87,35 @@
                     </div>
                 </div>
                 <ul class="list-group bmd-list-group-sm pt-3 pb-3">
-                    <li class="list-group-item">
+                    <li ng-repeat="email in emails | limitTo: 2" class="list-group-item">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input">
                             <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">Juan Garcia</div>
-                                <div class="namerole mb-1 text-muted"><small>CTO</small></div>
-                                <div class="emailaddress text-muted"><small>juangarcia@tacosplus.com</small></div>
-                            </label>
-                        </div>
-                        <a href="" class="btn btn-default btn-sm remove">Remove</a>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label mt-1">
-                                <div class="namerole mb-1">Jacques Bonhomme</div>
-                                <div class="namerole mb-1 text-muted"><small>Global Product Director</small></div>
-                                <div class="emailaddress text-muted"><small>jacquesbonhomme@cartel.com</small></div>
+                                <div class="namerole mb-1">
+                                    {{ email.first_name }}
+                                    {{ email.last_name }}
+                                    - <span class="text-muted">
+                                        {{ email.job_title }}
+                                    </span>
+                                </div>
+                                <div class="emailaddress text-muted">
+                                    <small>
+                                        {{ email.email_address }}
+                                    </small>
+                                </div>
                             </label>
                         </div>
                         <a href="" class="btn btn-default btn-sm remove">Remove</a>
                     </li>
                 </ul>
-
             </div>
             <div class="button-container pt-3 text-left">
                 <div class="row">
                     <div class="col-sm-6">
-                        <a href="#" class="btn btn-default remove">Remove</a>
+                        <a href="#" class="btn btn-default remove btn-round">Remove</a>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <a href="#" class="btn btn-info btn-active text-right">Submit</a>
+                        <a href="#" class="btn btn-info btn-active btn-round text-right">Submit</a>
                     </div>
                 </div>
                 <p class="m-0 text-muted text-right">

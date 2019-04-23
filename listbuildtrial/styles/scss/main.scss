@@ -152,7 +152,7 @@
       }
     }
 		.list-group  {
-		min-height: 400px;
+		min-height: 625px;
 		.email {
 			font-size: 1rem;
     }
@@ -164,6 +164,8 @@
         top: 13px;
         right: 15px;
         padding: 2px 5px;
+        border: 1px solid rgba(0,0,0,.12);
+        border-radius: 15px !important;
         &.btn.add:hover {
           background: #2ecc71;
           color: #ffffff;
@@ -201,6 +203,13 @@
     background: #e74c3c;
     color: #ffffff;
   }
+  .btn.page {
+    border: 1px solid rgba(0,0,0,.12)
+  }
+  .btn.page:hover {
+    background: #03a9f4;
+    color: #ffffff;
+  }
 }
 
 
@@ -209,4 +218,8 @@ h6 {
     position: relative;
     top: -3px;
   }
+}
+
+.btn-round {
+  border-radius: 50px;
 }

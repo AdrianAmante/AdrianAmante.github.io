@@ -14,7 +14,7 @@
 
   <!-- <div class="edms row" ng-if="searchQuery"> -->
   <div class="edms row">
-    <div ng-repeat="article in articles | filter: searchQuery | orderBy: 'title' " class="col-lg-4 col-md-6 col-sm-12 mb-3">
+    <div ng-repeat="article in articles | filter: searchQuery | orderBy: 'title' | limitTo: 10" class="col-lg-4 col-md-6 col-sm-12 mb-3">
       <div class="card">
         <div class="card-header">
           <b>{{ article.category }}</b>

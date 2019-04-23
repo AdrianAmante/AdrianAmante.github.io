@@ -24,7 +24,11 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
             templateUrl: 'js/partials/details.html',
             controller: 'DetailsController'
         });
-
-
 }]);
-  
+
+myApp.filter('startFrom', function() {
+    return function(input, start) {
+        start = +start;
+        return input.slice(start);
+    }
+});
