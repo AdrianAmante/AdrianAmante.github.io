@@ -228,6 +228,17 @@ h6 {
   .pagination {
     // background: red;
     li {
+      &.active {
+        a {
+          color:#03a9f4;;
+        }
+      }
+      &.disabled {
+        a {
+          color: #bbbbbb;
+          cursor: default;
+        }
+    }
       a {
         // font-size: 14px;
         color: rgba(0,0,0,.87);
@@ -235,8 +246,8 @@ h6 {
         display: block;
         background: transparent;
         &:hover {
-          text-decoration: none;
-          color: #03a9f4;
+        text-decoration: none;
+        color: #03a9f4;
         }
       }
     }
