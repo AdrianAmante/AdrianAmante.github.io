@@ -183,24 +183,18 @@
 	}
 
 	}
-	.fas-transfer {
-		font-size: 3rem;
-		&.fa-arrow-right {
-			margin-top: 100%;
-		}
-	}
 	.button-container {
 		.btn-info {
 			background: #03a9f4;
 			color: #ffffff;
 		}
   }
-
-  .btn.remove {
-    border: 1px solid rgba(0,0,0,.12)
-  }
   .btn.remove:hover {
     background: #e74c3c;
+    color: #ffffff;
+  }
+  .btn.add:hover {
+    background: #2ecc71;
     color: #ffffff;
   }
   .btn.page {
@@ -211,7 +205,6 @@
     color: #ffffff;
   }
 }
-
 
 h6 {
   span {
@@ -251,5 +244,18 @@ h6 {
         }
       }
     }
+  }
+}
+
+.btn-default {
+  border: 1px solid rgba(0,0,0,.12)
+}
+
+.add-remove-container {
+  .btn-default {
+    max-width: 100px;
+  }
+  .btn-round {
+    border-radius: 50px;
   }
 }

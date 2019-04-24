@@ -3,14 +3,14 @@
         <div class="col-md-12 text-center pt-5">
             <h1>Import your contacts</h1>
         </div>
-        <div class="col-md-8 offset-md-2 text-center pb-4">
+        <div class="col-md-8 offset-md-2 text-center">
             <p>We have found 95 contacts from your Google account that aren’t in your subscriber list. Please select the
                 who you have worked with in the past and you would like to add your newsletter.</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-lg-5 col-md-12 pb-5">
             <h6 class="pb-2">Google Contacts</h6>
             <div class="card">
                 <div class="card-header">
@@ -51,23 +51,44 @@
             <div class="button-container pt-3 text-left">
 
                 <div class="row">
-                    <div class="col-sm-7">
+                    <div class="col-sm-12">
                     <dir-pagination-controls class="dirpagination" max-size="3" boundary-links="false" auto-hide="false"></dir-pagination-controls>
                     <!-- <dir-pagination-controls class="dirpagination" template-url="js/partials/dirPagination.html"></dir-pagination-controls> -->
                     </div>
-                    <div class="col-sm-5 text-right">
+                    <!-- <div class="col-sm-5 text-right">
                         <a href="#" class="btn btn-info btn-active btn-round">Add contacts <i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-        <div class="col-md-2 text-center text-muted d-none d-md-block d-lg-block">
+        <!-- <div class="col-md-2 text-center text-muted d-none d-md-block d-lg-block">
             <i class="fas fas-transfer fa-arrow-right"></i>
         </div>
         <div class="col-md-2 text-center text-muted d-none d-sm-block d-md-none p-3">
             <i class="fas fas-transfer fa-arrow-down"></i>
+        </div> -->
+        <div class="col-lg-2 col-md-12 text-center text-muted pb-5">
+            <div class="d-none d-md-none d-lg-block" style="margin-top:100%; margin-bottom: 50px;"></div>
+            <div class="add-remove-container row">
+                <div class="col-lg-12 col-md-6 col-sm-6">
+                    <a href="#" class="btn btn-default btn-sm btn-block btn-round mx-auto add">
+                        <i class="fas fa-long-arrow-alt-down d-lg-none d-md-block d-sm-block"></i>
+                        <i class="fas fa-long-arrow-alt-right d-none d-sm-none d-md-none d-lg-block"></i>
+                        <br class="d-lg-none d-md-none d-sm-none">
+                        Add
+                    </a>
+                </div>
+                <div class="col-lg-12 col-md-6 col-sm-6">
+                    <a href="#" class="btn btn-default btn-sm btn-block btn-round mx-auto remove">
+                        <i class="fas fa-long-arrow-alt-up d-lg-none d-md-block d-sm-block"></i>
+                        <i class="fas fa-long-arrow-alt-left d-none d-sm-none d-md-none d-lg-block"></i>
+                        <br class="d-lg-none d-md-none d-sm-none">
+                        Remove
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5 col-md-12 pb-5">
             <h6 class="pb-2">Newsletter Contacts</h6>
             <div class="card">
                 <div class="card-header">
@@ -104,10 +125,10 @@
             </div>
             <div class="button-container pt-3 text-left">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <!-- <div class="col-sm-6">
                         <a href="#" class="btn btn-default remove btn-round">Remove contacts</a>
-                    </div>
-                    <div class="col-sm-6 text-right">
+                    </div> -->
+                    <div class="col-sm-12 text-right">
                         <a href="#" class="btn btn-info btn-active btn-round text-right">Submit</a>
                     </div>
                 </div>
