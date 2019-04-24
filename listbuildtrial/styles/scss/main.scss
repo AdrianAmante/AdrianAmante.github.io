@@ -152,7 +152,7 @@
       }
     }
 		.list-group  {
-		min-height: 625px;
+		min-height: 325px;
 		.email {
 			font-size: 1rem;
     }
@@ -222,4 +222,23 @@ h6 {
 
 .btn-round {
   border-radius: 50px;
+}
+
+.dirpagination {
+  .pagination {
+    // background: red;
+    li {
+      a {
+        // font-size: 14px;
+        color: rgba(0,0,0,.87);
+        padding: 6px;
+        display: block;
+        background: transparent;
+        &:hover {
+          text-decoration: none;
+          color: #03a9f4;
+        }
+      }
+    }
+  }
 }
