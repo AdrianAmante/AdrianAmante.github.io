@@ -259,3 +259,22 @@ h6 {
     border-radius: 50px;
   }
 }
+
+.login-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 35%;
+  // border: 1px solid #ccc;
+  img {
+    width: 100%;
+  }
+  .oa-logo {
+    img {
+      max-width: 200px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
