@@ -304,6 +304,8 @@ h6 {
 }
 
 .thankyou {
+  height: calc( 100vh - 65px);
+  // margin-top: 15%;
   .fas {
     font-size: 5rem;
     color: #2ecc71;
