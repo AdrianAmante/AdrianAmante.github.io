@@ -16,6 +16,10 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
             templateUrl: 'js/partials/login.html',
             controller: 'ListbuildController'
         })
+        .when('/thankyou', {
+            templateUrl: 'js/partials/thankyou.html',
+            controller: 'ListbuildController'
+        })
         .when('/articles', {
             templateUrl: 'js/partials/articles.html',
             controller: 'ArticleController'

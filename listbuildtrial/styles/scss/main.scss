@@ -302,3 +302,14 @@ h6 {
   content: url(https://pr-cdn.oneaffiniti.com/upload/general/20190426/slant.svg);
   // content: url(./images/slant.svg);
 }
+
+.thankyou {
+  .fas {
+    font-size: 5rem;
+    color: #2ecc71;
+  }
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
