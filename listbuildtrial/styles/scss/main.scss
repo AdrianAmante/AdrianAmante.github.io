@@ -264,8 +264,8 @@ h6 {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 250px;
-  margin-top: 33%;
+  max-width: 300px;
+  margin-top: 40%;
   // border: 1px solid #ccc;
   img {
     width: 100%;
@@ -292,11 +292,13 @@ h6 {
 .right {
   overflow: hidden;
   max-height: 100vh;
-  background: url(https://pr-cdn.oneaffiniti.com/upload/general/20190425/1556152207login_bg.jpeg) center center;
+  background: url(https://pr-cdn.oneaffiniti.com/upload/general/20190426/login_bg.jpg) center center;
   background-size: cover;
 }
 .right:before {
   overflow: hidden;
+  position: relative;
+  left: -1px;
   content: url(https://pr-cdn.oneaffiniti.com/upload/general/20190426/slant.svg);
   // content: url(./images/slant.svg);
 }
