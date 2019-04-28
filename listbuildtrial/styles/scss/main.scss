@@ -261,11 +261,11 @@ h6 {
 }
 
 .login-container {
-  // display: block;
-  // margin: 0 auto;
-  // width: 100%;
-  // max-width: 300px;
-  // margin-top: 40%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 40%;
   // border: 1px solid #ccc;
   img {
     width: 100%;
@@ -284,28 +284,23 @@ h6 {
   }
 }
 
-.login-wrapper {
-  margin-bottom: 250px;
-}
-
 .left {
   height: 100vh;
   background: #ffffff;
-  width: 500px;
 }
 
 .right {
   overflow: hidden;
   max-height: 100vh;
+  // background: url(https://pr-cdn.oneaffiniti.com/upload/general/20190426/login_bg.jpg) center center;
   background: url(https://pr-cdn.oneaffiniti.com/upload/general/20190429/login_bg.jpg) center center;
   background-size: cover;
-  width: calc( 100% - 300px);
 }
 .right:before {
   overflow: hidden;
   position: relative;
   left: -1px;
-  content: url(https://pr-cdn.oneaffiniti.com/upload/general/20190429/slant.svg);
+  content: url(https://pr-cdn.oneaffiniti.com/upload/general/20190426/slant.svg);
   // content: url(./images/slant.svg);
 }
 
@@ -323,23 +318,11 @@ h6 {
 }
 
 
-// Small devices (landscape phones, 576px and up)
 @media (max-width: 768px) {
   .left {
-    width: 100%;
-  }
-  .login-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    .button-container {
+    .login-container {
       text-align: center;
-    }
-    .oa-logo {
-      text-align: center;
+      padding-left: 0;
     }
   }
  }
-
