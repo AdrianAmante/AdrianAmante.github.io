@@ -19,24 +19,5 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
         .when('/thankyou', {
             templateUrl: 'js/partials/thankyou.html',
             controller: 'ListbuildController'
-        })
-        .when('/articles', {
-            templateUrl: 'js/partials/articles.html',
-            controller: 'ArticleController'
-        })
-        .when('/contact', {
-            templateUrl: 'js/partials/contact.html',
-            controller: 'ContactController'
-        })
-        .when('/details/:itemId', {
-            templateUrl: 'js/partials/details.html',
-            controller: 'DetailsController'
         });
 }]);
-
-myApp.filter('startFrom', function() {
-    return function(input, start) {
-        start = +start;
-        return input.slice(start);
-    }
-});
