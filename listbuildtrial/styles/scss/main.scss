@@ -148,6 +148,9 @@
       .login-btn {
         img {
           width: 191px;
+          &:hover {
+            opacity: 0.8;
+          }
         }
       }
     }
