@@ -62,7 +62,6 @@
 			color: #ffffff;
 		}
   }
-
   .btn.remove:hover {
     background: #e74c3c;
     color: #ffffff;
@@ -168,10 +167,12 @@
   }
 }
 @media (max-width: 768px) {
-  .left {
-    .login-container {
-      text-align: center;
-      padding-left: 0;
+  .login {
+    .left {
+      .login-container {
+        text-align: center;
+        padding-left: 0;
+      }
     }
   }
 }
