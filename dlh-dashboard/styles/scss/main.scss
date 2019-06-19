@@ -1,0 +1,77 @@
+// $navy: #1e3869;
+// $lime: #c1e2cb;
+// $lemon: #fee48b;
+// $nightrider: #33333;
+// $lilywhite: #e5ebe7;
+// $lightsteel: #a7b8d7;
+// $william: #596e6b;
+// $westcoast: #615935;
+$primary: #0053E4;
+
+$main-boder-color: rgba(0, 0, 0, 0.05);
+$main-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05), 0 3px 1px -2px rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,0.08);
+$main-border-radius: 0.5rem;
+
+.bmd-layout-container {
+	min-height: 100vh;
+	background: #ffffff;
+}
+.full-height {
+	min-height: 100vh;
+}
+.bmd-layout-content.bmd-layout-login {
+	margin-left: 0 !important;
+}
+.bmd-layout-drawer {
+	box-shadow: none;
+	border-right: 1px solid $main-boder-color;
+}
+.navbar {
+	box-shadow: none;
+	border-bottom: 1px solid $main-boder-color;
+}
+.card {
+	box-shadow: $main-box-shadow;
+	border-radius: $main-border-radius;
+}
+.card-footer:last-child {
+	border-radius: 0 0 $main-border-radius $main-border-radius;
+}
+.text-primary {
+	color: $primary!important;
+}
+a {
+	color: $primary;
+	&:hover {
+		color: darken( $primary, 20% );
+	}
+}
+.btn-outline-primary {
+	border-color: $primary!important;
+	color: $primary!important;
+}
+
+
+.dashboard {
+	.card {
+		a.card-footer {
+			&:hover {
+				background: $primary;
+				color: #ffffff;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.scores {
+	.material-icons {
+		font-size: .875rem;
+	}
+}
+
+.table {
+	font-size: 75%;
+}
+.table thead th {
+	font-size: 98%;
+}
